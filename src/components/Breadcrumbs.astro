@@ -1,0 +1,30 @@
+---
+/** Visible breadcrumbs. The matching BreadcrumbList JSON-LD is built by the page. */
+interface Props { items: { name: string; path: string }[]; class?: string; onNight?: boolean }
+const { items, class: cls = '', onNight = false } = Astro.props;
+---
+<nav aria-label="Breadcrumb" class:list={['crumbs', cls, { 'on-night': onNight }]}>
+  <ol class="list-none m-0 p-0 flex flex-wrap items-center gap-x-2 gap-y-1">
+    {items.map((it, i) => (
+      <li class="flex items-center gap-2">
+        {i < items.length - 1 ? (
+          <a href={it.path}>{it.name}</a>
+        ) : (
+          <span aria-current="page" class="crumb-current">{it.name}</span>
+        )}
+        {i < items.length - 1 && <span aria-hidden="true" class="crumb-sep">›</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+<style>
+  .crumbs { font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; }
+  .crumbs a { color: var(--color-ink-muted); text-decoration: none; }
+  .crumbs a:hover { color: var(--color-ink); text-decoration: underline; }
+  .crumb-current { color: var(--color-ink-secondary); }
+  .crumb-sep { color: var(--color-border); }
+  .crumbs.on-night a { color: var(--color-on-night-soft); }
+  .crumbs.on-night a:hover { color: #fff; }
+  .crumbs.on-night .crumb-current { color: #fff; }
+  .crumbs.on-night .crumb-sep { color: rgb(255 255 255 / 0.3); }
+</style>

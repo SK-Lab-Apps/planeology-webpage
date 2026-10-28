@@ -1,0 +1,93 @@
+---
+/**
+ * Base.astro — the document shell: head metadata, skip link, nav, footer and
+ * the tiny motion script. Every page uses it.
+ */
+import '@/styles/global.css';
+import Nav from '@/components/Nav.astro';
+import Footer from '@/components/Footer.astro';
+import { DOMAIN, SITE_NAME, APP_STORE_ID, absoluteUrl } from '@/config';
+import { jsonLd, type Seo } from '@/lib/seo';
+
+interface Props {
+  seo: Seo;
+  /** JSON-LD documents to embed (each already wrapped with @context). */
+  jsonld?: object[];
+  /** Which nav link is current. */
+  current?: 'learn' | 'aircraft' | 'glossary' | 'quiz' | 'support' | undefined;
+  /** Nav sits over a night band: keep it dark with no bottom hairline. */
+  bodyClass?: string;
+}
+
+const { seo, jsonld = [], current, bodyClass = '' } = Astro.props;
+const canonical = absoluteUrl(seo.path);
+const title = seo.title.includes(SITE_NAME) ? seo.title : `${seo.title} | ${SITE_NAME}`;
+const ogImage = seo.ogImage ?? `${DOMAIN}/og.png`;
+const ogAlt = seo.ogImageAlt ?? 'Planeology: Learn Aviation, an iPhone app with short lessons, quizzes and a Hangar of aircraft';
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={seo.description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={seo.noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
+    <meta name="theme-color" content="#12233F" />
+    <meta name="color-scheme" content="light" />
+    <meta name="apple-itunes-app" content={`app-id=${APP_STORE_ID}`} />
+    <meta name="application-name" content={SITE_NAME} />
+    <meta name="apple-mobile-web-app-title" content={SITE_NAME} />
+    <meta name="format-detection" content="telephone=no" />
+
+    <meta property="og:type" content={seo.ogType ?? 'website'} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content={seo.title} />
+    <meta property="og:description" content={seo.description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={ogAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={seo.title} />
+    <meta name="twitter:description" content={seo.description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={ogAlt} />
+
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preload" href="/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/barlow-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    {seo.preloadImage && (
+      <link
+        rel="preload"
+        as="image"
+        href={seo.preloadImage.href}
+        imagesrcset={seo.preloadImage.imagesrcset}
+        imagesizes={seo.preloadImage.imagesizes}
+        fetchpriority="high"
+      />
+    )}
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {jsonld.map((doc) => <script type="application/ld+json" set:html={jsonLd(doc)} />)}
+    <script is:inline>document.documentElement.classList.add('js');</script>
+  </head>
+  <body class={bodyClass}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Nav current={current} />
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <Footer />
+    <script>
+      import '@/scripts/motion';
+    </script>
+  </body>
+</html>

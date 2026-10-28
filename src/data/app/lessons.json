@@ -1,0 +1,3222 @@
+[
+  {
+    "id": "four-forces",
+    "index": 1,
+    "title": "The Four Forces",
+    "subtitle": "Lift, weight, thrust and drag in balance",
+    "groupId": "grp_flight_01",
+    "groupTitle": "How Flight Works",
+    "accent": "#2459C4",
+    "cards": [
+      {
+        "id": "four-forces_c1",
+        "title": "Four Forces, One Airplane"
+      },
+      {
+        "id": "four-forces_c2",
+        "title": "Weight and Balance Point"
+      },
+      {
+        "id": "four-forces_c3",
+        "title": "When Forces Balance"
+      },
+      {
+        "id": "four-forces_c4",
+        "title": "Engines Push, Wings Lift"
+      }
+    ],
+    "funFact": {
+      "text": "The Space Shuttle came home from orbit as a glider. Its rocket engines were only used to get it into space, so during reentry and landing its wings did all the flying.",
+      "source": {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/four-forces-on-an-airplane/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Four Forces on an Airplane"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/four-forces-on-an-airplane/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Four Forces on an Airplane"
+      },
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/piper-j-3-cub/nasm_A19771128000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Piper J-3 Cub"
+      }
+    ],
+    "aircraftId": "piper-j3-cub"
+  },
+  {
+    "id": "how-wings-lift",
+    "index": 2,
+    "title": "How Wings Make Lift",
+    "subtitle": "Turning moving air into an upward push",
+    "groupId": "grp_flight_01",
+    "groupTitle": "How Flight Works",
+    "accent": "#2459C4",
+    "cards": [
+      {
+        "id": "how-wings-lift_c1",
+        "title": "Wings Push Air Down"
+      },
+      {
+        "id": "how-wings-lift_c2",
+        "title": "Pressure Tells the Same Story"
+      },
+      {
+        "id": "how-wings-lift_c3",
+        "title": "A Myth About Lift"
+      },
+      {
+        "id": "how-wings-lift_c4",
+        "title": "Speed and Thin Air"
+      }
+    ],
+    "funFact": {
+      "text": "Neither Isaac Newton nor Daniel Bernoulli ever tried to explain how a wing makes lift. NASA says their names are just labels for two camps in a long argument, and both camps are right.",
+      "source": {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoulli-and-newton/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Bernoulli and Newton"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoulli-and-newton/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Bernoulli and Newton"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/foilw1/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Equal Transit Theory"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Lift Equation"
+      },
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://dehavilland.com/corporate-initiatives/dhc-2-beaver-featured-in-canada-posts-canadians-in-flight-series/",
+        "publisher": "De Havilland Canada",
+        "title": "DHC-2 Beaver in Canada Post's Canadians in Flight series"
+      },
+      {
+        "url": "https://dehavilland.com/legacy-aircraft/",
+        "publisher": "De Havilland Canada",
+        "title": "Legacy Aircraft"
+      }
+    ],
+    "aircraftId": "dhc-2-beaver"
+  },
+  {
+    "id": "airfoils-aoa",
+    "index": 3,
+    "title": "Airfoils & Angle of Attack",
+    "subtitle": "The shape and tilt that make a wing work",
+    "groupId": "grp_flight_01",
+    "groupTitle": "How Flight Works",
+    "accent": "#2459C4",
+    "cards": [
+      {
+        "id": "airfoils-aoa_c1",
+        "title": "Meet the Airfoil"
+      },
+      {
+        "id": "airfoils-aoa_c2",
+        "title": "Chord and Camber"
+      },
+      {
+        "id": "airfoils-aoa_c3",
+        "title": "Angle of Attack"
+      },
+      {
+        "id": "airfoils-aoa_c4",
+        "title": "Flying Upside Down"
+      }
+    ],
+    "funFact": {
+      "text": "Air sticks to a wing. The molecules touching its surface cling to it, forming a thin layer called the boundary layer, which in effect changes the wing's shape as the passing air sees it.",
+      "source": {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/incline/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Effects of Inclination on Lift"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/incline/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Effects of Inclination on Lift"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/foilw1/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Equal Transit Theory"
+      },
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://extraaircraft.com/milestones/1988/",
+        "publisher": "Extra Aircraft",
+        "title": "Milestones: 1988"
+      }
+    ],
+    "aircraftId": "extra-300"
+  },
+  {
+    "id": "why-planes-stall",
+    "index": 4,
+    "title": "Why Planes Stall",
+    "subtitle": "What really happens when a wing stalls",
+    "groupId": "grp_flight_01",
+    "groupTitle": "How Flight Works",
+    "accent": "#2459C4",
+    "cards": [
+      {
+        "id": "why-planes-stall_c1",
+        "title": "Not an Engine Problem"
+      },
+      {
+        "id": "why-planes-stall_c2",
+        "title": "The Critical Angle"
+      },
+      {
+        "id": "why-planes-stall_c3",
+        "title": "Any Speed, Any Attitude"
+      },
+      {
+        "id": "why-planes-stall_c4",
+        "title": "Warnings Built In"
+      }
+    ],
+    "funFact": {
+      "text": "The word “stall” goes back to the Wright brothers. NASA says it's what the sudden loss of lift at a steep angle was called when they first ran into it, and the name has stuck ever since.",
+      "source": {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/incline/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Effects of Inclination on Lift"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/incline/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Effects of Inclination on Lift"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/pitts-special-s-1c/nasm_A19850806000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Pitts S-1C Special"
+      }
+    ],
+    "aircraftId": "pitts-special"
+  },
+  {
+    "id": "fuselage-structure",
+    "index": 5,
+    "title": "Fuselage & Structure",
+    "subtitle": "The tube that carries everything",
+    "groupId": "grp_anatomy_02",
+    "groupTitle": "Anatomy of an Airplane",
+    "accent": "#0E7480",
+    "cards": [
+      {
+        "id": "fuselage-structure_c1",
+        "title": "The Airplane's Backbone"
+      },
+      {
+        "id": "fuselage-structure_c2",
+        "title": "From Frames to Shells"
+      },
+      {
+        "id": "fuselage-structure_c3",
+        "title": "Skin Plus Skeleton"
+      },
+      {
+        "id": "fuselage-structure_c4",
+        "title": "Composites and Pressure"
+      }
+    ],
+    "funFact": {
+      "text": "The first airplane Hugo Junkers built was made entirely of steel. Steel couldn't be made thin enough to keep the weight down, so his later airplanes, including the F 13, used duralumin, a light aluminum alloy.",
+      "source": {
+        "url": "https://ntrs.nasa.gov/api/citations/19930085313/downloads/19930085313.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "NACA Aircraft Circular No. 6: All-Metal Junkers Airplane, Type F 13"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/fuselage/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Fuselage"
+      },
+      {
+        "url": "https://www.deutsches-museum.de/en/museum-island/exhibitions/historic-aviation",
+        "publisher": "Deutsches Museum",
+        "title": "Historic Aviation"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19930085313/downloads/19930085313.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "NACA Aircraft Circular No. 6: All-Metal Junkers Airplane, Type F 13"
+      }
+    ],
+    "aircraftId": "junkers-f13"
+  },
+  {
+    "id": "wings-flaps-slats",
+    "index": 6,
+    "title": "Wings, Flaps & Slats",
+    "subtitle": "How a wing changes shape to fly slow",
+    "groupId": "grp_anatomy_02",
+    "groupTitle": "Anatomy of an Airplane",
+    "accent": "#0E7480",
+    "cards": [
+      {
+        "id": "wings-flaps-slats_c1",
+        "title": "Inside a Wing"
+      },
+      {
+        "id": "wings-flaps-slats_c2",
+        "title": "Flaps for Slow Flight"
+      },
+      {
+        "id": "wings-flaps-slats_c3",
+        "title": "Slats at the Front"
+      },
+      {
+        "id": "wings-flaps-slats_c4",
+        "title": "Watch From the Window"
+      }
+    ],
+    "funFact": {
+      "text": "Early wings were thin and braced on the outside with struts and wires, which added drag. Hugo Junkers hid the bracing inside a thicker wing, and it flew better than most experts of the day expected.",
+      "source": {
+        "url": "https://ntrs.nasa.gov/api/citations/19930085313/downloads/19930085313.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "NACA Aircraft Circular No. 6: All-Metal Junkers Airplane, Type F 13"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/flaps-and-slats/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Flaps and Slats"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19930085313/downloads/19930085313.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "NACA Aircraft Circular No. 6: All-Metal Junkers Airplane, Type F 13"
+      }
+    ],
+    "aircraftId": "boeing-727"
+  },
+  {
+    "id": "tail-control-surfaces",
+    "index": 7,
+    "title": "Tail & Control Surfaces",
+    "subtitle": "Pitch, roll and yaw, explained",
+    "groupId": "grp_anatomy_02",
+    "groupTitle": "Anatomy of an Airplane",
+    "accent": "#0E7480",
+    "cards": [
+      {
+        "id": "tail-control-surfaces_c1",
+        "title": "Three Ways to Rotate"
+      },
+      {
+        "id": "tail-control-surfaces_c2",
+        "title": "Ailerons Roll the Wings"
+      },
+      {
+        "id": "tail-control-surfaces_c3",
+        "title": "Elevator and Rudder"
+      },
+      {
+        "id": "tail-control-surfaces_c4",
+        "title": "Tails Come in Shapes"
+      }
+    ],
+    "funFact": {
+      "text": "The Lockheed Constellation was the first passenger plane with hydraulically boosted controls, which Lockheed Martin calls aviation's equivalent of power steering.",
+      "source": {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html",
+        "publisher": "Lockheed Martin",
+        "title": "How the Constellation Became the Star of the Skies"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html",
+        "publisher": "Lockheed Martin",
+        "title": "How the Constellation Became the Star of the Skies"
+      },
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8454094/lockheed-749-constellation-airliner-aircraft-aeroplanes",
+        "publisher": "Science Museum Group",
+        "title": "Lockheed 749 Constellation airliner"
+      }
+    ],
+    "aircraftId": "lockheed-constellation"
+  },
+  {
+    "id": "landing-gear",
+    "index": 8,
+    "title": "Landing Gear",
+    "subtitle": "Wheels, struts and a hard day at work",
+    "groupId": "grp_anatomy_02",
+    "groupTitle": "Anatomy of an Airplane",
+    "accent": "#0E7480",
+    "cards": [
+      {
+        "id": "landing-gear_c1",
+        "title": "Tricycle or Taildragger"
+      },
+      {
+        "id": "landing-gear_c2",
+        "title": "Fixed or Retractable"
+      },
+      {
+        "id": "landing-gear_c3",
+        "title": "Brakes Count Landings"
+      },
+      {
+        "id": "landing-gear_c4",
+        "title": "Skis, Floats and Wheels"
+      }
+    ],
+    "funFact": {
+      "text": "A taildragger's setup is officially the conventional one. The FAA calls landing gear with a small wheel at the back “conventional landing gear”, and airplanes with it are tailwheel airplanes.",
+      "source": {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://dehavilland.com/uncategorized/de-havilland-canada-celebrates-60th-anniversary-of-iconic-twin-otter-aircraft/",
+        "publisher": "De Havilland Canada",
+        "title": "60th anniversary of the Twin Otter"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/piper-j-3-cub/nasm_A19771128000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Piper J-3 Cub"
+      }
+    ],
+    "aircraftId": "dhc-6-twin-otter"
+  },
+  {
+    "id": "pistons-propellers",
+    "index": 9,
+    "title": "Pistons & Propellers",
+    "subtitle": "How piston engines pull planes along",
+    "groupId": "grp_engines_03",
+    "groupTitle": "Engines & Propulsion",
+    "accent": "#A4441C",
+    "cards": [
+      {
+        "id": "pistons-propellers_c1",
+        "title": "The Four-Stroke Cycle"
+      },
+      {
+        "id": "pistons-propellers_c2",
+        "title": "Flat Engines, Star Engines"
+      },
+      {
+        "id": "pistons-propellers_c3",
+        "title": "A Propeller Is a Wing"
+      },
+      {
+        "id": "pistons-propellers_c4",
+        "title": "Where It All Started"
+      }
+    ],
+    "funFact": {
+      "text": "Other early inventors used slow, thick propellers like windmill blades. The Wright brothers worked out that fast, thin ones are more efficient, and NASA calls their propellers one of the major breakthroughs behind their success.",
+      "source": {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/propellers/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Propellers"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/propellers/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Propellers"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/beechcraft-35-bonanza/nasm_A19500080000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Beechcraft 35 Bonanza"
+      },
+      {
+        "url": "https://media.txtav.com/198184-textron-aviation-s-special-edition-75th-anniversary-beechcraft-bonanza-blends-modern-technology-with-retro-styling/",
+        "publisher": "Textron Aviation",
+        "title": "Special-edition 75th anniversary Beechcraft Bonanza"
+      }
+    ],
+    "aircraftId": "beechcraft-bonanza"
+  },
+  {
+    "id": "turbojets",
+    "index": 10,
+    "title": "Turbojets",
+    "subtitle": "Air in, fire inside, thrust out",
+    "groupId": "grp_engines_03",
+    "groupTitle": "Engines & Propulsion",
+    "accent": "#A4441C",
+    "cards": [
+      {
+        "id": "turbojets_c1",
+        "title": "Four Sections"
+      },
+      {
+        "id": "turbojets_c2",
+        "title": "The Turbine Runs the Show"
+      },
+      {
+        "id": "turbojets_c3",
+        "title": "Mostly Air, Little Fuel"
+      },
+      {
+        "id": "turbojets_c4",
+        "title": "Afterburners"
+      }
+    ],
+    "funFact": {
+      "text": "The F-104 Starfighter's J79 engine and afterburner filled more than half its fuselage. With the fuel and cockpit taking most of the rest, its electronics had to come in plug-in packages.",
+      "source": {
+        "url": "https://airandspace.si.edu/collection-objects/lockheed-f-104a-starfighter/nasm_A19761017000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Lockheed F-104A Starfighter"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/turbine-engines/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Gas Turbine Propulsion"
+      },
+      {
+        "url": "https://www.grc.nasa.gov/WWW/K-12/airplane/aturbj.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Turbojet Engines"
+      },
+      {
+        "url": "https://www.grc.nasa.gov/WWW/K-12/airplane/aturba.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Afterburning Turbojet"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/lockheed-f-104a-starfighter/nasm_A19761017000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Lockheed F-104A Starfighter"
+      }
+    ],
+    "aircraftId": "lockheed-f104-starfighter"
+  },
+  {
+    "id": "turbofans",
+    "index": 11,
+    "title": "Turbofans",
+    "subtitle": "Why today’s airliners have giant fans",
+    "groupId": "grp_engines_03",
+    "groupTitle": "Engines & Propulsion",
+    "accent": "#A4441C",
+    "cards": [
+      {
+        "id": "turbofans_c1",
+        "title": "A Fan on a Jet Core"
+      },
+      {
+        "id": "turbofans_c2",
+        "title": "The Bypass Ratio"
+      },
+      {
+        "id": "turbofans_c3",
+        "title": "More Push, Less Fuel"
+      },
+      {
+        "id": "turbofans_c4",
+        "title": "Giant Fans"
+      }
+    ],
+    "funFact": {
+      "text": "The GE9X's front fan is wider than the whole fuselage of a Boeing 737. It also has fewer fan blades than the older GE90: just 16, all made of composites.",
+      "source": {
+        "url": "https://www.geaerospace.com/commercial/aircraft-engines/ge9x",
+        "publisher": "GE Aerospace",
+        "title": "GE9X Engine"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.grc.nasa.gov/WWW/K-12/airplane/aturbf.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Turbofan Engine"
+      },
+      {
+        "url": "https://www.geaerospace.com/commercial/aircraft-engines/ge9x",
+        "publisher": "GE Aerospace",
+        "title": "GE9X Engine"
+      },
+      {
+        "url": "https://www.geaerospace.com/commercial/aircraft-engines/ge90",
+        "publisher": "GE Aerospace",
+        "title": "GE90 Engine"
+      },
+      {
+        "url": "https://www.grc.nasa.gov/WWW/K-12/airplane/turbprp.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Turboprop Thrust"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ],
+    "aircraftId": "boeing-777"
+  },
+  {
+    "id": "turboprops-turboshafts",
+    "index": 12,
+    "title": "Turboprops & Turboshafts",
+    "subtitle": "Jet engines that turn propellers and rotors",
+    "groupId": "grp_engines_03",
+    "groupTitle": "Engines & Propulsion",
+    "accent": "#A4441C",
+    "cards": [
+      {
+        "id": "turboprops-turboshafts_c1",
+        "title": "A Jet That Spins a Propeller"
+      },
+      {
+        "id": "turboprops-turboshafts_c2",
+        "title": "Why the Gearbox?"
+      },
+      {
+        "id": "turboprops-turboshafts_c3",
+        "title": "The Turboprop Sweet Spot"
+      },
+      {
+        "id": "turboprops-turboshafts_c4",
+        "title": "Turboshafts Turn Rotors"
+      }
+    ],
+    "funFact": {
+      "text": "Lockheed Martin says a C-130 Hercules is in the air somewhere in the world every minute of every day. Fitted with Teflon-coated skis, some even land on the ice in Antarctica and Greenland.",
+      "source": {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/hercules.html",
+        "publisher": "Lockheed Martin",
+        "title": "Story of Innovation: C-130 Hercules"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.grc.nasa.gov/WWW/K-12/airplane/turbprp.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Turboprop Thrust"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/hercules.html",
+        "publisher": "Lockheed Martin",
+        "title": "Story of Innovation: C-130 Hercules"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/products/c130/history.html",
+        "publisher": "Lockheed Martin",
+        "title": "C-130 History"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/turbine-engines/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Gas Turbine Propulsion"
+      }
+    ],
+    "aircraftId": "lockheed-c130-hercules"
+  },
+  {
+    "id": "classic-six",
+    "index": 13,
+    "title": "The Classic Six Instruments",
+    "subtitle": "The dials every cockpit grew up with",
+    "groupId": "grp_cockpit_04",
+    "groupTitle": "In the Cockpit",
+    "accent": "#3D4F9A",
+    "cards": [
+      {
+        "id": "classic-six_c1",
+        "title": "Six Dials, Two Families"
+      },
+      {
+        "id": "classic-six_c2",
+        "title": "Reading the Air"
+      },
+      {
+        "id": "classic-six_c3",
+        "title": "Gyros Hold Steady"
+      },
+      {
+        "id": "classic-six_c4",
+        "title": "Two Minutes Round"
+      }
+    ],
+    "funFact": {
+      "text": "On Jimmy Doolittle's 1929 blind flight, a check pilot rode in the front cockpit in case of emergency. To prove he wasn't helping, he kept his arms above his head for the whole 15-minute flight.",
+      "source": {
+        "url": "https://www.faa.gov/sites/faa.gov/files/about/history/pioneers/First_Instrument_Flight_Doolittle.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Flying Blind: Doolittle's first instrument flight"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.faa.gov/sites/faa.gov/files/about/history/pioneers/First_Instrument_Flight_Doolittle.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Flying Blind: Doolittle's first instrument flight"
+      }
+    ],
+    "aircraftId": "consolidated-ny-2-husky"
+  },
+  {
+    "id": "glass-cockpits",
+    "index": 14,
+    "title": "Glass Cockpits",
+    "subtitle": "When the dials became screens",
+    "groupId": "grp_cockpit_04",
+    "groupTitle": "In the Cockpit",
+    "accent": "#3D4F9A",
+    "cards": [
+      {
+        "id": "glass-cockpits_c1",
+        "title": "Dials Become Screens"
+      },
+      {
+        "id": "glass-cockpits_c2",
+        "title": "Tapes Instead of Needles"
+      },
+      {
+        "id": "glass-cockpits_c3",
+        "title": "Sensors Without Spinning Gyros"
+      },
+      {
+        "id": "glass-cockpits_c4",
+        "title": "Glass Reaches the Airliners"
+      }
+    ],
+    "funFact": {
+      "text": "Some glass cockpits can draw the world outside. Synthetic vision builds a picture of the terrain ahead from a stored elevation database, and it stays on the screen however poor the visibility gets.",
+      "source": {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ],
+    "aircraftId": "boeing-767"
+  },
+  {
+    "id": "autopilot-fbw",
+    "index": 15,
+    "title": "Autopilot & Fly-by-Wire",
+    "subtitle": "Computers between the pilot and the wings",
+    "groupId": "grp_cockpit_04",
+    "groupTitle": "In the Cockpit",
+    "accent": "#3D4F9A",
+    "cards": [
+      {
+        "id": "autopilot-fbw_c1",
+        "title": "The Autopilot's Job"
+      },
+      {
+        "id": "autopilot-fbw_c2",
+        "title": "One Axis or Three"
+      },
+      {
+        "id": "autopilot-fbw_c3",
+        "title": "Flying by Wire"
+      },
+      {
+        "id": "autopilot-fbw_c4",
+        "title": "The Sidestick Airliner"
+      }
+    ],
+    "funFact": {
+      "text": "More than a century ago, Lawrence Sperry flew a Curtiss flying boat over the Seine in France with no hands on the controls. Four gyroscopes kept it steady.",
+      "source": {
+        "url": "https://www.faa.gov/sites/faa.gov/files/education/educators/curriculum/k12/K-12_One_Hundred_Years_of_Sustained_Flight.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "100 Years of Sustained Power Flight History"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family",
+        "publisher": "Airbus",
+        "title": "A320 Family"
+      },
+      {
+        "url": "https://www.faa.gov/sites/faa.gov/files/education/educators/curriculum/k12/K-12_One_Hundred_Years_of_Sustained_Flight.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "100 Years of Sustained Power Flight History"
+      }
+    ],
+    "aircraftId": "airbus-a320"
+  },
+  {
+    "id": "callsigns-phonetic",
+    "index": 16,
+    "title": "Callsigns & the Phonetic Alphabet",
+    "subtitle": "Alfa, Bravo, Charlie and why they exist",
+    "groupId": "grp_cockpit_04",
+    "groupTitle": "In the Cockpit",
+    "accent": "#3D4F9A",
+    "cards": [
+      {
+        "id": "callsigns-phonetic_c1",
+        "title": "Why Spell With Words?"
+      },
+      {
+        "id": "callsigns-phonetic_c2",
+        "title": "Tree, Fife and Niner"
+      },
+      {
+        "id": "callsigns-phonetic_c3",
+        "title": "Who's Calling?"
+      },
+      {
+        "id": "callsigns-phonetic_c4",
+        "title": "Air Force One Is a Call Sign"
+      }
+    ],
+    "funFact": {
+      "text": "The first presidential plane to use the call sign Air Force One was a Lockheed Constellation: Dwight Eisenhower's VC-121E, the only one of its kind ever built.",
+      "source": {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html",
+        "publisher": "Lockheed Martin",
+        "title": "How the Constellation Became the Star of the Skies"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Radio Communications Phraseology and Techniques"
+      },
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html",
+        "publisher": "Lockheed Martin",
+        "title": "How the Constellation Became the Star of the Skies"
+      }
+    ],
+    "aircraftId": "boeing-vc-25a"
+  },
+  {
+    "id": "how-airports-work",
+    "index": 17,
+    "title": "How Airports Work",
+    "subtitle": "A small city built around runways",
+    "groupId": "grp_airports_05",
+    "groupTitle": "Airports & Air Traffic Control",
+    "accent": "#7A5300",
+    "cards": [
+      {
+        "id": "how-airports-work_c1",
+        "title": "A City Built Around Runways"
+      },
+      {
+        "id": "how-airports-work_c2",
+        "title": "Lights That Mean Things"
+      },
+      {
+        "id": "how-airports-work_c3",
+        "title": "Signs in Code"
+      },
+      {
+        "id": "how-airports-work_c4",
+        "title": "Airports by Size"
+      }
+    ],
+    "funFact": {
+      "text": "Military airport beacons flash white and green too, but with two quick white flashes between each green one, so crews can tell them apart from civilian airports at night.",
+      "source": {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_1.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Airport Lighting Aids"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_1.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Airport Lighting Aids"
+      },
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_3.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Airport Marking Aids and Signs"
+      },
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/pcg_html/glossary-a.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot/Controller Glossary: A"
+      },
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/freighter/beluga",
+        "publisher": "Airbus",
+        "title": "Beluga"
+      }
+    ],
+    "aircraftId": "airbus-belugaxl"
+  },
+  {
+    "id": "runway-markings",
+    "index": 18,
+    "title": "Runway Numbers & Markings",
+    "subtitle": "What the big painted numbers mean",
+    "groupId": "grp_airports_05",
+    "groupTitle": "Airports & Air Traffic Control",
+    "accent": "#7A5300",
+    "cards": [
+      {
+        "id": "runway-markings_c1",
+        "title": "Numbers From the Compass"
+      },
+      {
+        "id": "runway-markings_c2",
+        "title": "Left, Center, Right"
+      },
+      {
+        "id": "runway-markings_c3",
+        "title": "Stripes That Measure"
+      },
+      {
+        "id": "runway-markings_c4",
+        "title": "Arrows and Chevrons"
+      }
+    ],
+    "funFact": {
+      "text": "Some runways end in a bed of crushable material called EMAS, marked with yellow chevrons. It's built to collapse under an airliner's weight and slow its wheels down if it rolls past the end.",
+      "source": {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_3.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Airport Marking Aids and Signs"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap2_section_3.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Airport Marking Aids and Signs"
+      },
+      {
+        "url": "https://www.baesystems.com/en/article/bae-systems-provides-design-engineering-expertise-to-bae146avro-rj-airtanker-aerial-firefighter-conversion-programmes-in-north-america",
+        "publisher": "BAE Systems",
+        "title": "BAe146/Avro RJ airtanker conversion programmes"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/kings-queens-flying-machines/bae146s/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Kings, Queens & Flying Machines: BAe146s"
+      }
+    ],
+    "aircraftId": "bae-146"
+  },
+  {
+    "id": "airspace-atc",
+    "index": 19,
+    "title": "Airspace & ATC",
+    "subtitle": "Invisible highways and the people who run them",
+    "groupId": "grp_airports_05",
+    "groupTitle": "Airports & Air Traffic Control",
+    "accent": "#7A5300",
+    "cards": [
+      {
+        "id": "airspace-atc_c1",
+        "title": "Sky Divided Into Classes"
+      },
+      {
+        "id": "airspace-atc_c2",
+        "title": "Wedding Cakes Around Airports"
+      },
+      {
+        "id": "airspace-atc_c3",
+        "title": "From Tower to Center"
+      },
+      {
+        "id": "airspace-atc_c4",
+        "title": "Spacing for Wakes"
+      }
+    ],
+    "funFact": {
+      "text": "A big jet's two wingtip vortices stay a little less than a wingspan apart and drift with the wind. Flight tests show they sink behind the airplane at several hundred feet a minute, weakening as they go.",
+      "source": {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_4.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Wake Turbulence"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap3_section_2.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Controlled Airspace"
+      },
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap3_section_3.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Class G Airspace"
+      },
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_1.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Services Available to Pilots"
+      },
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Radio Communications Phraseology and Techniques"
+      },
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_4.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Wake Turbulence"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      }
+    ],
+    "aircraftId": "boeing-757"
+  },
+  {
+    "id": "airport-codes",
+    "index": 20,
+    "title": "Airport Codes Explained",
+    "subtitle": "Why some three-letter codes make no sense",
+    "groupId": "grp_airports_05",
+    "groupTitle": "Airports & Air Traffic Control",
+    "accent": "#7A5300",
+    "cards": [
+      {
+        "id": "airport-codes_c1",
+        "title": "Three Letters for Airlines"
+      },
+      {
+        "id": "airport-codes_c2",
+        "title": "Why LAX Has an X"
+      },
+      {
+        "id": "airport-codes_c3",
+        "title": "Y Is for Canada"
+      },
+      {
+        "id": "airport-codes_c4",
+        "title": "Four Letters for Pilots"
+      }
+    ],
+    "funFact": {
+      "text": "IATA codes aren't only for airports. Railway and ferry stations on combined air-and-rail tickets get them too, and a city with several airports can get its own code, like WAS for Washington.",
+      "source": {
+        "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet-iata-location-codes/",
+        "publisher": "IATA",
+        "title": "IATA Location Codes"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.iata.org/en/iata-repository/pressroom/fact-sheets/fact-sheet-iata-location-codes/",
+        "publisher": "IATA",
+        "title": "IATA Location Codes"
+      },
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/part3_ad_2.0_illinois.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Publication: Illinois aerodromes"
+      },
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family/a321xlr",
+        "publisher": "Airbus",
+        "title": "A321XLR"
+      }
+    ],
+    "aircraftId": "airbus-a321xlr"
+  },
+  {
+    "id": "compass-to-gps",
+    "index": 21,
+    "title": "From Compass to GPS",
+    "subtitle": "How pilots have always found their way",
+    "groupId": "grp_navwx_06",
+    "groupTitle": "Navigation & Weather",
+    "accent": "#1F6FA8",
+    "cards": [
+      {
+        "id": "compass-to-gps_c1",
+        "title": "Landmarks and Arithmetic"
+      },
+      {
+        "id": "compass-to-gps_c2",
+        "title": "The Magnetic Compass"
+      },
+      {
+        "id": "compass-to-gps_c3",
+        "title": "Radio Beams and VORs"
+      },
+      {
+        "id": "compass-to-gps_c4",
+        "title": "Satellites Take Over"
+      }
+    ],
+    "funFact": {
+      "text": "After flying around the world in 1924, World Cruiser pilot Lowell Smith was asked if he would ever do it again. His answer: “Not in a million years, unless ordered to do so.”",
+      "source": {
+        "url": "https://airandspace.si.edu/stories/editorial/story-first-flight-around-world",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Story of the First Flight Around the World"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/story-first-flight-around-world",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Story of the First Flight Around the World"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ],
+    "aircraftId": "douglas-world-cruiser"
+  },
+  {
+    "id": "why-jets-fly-high",
+    "index": 22,
+    "title": "Why Jets Fly High",
+    "subtitle": "Thin air, smooth rides and saved fuel",
+    "groupId": "grp_navwx_06",
+    "groupTitle": "Navigation & Weather",
+    "accent": "#1F6FA8",
+    "cards": [
+      {
+        "id": "why-jets-fly-high_c1",
+        "title": "Thin Air, Less Drag"
+      },
+      {
+        "id": "why-jets-fly-high_c2",
+        "title": "Above the Weather"
+      },
+      {
+        "id": "why-jets-fly-high_c3",
+        "title": "Colder and Thinner"
+      },
+      {
+        "id": "why-jets-fly-high_c4",
+        "title": "Why Not Fly Even Higher?"
+      }
+    ],
+    "funFact": {
+      "text": "Climb to 18,000 feet and half the atmosphere's weight is already below you: the air there is only half as dense as at sea level. Airliners usually cruise well above that.",
+      "source": {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/news/feature-articles/trail-contrails",
+        "publisher": "NASA Earthdata",
+        "title": "On the Trail of Contrails"
+      },
+      {
+        "url": "https://www.boeing.com/commercial/787/by-design",
+        "publisher": "Boeing",
+        "title": "787 Dreamliner By Design"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ],
+    "aircraftId": "boeing-787-dreamliner"
+  },
+  {
+    "id": "turbulence-jetstreams-contrails",
+    "index": 23,
+    "title": "Turbulence, Jet Streams & Contrails",
+    "subtitle": "The weather you feel and the trails you see",
+    "groupId": "grp_navwx_06",
+    "groupTitle": "Navigation & Weather",
+    "accent": "#1F6FA8",
+    "cards": [
+      {
+        "id": "turbulence-jetstreams-contrails_c1",
+        "title": "Why the Ride Gets Bumpy"
+      },
+      {
+        "id": "turbulence-jetstreams-contrails_c2",
+        "title": "Rivers of Wind"
+      },
+      {
+        "id": "turbulence-jetstreams-contrails_c3",
+        "title": "Tailwinds and Hidden Bumps"
+      },
+      {
+        "id": "turbulence-jetstreams-contrails_c4",
+        "title": "Clouds Made by Jets"
+      }
+    ],
+    "funFact": {
+      "text": "Earth has four main jet streams: two polar jet streams, near the North and South Poles, and two subtropical jet streams closer to the equator. All four blow from west to east.",
+      "source": {
+        "url": "https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-jet-stream",
+        "publisher": "NOAA Satellite and Information Service",
+        "title": "What Is the Jet Stream?"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-jet-stream",
+        "publisher": "NOAA Satellite and Information Service",
+        "title": "What Is the Jet Stream?"
+      },
+      {
+        "url": "https://scool.larc.nasa.gov/pdf/Contrail_ID_Chart_English_2013_v18_copy.pdf",
+        "publisher": "NASA Langley Research Center",
+        "title": "Contrail Identification Chart and Formation Guide"
+      },
+      {
+        "url": "https://www.earthdata.nasa.gov/news/feature-articles/trail-contrails",
+        "publisher": "NASA Earthdata",
+        "title": "On the Trail of Contrails"
+      },
+      {
+        "url": "https://www.omao.noaa.gov/aircraft-operations/aircraft/lockheed-wp-3d-orion",
+        "publisher": "NOAA Office of Marine and Aviation Operations",
+        "title": "Lockheed WP-3D Orion"
+      },
+      {
+        "url": "https://www.omao.noaa.gov/aircraft-operations/noaa-hurricane-hunters",
+        "publisher": "NOAA Office of Marine and Aviation Operations",
+        "title": "NOAA Hurricane Hunters"
+      }
+    ],
+    "aircraftId": "lockheed-wp-3d-orion"
+  },
+  {
+    "id": "balloons-gliders",
+    "index": 24,
+    "title": "Balloons & Gliders",
+    "subtitle": "Getting off the ground before engines",
+    "groupId": "grp_pioneers_07",
+    "groupTitle": "Pioneers of Flight",
+    "accent": "#8C4A12",
+    "cards": [
+      {
+        "id": "balloons-gliders_c1",
+        "title": "Paper Makers Take to the Air"
+      },
+      {
+        "id": "balloons-gliders_c2",
+        "title": "Animals Fly First"
+      },
+      {
+        "id": "balloons-gliders_c3",
+        "title": "Hydrogen Joins the Race"
+      },
+      {
+        "id": "balloons-gliders_c4",
+        "title": "Lilienthal's Gliders"
+      }
+    ],
+    "funFact": {
+      "text": "Benjamin Franklin, then in Paris as an American diplomat, caught the city's “balloonamania”. He bought a little hydrogen balloon for his grandson, and when it was let go in a bedroom, it floated up and rolled around on the ceiling.",
+      "source": {
+        "url": "https://library.si.edu/exhibition/fantastic-worlds/age-of-the-aeronaut",
+        "publisher": "Smithsonian Libraries",
+        "title": "Age of the Aeronaut"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/montgolfier-balloon/nasm_A19750721000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Montgolfier Balloon"
+      },
+      {
+        "url": "https://www.grc.nasa.gov/www/k-12/TRC/Aeronautics/Hot_Air_Balloon.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Hot Air Balloon"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/lilienthal-glider/nasm_A19060001000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Lilienthal Glider"
+      },
+      {
+        "url": "https://library.si.edu/exhibition/fantastic-worlds/age-of-the-aeronaut",
+        "publisher": "Smithsonian Libraries",
+        "title": "Age of the Aeronaut"
+      }
+    ],
+    "aircraftId": "montgolfier-balloon"
+  },
+  {
+    "id": "wright-brothers",
+    "index": 25,
+    "title": "The Wright Brothers",
+    "subtitle": "Twelve seconds that changed the world",
+    "groupId": "grp_pioneers_07",
+    "groupTitle": "Pioneers of Flight",
+    "accent": "#8C4A12",
+    "cards": [
+      {
+        "id": "wright-brothers_c1",
+        "title": "Bicycle Makers From Dayton"
+      },
+      {
+        "id": "wright-brothers_c2",
+        "title": "A Wind Tunnel in the Shop"
+      },
+      {
+        "id": "wright-brothers_c3",
+        "title": "Control in Three Axes"
+      },
+      {
+        "id": "wright-brothers_c4",
+        "title": "Four Flights in a Day"
+      }
+    ],
+    "funFact": {
+      "text": "Orville Wright's last flight was in a Lockheed Constellation airliner. Decades after Kitty Hawk, he flew as copilot on one of its test runs at Wright Field in Ohio.",
+      "source": {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html",
+        "publisher": "Lockheed Martin",
+        "title": "How the Constellation Became the Star of the Skies"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.nps.gov/articles/wright-brothers.htm",
+        "publisher": "National Park Service",
+        "title": "Wright Brothers"
+      },
+      {
+        "url": "https://www.grc.nasa.gov/www/k-12/airplane/wrights/unpowered.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Wright Brothers' Unpowered Aircraft"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "1903 Wright Flyer"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html",
+        "publisher": "Lockheed Martin",
+        "title": "How the Constellation Became the Star of the Skies"
+      }
+    ],
+    "aircraftId": "wright-flyer-1903"
+  },
+  {
+    "id": "bleriot-early-aviators",
+    "index": 26,
+    "title": "Blériot & Early Aviators",
+    "subtitle": "Crossing the Channel and the race to fly",
+    "groupId": "grp_pioneers_07",
+    "groupTitle": "Pioneers of Flight",
+    "accent": "#8C4A12",
+    "cards": [
+      {
+        "id": "bleriot-early-aviators_c1",
+        "title": "Across the Channel"
+      },
+      {
+        "id": "bleriot-early-aviators_c2",
+        "title": "Small Engine, Big Feat"
+      },
+      {
+        "id": "bleriot-early-aviators_c3",
+        "title": "Quimby Crosses Too"
+      },
+      {
+        "id": "bleriot-early-aviators_c4",
+        "title": "Bessie Coleman's License"
+      }
+    ],
+    "funFact": {
+      "text": "Louis Blériot crossed the Channel with a badly injured foot from an earlier test flight. When it started to rain on the way, he feared the wet would make his little Anzani engine quit.",
+      "source": {
+        "url": "https://airandspace.si.edu/stories/editorial/bleriots-cross-channel-flight",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Blériot's Cross-Channel Flight"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/bleriots-cross-channel-flight",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Blériot's Cross-Channel Flight"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/first-american-women-flight",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "First American Women in Flight"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/celebrating-centennial-bessie-coleman",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Bessie Coleman's Daring Life as The First Licensed Black Woman Pilot"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/bleriot-xi/nasm_A19500095000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Blériot XI"
+      }
+    ],
+    "aircraftId": "bleriot-xi"
+  },
+  {
+    "id": "record-breakers",
+    "index": 27,
+    "title": "Lindbergh, Earhart & the Record Breakers",
+    "subtitle": "Oceans, distances and daring",
+    "groupId": "grp_pioneers_07",
+    "groupTitle": "Pioneers of Flight",
+    "accent": "#8C4A12",
+    "cards": [
+      {
+        "id": "record-breakers_c1",
+        "title": "The First Nonstop Crossing"
+      },
+      {
+        "id": "record-breakers_c2",
+        "title": "A Prize for Paris"
+      },
+      {
+        "id": "record-breakers_c3",
+        "title": "Thirty-Three and a Half Hours"
+      },
+      {
+        "id": "record-breakers_c4",
+        "title": "Earhart Flies Alone"
+      }
+    ],
+    "funFact": {
+      "text": "Alcock and Brown didn't cross the Atlantic alone. Alcock's toy black cat, Lucky Jim, rode along, and Brown brought a mascot called Twinkletoes. Lucky Jim now sits beside their Vickers Vimy at London's Science Museum.",
+      "source": {
+        "url": "https://www.sciencemuseum.org.uk/about-us/press-office/lucky-jim-mascot-reunited-science-museum-aircraft-carried-him-first-non-stop",
+        "publisher": "Science Museum",
+        "title": "'Lucky Jim' mascot reunited with Alcock and Brown's Vickers Vimy"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co499537/alcock-and-browns-vickers-vimy-biplane",
+        "publisher": "Science Museum Group",
+        "title": "Alcock and Brown's Vickers Vimy biplane"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/ryan-nyp-spirit-st-louis/nasm_A19280021000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Ryan NYP Spirit of St. Louis"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/lockheed-vega-5b-amelia-earhart/nasm_A19670093000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Amelia Earhart's Lockheed Vega 5B"
+      },
+      {
+        "url": "https://www.sciencemuseum.org.uk/about-us/press-office/lucky-jim-mascot-reunited-science-museum-aircraft-carried-him-first-non-stop",
+        "publisher": "Science Museum",
+        "title": "'Lucky Jim' mascot reunited with Alcock and Brown's Vickers Vimy"
+      }
+    ],
+    "aircraftId": "spirit-of-st-louis"
+  },
+  {
+    "id": "wwi-aircraft-aces",
+    "index": 28,
+    "title": "WWI Aircraft & Aces",
+    "subtitle": "How a world war transformed the airplane",
+    "groupId": "grp_earlyair_08",
+    "groupTitle": "Early Air Power",
+    "accent": "#6B6B1F",
+    "cards": [
+      {
+        "id": "wwi-aircraft-aces_c1",
+        "title": "Eyes Above the Trenches"
+      },
+      {
+        "id": "wwi-aircraft-aces_c2",
+        "title": "Firing Through the Propeller"
+      },
+      {
+        "id": "wwi-aircraft-aces_c3",
+        "title": "What Made an Ace"
+      },
+      {
+        "id": "wwi-aircraft-aces_c4",
+        "title": "A Laboratory in the Sky"
+      }
+    ],
+    "funFact": {
+      "text": "Each World War I observation balloon held enough hydrogen to fill almost half an Olympic swimming pool. Its observers wore harnesses linked to parachutes, which pulled open when they jumped.",
+      "source": {
+        "url": "https://airandspace.si.edu/explore/stories/world-war-i-laboratory-air",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Evolution of World War I Aircraft"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/explore/stories/world-war-i-laboratory-air",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Evolution of World War I Aircraft"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/what-did-it-mean-be-flying-ace",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "What Did It Mean to Be a Flying Ace?"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/sopwith-f1-camel/nasm_A20170105000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Sopwith F.1 Camel"
+      }
+    ],
+    "aircraftId": "sopwith-camel"
+  },
+  {
+    "id": "golden-age",
+    "index": 29,
+    "title": "The Golden Age of Flight",
+    "subtitle": "Air races, mail runs and the first airlines",
+    "groupId": "grp_earlyair_08",
+    "groupTitle": "Early Air Power",
+    "accent": "#6B6B1F",
+    "cards": [
+      {
+        "id": "golden-age_c1",
+        "title": "Mail Takes Wing"
+      },
+      {
+        "id": "golden-age_c2",
+        "title": "From Mail to Passengers"
+      },
+      {
+        "id": "golden-age_c3",
+        "title": "Racing for Speed"
+      },
+      {
+        "id": "golden-age_c4",
+        "title": "The Airliner That Paid"
+      }
+    ],
+    "funFact": {
+      "text": "On a 1911 demonstration flight, pilot Earle Ovington took off with a mailbag squeezed between his legs. Over Mineola, New York, he pushed it overboard, and the local postmaster picked it up.",
+      "source": {
+        "url": "https://airandspace.si.edu/explore/stories/air-mail",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Air Mail"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/explore/stories/air-mail",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Air Mail"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8636069/supermarine-seaplane-s-6-b-s-1595-aeroplanes-aircraft-seaplanes",
+        "publisher": "Science Museum Group",
+        "title": "Supermarine S.6B seaplane"
+      }
+    ],
+    "aircraftId": "douglas-dc-3"
+  },
+  {
+    "id": "flying-boats-airships",
+    "index": 30,
+    "title": "Flying Boats & Airships",
+    "subtitle": "Luxury travel by water and by gas",
+    "groupId": "grp_earlyair_08",
+    "groupTitle": "Early Air Power",
+    "accent": "#6B6B1F",
+    "cards": [
+      {
+        "id": "flying-boats-airships_c1",
+        "title": "Boats With Wings"
+      },
+      {
+        "id": "flying-boats-airships_c2",
+        "title": "Luxury on the Clipper"
+      },
+      {
+        "id": "flying-boats-airships_c3",
+        "title": "Ships of the Sky"
+      },
+      {
+        "id": "flying-boats-airships_c4",
+        "title": "The End of an Era"
+      }
+    ],
+    "funFact": {
+      "text": "Boeing Clipper passengers ate gourmet meals catered by four-star hotels and served from the flying boat's galley. Flying home from Casablanca in 1943, President Roosevelt celebrated his birthday in its dining room.",
+      "source": {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/medal-dr-eckener-graf-zeppelin-world-flight-1929/nasm_A19640529000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Medal, Dr. Eckener Graf Zeppelin World Flight 1929"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/aftermath-hindenburg",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Dealing with the Aftermath of the Hindenburg Disaster"
+      },
+      {
+        "url": "https://www.grc.nasa.gov/www/k-12/TRC/Aeronautics/Hot_Air_Balloon.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Hot Air Balloon"
+      }
+    ],
+    "aircraftId": "boeing-314-clipper"
+  },
+  {
+    "id": "spitfire-hurricane",
+    "index": 31,
+    "title": "Spitfire & Hurricane",
+    "subtitle": "The fighters of the Battle of Britain",
+    "groupId": "grp_ww2_09",
+    "groupTitle": "WWII in the Air",
+    "accent": "#4E6B2E",
+    "cards": [
+      {
+        "id": "spitfire-hurricane_c1",
+        "title": "The Battle of Britain"
+      },
+      {
+        "id": "spitfire-hurricane_c2",
+        "title": "The Hurricane, Workhorse"
+      },
+      {
+        "id": "spitfire-hurricane_c3",
+        "title": "The Spitfire's Thin Wing"
+      },
+      {
+        "id": "spitfire-hurricane_c4",
+        "title": "More Than 20,000 Built"
+      }
+    ],
+    "funFact": {
+      "text": "After the Spitfire's first flight, test pilot Mutt Summers said “Don't touch anything.” It's often taken as praise, but the RAF Museum says he simply wanted to report what he'd noticed before anyone changed the plane.",
+      "source": {
+        "url": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/",
+        "publisher": "Royal Air Force Museum",
+        "title": "The first flight of the Spitfire"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1940-2/",
+        "publisher": "Royal Air Force Museum",
+        "title": "History of aviation timeline: 1940"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/documents/ALD-London/BoB_Secondary_2020.pdf",
+        "publisher": "Royal Air Force Museum",
+        "title": "The Battle of Britain: highlights for secondary visits"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/battle-of-britain-class-locomotive-plates/squadron-personal-biographies/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Battle of Britain squadron and personal biographies"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/",
+        "publisher": "Royal Air Force Museum",
+        "title": "The first flight of the Spitfire"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "North American P-51D Mustang"
+      }
+    ],
+    "aircraftId": "supermarine-spitfire"
+  },
+  {
+    "id": "mustang-escorts",
+    "index": 32,
+    "title": "Mustang & the Escort Fighters",
+    "subtitle": "Long-range fighters that changed the air war",
+    "groupId": "grp_ww2_09",
+    "groupTitle": "WWII in the Air",
+    "accent": "#4E6B2E",
+    "cards": [
+      {
+        "id": "mustang-escorts_c1",
+        "title": "The Escort Problem"
+      },
+      {
+        "id": "mustang-escorts_c2",
+        "title": "Built for Britain"
+      },
+      {
+        "id": "mustang-escorts_c3",
+        "title": "The Merlin Makeover"
+      },
+      {
+        "id": "mustang-escorts_c4",
+        "title": "The Red Tails"
+      }
+    ],
+    "funFact": {
+      "text": "In 1941, Charles “Chief” Anderson, who trained Black pilots at the Tuskegee Institute, took First Lady Eleanor Roosevelt up for a flight when she visited Tuskegee.",
+      "source": {
+        "url": "https://airandspace.si.edu/explore/stories/tuskegee-airmen",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Tuskegee Airmen"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "North American P-51D Mustang"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://airandspace.si.edu/explore/stories/tuskegee-airmen",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Tuskegee Airmen"
+      }
+    ],
+    "aircraftId": "north-american-p-51-mustang"
+  },
+  {
+    "id": "heavy-bombers",
+    "index": 33,
+    "title": "Heavy Bombers",
+    "subtitle": "The four-engine giants of WWII",
+    "groupId": "grp_ww2_09",
+    "groupTitle": "WWII in the Air",
+    "accent": "#4E6B2E",
+    "cards": [
+      {
+        "id": "heavy-bombers_c1",
+        "title": "Boeing's Big Gamble"
+      },
+      {
+        "id": "heavy-bombers_c2",
+        "title": "Built by the Thousands"
+      },
+      {
+        "id": "heavy-bombers_c3",
+        "title": "The Superfortress"
+      },
+      {
+        "id": "heavy-bombers_c4",
+        "title": "After the War"
+      }
+    ],
+    "funFact": {
+      "text": "Boeing liked the nickname “Flying Fortress”, coined by Seattle Times reporter Richard Smith, so much that it quickly adopted the name and trademarked it.",
+      "source": {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Boeing B-29 Superfortress Enola Gay"
+      }
+    ],
+    "aircraftId": "boeing-b-17-flying-fortress"
+  },
+  {
+    "id": "carrier-aviation",
+    "index": 34,
+    "title": "Carrier Aviation",
+    "subtitle": "Runways that sail",
+    "groupId": "grp_ww2_09",
+    "groupTitle": "WWII in the Air",
+    "accent": "#4E6B2E",
+    "cards": [
+      {
+        "id": "carrier-aviation_c1",
+        "title": "A Wooden Deck on a Cruiser"
+      },
+      {
+        "id": "carrier-aviation_c2",
+        "title": "Caught by Sandbags"
+      },
+      {
+        "id": "carrier-aviation_c3",
+        "title": "The Covered Wagon"
+      },
+      {
+        "id": "carrier-aviation_c4",
+        "title": "Built for Ships"
+      }
+    ],
+    "funFact": {
+      "text": "On the first takeoff from a ship in 1910, Eugene Ely dipped toward the water to gain speed. His wheels and propeller struck the waves and spray covered his goggles, but he flew on and landed on a nearby beach.",
+      "source": {
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/education/articles/history-up-close/eugene-ely-makes-naval-aviations-first-shipboard-launch.html",
+        "publisher": "Naval History and Heritage Command",
+        "title": "Eugene Ely Makes Naval Aviation's First Shipboard Launch"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/education/articles/history-up-close/eugene-ely-makes-naval-aviations-first-shipboard-launch.html",
+        "publisher": "Naval History and Heritage Command",
+        "title": "Eugene Ely Makes Naval Aviation's First Shipboard Launch"
+      },
+      {
+        "url": "https://www.history.navy.mil/research/histories/ship-histories/danfs/l/langley-i.html",
+        "publisher": "Naval History and Heritage Command",
+        "title": "Langley I (CV-1)"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/vought-f4u-1d-corsair/nasm_A19610124000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Vought F4U-1D Corsair"
+      }
+    ],
+    "aircraftId": "vought-f4u-corsair"
+  },
+  {
+    "id": "first-jets",
+    "index": 35,
+    "title": "The First Jets",
+    "subtitle": "How jet engines took to the skies",
+    "groupId": "grp_jetage_10",
+    "groupTitle": "The Jet Age",
+    "accent": "#A3245C",
+    "cards": [
+      {
+        "id": "first-jets_c1",
+        "title": "Two Inventors, One Idea"
+      },
+      {
+        "id": "first-jets_c2",
+        "title": "The First Jet Flights"
+      },
+      {
+        "id": "first-jets_c3",
+        "title": "The Me 262"
+      },
+      {
+        "id": "first-jets_c4",
+        "title": "America's First Jet"
+      }
+    ],
+    "funFact": {
+      "text": "Frank Whittle's W.1X engine was never meant to fly. Yet during taxi tests, the Gloster E.28/39 made short, straight hops with it, unofficially making it the first British jet engine in the air.",
+      "source": {
+        "url": "https://airandspace.si.edu/collection-objects/whittle-w1x-turbojet-engine/nasm_A19500082000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Whittle W.1X Engine"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/turbine-engines/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Gas Turbine Propulsion"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/whittle-w1x-turbojet-engine/nasm_A19500082000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Whittle W.1X Engine"
+      },
+      {
+        "url": "https://si.edu/object/heinkel-von-ohain-hes-3b-turbojet-engine-reproduction%3Anasm_A19810039000",
+        "publisher": "Smithsonian Institution",
+        "title": "Heinkel-von Ohain HeS 3B turbojet engine (reproduction)"
+      },
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co29600/gloster-whittle-e28-39-jet-aeroplane-built-1941",
+        "publisher": "Science Museum Group",
+        "title": "Gloster Whittle E28/39 jet aeroplane"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/messerschmitt-me-262-a-1a-schwalbe-swallow/nasm_A19600328000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Messerschmitt Me 262 A-1a Schwalbe (Swallow)"
+      }
+    ],
+    "aircraftId": "messerschmitt-me-262"
+  },
+  {
+    "id": "sound-barrier",
+    "index": 36,
+    "title": "Breaking the Sound Barrier",
+    "subtitle": "What Mach 1 really means",
+    "groupId": "grp_jetage_10",
+    "groupTitle": "The Jet Age",
+    "accent": "#A3245C",
+    "cards": [
+      {
+        "id": "sound-barrier_c1",
+        "title": "What Mach 1 Means"
+      },
+      {
+        "id": "sound-barrier_c2",
+        "title": "A Wall That Wasn't"
+      },
+      {
+        "id": "sound-barrier_c3",
+        "title": "Yeager and the X-1"
+      },
+      {
+        "id": "sound-barrier_c4",
+        "title": "The Sonic Boom"
+      }
+    ],
+    "funFact": {
+      "text": "The X-1 was designed to take off from a runway, but rocket-powered ground takeoffs were judged too risky, so X-1s were dropped from bombers instead. Even so, on January 5, 1949, Chuck Yeager took one off from the ground at Muroc Dry Lake.",
+      "source": {
+        "url": "https://airandspace.si.edu/collection-objects/bell-x-1/nasm_A19510007000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Bell X-1 Glamorous Glennis"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.grc.nasa.gov/WWW/K-12/airplane/mach.html",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Mach Number"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/speed-of-sound-interactive/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Speed of Sound"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/bell-x-1/nasm_A19510007000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Bell X-1 Glamorous Glennis"
+      },
+      {
+        "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf",
+        "publisher": "NASA",
+        "title": "NASA Facts: Sonic Booms"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/breaking-sound-barrier",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Chuck Yeager Broke the Sound Barrier in the Bell X-1"
+      },
+      {
+        "url": "https://www.nasa.gov/history/SP-4219/Chapter3.html",
+        "publisher": "NASA",
+        "title": "Research in Supersonic Flight and the Breaking of the Sound Barrier"
+      }
+    ],
+    "aircraftId": "bell-x-1"
+  },
+  {
+    "id": "comet-metal-fatigue",
+    "index": 37,
+    "title": "The Comet & Metal Fatigue",
+    "subtitle": "The first jet airliner and a hard lesson",
+    "groupId": "grp_jetage_10",
+    "groupTitle": "The Jet Age",
+    "accent": "#A3245C",
+    "cards": [
+      {
+        "id": "comet-metal-fatigue_c1",
+        "title": "The First Jet Airliner"
+      },
+      {
+        "id": "comet-metal-fatigue_c2",
+        "title": "Two Comets Lost"
+      },
+      {
+        "id": "comet-metal-fatigue_c3",
+        "title": "The Water Tank Test"
+      },
+      {
+        "id": "comet-metal-fatigue_c4",
+        "title": "Lessons for Every Jet"
+      }
+    ],
+    "funFact": {
+      "text": "The Comet 1 at the RAF Museum made the last flight by any Comet 1, in 1968. It now wears BOAC colors it never flew in, chosen to represent the world's first fleet of passenger jets.",
+      "source": {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-retires/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Retires"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet: The World's First Jet Airliner"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-disaster/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Disaster"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-failure/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Failure"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-retires/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Retires"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-firsts/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Firsts"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-enters-service/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Enters Service"
+      }
+    ],
+    "aircraftId": "de-havilland-comet"
+  },
+  {
+    "id": "the-707-jet-set",
+    "index": 38,
+    "title": "The 707 & the Jet Set",
+    "subtitle": "When jet travel went mainstream",
+    "groupId": "grp_jetage_10",
+    "groupTitle": "The Jet Age",
+    "accent": "#A3245C",
+    "cards": [
+      {
+        "id": "the-707-jet-set_c1",
+        "title": "Betting the Company"
+      },
+      {
+        "id": "the-707-jet-set_c2",
+        "title": "Winning Over Nervous Flyers"
+      },
+      {
+        "id": "the-707-jet-set_c3",
+        "title": "Changing How We Travel"
+      },
+      {
+        "id": "the-707-jet-set_c4",
+        "title": "The Jet Age Goes Pop"
+      }
+    ],
+    "funFact": {
+      "text": "The Dash 80 was built in secret. Boeing called it the Model 367-80 to disguise it as just another version of the propeller-driven C-97 Stratofreighter.",
+      "source": {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-disaster/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Disaster"
+      }
+    ],
+    "aircraftId": "boeing-707"
+  },
+  {
+    "id": "the-747",
+    "index": 39,
+    "title": "The 747, Queen of the Skies",
+    "subtitle": "The original jumbo jet",
+    "groupId": "grp_airliners_11",
+    "groupTitle": "Airliners & Airlines",
+    "accent": "#1D5E8C",
+    "cards": [
+      {
+        "id": "the-747_c1",
+        "title": "Built by the Incredibles"
+      },
+      {
+        "id": "the-747_c2",
+        "title": "A Factory to Match"
+      },
+      {
+        "id": "the-747_c3",
+        "title": "Why Go So Big?"
+      },
+      {
+        "id": "the-747_c4",
+        "title": "The Last Jumbo"
+      }
+    ],
+    "funFact": {
+      "text": "To learn to taxi from so high up, Boeing's 747 pilots trained in “Waddell's Wagon”: a mock 747 cockpit on three-story stilts atop a truck, steered by radioing the driver below.",
+      "source": {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2023/Boeing-Atlas-Air-Celebrate-Delivery-of-Final-747-an-Airplane-that-Transformed-Aviation-and-Global-Air-Travel/default.aspx",
+        "publisher": "Boeing",
+        "title": "Boeing and Atlas Air celebrate delivery of the final 747"
+      }
+    ],
+    "aircraftId": "boeing-747"
+  },
+  {
+    "id": "airbus-vs-boeing",
+    "index": 40,
+    "title": "Airbus vs Boeing",
+    "subtitle": "The rivalry between two airliner makers",
+    "groupId": "grp_airliners_11",
+    "groupTitle": "Airliners & Airlines",
+    "accent": "#1D5E8C",
+    "cards": [
+      {
+        "id": "airbus-vs-boeing_c1",
+        "title": "A European Challenger"
+      },
+      {
+        "id": "airbus-vs-boeing_c2",
+        "title": "Two Engines, Wide Body"
+      },
+      {
+        "id": "airbus-vs-boeing_c3",
+        "title": "Boeing's Head Start"
+      },
+      {
+        "id": "airbus-vs-boeing_c4",
+        "title": "Rivals in Every Size"
+      }
+    ],
+    "funFact": {
+      "text": "Airbus skipped building a prototype for the A300, though that was common practice at the time. Its first flight, in October 1972, was even pushed back a day by fog.",
+      "source": {
+        "url": "https://www.airbus.com/en/newsroom/stories/2022-10-28-october-50th-anniversary-of-the-first-flight-of-the-airbus-a300",
+        "publisher": "Airbus",
+        "title": "50th anniversary of the A300's first flight"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.airbus.com/en/newsroom/stories/2022-10-28-october-50th-anniversary-of-the-first-flight-of-the-airbus-a300",
+        "publisher": "Airbus",
+        "title": "50th anniversary of the A300's first flight"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft",
+        "publisher": "Airbus",
+        "title": "Passenger aircraft"
+      },
+      {
+        "url": "https://www.boeing.com/commercial",
+        "publisher": "Boeing",
+        "title": "Commercial airplanes"
+      }
+    ],
+    "aircraftId": "airbus-a300"
+  },
+  {
+    "id": "narrowbody-families",
+    "index": 41,
+    "title": "The 737 & A320 Families",
+    "subtitle": "The workhorses of short-haul flying",
+    "groupId": "grp_airliners_11",
+    "groupTitle": "Airliners & Airlines",
+    "accent": "#1D5E8C",
+    "cards": [
+      {
+        "id": "narrowbody-families_c1",
+        "title": "The Baby Boeing"
+      },
+      {
+        "id": "narrowbody-families_c2",
+        "title": "The Square Airplane"
+      },
+      {
+        "id": "narrowbody-families_c3",
+        "title": "Airbus Answers"
+      },
+      {
+        "id": "narrowbody-families_c4",
+        "title": "Two Pilots Up Front"
+      }
+    ],
+    "funFact": {
+      "text": "At the first 737's debut in 1967, flight attendants from the 17 airlines that had ordered it christened the new jet.",
+      "source": {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family",
+        "publisher": "Airbus",
+        "title": "A320 Family"
+      },
+      {
+        "url": "https://www.boeing.com/commercial",
+        "publisher": "Boeing",
+        "title": "Commercial airplanes"
+      }
+    ],
+    "aircraftId": "boeing-737"
+  },
+  {
+    "id": "the-a380",
+    "index": 42,
+    "title": "The A380 Superjumbo",
+    "subtitle": "The biggest airliner ever built",
+    "groupId": "grp_airliners_11",
+    "groupTitle": "Airliners & Airlines",
+    "accent": "#1D5E8C",
+    "cards": [
+      {
+        "id": "the-a380_c1",
+        "title": "Two Full Decks"
+      },
+      {
+        "id": "the-a380_c2",
+        "title": "Room for 853"
+      },
+      {
+        "id": "the-a380_c3",
+        "title": "300 Million Passengers"
+      },
+      {
+        "id": "the-a380_c4",
+        "title": "The End of the Line"
+      }
+    ],
+    "funFact": {
+      "text": "Airbus says the A380 is the only airliner that can be fitted with lounges, showers and private suites. Its fleet has made more than 800,000 flights.",
+      "source": {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380",
+        "publisher": "Airbus",
+        "title": "A380"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380",
+        "publisher": "Airbus",
+        "title": "A380"
+      },
+      {
+        "url": "https://www.airbus.com/en/newsroom/press-releases/2019-02-airbus-and-emirates-reach-agreement-on-a380-fleet-sign-new-widebody",
+        "publisher": "Airbus",
+        "title": "Airbus and Emirates reach agreement on A380 fleet"
+      },
+      {
+        "url": "https://www.airbus.com/en/newsroom/stories/2021-12-the-a380-emirates-and-flying-public-a-winning-combination",
+        "publisher": "Airbus",
+        "title": "The A380, Emirates and the flying public"
+      }
+    ],
+    "aircraftId": "airbus-a380"
+  },
+  {
+    "id": "concorde",
+    "index": 43,
+    "title": "Concorde",
+    "subtitle": "Supersonic travel for the few",
+    "groupId": "grp_legends_12",
+    "groupTitle": "Speed & Altitude Legends",
+    "accent": "#B0156E",
+    "cards": [
+      {
+        "id": "concorde_c1",
+        "title": "An Anglo-French Dream"
+      },
+      {
+        "id": "concorde_c2",
+        "title": "Twice the Speed of Sound"
+      },
+      {
+        "id": "concorde_c3",
+        "title": "Stretched by Heat"
+      },
+      {
+        "id": "concorde_c4",
+        "title": "Retired in 2003"
+      }
+    ],
+    "funFact": {
+      "text": "At cruise, the air outside Concorde was colder than -56°C, yet its skin heated up to more than 120°C. Passengers could feel the inside of its windows growing warm to the touch.",
+      "source": {
+        "url": "https://airandspace.si.edu/collection-objects/concorde-fox-alpha-air-france/nasm_A20030139000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Concorde, Fox Alpha, Air France"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/concorde-fox-alpha-air-france/nasm_A20030139000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Concorde, Fox Alpha, Air France"
+      },
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co29806/concorde-prototype-aircraft",
+        "publisher": "Science Museum Group",
+        "title": "Concorde prototype aircraft"
+      }
+    ],
+    "aircraftId": "concorde"
+  },
+  {
+    "id": "sr-71-blackbird",
+    "index": 44,
+    "title": "SR-71 Blackbird",
+    "subtitle": "A Mach 3 spy plane built from titanium",
+    "groupId": "grp_legends_12",
+    "groupTitle": "Speed & Altitude Legends",
+    "accent": "#B0156E",
+    "cards": [
+      {
+        "id": "sr-71-blackbird_c1",
+        "title": "Built From Titanium"
+      },
+      {
+        "id": "sr-71-blackbird_c2",
+        "title": "Mach 3 at 85,000 Feet"
+      },
+      {
+        "id": "sr-71-blackbird_c3",
+        "title": "A Leaky Spy Plane"
+      },
+      {
+        "id": "sr-71-blackbird_c4",
+        "title": "Coast to Coast in 64 Minutes"
+      }
+    ],
+    "funFact": {
+      "text": "The SR-71's official name, Blackbird, came from the special black paint that covered it. Lockheed's first design for the mission ran on liquid hydrogen, but it burned fuel too fast to be practical.",
+      "source": {
+        "url": "https://airandspace.si.edu/collection-objects/lockheed-sr-71-blackbird/nasm_A19920072000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Lockheed SR-71 Blackbird"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/lockheed-sr-71-blackbird/nasm_A19920072000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Lockheed SR-71 Blackbird"
+      },
+      {
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/speed-of-sound-interactive/",
+        "publisher": "NASA Glenn Research Center",
+        "title": "Speed of Sound"
+      }
+    ],
+    "aircraftId": "lockheed-sr-71-blackbird"
+  },
+  {
+    "id": "x-planes",
+    "index": 45,
+    "title": "The X-Planes",
+    "subtitle": "Experimental aircraft that pushed the edges",
+    "groupId": "grp_legends_12",
+    "groupTitle": "Speed & Altitude Legends",
+    "accent": "#B0156E",
+    "cards": [
+      {
+        "id": "x-planes_c1",
+        "title": "Built to Experiment"
+      },
+      {
+        "id": "x-planes_c2",
+        "title": "The X-15 Rocket Plane"
+      },
+      {
+        "id": "x-planes_c3",
+        "title": "Mach 6.7"
+      },
+      {
+        "id": "x-planes_c4",
+        "title": "To the Edge of Space"
+      }
+    ],
+    "funFact": {
+      "text": "One modern X-plane borrowed an idea from the Wright brothers. NASA's X-53 Active Aeroelastic Wing tested a high-tech version of their wing warping, twisting the wings to control the airplane.",
+      "source": {
+        "url": "https://www.nasa.gov/armstrong/capabilities-facilities/aircraft-at-armstrong/x-planes-at-armstrong/",
+        "publisher": "NASA",
+        "title": "X-Planes at Armstrong"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/armstrong/capabilities-facilities/aircraft-at-armstrong/x-planes-at-armstrong/",
+        "publisher": "NASA",
+        "title": "X-Planes at Armstrong"
+      },
+      {
+        "url": "https://www.nasa.gov/reference/x-15/",
+        "publisher": "NASA",
+        "title": "X-15 Hypersonic Research Program"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/x-15-still-holds-world-speed-record-50-years-later",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The X-15 Still Holds The World Speed Record 50+ Years Later"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/x-15-space-pioneers-now-honored-as-astronauts/",
+        "publisher": "NASA",
+        "title": "X-15 Space Pioneers Now Honored as Astronauts"
+      }
+    ],
+    "aircraftId": "north-american-x-15"
+  },
+  {
+    "id": "fighter-generations",
+    "index": 46,
+    "title": "Fighter Generations",
+    "subtitle": "How fighters are grouped, from 1st to 5th",
+    "groupId": "grp_military_13",
+    "groupTitle": "Military Aviation",
+    "accent": "#3F5161",
+    "cards": [
+      {
+        "id": "fighter-generations_c1",
+        "title": "Five Generations of Jets"
+      },
+      {
+        "id": "fighter-generations_c2",
+        "title": "Mach 2 and Missiles"
+      },
+      {
+        "id": "fighter-generations_c3",
+        "title": "Built to Out-Turn"
+      },
+      {
+        "id": "fighter-generations_c4",
+        "title": "Stealth and Sensor Fusion"
+      }
+    ],
+    "funFact": {
+      "text": "The F-16 was dreamed up by a group nicknamed the Lightweight Fighter Mafia, who wanted a simple, agile fighter. Officially it's the Fighting Falcon, but pilots usually call it the Viper.",
+      "source": {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f16.html",
+        "publisher": "Lockheed Martin",
+        "title": "F-16 Fighting Falcon History"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/mikoyan-gurevich-mig-15-ji-2-fagot-b/nasm_A19860066000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Mikoyan-Gurevich MiG-15 (Ji-2) FAGOT B"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/mcdonnell-f-4s-phantom-ii/nasm_A19890038000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "McDonnell F-4S Phantom II"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f16.html",
+        "publisher": "Lockheed Martin",
+        "title": "F-16 Fighting Falcon History"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/products/f-16.html",
+        "publisher": "Lockheed Martin",
+        "title": "F-16 Fighting Falcon"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/f35/about/5th-gen-capabilities.html",
+        "publisher": "Lockheed Martin",
+        "title": "F-35: 5th Gen Capabilities"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-22.html",
+        "publisher": "Lockheed Martin",
+        "title": "F-22 Raptor History"
+      }
+    ],
+    "aircraftId": "lockheed-martin-f-22-raptor"
+  },
+  {
+    "id": "stealth-aircraft",
+    "index": 47,
+    "title": "Stealth Aircraft",
+    "subtitle": "Shapes and skins that hide from radar",
+    "groupId": "grp_military_13",
+    "groupTitle": "Military Aviation",
+    "accent": "#3F5161",
+    "cards": [
+      {
+        "id": "stealth-aircraft_c1",
+        "title": "How Radar Finds a Plane"
+      },
+      {
+        "id": "stealth-aircraft_c2",
+        "title": "Flat Panels, Sharp Angles"
+      },
+      {
+        "id": "stealth-aircraft_c3",
+        "title": "Coatings That Soak Up Radar"
+      },
+      {
+        "id": "stealth-aircraft_c4",
+        "title": "Stealth Proves Itself"
+      }
+    ],
+    "funFact": {
+      "text": "Only one F-117 flew in every one of the Nighthawk's combat operations. Nicknamed The Overachiever, it is now on display at the Smithsonian's Udvar-Hazy Center.",
+      "source": {
+        "url": "https://airandspace.si.edu/stories/editorial/story-f-117-nighthawk",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "\"No One Knew I Was in the Sky\": The Story of the F-117 Nighthawk"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/story-f-117-nighthawk",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "\"No One Knew I Was in the Sky\": The Story of the F-117 Nighthawk"
+      },
+      {
+        "url": "https://airandspace.si.edu/newsroom/press-releases/f-117-nighthawk-joins-national-air-and-space-museum-collection",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "F-117 Nighthawk Joins the National Air and Space Museum Collection"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-117.html",
+        "publisher": "Lockheed Martin",
+        "title": "F-117 Nighthawk"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/F-117/F117%20Fast%20Facts_FINAL.pdf",
+        "publisher": "Lockheed Martin",
+        "title": "F-117 Nighthawk Fast Facts"
+      }
+    ],
+    "aircraftId": "lockheed-f-117-nighthawk"
+  },
+  {
+    "id": "how-helicopters-fly",
+    "index": 48,
+    "title": "How Helicopters Fly",
+    "subtitle": "Rotors, torque and the tail that fixes it",
+    "groupId": "grp_military_13",
+    "groupTitle": "Military Aviation",
+    "accent": "#3F5161",
+    "cards": [
+      {
+        "id": "how-helicopters-fly_c1",
+        "title": "Spinning Wings"
+      },
+      {
+        "id": "how-helicopters-fly_c2",
+        "title": "Tilting the Rotor"
+      },
+      {
+        "id": "how-helicopters-fly_c3",
+        "title": "The Torque Problem"
+      },
+      {
+        "id": "how-helicopters-fly_c4",
+        "title": "Two Rotors, No Tail Rotor"
+      }
+    ],
+    "funFact": {
+      "text": "Helicopters were built from aviation's early decades, but none reached full-scale production until 1942. The first to do it was a design by Igor Sikorsky, and 131 were built.",
+      "source": {
+        "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch01.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Helicopter Flying Handbook: Introduction to the Helicopter"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch01.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Helicopter Flying Handbook: Introduction to the Helicopter"
+      },
+      {
+        "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch02.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Helicopter Flying Handbook: Aerodynamics of Flight"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ],
+    "aircraftId": "boeing-ch-47-chinook"
+  },
+  {
+    "id": "tankers-awacs-transports",
+    "index": 49,
+    "title": "Tankers, AWACS & Transports",
+    "subtitle": "The aircraft that keep the others flying",
+    "groupId": "grp_military_13",
+    "groupTitle": "Military Aviation",
+    "accent": "#3F5161",
+    "cards": [
+      {
+        "id": "tankers-awacs-transports_c1",
+        "title": "Refueling in Midair"
+      },
+      {
+        "id": "tankers-awacs-transports_c2",
+        "title": "Booms and Drogues"
+      },
+      {
+        "id": "tankers-awacs-transports_c3",
+        "title": "A Radar on the Roof"
+      },
+      {
+        "id": "tankers-awacs-transports_c4",
+        "title": "Giants of the Airlift"
+      }
+    ],
+    "funFact": {
+      "text": "In 2012, the An-225 Mriya carried a whole art exhibition, 500 paintings by 120 Ukrainian artists, up to 10,150 meters in its cargo hold. The flight went into the Guinness Book of Records.",
+      "source": {
+        "url": "https://www.antonov.com/en/history/an-225-mriya",
+        "publisher": "Antonov",
+        "title": "AN-225 Mriya"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/sites/faa.gov/files/education/educators/curriculum/k12/K-12_One_Hundred_Years_of_Sustained_Flight.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "100 Years of Sustained Power Flight History"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.boeing.com/defense/tankers-and-transports/kc-46-pegasus",
+        "publisher": "Boeing",
+        "title": "KC-46 Pegasus"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/20080003275/downloads/20080003275.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "Autonomous Airborne Refueling Demonstration, Phase I Flight-Test Results"
+      },
+      {
+        "url": "https://www.antonov.com/en/history/an-225-mriya",
+        "publisher": "Antonov",
+        "title": "AN-225 Mriya"
+      },
+      {
+        "url": "https://www.antonov.com/en/file/V5hQc2hGrJGRs?inline=1",
+        "publisher": "Antonov",
+        "title": "Antonov Airlines brochure"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/strength-and-resolve-ukraine",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Strength and Resolve of Ukraine"
+      }
+    ],
+    "aircraftId": "antonov-an-225-mriya"
+  },
+  {
+    "id": "black-boxes",
+    "index": 50,
+    "title": "Black Boxes",
+    "subtitle": "Why the flight recorders are orange",
+    "groupId": "grp_safety_14",
+    "groupTitle": "Safety & Lessons Learned",
+    "accent": "#B4232F",
+    "cards": [
+      {
+        "id": "black-boxes_c1",
+        "title": "Two Recorders, Not Black"
+      },
+      {
+        "id": "black-boxes_c2",
+        "title": "Built to Survive"
+      },
+      {
+        "id": "black-boxes_c3",
+        "title": "From 30 Minutes to 25 Hours"
+      },
+      {
+        "id": "black-boxes_c4",
+        "title": "Crashing a Jet on Purpose"
+      }
+    ],
+    "funFact": {
+      "text": "Cockpit voice recordings are treated as so sensitive that US law forbids the NTSB from releasing any of the audio. Only a written transcript of the relevant parts is ever made public.",
+      "source": {
+        "url": "https://www.ntsb.gov/news/Pages/cvr_fdr.aspx",
+        "publisher": "National Transportation Safety Board",
+        "title": "Cockpit Voice Recorders and Flight Data Recorders"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.ntsb.gov/news/Pages/cvr_fdr.aspx",
+        "publisher": "National Transportation Safety Board",
+        "title": "Cockpit Voice Recorders and Flight Data Recorders"
+      },
+      {
+        "url": "https://www.easa.europa.eu/en/downloads/46032/en",
+        "publisher": "European Union Aviation Safety Agency",
+        "title": "Notice of Proposed Amendment 2018-03: Flight recorders"
+      },
+      {
+        "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/ASR1804.pdf",
+        "publisher": "National Transportation Safety Board",
+        "title": "Safety Recommendation Report: Extended Duration Cockpit Voice Recorders"
+      },
+      {
+        "url": "https://www.faa.gov/newsroom/media/25-Hr-CVR_NPRM_Issuance.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Proposed rule: 25-hour cockpit voice recorders"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19890006539/downloads/19890006539.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "Flight Test Experience and Controlled Impact of a Remotely Piloted Jet Transport Aircraft"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/citations/19860012462",
+        "publisher": "NASA Technical Reports Server",
+        "title": "Full-Scale Transport Controlled Impact Demonstration"
+      }
+    ],
+    "aircraftId": "nasa-boeing-720-cid"
+  },
+  {
+    "id": "accidents-changed-aviation",
+    "index": 51,
+    "title": "Accidents That Changed Aviation",
+    "subtitle": "Hard lessons and the safer skies they built",
+    "groupId": "grp_safety_14",
+    "groupTitle": "Safety & Lessons Learned",
+    "accent": "#B4232F",
+    "cards": [
+      {
+        "id": "accidents-changed-aviation_c1",
+        "title": "Grand Canyon, 1956"
+      },
+      {
+        "id": "accidents-changed-aviation_c2",
+        "title": "Portland, 1978"
+      },
+      {
+        "id": "accidents-changed-aviation_c3",
+        "title": "Cincinnati, 1983"
+      },
+      {
+        "id": "accidents-changed-aviation_c4",
+        "title": "Hawaii, 1988"
+      }
+    ],
+    "funFact": {
+      "text": "Most air traffic controllers today do their jobs without ever seeing the aircraft they guide. The system they work in grew out of the reforms that followed the 1956 Grand Canyon collision.",
+      "source": {
+        "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N6902C",
+        "publisher": "Federal Aviation Administration",
+        "title": "Lessons Learned: Grand Canyon midair collision"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N6902C",
+        "publisher": "Federal Aviation Administration",
+        "title": "Lessons Learned: Grand Canyon midair collision"
+      },
+      {
+        "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U",
+        "publisher": "Federal Aviation Administration",
+        "title": "Lessons Learned: United Airlines DC-8-61, Portland"
+      },
+      {
+        "url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR7907.pdf",
+        "publisher": "National Transportation Safety Board",
+        "title": "Aircraft Accident Report: United Airlines DC-8-61, Portland, Oregon"
+      },
+      {
+        "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/C-FTLU",
+        "publisher": "Federal Aviation Administration",
+        "title": "Lessons Learned: Air Canada DC-9-32, Cincinnati"
+      },
+      {
+        "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N73711",
+        "publisher": "Federal Aviation Administration",
+        "title": "Lessons Learned: Aloha Airlines 737-200, Hawaii"
+      },
+      {
+        "url": "https://aircraft.airbus.com/en/aircraft/a350/a350-1000",
+        "publisher": "Airbus",
+        "title": "A350-1000"
+      }
+    ],
+    "aircraftId": "airbus-a350"
+  },
+  {
+    "id": "why-flying-is-safe",
+    "index": 52,
+    "title": "Why Flying Is So Safe",
+    "subtitle": "Layers of protection on every flight",
+    "groupId": "grp_safety_14",
+    "groupTitle": "Safety & Lessons Learned",
+    "accent": "#B4232F",
+    "cards": [
+      {
+        "id": "why-flying-is-safe_c1",
+        "title": "Slices of Swiss Cheese"
+      },
+      {
+        "id": "why-flying-is-safe_c2",
+        "title": "A Last-Second Safety Net"
+      },
+      {
+        "id": "why-flying-is-safe_c3",
+        "title": "Reporting Close Calls"
+      },
+      {
+        "id": "why-flying-is-safe_c4",
+        "title": "Two Engines Over the Ocean"
+      }
+    ],
+    "funFact": {
+      "text": "To encourage honesty, the FAA offers people who file safety reports with NASA protection from fines and from action against their licenses. NASA runs the system as an independent third party.",
+      "source": {
+        "url": "https://www.nasa.gov/human-systems-integration-division/aviation-safety-reporting-system-overview/",
+        "publisher": "NASA",
+        "title": "Aviation Safety Reporting System Overview"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/sites/faa.gov/files/AC120-72.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Advisory Circular 120-72: Maintenance Resource Management Training"
+      },
+      {
+        "url": "https://www.faa.gov/documentlibrary/media/advisory_circular/tcas%20ii%20v7.1%20intro%20booklet.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Introduction to TCAS II Version 7.1"
+      },
+      {
+        "url": "https://www.nasa.gov/human-systems-integration-division/aviation-safety-reporting-system-overview/",
+        "publisher": "NASA",
+        "title": "Aviation Safety Reporting System Overview"
+      },
+      {
+        "url": "https://www.faa.gov/documentlibrary/media/advisory_circular/120-42b.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Advisory Circular 120-42B: Extended Operations (ETOPS)"
+      },
+      {
+        "url": "https://www.aircraft.airbus.com/sites/g/files/jlcbta126/files/2022-04/Airbus-FAST-special-edition-Oct2015.pdf",
+        "publisher": "Airbus",
+        "title": "FAST magazine, special edition, October 2015"
+      }
+    ],
+    "aircraftId": "airbus-a330"
+  },
+  {
+    "id": "bizjets-general-aviation",
+    "index": 53,
+    "title": "Business Jets & General Aviation",
+    "subtitle": "The flying most people never see",
+    "groupId": "grp_future_15",
+    "groupTitle": "Modern & Future Flight",
+    "accent": "#18794E",
+    "cards": [
+      {
+        "id": "bizjets-general-aviation_c1",
+        "title": "Everything but the Airlines"
+      },
+      {
+        "id": "bizjets-general-aviation_c2",
+        "title": "Flying on Business"
+      },
+      {
+        "id": "bizjets-general-aviation_c3",
+        "title": "The Bizjet Is Born"
+      },
+      {
+        "id": "bizjets-general-aviation_c4",
+        "title": "Across Oceans Nonstop"
+      }
+    ],
+    "funFact": {
+      "text": "Bill Lear, the self-taught engineer behind the Lear Jet, was also a pioneer of radio and aviation electronics. He designed the first autopilot for small aircraft.",
+      "source": {
+        "url": "https://airandspace.si.edu/stories/editorial/age-bizjet",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Age of the Bizjet"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/pcg_html/glossary-g.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Pilot/Controller Glossary: G"
+      },
+      {
+        "url": "https://www.faa.gov/airports/planning_capacity/categories",
+        "publisher": "Federal Aviation Administration",
+        "title": "Airport Categories"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/age-bizjet",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Age of the Bizjet"
+      },
+      {
+        "url": "https://airandspace.si.edu/collection-objects/lear-jet-23/nasm_A19780122000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Lear Jet 23"
+      },
+      {
+        "url": "https://www.gd.com/Articles/2018/04/10/gulfstream-delivers-300th-g650",
+        "publisher": "General Dynamics",
+        "title": "Gulfstream delivers 300th G650"
+      }
+    ],
+    "aircraftId": "gulfstream-g650"
+  },
+  {
+    "id": "drones-evtols",
+    "index": 54,
+    "title": "Drones & eVTOLs",
+    "subtitle": "Pilotless aircraft and air taxis",
+    "groupId": "grp_future_15",
+    "groupTitle": "Modern & Future Flight",
+    "accent": "#18794E",
+    "cards": [
+      {
+        "id": "drones-evtols_c1",
+        "title": "No Pilot on Board"
+      },
+      {
+        "id": "drones-evtols_c2",
+        "title": "A Helicopter on Mars"
+      },
+      {
+        "id": "drones-evtols_c3",
+        "title": "Electric Air Taxis"
+      },
+      {
+        "id": "drones-evtols_c4",
+        "title": "Propellers That Tilt"
+      }
+    ],
+    "funFact": {
+      "text": "NASA's Ingenuity helicopter carried a small swatch of fabric from the original Wright Flyer to Mars, a link between the first powered flights on two worlds.",
+      "source": {
+        "url": "https://www.jpl.nasa.gov/news/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/",
+        "publisher": "NASA Jet Propulsion Laboratory",
+        "title": "After Three Years on Mars, NASA's Ingenuity Helicopter Mission Ends"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.faa.gov/faq/what-unmanned-aircraft-system-uas",
+        "publisher": "Federal Aviation Administration",
+        "title": "What is an unmanned aircraft system?"
+      },
+      {
+        "url": "https://www.jpl.nasa.gov/news/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/",
+        "publisher": "NASA Jet Propulsion Laboratory",
+        "title": "After Three Years on Mars, NASA's Ingenuity Helicopter Mission Ends"
+      },
+      {
+        "url": "https://www.faa.gov/air-taxis/faq",
+        "publisher": "Federal Aviation Administration",
+        "title": "Air Taxis: Frequently Asked Questions"
+      },
+      {
+        "url": "https://www.jobyaviation.com/technology",
+        "publisher": "Joby Aviation",
+        "title": "Technology"
+      },
+      {
+        "url": "https://www.jobyaviation.com/about/",
+        "publisher": "Joby Aviation",
+        "title": "About Joby"
+      },
+      {
+        "url": "https://public-inspection.federalregister.gov/2024-04690.pdf",
+        "publisher": "Federal Register",
+        "title": "Airworthiness Criteria: Joby Aero Model JAS4-1 Powered-Lift"
+      }
+    ],
+    "aircraftId": "joby-s4"
+  },
+  {
+    "id": "electric-hydrogen-supersonic",
+    "index": 55,
+    "title": "Electric, Hydrogen & the Supersonic Comeback",
+    "subtitle": "Cleaner and faster flight on the horizon",
+    "groupId": "grp_future_15",
+    "groupTitle": "Modern & Future Flight",
+    "accent": "#18794E",
+    "cards": [
+      {
+        "id": "electric-hydrogen-supersonic_c1",
+        "title": "The Battery Problem"
+      },
+      {
+        "id": "electric-hydrogen-supersonic_c2",
+        "title": "NASA's Electric X-Plane"
+      },
+      {
+        "id": "electric-hydrogen-supersonic_c3",
+        "title": "Hydrogen's Big Tanks"
+      },
+      {
+        "id": "electric-hydrogen-supersonic_c4",
+        "title": "Supersonic, Quietly"
+      }
+    ],
+    "funFact": {
+      "text": "NASA's X-59 has no forward-facing window. Its cockpit sits partway down the long fuselage, so cameras and high-definition screens show the pilot the view ahead and below.",
+      "source": {
+        "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-x-59-completes-first-flight-prepares-for-more-flight-testing/",
+        "publisher": "NASA",
+        "title": "NASA's X-59 Completes First Flight, Prepares for More Flight Testing"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/20240007989/downloads/HybridElectricC130Study_AIAA_STRIVES_FINAL_v2.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "Mission Performance Analysis of a Parallel Hybrid Turboprop Freighter"
+      },
+      {
+        "url": "https://www.nasa.gov/centers-and-facilities/armstrong/x-57-project-creates-paths-toward-electric-aviation-2/",
+        "publisher": "NASA",
+        "title": "X-57 Project Creates Paths Toward Electric Aviation"
+      },
+      {
+        "url": "https://www.airbus.com/en/newsroom/news/2021-12-how-to-store-liquid-hydrogen-for-zero-emission-flight",
+        "publisher": "Airbus",
+        "title": "How to store liquid hydrogen for zero-emission flight"
+      },
+      {
+        "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-x-59-completes-first-flight-prepares-for-more-flight-testing/",
+        "publisher": "NASA",
+        "title": "NASA's X-59 Completes First Flight, Prepares for More Flight Testing"
+      },
+      {
+        "url": "https://www.nasa.gov/aeronautics/x-59-first-supersonic-flight/",
+        "publisher": "NASA",
+        "title": "NASA's X-59 Aircraft Flies Supersonic for First Time"
+      },
+      {
+        "url": "https://boomsupersonic.com/news/boom-achieves-supersonic-flight",
+        "publisher": "Boom Supersonic",
+        "title": "Boom Achieves Supersonic Flight"
+      }
+    ],
+    "aircraftId": "boom-xb-1"
+  }
+]

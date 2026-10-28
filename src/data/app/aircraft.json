@@ -1,0 +1,1405 @@
+[
+  {
+    "id": "cessna-172-skyhawk",
+    "bay": 1,
+    "bayCode": "BAY 01",
+    "name": "Cessna 172 Skyhawk",
+    "description": "The four-seat, high-wing Cessna 172 Skyhawk is, in its maker's words, the most popular single-engine aircraft ever built. In 2025 it celebrated 70 years in the air, and it's where countless aviation stories begin.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Light aircraft",
+    "power": "One piston engine",
+    "awardedFor": "joining Planeology",
+    "lessonId": null,
+    "lessonTitle": null,
+    "groupId": null,
+    "sources": [
+      {
+        "url": "https://cessna.txtav.com/en/piston/cessna-skyhawk",
+        "publisher": "Textron Aviation",
+        "title": "Cessna Skyhawk"
+      },
+      {
+        "url": "https://media.txtav.com/251490-cessna-172-skyhawk-marks-70-years-of-excellence-and-continues-to-lead-the-industry-as-the-most-popular-aircraft-in-the-world/",
+        "publisher": "Textron Aviation",
+        "title": "Cessna 172 Skyhawk marks 70 years"
+      }
+    ]
+  },
+  {
+    "id": "piper-j3-cub",
+    "bay": 2,
+    "bayCode": "BAY 02",
+    "name": "Piper J-3 Cub",
+    "description": "Light, slow and covered in fabric, the Piper J-3 Cub shows the four forces at their gentlest. First built in 1937, it sold for $1,300, and 19,888 Cubs had been built when production ended in 1947, many in Piper's bright yellow.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Light aircraft",
+    "power": "One piston engine",
+    "awardedFor": "The Four Forces",
+    "lessonId": "four-forces",
+    "lessonTitle": "The Four Forces",
+    "groupId": "grp_flight_01",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/piper-j-3-cub/nasm_A19771128000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Piper J-3 Cub"
+      }
+    ]
+  },
+  {
+    "id": "dhc-2-beaver",
+    "bay": 3,
+    "bayCode": "BAY 03",
+    "name": "de Havilland Canada DHC-2 Beaver",
+    "description": "De Havilland Canada surveyed bush pilots before designing the rugged, all-metal Beaver, which first flew on August 16, 1947, and could fly from short strips on wheels, floats or skis. Its maker's own pages differ on how many were built: about 1,600 or 1,692.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Bush plane",
+    "power": "One radial engine",
+    "awardedFor": "How Wings Make Lift",
+    "lessonId": "how-wings-lift",
+    "lessonTitle": "How Wings Make Lift",
+    "groupId": "grp_flight_01",
+    "sources": [
+      {
+        "url": "https://dehavilland.com/corporate-initiatives/dhc-2-beaver-featured-in-canada-posts-canadians-in-flight-series/",
+        "publisher": "De Havilland Canada",
+        "title": "DHC-2 Beaver in Canada Post's Canadians in Flight series"
+      },
+      {
+        "url": "https://dehavilland.com/legacy-aircraft/",
+        "publisher": "De Havilland Canada",
+        "title": "Legacy Aircraft"
+      }
+    ]
+  },
+  {
+    "id": "extra-300",
+    "bay": 4,
+    "bayCode": "BAY 04",
+    "name": "Extra 300",
+    "description": "First flown on May 6, 1988, the Extra 300 was the first two-seat Extra, with a carbon-fiber wing spar and skin. Aerobatic planes like it fly upside down at air shows by setting the wing at the right angle of attack.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Aerobatic plane",
+    "power": "One piston engine",
+    "awardedFor": "Airfoils & Angle of Attack",
+    "lessonId": "airfoils-aoa",
+    "lessonTitle": "Airfoils & Angle of Attack",
+    "groupId": "grp_flight_01",
+    "sources": [
+      {
+        "url": "https://extraaircraft.com/milestones/1988/",
+        "publisher": "Extra Aircraft",
+        "title": "Milestones: 1988"
+      }
+    ]
+  },
+  {
+    "id": "pitts-special",
+    "bay": 5,
+    "bayCode": "BAY 05",
+    "name": "Pitts Special",
+    "description": "Curtis Pitts built the first S-1 in 1945, and his small, agile biplanes went on to dominate unlimited aerobatic competition in the 1960s and 1970s. In aerobatics, a spin is a stall on purpose. The oldest surviving Pitts is at the Smithsonian.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Aerobatic biplane",
+    "power": "One piston engine",
+    "awardedFor": "Why Planes Stall",
+    "lessonId": "why-planes-stall",
+    "lessonTitle": "Why Planes Stall",
+    "groupId": "grp_flight_01",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/pitts-special-s-1c/nasm_A19850806000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Pitts S-1C Special"
+      }
+    ]
+  },
+  {
+    "id": "junkers-f13",
+    "bay": 6,
+    "bayCode": "BAY 06",
+    "name": "Junkers F 13",
+    "description": "In June 1919, the Junkers F 13 became the world's first passenger airplane made of metal, with a cabin for four passengers. More than 300 were built, and they were part of Lufthansa's first fleet when the airline was founded in 1926.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Early airliner",
+    "power": "One piston engine",
+    "awardedFor": "Fuselage & Structure",
+    "lessonId": "fuselage-structure",
+    "lessonTitle": "Fuselage & Structure",
+    "groupId": "grp_anatomy_02",
+    "sources": [
+      {
+        "url": "https://www.deutsches-museum.de/en/museum-island/exhibitions/historic-aviation",
+        "publisher": "Deutsches Museum",
+        "title": "Historic Aviation"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19930085313/downloads/19930085313.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "NACA Aircraft Circular No. 6: All-Metal Junkers Airplane, Type F 13"
+      }
+    ]
+  },
+  {
+    "id": "boeing-727",
+    "bay": 7,
+    "bayCode": "BAY 07",
+    "name": "Boeing 727",
+    "description": "Designed for smaller airports with shorter runways, the Boeing 727 was the first Boeing jetliner with triple-slotted flaps. It first flew on February 9, 1963, became the first commercial airplane to pass 1,000 sales, and 1,832 were built.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Airliner",
+    "power": "Three turbofans",
+    "awardedFor": "Wings, Flaps & Slats",
+    "lessonId": "wings-flaps-slats",
+    "lessonTitle": "Wings, Flaps & Slats",
+    "groupId": "grp_anatomy_02",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "lockheed-constellation",
+    "bay": 8,
+    "bayCode": "BAY 08",
+    "name": "Lockheed Constellation",
+    "description": "With its curving fuselage and three tail fins, the Lockheed Constellation is easy to spot. It introduced hydraulically boosted flight controls, and in April 1944 one set a transcontinental speed record, flying nonstop from Burbank to Washington, D.C., at an average 331 mph.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Propeller airliner",
+    "power": "Four radial engines",
+    "awardedFor": "Tail & Control Surfaces",
+    "lessonId": "tail-control-surfaces",
+    "lessonTitle": "Tail & Control Surfaces",
+    "groupId": "grp_anatomy_02",
+    "sources": [
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html",
+        "publisher": "Lockheed Martin",
+        "title": "How the Constellation Became the Star of the Skies"
+      },
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8454094/lockheed-749-constellation-airliner-aircraft-aeroplanes",
+        "publisher": "Science Museum Group",
+        "title": "Lockheed 749 Constellation airliner"
+      }
+    ]
+  },
+  {
+    "id": "dhc-6-twin-otter",
+    "bay": 9,
+    "bayCode": "BAY 09",
+    "name": "de Havilland Canada DHC-6 Twin Otter",
+    "description": "First flown on May 20, 1965, the Twin Otter was designed for the harsh conditions of Canada's far north. It can operate on wheels, skis or floats and is known for short takeoffs and landings, serving operators in over 100 countries.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Utility airplane",
+    "power": "Two turboprops",
+    "awardedFor": "Landing Gear",
+    "lessonId": "landing-gear",
+    "lessonTitle": "Landing Gear",
+    "groupId": "grp_anatomy_02",
+    "sources": [
+      {
+        "url": "https://dehavilland.com/uncategorized/de-havilland-canada-celebrates-60th-anniversary-of-iconic-twin-otter-aircraft/",
+        "publisher": "De Havilland Canada",
+        "title": "60th anniversary of the Twin Otter"
+      }
+    ]
+  },
+  {
+    "id": "beechcraft-bonanza",
+    "bay": 10,
+    "bayCode": "BAY 10",
+    "name": "Beechcraft Bonanza",
+    "description": "The Beechcraft Bonanza first flew in 1947 with a distinctive V-tail, and it's still built today. Its maker calls it the longest continuously produced aircraft in history. More than 18,000 have been delivered, and today's model uses a 300-horsepower piston engine.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Light aircraft",
+    "power": "One piston engine",
+    "awardedFor": "Pistons & Propellers",
+    "lessonId": "pistons-propellers",
+    "lessonTitle": "Pistons & Propellers",
+    "groupId": "grp_engines_03",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/beechcraft-35-bonanza/nasm_A19500080000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Beechcraft 35 Bonanza"
+      },
+      {
+        "url": "https://media.txtav.com/198184-textron-aviation-s-special-edition-75th-anniversary-beechcraft-bonanza-blends-modern-technology-with-retro-styling/",
+        "publisher": "Textron Aviation",
+        "title": "Special-edition 75th anniversary Beechcraft Bonanza"
+      }
+    ]
+  },
+  {
+    "id": "lockheed-f104-starfighter",
+    "bay": 11,
+    "bayCode": "BAY 11",
+    "name": "Lockheed F-104 Starfighter",
+    "description": "Nicknamed “the missile with a man in it,” the F-104 Starfighter was built around a 14,800-pound-thrust J79 turbojet with an afterburner. It was the first US interceptor able to fly at sustained speeds above Mach 2.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Interceptor",
+    "power": "One afterburning turbojet",
+    "awardedFor": "Turbojets",
+    "lessonId": "turbojets",
+    "lessonTitle": "Turbojets",
+    "groupId": "grp_engines_03",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/lockheed-f-104a-starfighter/nasm_A19761017000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Lockheed F-104A Starfighter"
+      }
+    ]
+  },
+  {
+    "id": "boeing-777",
+    "bay": 12,
+    "bayCode": "BAY 12",
+    "name": "Boeing 777",
+    "description": "The Boeing 777 was the first jetliner designed 100 percent digitally, preassembled as a 3D computer model instead of a full-scale mock-up. It first flew on June 12, 1994, with a choice of turbofans from three engine makers.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Widebody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "Turbofans",
+    "lessonId": "turbofans",
+    "lessonTitle": "Turbofans",
+    "groupId": "grp_engines_03",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "lockheed-c130-hercules",
+    "bay": 13,
+    "bayCode": "BAY 13",
+    "name": "Lockheed C-130 Hercules",
+    "description": "The prototype YC-130 first flew on August 23, 1954, lifting off after a ground roll of just 855 feet. Powered by four turboprops and built with high wings for rough airfields, the Hercules has had the longest continuous production run of any military aircraft.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Military transport",
+    "power": "Four turboprops",
+    "awardedFor": "Turboprops & Turboshafts",
+    "lessonId": "turboprops-turboshafts",
+    "lessonTitle": "Turboprops & Turboshafts",
+    "groupId": "grp_engines_03",
+    "sources": [
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/hercules.html",
+        "publisher": "Lockheed Martin",
+        "title": "Story of Innovation: C-130 Hercules"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/en-us/products/c130/history.html",
+        "publisher": "Lockheed Martin",
+        "title": "C-130 History"
+      }
+    ]
+  },
+  {
+    "id": "consolidated-ny-2-husky",
+    "bay": 14,
+    "bayCode": "BAY 14",
+    "name": "Consolidated NY-2 Husky",
+    "description": "On September 24, 1929, Jimmy Doolittle flew a Consolidated NY-2 Husky from takeoff to landing by instruments alone, the first flight of its kind, with a hood hiding the view outside. Its new artificial horizon, directional gyro and sensitive altimeter soon became standard.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Biplane trainer",
+    "power": "One radial engine",
+    "awardedFor": "The Classic Six Instruments",
+    "lessonId": "classic-six",
+    "lessonTitle": "The Classic Six Instruments",
+    "groupId": "grp_cockpit_04",
+    "sources": [
+      {
+        "url": "https://www.faa.gov/sites/faa.gov/files/about/history/pioneers/First_Instrument_Flight_Doolittle.pdf",
+        "publisher": "Federal Aviation Administration",
+        "title": "Flying Blind: Doolittle's first instrument flight"
+      }
+    ]
+  },
+  {
+    "id": "boeing-767",
+    "bay": 15,
+    "bayCode": "BAY 15",
+    "name": "Boeing 767",
+    "description": "The widebody Boeing 767 first flew on September 26, 1981, with a two-pilot computerized flight deck shared with the 757. In 1985 it led the way for extended-range twin-engine flying, becoming the first commercial twinjet on regular routes across the Atlantic.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Widebody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "Glass Cockpits",
+    "lessonId": "glass-cockpits",
+    "lessonTitle": "Glass Cockpits",
+    "groupId": "grp_cockpit_04",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "airbus-a320",
+    "bay": 16,
+    "bayCode": "BAY 16",
+    "name": "Airbus A320",
+    "description": "First flown on February 22, 1987, the Airbus A320 was the first civil aircraft with full digital fly-by-wire, flown with sidesticks instead of yokes. Its family has drawn more than 20,100 orders, and Airbus calls it the most successful in commercial aviation history.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Narrowbody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "Autopilot & Fly-by-Wire",
+    "lessonId": "autopilot-fbw",
+    "lessonTitle": "Autopilot & Fly-by-Wire",
+    "groupId": "grp_cockpit_04",
+    "sources": [
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family",
+        "publisher": "Airbus",
+        "title": "A320 Family"
+      }
+    ]
+  },
+  {
+    "id": "boeing-vc-25a",
+    "bay": 17,
+    "bayCode": "BAY 17",
+    "name": "Boeing VC-25A",
+    "description": "Two modified 747-200Bs, the VC-25As, replaced the presidential 707s in 1990, and either becomes Air Force One when the president is aboard. Each has 4,000 square feet of floor space, with an office, living quarters and galleys that can serve 100 people at a sitting.",
+    "tier": "common",
+    "tierLabel": "Standard",
+    "tierColor": "#5E677B",
+    "role": "Presidential transport",
+    "power": "Four turbofans",
+    "awardedFor": "Callsigns & the Phonetic Alphabet",
+    "lessonId": "callsigns-phonetic",
+    "lessonTitle": "Callsigns & the Phonetic Alphabet",
+    "groupId": "grp_cockpit_04",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "airbus-belugaxl",
+    "bay": 18,
+    "bayCode": "BAY 18",
+    "name": "Airbus BelugaXL",
+    "description": "Based on the A330, the Airbus BelugaXL carries wings, fuselage sections and other large parts between Airbus sites. It can fly two 30-meter wings at once. Six are in service, each painted with a smiling face chosen by Airbus employees.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Outsize cargo plane",
+    "power": "Two turbofans",
+    "awardedFor": "How Airports Work",
+    "lessonId": "how-airports-work",
+    "lessonTitle": "How Airports Work",
+    "groupId": "grp_airports_05",
+    "sources": [
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/freighter/beluga",
+        "publisher": "Airbus",
+        "title": "Beluga"
+      }
+    ]
+  },
+  {
+    "id": "bae-146",
+    "bay": 19,
+    "bayCode": "BAY 19",
+    "name": "BAe 146",
+    "description": "Its maker highlights the four-engined BAe 146's exceptional slow-speed handling and steep approach capability. In 1986, two BAe 146s joined The Queen's Flight to carry Britain's royal family, and the type has since been converted into aerial firefighters too.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Regional jet",
+    "power": "Four turbofans",
+    "awardedFor": "Runway Numbers & Markings",
+    "lessonId": "runway-markings",
+    "lessonTitle": "Runway Numbers & Markings",
+    "groupId": "grp_airports_05",
+    "sources": [
+      {
+        "url": "https://www.baesystems.com/en/article/bae-systems-provides-design-engineering-expertise-to-bae146avro-rj-airtanker-aerial-firefighter-conversion-programmes-in-north-america",
+        "publisher": "BAE Systems",
+        "title": "BAe146/Avro RJ airtanker conversion programmes"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/kings-queens-flying-machines/bae146s/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Kings, Queens & Flying Machines: BAe146s"
+      }
+    ]
+  },
+  {
+    "id": "boeing-757",
+    "bay": 20,
+    "bayCode": "BAY 20",
+    "name": "Boeing 757",
+    "description": "The Boeing 757 first flew on February 19, 1982, and 1,050 were built over a 23-year run. FAA wake turbulence rules name it specifically: controllers typically keep small aircraft 4 miles behind a 757.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Narrowbody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "Airspace & ATC",
+    "lessonId": "airspace-atc",
+    "lessonTitle": "Airspace & ATC",
+    "groupId": "grp_airports_05",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_4.html",
+        "publisher": "Federal Aviation Administration",
+        "title": "Aeronautical Information Manual: Wake Turbulence"
+      }
+    ]
+  },
+  {
+    "id": "airbus-a321xlr",
+    "bay": 21,
+    "bayCode": "BAY 21",
+    "name": "Airbus A321XLR",
+    "description": "The Airbus A321XLR is the longest-range Airbus single-aisle airliner, able to fly up to 4,700 nautical miles and stay aloft for up to 11 hours. Airbus pitches it for routes such as New York to Rome and London to Vancouver.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Long-range narrowbody",
+    "power": "Two turbofans",
+    "awardedFor": "Airport Codes Explained",
+    "lessonId": "airport-codes",
+    "lessonTitle": "Airport Codes Explained",
+    "groupId": "grp_airports_05",
+    "sources": [
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family/a321xlr",
+        "publisher": "Airbus",
+        "title": "A321XLR"
+      }
+    ]
+  },
+  {
+    "id": "douglas-world-cruiser",
+    "bay": 22,
+    "bayCode": "BAY 22",
+    "name": "Douglas World Cruiser",
+    "description": "In 1924, four Douglas World Cruisers left Seattle to fly around the world with no radio and few navigation aids beyond an earth inductor compass. After 175 days and about 27,550 miles, two of the original four completed the first flight around the globe.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Long-range biplane",
+    "power": "One piston engine",
+    "awardedFor": "From Compass to GPS",
+    "lessonId": "compass-to-gps",
+    "lessonTitle": "From Compass to GPS",
+    "groupId": "grp_navwx_06",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/story-first-flight-around-world",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Story of the First Flight Around the World"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "boeing-787-dreamliner",
+    "bay": 23,
+    "bayCode": "BAY 23",
+    "name": "Boeing 787 Dreamliner",
+    "description": "First flown on December 15, 2009, the Boeing 787 Dreamliner uses carbon-fiber composites for up to half of its main structure. That lets its cabin sit at 6,000 feet, 2,000 feet lower than conventional jets, behind the largest windows on any widebody flying today.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Widebody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "Why Jets Fly High",
+    "lessonId": "why-jets-fly-high",
+    "lessonTitle": "Why Jets Fly High",
+    "groupId": "grp_navwx_06",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      },
+      {
+        "url": "https://www.boeing.com/commercial/787/by-design",
+        "publisher": "Boeing",
+        "title": "787 Dreamliner By Design"
+      }
+    ]
+  },
+  {
+    "id": "lockheed-wp-3d-orion",
+    "bay": 24,
+    "bayCode": "BAY 24",
+    "name": "Lockheed WP-3D Orion",
+    "description": "NOAA's two WP-3D Orions, nicknamed Kermit and Miss Piggy, fly into hurricanes on purpose. On missions of 8 to 10 hours they cross the eyewall into the calm eye, dropping instrument probes that radio back pressure, humidity, temperature and wind.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Hurricane hunter",
+    "power": "Four turboprops",
+    "awardedFor": "Turbulence, Jet Streams & Contrails",
+    "lessonId": "turbulence-jetstreams-contrails",
+    "lessonTitle": "Turbulence, Jet Streams & Contrails",
+    "groupId": "grp_navwx_06",
+    "sources": [
+      {
+        "url": "https://www.omao.noaa.gov/aircraft-operations/aircraft/lockheed-wp-3d-orion",
+        "publisher": "NOAA Office of Marine and Aviation Operations",
+        "title": "Lockheed WP-3D Orion"
+      },
+      {
+        "url": "https://www.omao.noaa.gov/aircraft-operations/noaa-hurricane-hunters",
+        "publisher": "NOAA Office of Marine and Aviation Operations",
+        "title": "NOAA Hurricane Hunters"
+      }
+    ]
+  },
+  {
+    "id": "montgolfier-balloon",
+    "bay": 25,
+    "bayCode": "BAY 25",
+    "name": "Montgolfier Balloon",
+    "description": "On November 21, 1783, a Montgolfier hot air balloon carried Pilâtre de Rozier and the marquis d'Arlandes on the first free flight by people. The brothers who built it came from a French family that had made paper for generations.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Hot air balloon",
+    "power": "Hot air from a fire",
+    "awardedFor": "Balloons & Gliders",
+    "lessonId": "balloons-gliders",
+    "lessonTitle": "Balloons & Gliders",
+    "groupId": "grp_pioneers_07",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/montgolfier-balloon/nasm_A19750721000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Montgolfier Balloon"
+      }
+    ]
+  },
+  {
+    "id": "wright-flyer-1903",
+    "bay": 26,
+    "bayCode": "BAY 26",
+    "name": "1903 Wright Flyer",
+    "description": "At Kitty Hawk on December 17, 1903, the Wright Flyer made the world's first successful flights of a powered, heavier-than-air flying machine. Its 12-horsepower engine drove two propellers that the brothers designed as rotating wings.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Experimental airplane",
+    "power": "One piston engine",
+    "awardedFor": "The Wright Brothers",
+    "lessonId": "wright-brothers",
+    "lessonTitle": "The Wright Brothers",
+    "groupId": "grp_pioneers_07",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "1903 Wright Flyer"
+      }
+    ]
+  },
+  {
+    "id": "bleriot-xi",
+    "bay": 27,
+    "bayCode": "BAY 27",
+    "name": "Blériot XI",
+    "description": "A Blériot Type XI monoplane carried Louis Blériot from near Calais to Dover on July 25, 1909, the first airplane flight across the English Channel. Three years later, Harriet Quimby flew a Blériot monoplane the other way.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Early monoplane",
+    "power": "One three-cylinder engine",
+    "awardedFor": "Blériot & Early Aviators",
+    "lessonId": "bleriot-early-aviators",
+    "lessonTitle": "Blériot & Early Aviators",
+    "groupId": "grp_pioneers_07",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/bleriot-xi/nasm_A19500095000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Blériot XI"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/bleriots-cross-channel-flight",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Blériot's Cross-Channel Flight"
+      }
+    ]
+  },
+  {
+    "id": "spirit-of-st-louis",
+    "bay": 28,
+    "bayCode": "BAY 28",
+    "name": "Ryan NYP Spirit of St. Louis",
+    "description": "Built by Ryan for Charles Lindbergh, the Spirit of St. Louis carried its fuel tanks ahead of the cockpit, so he looked forward through a periscope. On May 20–21, 1927, it made the first solo, nonstop flight across the Atlantic.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Long-distance monoplane",
+    "power": "One radial engine",
+    "awardedFor": "Lindbergh, Earhart & the Record Breakers",
+    "lessonId": "record-breakers",
+    "lessonTitle": "Lindbergh, Earhart & the Record Breakers",
+    "groupId": "grp_pioneers_07",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/ryan-nyp-spirit-st-louis/nasm_A19280021000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Ryan NYP Spirit of St. Louis"
+      }
+    ]
+  },
+  {
+    "id": "sopwith-camel",
+    "bay": 29,
+    "bayCode": "BAY 29",
+    "name": "Sopwith F.1 Camel",
+    "description": "Named for the hump over its two guns, the Sopwith Camel entered service in July 1917. Its powerful rotary engine made it tricky to fly but very agile, and Camels downed 1,294 enemy aircraft, more than any other Allied fighter.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Fighter biplane",
+    "power": "One rotary engine",
+    "awardedFor": "WWI Aircraft & Aces",
+    "lessonId": "wwi-aircraft-aces",
+    "lessonTitle": "WWI Aircraft & Aces",
+    "groupId": "grp_earlyair_08",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/sopwith-f1-camel/nasm_A20170105000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Sopwith F.1 Camel"
+      }
+    ]
+  },
+  {
+    "id": "douglas-dc-3",
+    "bay": 30,
+    "bayCode": "BAY 30",
+    "name": "Douglas DC-3",
+    "description": "First delivered to American Airlines in June 1936, the DC-3 carried 21 passengers by day, while its sleeper version bedded 14 overnight. Airlines bought 455, the military another 10,174 as C-47s, and hundreds were still flying decades later.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Propeller airliner",
+    "power": "Two radial engines",
+    "awardedFor": "The Golden Age of Flight",
+    "lessonId": "golden-age",
+    "lessonTitle": "The Golden Age of Flight",
+    "groupId": "grp_earlyair_08",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "boeing-314-clipper",
+    "bay": 31,
+    "bayCode": "BAY 31",
+    "name": "Boeing 314 Clipper",
+    "description": "Boeing built just 12 Model 314 Clippers between 1938 and 1941. These flying boats used the wings of the giant XB-15 bomber, and in 1943 President Franklin D. Roosevelt flew in one to meet Winston Churchill at Casablanca.",
+    "tier": "rare",
+    "tierLabel": "Rare",
+    "tierColor": "#2459C4",
+    "role": "Flying boat airliner",
+    "power": "Four radial engines",
+    "awardedFor": "Flying Boats & Airships",
+    "lessonId": "flying-boats-airships",
+    "lessonTitle": "Flying Boats & Airships",
+    "groupId": "grp_earlyair_08",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "supermarine-spitfire",
+    "bay": 32,
+    "bayCode": "BAY 32",
+    "name": "Supermarine Spitfire",
+    "description": "The prototype Spitfire, K5054, first flew on March 5, 1936, with test pilot Joseph “Mutt” Summers at the controls. Designed by Reginald Mitchell around a thin elliptical wing and a Rolls-Royce Merlin engine, more than 20,000 were eventually built.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Fighter",
+    "power": "One piston engine",
+    "awardedFor": "Spitfire & Hurricane",
+    "lessonId": "spitfire-hurricane",
+    "lessonTitle": "Spitfire & Hurricane",
+    "groupId": "grp_ww2_09",
+    "sources": [
+      {
+        "url": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/",
+        "publisher": "Royal Air Force Museum",
+        "title": "The first flight of the Spitfire"
+      }
+    ]
+  },
+  {
+    "id": "north-american-p-51-mustang",
+    "bay": 33,
+    "bayCode": "BAY 33",
+    "name": "North American P-51 Mustang",
+    "description": "The P-51 Mustang was the first single-engine fighter based in Britain to reach Berlin. More than 14,000 were built, and 8,302 of them were D models, with a bubble canopy and six machine guns.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Escort fighter",
+    "power": "One piston engine",
+    "awardedFor": "Mustang & the Escort Fighters",
+    "lessonId": "mustang-escorts",
+    "lessonTitle": "Mustang & the Escort Fighters",
+    "groupId": "grp_ww2_09",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "North American P-51D Mustang"
+      },
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "boeing-b-17-flying-fortress",
+    "bay": 34,
+    "bayCode": "BAY 34",
+    "name": "Boeing B-17 Flying Fortress",
+    "description": "The B-17 was the first Boeing military airplane with an enclosed flight deck instead of an open cockpit. Counting the 5,745 built by Douglas and Lockheed's Vega, 12,726 Flying Fortresses were made, yet only a few survive today.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Heavy bomber",
+    "power": "Four radial engines",
+    "awardedFor": "Heavy Bombers",
+    "lessonId": "heavy-bombers",
+    "lessonTitle": "Heavy Bombers",
+    "groupId": "grp_ww2_09",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "vought-f4u-corsair",
+    "bay": 35,
+    "bayCode": "BAY 35",
+    "name": "Vought F4U Corsair",
+    "description": "The Vought F4U Corsair first flew on May 29, 1940. Its bent gull wings gave its big propeller extra ground clearance, and it stayed in production longer than any other US fighter that served in World War II, reaching 12,582 built.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Carrier fighter",
+    "power": "One radial engine",
+    "awardedFor": "Carrier Aviation",
+    "lessonId": "carrier-aviation",
+    "lessonTitle": "Carrier Aviation",
+    "groupId": "grp_ww2_09",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/vought-f4u-1d-corsair/nasm_A19610124000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Vought F4U-1D Corsair"
+      }
+    ]
+  },
+  {
+    "id": "messerschmitt-me-262",
+    "bay": 36,
+    "bayCode": "BAY 36",
+    "name": "Messerschmitt Me 262",
+    "description": "The Messerschmitt Me 262 was the world’s first operational jet fighter, with two turbojets and sleek swept wings. Its factories built 1,443, but only about 300 saw combat before the war ended.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Jet fighter",
+    "power": "Two turbojets",
+    "awardedFor": "The First Jets",
+    "lessonId": "first-jets",
+    "lessonTitle": "The First Jets",
+    "groupId": "grp_jetage_10",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/messerschmitt-me-262-a-1a-schwalbe-swallow/nasm_A19600328000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Messerschmitt Me 262 A-1a Schwalbe (Swallow)"
+      }
+    ]
+  },
+  {
+    "id": "bell-x-1",
+    "bay": 37,
+    "bayCode": "BAY 37",
+    "name": "Bell X-1",
+    "description": "Shaped like a .50-caliber bullet and dropped from a B-29, the rocket-powered Bell X-1 became the first airplane to fly faster than sound on October 14, 1947. Chuck Yeager named it Glamorous Glennis after his wife.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Rocket research plane",
+    "power": "One rocket engine",
+    "awardedFor": "Breaking the Sound Barrier",
+    "lessonId": "sound-barrier",
+    "lessonTitle": "Breaking the Sound Barrier",
+    "groupId": "grp_jetage_10",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/bell-x-1/nasm_A19510007000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Bell X-1 Glamorous Glennis"
+      }
+    ]
+  },
+  {
+    "id": "de-havilland-comet",
+    "bay": 38,
+    "bayCode": "BAY 38",
+    "name": "de Havilland Comet",
+    "description": "The de Havilland Comet first flew on July 27, 1949, and entered service on May 2, 1952, as the world’s first jet airliner. It was also the first airliner with a highly pressurized cabin and fully hydraulic flight controls.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Jet airliner",
+    "power": "Four turbojets",
+    "awardedFor": "The Comet & Metal Fatigue",
+    "lessonId": "comet-metal-fatigue",
+    "lessonTitle": "The Comet & Metal Fatigue",
+    "groupId": "grp_jetage_10",
+    "sources": [
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet: The World's First Jet Airliner"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-enters-service/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Enters Service"
+      },
+      {
+        "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-firsts/",
+        "publisher": "Royal Air Force Museum",
+        "title": "Comet Firsts"
+      }
+    ]
+  },
+  {
+    "id": "boeing-707",
+    "bay": 39,
+    "bayCode": "BAY 39",
+    "name": "Boeing 707",
+    "description": "The Boeing 707's 100-foot cabin was the largest passenger cabin in the air, and its extra wing sweep let it fly about 20 mph faster than the rival Douglas DC-8. Its left-side front and rear doors became standard on later Boeing jets.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Jet airliner",
+    "power": "Four turbojets",
+    "awardedFor": "The 707 & the Jet Set",
+    "lessonId": "the-707-jet-set",
+    "lessonTitle": "The 707 & the Jet Set",
+    "groupId": "grp_jetage_10",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "boeing-747",
+    "bay": 40,
+    "bayCode": "BAY 40",
+    "name": "Boeing 747",
+    "description": "The Boeing 747 jumbo first flew on February 9, 1969. NASA later turned two 747-100s into carriers for the Space Shuttle, and two 747-200Bs became the presidential VC-25As.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Widebody airliner",
+    "power": "Four turbofans",
+    "awardedFor": "The 747, Queen of the Skies",
+    "lessonId": "the-747",
+    "lessonTitle": "The 747, Queen of the Skies",
+    "groupId": "grp_airliners_11",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "airbus-a300",
+    "bay": 41,
+    "bayCode": "BAY 41",
+    "name": "Airbus A300",
+    "description": "Airbus’s first airliner, the A300, flew on October 28, 1972, as the world’s first twin-engine widebody. Airbus Industrie had been formed in 1970 to build it, and 821 A300-family aircraft were eventually produced.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Widebody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "Airbus vs Boeing",
+    "lessonId": "airbus-vs-boeing",
+    "lessonTitle": "Airbus vs Boeing",
+    "groupId": "grp_airliners_11",
+    "sources": [
+      {
+        "url": "https://www.airbus.com/en/newsroom/stories/2022-10-28-october-50th-anniversary-of-the-first-flight-of-the-airbus-a300",
+        "publisher": "Airbus",
+        "title": "50th anniversary of the A300's first flight"
+      }
+    ]
+  },
+  {
+    "id": "boeing-737",
+    "bay": 42,
+    "bayCode": "BAY 42",
+    "name": "Boeing 737",
+    "description": "The first 737 was the last new airplane built at Boeing's Plant 2, whose building was too low for its tail, so a crane attached the tail in the parking lot. Lufthansa took the first production 737 on December 27, 1967.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Narrowbody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "The 737 & A320 Families",
+    "lessonId": "narrowbody-families",
+    "lessonTitle": "The 737 & A320 Families",
+    "groupId": "grp_airliners_11",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "airbus-a380",
+    "bay": 43,
+    "bayCode": "BAY 43",
+    "name": "Airbus A380",
+    "description": "The largest passenger plane ever built, the A380 has a full-length double deck and wings spanning 79.8 meters. Its fleet of 251 aircraft has carried more than 300 million passengers since entering service in 2007.",
+    "tier": "epic",
+    "tierLabel": "Iconic",
+    "tierColor": "#B0156E",
+    "role": "Double-deck airliner",
+    "power": "Four turbofans",
+    "awardedFor": "The A380 Superjumbo",
+    "lessonId": "the-a380",
+    "lessonTitle": "The A380 Superjumbo",
+    "groupId": "grp_airliners_11",
+    "sources": [
+      {
+        "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380",
+        "publisher": "Airbus",
+        "title": "A380"
+      }
+    ]
+  },
+  {
+    "id": "concorde",
+    "bay": 44,
+    "bayCode": "BAY 44",
+    "name": "Concorde",
+    "description": "Concorde first flew on March 2, 1969, and began passenger service in January 1976, carrying up to 100 people at twice the speed of sound. Twenty were built in all, and every one was retired by 2003.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Supersonic airliner",
+    "power": "Four turbojets",
+    "awardedFor": "Concorde",
+    "lessonId": "concorde",
+    "lessonTitle": "Concorde",
+    "groupId": "grp_legends_12",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/concorde-fox-alpha-air-france/nasm_A20030139000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Concorde, Fox Alpha, Air France"
+      },
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co29806/concorde-prototype-aircraft",
+        "publisher": "Science Museum Group",
+        "title": "Concorde prototype aircraft"
+      }
+    ]
+  },
+  {
+    "id": "lockheed-sr-71-blackbird",
+    "bay": 45,
+    "bayCode": "BAY 45",
+    "name": "Lockheed SR-71 Blackbird",
+    "description": "Built largely of titanium by Lockheed's Skunk Works, the SR-71 Blackbird cruised above Mach 3 at about 85,000 feet with a crew of two. Its engines stayed in afterburner for the whole cruise.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Spy plane",
+    "power": "Two turbojets",
+    "awardedFor": "SR-71 Blackbird",
+    "lessonId": "sr-71-blackbird",
+    "lessonTitle": "SR-71 Blackbird",
+    "groupId": "grp_legends_12",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/collection-objects/lockheed-sr-71-blackbird/nasm_A19920072000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "Lockheed SR-71 Blackbird"
+      }
+    ]
+  },
+  {
+    "id": "north-american-x-15",
+    "bay": 46,
+    "bayCode": "BAY 46",
+    "name": "North American X-15",
+    "description": "The rocket-powered X-15 still holds the world speed record for a winged, powered aircraft: 4,520 mph, Mach 6.7, set in 1967. Eight of its pilots flew above 50 miles and were recognized as astronauts.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Rocket research plane",
+    "power": "One rocket engine",
+    "awardedFor": "The X-Planes",
+    "lessonId": "x-planes",
+    "lessonTitle": "The X-Planes",
+    "groupId": "grp_legends_12",
+    "sources": [
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/x-15-still-holds-world-speed-record-50-years-later",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The X-15 Still Holds The World Speed Record 50+ Years Later"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/x-15-space-pioneers-now-honored-as-astronauts/",
+        "publisher": "NASA",
+        "title": "X-15 Space Pioneers Now Honored as Astronauts"
+      }
+    ]
+  },
+  {
+    "id": "lockheed-martin-f-22-raptor",
+    "bay": 47,
+    "bayCode": "BAY 47",
+    "name": "Lockheed Martin F-22 Raptor",
+    "description": "The F-22 Raptor became operational in 2005. It can supercruise, flying faster than Mach 1.5 without afterburners, and Lockheed Martin says its 195 jets were the world's only operational fifth-generation fighter fleet when the last was delivered in 2012.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Stealth fighter",
+    "power": "Two turbofans",
+    "awardedFor": "Fighter Generations",
+    "lessonId": "fighter-generations",
+    "lessonTitle": "Fighter Generations",
+    "groupId": "grp_military_13",
+    "sources": [
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-22.html",
+        "publisher": "Lockheed Martin",
+        "title": "F-22 Raptor History"
+      }
+    ]
+  },
+  {
+    "id": "lockheed-f-117-nighthawk",
+    "bay": 48,
+    "bayCode": "BAY 48",
+    "name": "Lockheed F-117 Nighthawk",
+    "description": "First flown on June 18, 1981, the angular F-117 Nighthawk was the world's first operational stealth aircraft. It entered service in 1983, but the US Air Force kept it secret until 1988. Lockheed built 59.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Stealth attack jet",
+    "power": "Two turbofans",
+    "awardedFor": "Stealth Aircraft",
+    "lessonId": "stealth-aircraft",
+    "lessonTitle": "Stealth Aircraft",
+    "groupId": "grp_military_13",
+    "sources": [
+      {
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-117.html",
+        "publisher": "Lockheed Martin",
+        "title": "F-117 Nighthawk"
+      },
+      {
+        "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/F-117/F117%20Fast%20Facts_FINAL.pdf",
+        "publisher": "Lockheed Martin",
+        "title": "F-117 Nighthawk Fast Facts"
+      },
+      {
+        "url": "https://airandspace.si.edu/newsroom/press-releases/f-117-nighthawk-joins-national-air-and-space-museum-collection",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "F-117 Nighthawk Joins the National Air and Space Museum Collection"
+      }
+    ]
+  },
+  {
+    "id": "boeing-ch-47-chinook",
+    "bay": 49,
+    "bayCode": "BAY 49",
+    "name": "Boeing CH-47 Chinook",
+    "description": "The tandem-rotor Boeing CH-47 Chinook entered US Army service in 1962. Its two rotors turn in opposite directions, so it needs no tail rotor. Boeing has said upgraded Chinooks will stay in the Army's fleet through at least the 2030s.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Heavy-lift helicopter",
+    "power": "Two turboshafts",
+    "awardedFor": "How Helicopters Fly",
+    "lessonId": "how-helicopters-fly",
+    "lessonTitle": "How Helicopters Fly",
+    "groupId": "grp_military_13",
+    "sources": [
+      {
+        "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf",
+        "publisher": "Boeing",
+        "title": "Select Products in Boeing History"
+      }
+    ]
+  },
+  {
+    "id": "antonov-an-225-mriya",
+    "bay": 50,
+    "bayCode": "BAY 50",
+    "name": "Antonov An-225 Mriya",
+    "description": "With a maximum takeoff weight of 640 tonnes, the six-engine An-225 Mriya was the world's heaviest aircraft. Built to carry the Buran space shuttle on its back, it first flew in 1988. The only one completed was destroyed in 2022, in the war in Ukraine.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Heavy transport",
+    "power": "Six turbofans",
+    "awardedFor": "Tankers, AWACS & Transports",
+    "lessonId": "tankers-awacs-transports",
+    "lessonTitle": "Tankers, AWACS & Transports",
+    "groupId": "grp_military_13",
+    "sources": [
+      {
+        "url": "https://www.antonov.com/en/history/an-225-mriya",
+        "publisher": "Antonov",
+        "title": "AN-225 Mriya"
+      },
+      {
+        "url": "https://www.antonov.com/en/file/V5hQc2hGrJGRs?inline=1",
+        "publisher": "Antonov",
+        "title": "Antonov Airlines brochure"
+      },
+      {
+        "url": "https://airandspace.si.edu/stories/editorial/strength-and-resolve-ukraine",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "title": "The Strength and Resolve of Ukraine"
+      }
+    ]
+  },
+  {
+    "id": "nasa-boeing-720-cid",
+    "bay": 51,
+    "bayCode": "BAY 51",
+    "name": "NASA's Boeing 720 Crash-Test Jet",
+    "description": "In 1984, NASA and the FAA flew this four-engine Boeing 720 by remote control into a planned crash, to learn how to make accidents more survivable. Crash-test dummies rode in its seats, and 97% of its sensors were working at impact.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Crash-test jet",
+    "power": "Four jet engines",
+    "awardedFor": "Black Boxes",
+    "lessonId": "black-boxes",
+    "lessonTitle": "Black Boxes",
+    "groupId": "grp_safety_14",
+    "sources": [
+      {
+        "url": "https://ntrs.nasa.gov/citations/19860012462",
+        "publisher": "NASA Technical Reports Server",
+        "title": "Full-Scale Transport Controlled Impact Demonstration"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19890006539/downloads/19890006539.pdf",
+        "publisher": "NASA Technical Reports Server",
+        "title": "Flight Test Experience and Controlled Impact of a Remotely Piloted Jet Transport Aircraft"
+      }
+    ]
+  },
+  {
+    "id": "airbus-a350",
+    "bay": 52,
+    "bayCode": "BAY 52",
+    "name": "Airbus A350",
+    "description": "Every modern airliner, including the Airbus A350, is built under rules shaped by past accidents, from fire-resistant cabins to tougher fatigue standards. The A350's airframe is 53% composites and 14% titanium, which Airbus says cuts weight and maintenance.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Widebody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "Accidents That Changed Aviation",
+    "lessonId": "accidents-changed-aviation",
+    "lessonTitle": "Accidents That Changed Aviation",
+    "groupId": "grp_safety_14",
+    "sources": [
+      {
+        "url": "https://aircraft.airbus.com/en/aircraft/a350/a350-1000",
+        "publisher": "Airbus",
+        "title": "A350-1000"
+      }
+    ]
+  },
+  {
+    "id": "airbus-a330",
+    "bay": 53,
+    "bayCode": "BAY 53",
+    "name": "Airbus A330",
+    "description": "The twin-engine Airbus A330 regularly flies long routes over oceans. In 2009, Europe's aviation safety agency cleared it for ETOPS (extended operations) beyond 180 minutes, letting its routes stray up to 1,700 nautical miles, a little over four hours, from a suitable airport.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Widebody airliner",
+    "power": "Two turbofans",
+    "awardedFor": "Why Flying Is So Safe",
+    "lessonId": "why-flying-is-safe",
+    "lessonTitle": "Why Flying Is So Safe",
+    "groupId": "grp_safety_14",
+    "sources": [
+      {
+        "url": "https://www.aircraft.airbus.com/sites/g/files/jlcbta126/files/2022-04/Airbus-FAST-special-edition-Oct2015.pdf",
+        "publisher": "Airbus",
+        "title": "FAST magazine, special edition, October 2015"
+      }
+    ]
+  },
+  {
+    "id": "gulfstream-g650",
+    "bay": 54,
+    "bayCode": "BAY 54",
+    "name": "Gulfstream G650",
+    "description": "The Gulfstream G650 can fly at up to Mach 0.925, close to the speed of sound. One set a record for large-cabin jets that aren't supersonic, flying westbound around the world in 41 hours and 7 minutes.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Business jet",
+    "power": "Two turbofans",
+    "awardedFor": "Business Jets & General Aviation",
+    "lessonId": "bizjets-general-aviation",
+    "lessonTitle": "Business Jets & General Aviation",
+    "groupId": "grp_future_15",
+    "sources": [
+      {
+        "url": "https://www.gd.com/Articles/2018/04/10/gulfstream-delivers-300th-g650",
+        "publisher": "General Dynamics",
+        "title": "Gulfstream delivers 300th G650"
+      }
+    ]
+  },
+  {
+    "id": "joby-s4",
+    "bay": 55,
+    "bayCode": "BAY 55",
+    "name": "Joby S4",
+    "description": "The Joby S4, listed by the FAA as the Model JAS4-1, carries a pilot and four passengers on six tilting electric propellers at up to 200 mph. Joby says it makes 45 decibels in cruise, heard from 500 meters (1,640 feet) away.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Electric air taxi",
+    "power": "Six electric propellers",
+    "awardedFor": "Drones & eVTOLs",
+    "lessonId": "drones-evtols",
+    "lessonTitle": "Drones & eVTOLs",
+    "groupId": "grp_future_15",
+    "sources": [
+      {
+        "url": "https://www.jobyaviation.com/technology",
+        "publisher": "Joby Aviation",
+        "title": "Technology"
+      },
+      {
+        "url": "https://public-inspection.federalregister.gov/2024-04690.pdf",
+        "publisher": "Federal Register",
+        "title": "Airworthiness Criteria: Joby Aero Model JAS4-1 Powered-Lift"
+      }
+    ]
+  },
+  {
+    "id": "boom-xb-1",
+    "bay": 56,
+    "bayCode": "BAY 56",
+    "name": "Boom XB-1",
+    "description": "On January 28, 2025, Boom's XB-1 flew at Mach 1.122 near Mojave, California, which Boom says made it the first independently developed jet to break the sound barrier. Instead of Concorde's drooping nose, it showed its pilot the runway through augmented reality.",
+    "tier": "legendary",
+    "tierLabel": "Legendary",
+    "tierColor": "#8A5E00",
+    "role": "Supersonic demonstrator",
+    "power": "Jet engines",
+    "awardedFor": "Electric, Hydrogen & the Supersonic Comeback",
+    "lessonId": "electric-hydrogen-supersonic",
+    "lessonTitle": "Electric, Hydrogen & the Supersonic Comeback",
+    "groupId": "grp_future_15",
+    "sources": [
+      {
+        "url": "https://boomsupersonic.com/news/boom-achieves-supersonic-flight",
+        "publisher": "Boom Supersonic",
+        "title": "Boom Achieves Supersonic Flight"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+---
+/**
+ * The official Apple "Download on the App Store" badge, self-hosted and unmodified.
+ * The Google Play badge is hidden while GOOGLE_PLAY_URL is null.
+ */
+import { storeLink, GOOGLE_PLAY_URL, type Campaign } from '@/config';
+interface Props {
+  ct: Campaign;
+  class?: string;
+  /** Height in px; width follows the badge's 3:1 ratio. */
+  height?: number;
+  priority?: boolean;
+}
+const { ct, class: cls = '', height = 44, priority = false } = Astro.props;
+const width = Math.round(height * 2.99);
+---
+<span class:list={['inline-flex items-center gap-3 flex-wrap', cls]}>
+  <a href={storeLink(ct)} rel="noopener" class="inline-block rounded-[7px] focus-visible:outline-offset-4" aria-label="Download Planeology on the App Store">
+    <img
+      src="/badges/download-on-the-app-store.svg"
+      alt="Download on the App Store"
+      width={width}
+      height={height}
+      loading={priority ? 'eager' : 'lazy'}
+      decoding="async"
+      style={`height:${height}px;width:auto`}
+    />
+  </a>
+  {GOOGLE_PLAY_URL && <a href={GOOGLE_PLAY_URL} rel="noopener">Google Play</a>}
+</span>

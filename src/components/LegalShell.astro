@@ -1,0 +1,58 @@
+---
+/**
+ * LegalShell — masthead, "Last updated", contents and the section rhythm shared by
+ * /privacy and /terms. No banners: App Review reads these pages.
+ */
+import { formatDate } from '@/lib/text';
+interface Props {
+  title: string;
+  updated: string;
+  contents: { id: string; label: string }[];
+}
+const { title, updated, contents } = Astro.props;
+---
+<div class="wrap wrap-narrow py-10 legal">
+  <header class="grid gap-3 mb-8">
+    <p class="flex items-center gap-3 label">
+      <span class="route-mark" aria-hidden="true"></span>Planeology
+    </p>
+    <h1 class="text-[2.6rem] sm:text-[3.4rem] leading-[1] m-0">{title}</h1>
+    <p class="label m-0">Last updated <time datetime={updated}>{formatDate(updated)}</time></p>
+  </header>
+  <slot name="intro" />
+  <nav class="toc card p-5 my-8" aria-labelledby="contents">
+    <h2 id="contents" class="label mb-3 !font-mono">Contents</h2>
+    <ol class="m-0 p-0 list-none columns-1 sm:columns-2 gap-8">
+      {contents.map((c, i) => (
+        <li class="break-inside-avoid py-0.5 flex gap-3">
+          <span class="font-mono text-primary text-sm w-5 shrink-0">{i + 1}</span>
+          <a href={`#${c.id}`} class="text-sky hover:text-ink">{c.label}</a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+  <div class="article legal-body">
+    <slot />
+  </div>
+</div>
+
+<style>
+  .route-mark {
+    width: 2.5rem; height: 4px; border-radius: 2px;
+    background: repeating-linear-gradient(90deg, var(--color-primary) 0 9px, transparent 9px 14px);
+  }
+  .legal-body :global(section) { scroll-margin-top: 1.5rem; }
+  .legal-body :global(h2) {
+    display: flex; align-items: baseline; gap: 0.75rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--color-border);
+    font-size: 1.9rem;
+  }
+  .legal-body :global(h2 .num) { font-family: var(--font-mono); font-weight: 600; font-size: 1rem; color: var(--color-primary); }
+  .legal-body :global(h3) { margin-top: 1.4em; }
+  .legal-body :global(.address) { font-family: var(--font-mono); font-weight: 500; overflow-wrap: anywhere; }
+  .legal-body :global(.contact) {
+    background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-tile);
+    padding: 1.25rem 1.5rem; display: grid; gap: 0.35rem;
+  }
+  .legal-body :global(.contact p) { margin: 0; }
+</style>

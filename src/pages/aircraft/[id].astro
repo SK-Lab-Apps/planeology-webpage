@@ -1,0 +1,219 @@
+---
+/**
+ * /aircraft/<id> — an aircraft page. The name, tier, role, power, bay and the
+ * lesson that awards it come from the app snapshot; the words and the sourced
+ * quick facts come from src/content/aircraft/<id>.json.
+ */
+import { getCollection } from 'astro:content';
+import { getImage } from 'astro:assets';
+import Base from '@/layouts/Base.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import TierPill from '@/components/TierPill.astro';
+import StatTile from '@/components/StatTile.astro';
+import BoardingPass from '@/components/BoardingPass.astro';
+import RelatedGuides from '@/components/RelatedGuides.astro';
+import RelatedAircraft from '@/components/RelatedAircraft.astro';
+import Sources from '@/components/Sources.astro';
+import StickyBar from '@/components/StickyBar.astro';
+import { DOMAIN, ROUTES, NOUNS, aircraftPath, type Campaign } from '@/config';
+import { getAircraft, getGroup, getLesson, counts } from '@/lib/app-data';
+import { aircraftImage } from '@/lib/images';
+import { aircraftAlt } from '@/lib/alt';
+import { article, breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
+import { formatDate, inlineMarkup } from '@/lib/text';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('aircraft');
+  return entries.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const d = entry.data;
+const a = getAircraft(entry.id);
+const lesson = a.lessonId ? getLesson(a.lessonId) : null;
+const group = a.groupId ? getGroup(a.groupId) : null;
+const ct: Campaign = `aircraft-${a.id}`;
+Astro.locals.campaign = ct;
+const path = aircraftPath(a.id);
+const ogImage = `${DOMAIN}/og/aircraft/${a.id}.png`;
+const alt = aircraftAlt(a);
+const title = d.seoTitle ?? `${a.name} Facts & Specs`;
+
+const hero = await getImage({
+  src: aircraftImage(a.id),
+  format: 'webp',
+  widths: [640, 960, 1280, 1600],
+  sizes: '(min-width: 64rem) 36rem, 100vw',
+});
+
+const crumbs = [
+  { name: 'Home', path: ROUTES.home },
+  { name: 'Hangar', path: ROUTES.aircraft },
+  { name: a.name, path },
+];
+const seo: Seo = {
+  title,
+  description: d.description,
+  path,
+  ogType: 'article',
+  ogImage,
+  ogImageAlt: alt,
+  preloadImage: { href: hero.src, imagesrcset: hero.srcSet.attribute, imagesizes: hero.attributes.sizes as string },
+};
+const jsonld = [
+  graph([
+    organization(),
+    article({
+      headline: d.h1,
+      description: d.description,
+      path,
+      image: ogImage,
+      datePublished: d.datePublished,
+      dateModified: d.dateModified,
+      keywords: [a.name, a.role, 'aircraft facts'],
+      section: 'The Hangar',
+    }),
+    breadcrumbList(crumbs),
+  ]),
+];
+const firstFlight = d.quickFacts.find((q) => /first flight/i.test(q.label));
+const tint: Record<string, string> = { common: '#eceef2', rare: '#e7edf9', epic: '#f6e4ef', legendary: '#f4ecda' };
+const srcLink = (n: number) => `#sources-${n}`;
+const tileClass = '!gap-1 [&_.readout]:!text-[1.3rem] [&_.readout]:!leading-tight [&_.readout]:!font-sans [&_.readout]:!font-semibold';
+---
+
+<Base seo={seo} jsonld={jsonld} current="aircraft">
+  <article class="chart-paper">
+    <div class="wrap pt-6">
+      <Breadcrumbs items={crumbs} />
+      <header class="mt-6 grid gap-6 lg:grid-cols-[1fr_1.15fr] lg:items-end">
+        <div>
+          <p class="flex flex-wrap items-center gap-3 mb-3">
+            <span class="bay-tag">{a.bayCode}</span>
+            <TierPill tier={a.tier} label={a.tierLabel} />
+          </p>
+          <h1 class="text-[2.4rem] leading-[1.02] sm:text-[3.1rem] md:text-[3.5rem] font-bold m-0">{d.h1}</h1>
+          <p class="mt-4 mb-0 text-[1.15rem] leading-snug text-ink-secondary max-w-[56ch]">{a.description}</p>
+          <p class="label mt-5 mb-0">Updated <time datetime={d.dateModified}>{formatDate(d.dateModified)}</time></p>
+        </div>
+        <figure class="m-0 art-window" style={`background: linear-gradient(180deg, ${tint[a.tier]}, #fbfaf6)`}>
+          <img
+            src={hero.src}
+            srcset={hero.srcSet.attribute}
+            sizes={hero.attributes.sizes}
+            width={hero.attributes.width}
+            height={hero.attributes.height}
+            alt={alt}
+            fetchpriority="high"
+            decoding="sync"
+          />
+        </figure>
+      </header>
+
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-4 mt-8">
+        <StatTile label="Role" value={a.role} class={tileClass} />
+        <StatTile label="Power" value={a.power} class={tileClass} />
+        {firstFlight && <StatTile label={firstFlight.label} value={firstFlight.value} class={tileClass} />}
+        <StatTile label="Tier" value={a.tierLabel} class={tileClass} />
+      </div>
+    </div>
+
+    <div class="wrap wrap-article pt-8">
+      <div class="article">
+        {d.intro.map((p) => <p set:html={inlineMarkup(p)} />)}
+
+        <h2 id="quick-facts">Quick facts</h2>
+        <div class="table-wrap">
+          <table>
+            <caption class="sr-only">{a.name} quick facts, each with its source</caption>
+            <thead><tr><th scope="col">Fact</th><th scope="col">Value</th><th scope="col"><span class="sr-only">Source</span></th></tr></thead>
+            <tbody>
+              {d.quickFacts.map((q) => (
+                <tr>
+                  <th scope="row" class="row-label">{q.label}</th>
+                  <td>{q.value}</td>
+                  <td class="text-right"><a href={srcLink(q.source)} class="src-n" aria-label={`Source ${q.source}`}>{q.source}</a></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="why-it-matters">Why the {a.name} matters</h2>
+        {d.whyItMatters.map((p) => <p set:html={inlineMarkup(p)} />)}
+
+        <h2 id="notable-facts">Notable facts</h2>
+        <ul>
+          {d.facts.map((f) => <li set:html={inlineMarkup(f)} />)}
+        </ul>
+
+        {d.whereToSee && (
+          <h2 id="where-to-see">Where to see one</h2>
+        )}
+        {d.whereToSee && (
+          <p>
+            <span set:html={inlineMarkup(d.whereToSee.text)} />
+            {' '}<a href={srcLink(d.whereToSee.source)} class="src-n" aria-label={`Source ${d.whereToSee.source}`}>{d.whereToSee.source}</a>
+          </p>
+        )}
+
+        <h2 id="in-planeology">In Planeology</h2>
+        {lesson ? (
+          <p>
+            In the app, each lesson you pass parks an aircraft in your {NOUNS.collection}. The {a.name} is {a.bayCode.replace('BAY ', 'Bay ')} of {counts.aircraft}.
+            Earn it by passing <em>{lesson.title}</em>, in the <em>{group?.title}</em> lesson group.
+          </p>
+        ) : (
+          <p>
+            The {a.name} is {a.bayCode.replace('BAY ', 'Bay ')} of {counts.aircraft}, and the first aircraft in every {NOUNS.collection}: it is there from the moment you join. The other {counts.aircraft - 1} are earned by passing a lesson quiz.
+          </p>
+        )}
+      </div>
+
+      <BoardingPass
+        ct={ct}
+        class="mt-8"
+        eyebrow={lesson ? `Earn it by passing ${lesson.title}` : `The first aircraft in every ${NOUNS.collection}`}
+        title={`Park the ${a.name} in your ${NOUNS.collection}.`}
+        body={`Short lessons on how flight works, aviation history, airliners, military aviation and airports. A quiz after each lesson, and ${counts.aircraft} aircraft to collect.`}
+        stubLabel={a.bayCode}
+      />
+    </div>
+
+    <div class="wrap pb-6">
+      <RelatedGuides slugs={d.relatedGuides} title={d.relatedGuides.length > 1 ? 'Guides to read next' : 'Read the guide'} />
+      <RelatedAircraft ids={d.relatedAircraft} title="Nearby in the Hangar" />
+    </div>
+
+    <div class="wrap wrap-article pb-10">
+      <Sources sources={d.sources} />
+    </div>
+  </article>
+  <StickyBar ct={ct} />
+</Base>
+
+<style>
+  .bay-tag {
+    background: var(--color-ink); color: var(--color-board-text);
+    font-family: var(--font-mono); font-weight: 600; font-size: 0.75rem; letter-spacing: 0.12em;
+    padding: 0.3rem 0.6rem; border-radius: 6px;
+  }
+  .art-window {
+    border-radius: var(--radius-window);
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+    aspect-ratio: 16 / 9;
+  }
+  .art-window img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .row-label {
+    font-family: var(--font-sans) !important; font-weight: 600 !important; font-size: 1rem !important;
+    letter-spacing: 0 !important; text-transform: none !important; color: var(--color-ink) !important;
+    white-space: nowrap;
+  }
+  .src-n {
+    display: inline-grid; place-items: center; min-width: 1.4rem; height: 1.4rem; padding-inline: 0.3rem;
+    border-radius: 6px; background: rgb(176 21 110 / 0.1); color: var(--color-primary);
+    font-family: var(--font-mono); font-weight: 600; font-size: 0.75rem; text-decoration: none; vertical-align: middle;
+  }
+  .src-n:hover { background: var(--color-primary); color: #fff; }
+</style>

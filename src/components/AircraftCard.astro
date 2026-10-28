@@ -1,0 +1,54 @@
+---
+/** A Hangar card: full-bleed art with a BAY tag, name and tier pill. */
+import { Picture } from 'astro:assets';
+import TierPill from '@/components/TierPill.astro';
+import { aircraftImage } from '@/lib/images';
+import { aircraftPath } from '@/config';
+import type { AppAircraft } from '@/lib/app-data';
+interface Props {
+  aircraft: AppAircraft;
+  alt: string;
+  class?: string;
+  priority?: boolean;
+  sizes?: string;
+  /** data-* for hub filters */
+  era?: string;
+  roleGroup?: string;
+}
+const { aircraft: a, alt, class: cls = '', priority = false, sizes = '(min-width: 64rem) 18rem, (min-width: 40rem) 30vw, 46vw', era, roleGroup } = Astro.props;
+const tint: Record<string, string> = { common: '#eceef2', rare: '#e7edf9', epic: '#f6e4ef', legendary: '#f4ecda' };
+---
+<a href={aircraftPath(a.id)} class:list={['acard card rise', cls]} data-era={era} data-role={roleGroup} data-tier={a.tier}>
+  <div class="acard-art" style={`background: linear-gradient(180deg, ${tint[a.tier]}, #fbfaf6)`}>
+    <span class="acard-bay">{a.bayCode}</span>
+    <Picture
+      src={aircraftImage(a.id)}
+      alt={alt}
+      formats={['avif', 'webp']}
+      fallbackFormat="webp"
+      widths={[320, 480, 640, 800]}
+      sizes={sizes}
+      loading={priority ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+  </div>
+  <div class="acard-body">
+    <p class="acard-name">{a.name}</p>
+    <TierPill tier={a.tier} label={a.tierLabel} />
+  </div>
+</a>
+
+<style>
+  .acard { display: block; text-decoration: none; color: inherit; overflow: hidden; transition: transform 160ms ease, box-shadow 160ms ease; }
+  .acard:hover { transform: translateY(-2px); box-shadow: var(--shadow-raised); }
+  .acard-art { position: relative; aspect-ratio: 16 / 9; }
+  .acard-art :global(img) { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .acard-bay {
+    position: absolute; top: 0.625rem; left: 0.625rem; z-index: 1;
+    background: var(--color-ink); color: var(--color-board-text);
+    font-family: var(--font-mono); font-weight: 600; font-size: 0.6875rem; letter-spacing: 0.1em;
+    padding: 0.2rem 0.5rem; border-radius: 6px;
+  }
+  .acard-body { padding: 0.75rem 0.875rem 0.875rem; display: grid; gap: 0.5rem; justify-items: start; }
+  .acard-name { margin: 0; font-weight: 600; font-size: 1.0625rem; line-height: 1.25; color: var(--color-ink); }
+</style>

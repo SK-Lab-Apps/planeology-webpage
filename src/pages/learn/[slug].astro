@@ -1,0 +1,125 @@
+---
+/**
+ * /learn/<slug> — a long-form guide. Everything after the body (CTA, quiz,
+ * related pages, sources) is assembled here from the guide's frontmatter.
+ */
+import { getCollection, render } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import BoardingPass from '@/components/BoardingPass.astro';
+import CheckYourself from '@/components/CheckYourself.astro';
+import RelatedGuides from '@/components/RelatedGuides.astro';
+import RelatedAircraft from '@/components/RelatedAircraft.astro';
+import Sources from '@/components/Sources.astro';
+import StickyBar from '@/components/StickyBar.astro';
+import { DOMAIN, ROUTES, guidePath, type Campaign } from '@/config';
+import { getGroup } from '@/lib/app-data';
+import { article, breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
+import { formatDate, readingMinutes, wordCount } from '@/lib/text';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides');
+  return guides.map((guide) => ({ params: { slug: guide.id }, props: { guide } }));
+}
+
+const { guide } = Astro.props;
+const { Content } = await render(guide);
+const d = guide.data;
+const group = getGroup(d.groupId);
+const ct: Campaign = `guide-${guide.id}`;
+Astro.locals.campaign = ct;
+
+const bodyText = (guide.body ?? '')
+  .replace(/^---[\s\S]*?---/, '')
+  .replace(/^import .*$/gm, '')
+  .replace(/<[^>]+>/g, ' ');
+const words = wordCount(bodyText) + wordCount(d.answer);
+const minutes = readingMinutes(words);
+const path = guidePath(guide.id);
+const ogImage = `${DOMAIN}/og/learn/${guide.id}.png`;
+
+const crumbs = [
+  { name: 'Home', path: ROUTES.home },
+  { name: 'Guides', path: ROUTES.learn },
+  { name: d.title, path },
+];
+
+const seo: Seo = {
+  title: d.seoTitle,
+  description: d.description,
+  path,
+  ogType: 'article',
+  ogImage,
+  ogImageAlt: d.leadAlt,
+};
+const jsonld = [
+  graph([
+    organization(),
+    article({
+      headline: d.title,
+      description: d.description,
+      path,
+      image: ogImage,
+      datePublished: d.datePublished,
+      dateModified: d.dateModified,
+      wordCount: words,
+      keywords: [d.query, ...d.keywords],
+      section: group.title,
+    }),
+    breadcrumbList(crumbs),
+  ]),
+];
+---
+
+<Base seo={seo} jsonld={jsonld} current="learn">
+  <article class="chart-paper">
+    <div class="wrap wrap-article pt-6 pb-4">
+      <Breadcrumbs items={crumbs} />
+      <header class="mt-7 mb-8">
+        <p class="label mb-3" style={`color:${group.accent}`}>{group.code} · {group.title}</p>
+        <h1 class="text-[2.4rem] leading-[1.02] sm:text-[3.1rem] md:text-[3.6rem] font-bold m-0">{d.title}</h1>
+        <p class="mt-4 mb-0 text-[1.2rem] leading-snug text-ink-secondary max-w-[60ch] text-pretty">{d.dek}</p>
+        <p class="label mt-5 mb-0">
+          Updated <time datetime={d.dateModified}>{formatDate(d.dateModified)}</time> · {minutes} min read
+        </p>
+      </header>
+
+      <div class="answer card card-raised">
+        <p class="label text-primary mb-1.5">The short answer</p>
+        <p class="m-0 text-[1.125rem] leading-relaxed text-ink">{d.answer}</p>
+      </div>
+
+      <div class="article mt-8">
+        <Content />
+      </div>
+
+      <BoardingPass
+        ct={ct}
+        class="mt-12"
+        title="Learn this in five-minute lessons, then prove it in a quiz."
+        body="Planeology turns topics like this one into short lessons with a quiz after each. Every answer comes with a why, and each lesson you pass parks an aircraft in your Hangar."
+      />
+
+      <CheckYourself ids={d.quiz} />
+    </div>
+
+    <div class="wrap pb-8">
+      <RelatedGuides slugs={d.relatedGuides} />
+      <RelatedAircraft ids={d.relatedAircraft} />
+    </div>
+
+    <div class="wrap wrap-article pb-10">
+      <Sources sources={d.sources} />
+    </div>
+  </article>
+  <StickyBar ct={ct} />
+</Base>
+
+<style>
+  .answer {
+    padding: 1.1rem 1.25rem 1.2rem;
+    border-left: 4px solid var(--color-primary);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+</style>

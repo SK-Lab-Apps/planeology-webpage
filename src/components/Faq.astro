@@ -1,0 +1,29 @@
+---
+/** An FAQ list with native <details>. The page emits the matching FAQPage JSON-LD. */
+interface Props { items: { question: string; answer: string }[]; class?: string }
+const { items, class: cls = '' } = Astro.props;
+---
+<div class:list={['faq grid gap-2', cls]}>
+  {items.map((it) => (
+    <details class="faq-item card">
+      <summary class="faq-q">{it.question}</summary>
+      <p class="faq-a" set:html={it.answer} />
+    </details>
+  ))}
+</div>
+<style>
+  .faq-item { padding: 0.25rem 1.25rem; }
+  .faq-q {
+    cursor: pointer; list-style: none; padding: 0.9rem 2rem 0.9rem 0; position: relative;
+    font-weight: 600; font-size: 1.0625rem; color: var(--color-ink);
+  }
+  .faq-q::-webkit-details-marker { display: none; }
+  .faq-q::after {
+    content: ''; position: absolute; right: 0.25rem; top: 50%; width: 0.6rem; height: 0.6rem;
+    border-right: 2px solid var(--color-primary); border-bottom: 2px solid var(--color-primary);
+    transform: translateY(-70%) rotate(45deg); transition: transform 160ms ease;
+  }
+  .faq-item[open] .faq-q::after { transform: translateY(-30%) rotate(-135deg); }
+  .faq-a { margin: 0 0 1rem; color: var(--color-ink-secondary); line-height: 1.55; }
+  .faq-a :global(a) { color: var(--color-sky); }
+</style>

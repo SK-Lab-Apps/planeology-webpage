@@ -1,0 +1,35 @@
+---
+import Base from '@/layouts/Base.astro';
+import LegalShell from '@/components/LegalShell.astro';
+import { terms } from '@/content/legal';
+import { ROUTES } from '@/config';
+import { breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
+
+const seo: Seo = {
+  title: 'Terms of Use',
+  description:
+    'The Terms of Use for the Planeology app and website: who publishes it, the Boarding Pass subscription and lifetime purchase, your licence and contact.',
+  path: ROUTES.terms,
+};
+const jsonld = [graph([organization(), breadcrumbList([{ name: 'Home', path: ROUTES.home }, { name: 'Terms of Use', path: ROUTES.terms }])])];
+const contents = terms.sections.map((s) => ({ id: s.id, label: s.heading }));
+---
+<Base seo={seo} jsonld={jsonld}>
+  <LegalShell title={terms.title} updated={terms.updated} contents={contents}>
+    <p slot="intro" class="text-[1.125rem] leading-relaxed text-ink">{terms.intro}</p>
+    {terms.sections.map((s, i) => (
+      <section id={s.id}>
+        <h2><span class="num">{i + 1}</span>{s.heading}</h2>
+        {s.blocks.map((b) =>
+          'p' in b ? (
+            <p>{b.p}</p>
+          ) : 'list' in b ? (
+            <ul>{b.list.map((li) => <li>{li}</li>)}</ul>
+          ) : (
+            <p class="contact"><a class="address" href={`mailto:${b.email}`}>{b.email}</a></p>
+          ),
+        )}
+      </section>
+    ))}
+  </LegalShell>
+</Base>

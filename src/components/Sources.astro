@@ -1,0 +1,21 @@
+---
+/** Numbered Sources list: publisher, title, link, like the app. */
+import type { SourceRef } from '@/lib/app-data';
+interface Props { sources: { publisher: string; title: string; url: string }[] | SourceRef[]; id?: string }
+const { sources, id = 'sources' } = Astro.props;
+---
+<section class="srcs" aria-labelledby={id}>
+  <h2 id={id} class="font-display text-[1.6rem] font-bold m-0 mb-3">Sources</h2>
+  <ol class="m-0 pl-6 grid gap-1.5 text-[0.9375rem] leading-snug">
+    {sources.map((s) => (
+      <li id={`${id}-${sources.indexOf(s) + 1}`}>
+        <span class="text-ink-muted">{s.publisher}</span>, <a href={s.url} rel="noopener">{s.title}</a>
+      </li>
+    ))}
+  </ol>
+</section>
+<style>
+  .srcs { margin-block: 2.5rem 1rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border); }
+  .srcs li::marker { font-family: var(--font-mono); font-weight: 600; color: var(--color-primary); font-size: 0.8125rem; }
+  .srcs a { color: var(--color-sky); overflow-wrap: anywhere; }
+</style>

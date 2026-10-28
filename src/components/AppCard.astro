@@ -1,0 +1,42 @@
+---
+/**
+ * AppCard — the inline app card placed about 40% of the way down a guide.
+ * Sells the format (short lessons, a quiz, the Hangar), never the paywall.
+ */
+import StoreBadge from '@/components/StoreBadge.astro';
+import QrCode from '@/components/QrCode.astro';
+import { counts } from '@/lib/app-data';
+import type { Campaign } from '@/config';
+interface Props {
+  ct?: Campaign;
+  title?: string;
+  body?: string;
+}
+const ct = (Astro.props.ct ?? Astro.locals.campaign ?? 'guide-general') as Campaign;
+const title = Astro.props.title ?? 'Learn this in five-minute lessons, then prove it in a quiz.';
+const body =
+  Astro.props.body ??
+  `Planeology breaks aviation into ${counts.lessons} short lessons with a quiz after each one. Every answer comes with a why, and each lesson you pass parks an aircraft in your Hangar.`;
+---
+<aside class="appcard card card-raised not-prose" aria-label="About the Planeology app" style="--perf-bg: var(--color-paper)">
+  <div class="appcard-main">
+    <p class="label text-primary mb-1.5">Boarding pass · Planeology for iPhone</p>
+    <p class="font-display text-[1.5rem] md:text-[1.7rem] leading-[1.08] font-bold text-ink m-0">{title}</p>
+    <p class="text-ink-secondary text-[1rem] leading-relaxed mt-2 mb-3.5 max-w-[48ch]">{body}</p>
+    <StoreBadge ct={ct} height={40} />
+  </div>
+  <div class="perf-y hidden md:block"></div>
+  <div class="appcard-stub hidden md:grid">
+    <QrCode ct={ct} size={88} />
+    <p class="label mt-2 !text-[0.625rem] !tracking-[0.1em] !normal-case max-w-[12ch] leading-snug">Scan to get it on your iPhone</p>
+  </div>
+</aside>
+
+<style>
+  .appcard { display: grid; margin-block: 2.25rem; }
+  .appcard-main { padding: 1.25rem 1.375rem; }
+  .appcard-stub { padding: 1.25rem; align-content: start; }
+  @media (min-width: 48rem) {
+    .appcard { grid-template-columns: 1fr auto 9rem; }
+  }
+</style>

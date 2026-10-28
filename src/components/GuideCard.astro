@@ -1,0 +1,49 @@
+---
+/** A guide card for hubs and "related" rows: lead art, category label, title, dek. */
+import { Picture } from 'astro:assets';
+import { lessonImage } from '@/lib/images';
+import { guidePath } from '@/config';
+import { getGroup } from '@/lib/app-data';
+interface Props {
+  slug: string;
+  title: string;
+  dek: string;
+  groupId: string;
+  lead: string;
+  leadAlt: string;
+  minutes?: number;
+  class?: string;
+  compact?: boolean;
+}
+const { slug, title, dek, groupId, lead, leadAlt, minutes, class: cls = '', compact = false } = Astro.props;
+const group = getGroup(groupId);
+---
+<a href={guidePath(slug)} class:list={['gcard card rise', cls, { compact }]} style={`--accent:${group.accent}`}>
+  <div class="gcard-art">
+    <Picture
+      src={lessonImage(lead)}
+      alt={leadAlt}
+      formats={['avif', 'webp']}
+      fallbackFormat="webp"
+      widths={[320, 480, 640]}
+      sizes="(min-width: 64rem) 22rem, (min-width: 40rem) 45vw, 92vw"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+  <div class="gcard-body">
+    <p class="label" style="color: var(--accent)">{group.title}{minutes ? ` · ${minutes} min` : ''}</p>
+    <p class="gcard-title">{title}</p>
+    {!compact && <p class="gcard-dek">{dek}</p>}
+  </div>
+</a>
+
+<style>
+  .gcard { display: grid; text-decoration: none; color: inherit; overflow: hidden; transition: transform 160ms ease, box-shadow 160ms ease; }
+  .gcard:hover { transform: translateY(-2px); box-shadow: var(--shadow-raised); }
+  .gcard-art { aspect-ratio: 2 / 1; background: linear-gradient(180deg, #fff, #f1eef7); }
+  .gcard-art :global(img) { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .gcard-body { padding: 0.875rem 1rem 1rem; display: grid; gap: 0.35rem; align-content: start; }
+  .gcard-title { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; line-height: 1.1; color: var(--color-ink); }
+  .gcard-dek { margin: 0; color: var(--color-ink-secondary); font-size: 0.9375rem; line-height: 1.45; }
+</style>

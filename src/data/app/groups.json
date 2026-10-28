@@ -1,0 +1,222 @@
+[
+  {
+    "id": "grp_flight_01",
+    "index": 1,
+    "code": "LEG 01",
+    "flight": "PL 101",
+    "title": "How Flight Works",
+    "description": "Lift, drag and the physics of staying up",
+    "accent": "#2459C4",
+    "lessonIds": [
+      "four-forces",
+      "how-wings-lift",
+      "airfoils-aoa",
+      "why-planes-stall"
+    ]
+  },
+  {
+    "id": "grp_anatomy_02",
+    "index": 2,
+    "code": "LEG 02",
+    "flight": "PL 102",
+    "title": "Anatomy of an Airplane",
+    "description": "What every part is for",
+    "accent": "#0E7480",
+    "lessonIds": [
+      "fuselage-structure",
+      "wings-flaps-slats",
+      "tail-control-surfaces",
+      "landing-gear"
+    ]
+  },
+  {
+    "id": "grp_engines_03",
+    "index": 3,
+    "code": "LEG 03",
+    "flight": "PL 103",
+    "title": "Engines & Propulsion",
+    "description": "From propellers to turbofans",
+    "accent": "#A4441C",
+    "lessonIds": [
+      "pistons-propellers",
+      "turbojets",
+      "turbofans",
+      "turboprops-turboshafts"
+    ]
+  },
+  {
+    "id": "grp_cockpit_04",
+    "index": 4,
+    "code": "LEG 04",
+    "flight": "PL 104",
+    "title": "In the Cockpit",
+    "description": "Instruments, autopilot and radio talk",
+    "accent": "#3D4F9A",
+    "lessonIds": [
+      "classic-six",
+      "glass-cockpits",
+      "autopilot-fbw",
+      "callsigns-phonetic"
+    ]
+  },
+  {
+    "id": "grp_airports_05",
+    "index": 5,
+    "code": "LEG 05",
+    "flight": "PL 105",
+    "title": "Airports & Air Traffic Control",
+    "description": "How a busy sky stays orderly",
+    "accent": "#7A5300",
+    "lessonIds": [
+      "how-airports-work",
+      "runway-markings",
+      "airspace-atc",
+      "airport-codes"
+    ]
+  },
+  {
+    "id": "grp_navwx_06",
+    "index": 6,
+    "code": "LEG 06",
+    "flight": "PL 106",
+    "title": "Navigation & Weather",
+    "description": "Finding the way and riding the winds",
+    "accent": "#1F6FA8",
+    "lessonIds": [
+      "compass-to-gps",
+      "why-jets-fly-high",
+      "turbulence-jetstreams-contrails"
+    ]
+  },
+  {
+    "id": "grp_pioneers_07",
+    "index": 7,
+    "code": "LEG 07",
+    "flight": "PL 107",
+    "title": "Pioneers of Flight",
+    "description": "Balloons, gliders and the first fliers",
+    "accent": "#8C4A12",
+    "lessonIds": [
+      "balloons-gliders",
+      "wright-brothers",
+      "bleriot-early-aviators",
+      "record-breakers"
+    ]
+  },
+  {
+    "id": "grp_earlyair_08",
+    "index": 8,
+    "code": "LEG 08",
+    "flight": "PL 108",
+    "title": "Early Air Power",
+    "description": "From WWI to the golden age",
+    "accent": "#6B6B1F",
+    "lessonIds": [
+      "wwi-aircraft-aces",
+      "golden-age",
+      "flying-boats-airships"
+    ]
+  },
+  {
+    "id": "grp_ww2_09",
+    "index": 9,
+    "code": "LEG 09",
+    "flight": "PL 109",
+    "title": "WWII in the Air",
+    "description": "Fighters, bombers and carriers",
+    "accent": "#4E6B2E",
+    "lessonIds": [
+      "spitfire-hurricane",
+      "mustang-escorts",
+      "heavy-bombers",
+      "carrier-aviation"
+    ]
+  },
+  {
+    "id": "grp_jetage_10",
+    "index": 10,
+    "code": "LEG 10",
+    "flight": "PL 110",
+    "title": "The Jet Age",
+    "description": "When aviation went jet-powered",
+    "accent": "#A3245C",
+    "lessonIds": [
+      "first-jets",
+      "sound-barrier",
+      "comet-metal-fatigue",
+      "the-707-jet-set"
+    ]
+  },
+  {
+    "id": "grp_airliners_11",
+    "index": 11,
+    "code": "LEG 11",
+    "flight": "PL 111",
+    "title": "Airliners & Airlines",
+    "description": "The jets that shrank the world",
+    "accent": "#1D5E8C",
+    "lessonIds": [
+      "the-747",
+      "airbus-vs-boeing",
+      "narrowbody-families",
+      "the-a380"
+    ]
+  },
+  {
+    "id": "grp_legends_12",
+    "index": 12,
+    "code": "LEG 12",
+    "flight": "PL 112",
+    "title": "Speed & Altitude Legends",
+    "description": "The fastest and highest ever flown",
+    "accent": "#B0156E",
+    "lessonIds": [
+      "concorde",
+      "sr-71-blackbird",
+      "x-planes"
+    ]
+  },
+  {
+    "id": "grp_military_13",
+    "index": 13,
+    "code": "LEG 13",
+    "flight": "PL 113",
+    "title": "Military Aviation",
+    "description": "Fighters, stealth, rotors and support",
+    "accent": "#3F5161",
+    "lessonIds": [
+      "fighter-generations",
+      "stealth-aircraft",
+      "how-helicopters-fly",
+      "tankers-awacs-transports"
+    ]
+  },
+  {
+    "id": "grp_safety_14",
+    "index": 14,
+    "code": "LEG 14",
+    "flight": "PL 114",
+    "title": "Safety & Lessons Learned",
+    "description": "How flying became so safe",
+    "accent": "#B4232F",
+    "lessonIds": [
+      "black-boxes",
+      "accidents-changed-aviation",
+      "why-flying-is-safe"
+    ]
+  },
+  {
+    "id": "grp_future_15",
+    "index": 15,
+    "code": "LEG 15",
+    "flight": "PL 115",
+    "title": "Modern & Future Flight",
+    "description": "Business jets, drones and what comes next",
+    "accent": "#18794E",
+    "lessonIds": [
+      "bizjets-general-aviation",
+      "drones-evtols",
+      "electric-hydrogen-supersonic"
+    ]
+  }
+]

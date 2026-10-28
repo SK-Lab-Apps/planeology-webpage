@@ -1,0 +1,58 @@
+[
+  {
+    "index": 1,
+    "title": "Passenger",
+    "subtitle": "Seat back, window shade up",
+    "color": "#5E677B",
+    "lessons": 0,
+    "image": "rank-passenger"
+  },
+  {
+    "index": 2,
+    "title": "Spotter",
+    "subtitle": "You know what you are looking at",
+    "color": "#0E7480",
+    "lessons": 2,
+    "image": "rank-spotter"
+  },
+  {
+    "index": 3,
+    "title": "Avgeek",
+    "subtitle": "Planes are officially your thing",
+    "color": "#2459C4",
+    "lessons": 6,
+    "image": "rank-avgeek"
+  },
+  {
+    "index": 4,
+    "title": "Flight Engineer",
+    "subtitle": "You know what makes them go",
+    "color": "#6D3FB0",
+    "lessons": 12,
+    "image": "rank-flight-engineer"
+  },
+  {
+    "index": 5,
+    "title": "Navigator",
+    "subtitle": "History, routes and the reasons why",
+    "color": "#A4441C",
+    "lessons": 22,
+    "image": "rank-navigator"
+  },
+  {
+    "index": 6,
+    "title": "Captain",
+    "subtitle": "Commanding knowledge of the skies",
+    "color": "#B0156E",
+    "lessons": 35,
+    "image": "rank-captain"
+  },
+  {
+    "index": 7,
+    "title": "Aviation Legend",
+    "subtitle": "The whole flight plan, flown",
+    "color": "#8A5E00",
+    "lessons": 55,
+    "image": "rank-aviation-legend"
+  }
+]

@@ -1,0 +1,279 @@
+---
+/**
+ * /aviation-quiz — 15 questions, one per lesson group, one at a time with the
+ * explanation after each answer. The questions are in the HTML; answers are
+ * revealed by interaction. Final score as the app's rubber stamp.
+ */
+import Base from '@/layouts/Base.astro';
+import HeroBand from '@/components/HeroBand.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import BoardingPass from '@/components/BoardingPass.astro';
+import FlapText from '@/components/FlapText.astro';
+import { ROUTES, NOUNS, storeLink } from '@/config';
+import { getQuestion, getGroup, counts } from '@/lib/app-data';
+import { SITE_QUIZ_IDS } from '@/data/site-quiz';
+import { breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
+
+const qs = SITE_QUIZ_IDS.map((id) => {
+  const q = getQuestion(id);
+  return { ...q, group: getGroup(q.groupId) };
+});
+const letters = ['A', 'B', 'C', 'D'];
+const passPct = counts.passPercent;
+const crumbs = [{ name: 'Home', path: ROUTES.home }, { name: 'Aviation quiz', path: ROUTES.quiz }];
+const seo: Seo = {
+  title: 'Aviation Quiz: 15 Questions on Flight',
+  description:
+    'A 15-question aviation trivia quiz: how wings lift, jet engines, runway numbers, the Wright brothers, Concorde and the SR-71, every answer explained.',
+  path: ROUTES.quiz,
+};
+const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
+---
+<Base seo={seo} jsonld={jsonld} current="quiz">
+  <HeroBand loop={false} straddle>
+    <div class="wrap pt-8 md:pt-12">
+      <Breadcrumbs items={crumbs} onNight />
+      <div class="flex flex-wrap items-center gap-3 mt-6 mb-3">
+        <FlapText text="PL 000" size="sm" tone="white" />
+        <FlapText text={`${qs.length} QS · NO CLOCK`} size="sm" />
+      </div>
+      <h1 class="text-[2.6rem] sm:text-[3.4rem] md:text-[4rem] leading-[0.98] m-0 max-w-[16ch]">The aviation quiz</h1>
+      <p class="mt-4 mb-0 text-on-night-soft text-[1.15rem] max-w-[50ch] leading-relaxed">
+        Fifteen questions, one from each of the app's {counts.groups} lesson groups. Every answer comes with a why. Score {passPct}% or better and you're cleared.
+      </p>
+    </div>
+  </HeroBand>
+
+  <div class="wrap -mt-16 relative z-10 pb-12">
+    <div class="quiz card card-raised" id="quiz" data-pass={passPct} data-total={qs.length}>
+      <div class="quiz-head">
+        <p class="label m-0" id="quiz-counter">Question 1 / {qs.length}</p>
+        <div class="quiz-progress" aria-hidden="true" id="quiz-progress">
+          {qs.map(() => <span class="seg"></span>)}
+        </div>
+      </div>
+
+      <ol class="list-none m-0 p-0" id="quiz-list">
+        {qs.map((q, i) => (
+          <li class="quiz-q" data-index={i} data-correct={q.correctIndex} id={`q-${i + 1}`}>
+            <p class="label mb-2" style={`color:${q.group.accent}`}>{q.group.code} · {q.group.title}</p>
+            <h2 class="font-display text-[1.6rem] sm:text-[1.9rem] leading-tight font-bold m-0 mb-4">{q.question}</h2>
+            <ul class="list-none m-0 p-0 grid gap-2" aria-label={`Answers to question ${i + 1}`}>
+              {q.options.map((o, j) => (
+                <li>
+                  <button type="button" class="opt" data-choice={j}>
+                    <span class="opt-letter" aria-hidden="true">{letters[j]}</span>
+                    <span class="opt-text">{o}</span>
+                    <span class="opt-mark" aria-hidden="true"></span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+            <div class="why" hidden>
+              <p class="label text-sky mb-1">Why</p>
+              <p class="m-0 text-ink">{q.explanation}</p>
+            </div>
+            <noscript>
+              <details class="mt-3"><summary class="text-sky cursor-pointer">Show the answer</summary><p class="mt-2 mb-0"><strong>{letters[q.correctIndex]}.</strong> {q.explanation}</p></details>
+            </noscript>
+          </li>
+        ))}
+      </ol>
+
+      <div class="quiz-foot" id="quiz-foot" hidden>
+        <button type="button" class="btn btn-primary" id="quiz-next">Next question</button>
+      </div>
+
+      <div class="quiz-result" id="quiz-result" hidden aria-live="polite">
+        <div class="stamp" id="quiz-stamp"><span id="quiz-stamp-text">CLEARED</span></div>
+        <p class="font-display text-[2.2rem] font-bold m-0" id="quiz-score"></p>
+        <p class="text-ink-secondary m-0 max-w-[40ch]" id="quiz-sub"></p>
+        <div class="flex flex-wrap gap-3 mt-4">
+          <button type="button" class="btn btn-ghost" id="quiz-share">Share your score</button>
+          <button type="button" class="btn btn-ghost" id="quiz-again">Try again</button>
+        </div>
+        <p class="text-sm text-ink-muted m-0 mt-2" id="quiz-share-note" hidden>Link copied.</p>
+      </div>
+    </div>
+
+    <section class="mt-10 grid gap-6 lg:grid-cols-[1.2fr_1fr] lg:items-start" aria-labelledby="daily-title">
+      <div class="night-band rounded-[26px] p-6 sm:p-8">
+        <p class="label !text-board-text mb-2">{NOUNS.daily}</p>
+        <h2 id="daily-title" class="font-display text-[2rem] sm:text-[2.4rem] leading-tight m-0 mb-3">Five questions. Sixty seconds. Every day.</h2>
+        <p class="text-on-night-soft m-0 mb-5 leading-relaxed max-w-[46ch]">
+          In the app, the {NOUNS.daily} serves the same {counts.dailyQuestions} questions to everyone each day, drawn from all {counts.questions}, with {counts.dailySeconds} seconds on the clock. Keep a streak, earn a boarding pass to share, and see how your friends land.
+        </p>
+        <div class="flex flex-wrap items-center gap-3">
+          <FlapText text="BOARDING" size="md" />
+          <a href={storeLink('quiz')} rel="noopener" class="btn btn-signal">Board today's flight</a>
+        </div>
+      </div>
+      <BoardingPass ct="quiz" title={`${counts.questions} questions, each with a why.`} body={`Fifteen is a taste. The app has ${counts.questions} questions across ${counts.lessons} lessons, and every one explains its answer in a line. Pass a lesson's quiz and its aircraft is yours.`} bg="paper" />
+    </section>
+  </div>
+</Base>
+
+<style>
+  .quiz { padding: 1.25rem; }
+  @media (min-width: 40rem) { .quiz { padding: 2rem; } }
+  .quiz-head { display: grid; gap: 0.6rem; margin-bottom: 1.25rem; }
+  .quiz-progress { display: flex; gap: 0.3rem; }
+  .quiz-progress .seg { flex: 1; height: 5px; border-radius: 3px; background: var(--color-sunken); }
+  .quiz-progress .seg.is-done { background: var(--color-primary); }
+  .quiz-progress .seg.is-current { background: var(--color-signal); }
+  html.js .quiz-q { display: none; }
+  html.js .quiz-q.is-active { display: block; }
+  html:not(.js) .quiz-q + .quiz-q { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
+  .opt {
+    width: 100%; display: flex; align-items: center; gap: 0.75rem; text-align: left;
+    background: var(--color-surface); border: 1.5px solid var(--color-border); border-radius: var(--radius-card);
+    padding: 0.75rem 0.875rem; cursor: pointer; font-size: 1.0625rem; font-weight: 600; color: var(--color-ink);
+    box-shadow: var(--shadow-card); transition: border-color 120ms ease, transform 120ms ease, opacity 160ms ease;
+  }
+  .opt:hover { border-color: var(--color-ink-muted); }
+  .opt:active { transform: scale(0.99); }
+  .opt-letter {
+    display: inline-grid; place-items: center; width: 2rem; height: 2rem; border-radius: 10px; flex-shrink: 0;
+    background: var(--color-sunken); color: var(--color-ink-muted); font-family: var(--font-mono); font-weight: 600; font-size: 0.875rem;
+  }
+  .opt-text { flex: 1; }
+  .opt-mark { width: 1.25rem; height: 1.25rem; flex-shrink: 0; }
+  .quiz-q.is-answered .opt { cursor: default; opacity: 0.55; }
+  .quiz-q.is-answered .opt.is-right { opacity: 1; border-color: var(--color-success); background: rgb(24 121 78 / 0.08); }
+  .quiz-q.is-answered .opt.is-right .opt-letter { background: var(--color-success); color: #fff; }
+  .quiz-q.is-answered .opt.is-wrong { opacity: 1; border-color: var(--color-danger); background: rgb(200 30 58 / 0.06); }
+  .quiz-q.is-answered .opt.is-wrong .opt-letter { background: var(--color-danger); color: #fff; }
+  .opt.is-right .opt-mark::before { content: '✓'; color: var(--color-success); font-weight: 700; }
+  .opt.is-wrong .opt-mark::before { content: '✕'; color: var(--color-danger); font-weight: 700; }
+  .why {
+    margin-top: 1rem; padding: 0.9rem 1rem; border-radius: var(--radius-card);
+    background: rgb(36 89 196 / 0.07); border: 1px solid rgb(36 89 196 / 0.18);
+  }
+  .quiz-foot { margin-top: 1.25rem; display: flex; justify-content: flex-end; }
+  .quiz-result { display: grid; justify-items: start; gap: 0.75rem; padding-top: 0.5rem; }
+  .stamp {
+    display: inline-grid; place-items: center; padding: 0.6rem 1.25rem;
+    border: 4px double var(--color-success); border-radius: 12px; color: var(--color-success);
+    font-family: var(--font-display); font-weight: 700; font-size: 2.2rem; letter-spacing: 0.08em; line-height: 1;
+    transform: rotate(-6deg); transform-origin: center;
+  }
+  .stamp.is-fail { border-color: var(--color-danger); color: var(--color-danger); }
+  @media (prefers-reduced-motion: no-preference) {
+    html.js .stamp { animation: stamp-in 420ms cubic-bezier(0.2, 0.9, 0.3, 1.3) both; }
+  }
+  @keyframes stamp-in { from { transform: rotate(-6deg) scale(1.6); opacity: 0; } to { transform: rotate(-6deg) scale(1); opacity: 1; } }
+</style>
+
+<script>
+  const root = document.getElementById('quiz');
+  if (root) {
+    const qs = Array.from(root.querySelectorAll<HTMLElement>('.quiz-q'));
+    const segs = Array.from(root.querySelectorAll<HTMLElement>('.quiz-progress .seg'));
+    const counter = document.getElementById('quiz-counter')!;
+    const foot = document.getElementById('quiz-foot')!;
+    const next = document.getElementById('quiz-next') as HTMLButtonElement;
+    const result = document.getElementById('quiz-result')!;
+    const stamp = document.getElementById('quiz-stamp')!;
+    const stampText = document.getElementById('quiz-stamp-text')!;
+    const scoreEl = document.getElementById('quiz-score')!;
+    const subEl = document.getElementById('quiz-sub')!;
+    const share = document.getElementById('quiz-share') as HTMLButtonElement;
+    const shareNote = document.getElementById('quiz-share-note')!;
+    const again = document.getElementById('quiz-again') as HTMLButtonElement;
+    const total = qs.length;
+    const passPct = Number(root.dataset.pass ?? 80);
+    let index = 0;
+    let correct = 0;
+
+    function show(i: number) {
+      qs.forEach((q, j) => q.classList.toggle('is-active', j === i));
+      segs.forEach((s, j) => {
+        s.classList.toggle('is-done', j < i);
+        s.classList.toggle('is-current', j === i);
+      });
+      counter.textContent = `Question ${i + 1} / ${total}`;
+      foot.hidden = true;
+      const first = qs[i].querySelector<HTMLButtonElement>('.opt');
+      first?.focus({ preventScroll: true });
+    }
+
+    qs.forEach((q) => {
+      const right = Number(q.dataset.correct);
+      const opts = Array.from(q.querySelectorAll<HTMLButtonElement>('.opt'));
+      opts.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          if (q.classList.contains('is-answered')) return;
+          const choice = Number(btn.dataset.choice);
+          q.classList.add('is-answered');
+          opts.forEach((o) => {
+            o.disabled = true;
+            const j = Number(o.dataset.choice);
+            if (j === right) o.classList.add('is-right');
+            else if (j === choice) o.classList.add('is-wrong');
+          });
+          if (choice === right) correct++;
+          const why = q.querySelector<HTMLElement>('.why');
+          if (why) why.hidden = false;
+          next.textContent = index === total - 1 ? 'See results' : 'Next question';
+          foot.hidden = false;
+          next.focus({ preventScroll: true });
+        });
+      });
+    });
+
+    function finish() {
+      qs.forEach((q) => q.classList.remove('is-active'));
+      segs.forEach((s) => { s.classList.add('is-done'); s.classList.remove('is-current'); });
+      counter.textContent = 'Results';
+      foot.hidden = true;
+      const pct = Math.round((correct / total) * 100);
+      const passed = pct >= passPct;
+      stamp.classList.toggle('is-fail', !passed);
+      stampText.textContent = passed ? 'CLEARED' : 'GO-AROUND';
+      scoreEl.textContent = `${correct} of ${total} correct`;
+      subEl.textContent = passed
+        ? 'Cleared for the Hangar. The Daily Departure in the app is five of these, against the clock.'
+        : `You need ${passPct}% to pass. Every go-around is practice, and the lessons in the app explain the why behind each one.`;
+      result.hidden = false;
+      stamp.focus?.();
+    }
+
+    next.addEventListener('click', () => {
+      if (index === total - 1) finish();
+      else show(++index);
+    });
+
+    again.addEventListener('click', () => {
+      correct = 0;
+      index = 0;
+      result.hidden = true;
+      qs.forEach((q) => {
+        q.classList.remove('is-answered');
+        q.querySelectorAll<HTMLButtonElement>('.opt').forEach((o) => {
+          o.disabled = false;
+          o.classList.remove('is-right', 'is-wrong');
+        });
+        const why = q.querySelector<HTMLElement>('.why');
+        if (why) why.hidden = true;
+      });
+      show(0);
+    });
+
+    share.addEventListener('click', async () => {
+      const text = `I scored ${correct}/${total} on the Planeology aviation quiz. Can you beat it?`;
+      const url = window.location.origin + window.location.pathname;
+      if (navigator.share) {
+        try { await navigator.share({ title: 'Planeology aviation quiz', text, url }); return; } catch { /* dismissed */ }
+      }
+      try {
+        await navigator.clipboard.writeText(`${text} ${url}`);
+        shareNote.textContent = 'Copied to your clipboard.';
+      } catch {
+        shareNote.textContent = url;
+      }
+      shareNote.hidden = false;
+    });
+
+    show(0);
+  }
+</script>

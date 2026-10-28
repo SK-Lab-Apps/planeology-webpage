@@ -1,0 +1,50 @@
+---
+/**
+ * Figure — a lesson illustration from the app's art set with a descriptive
+ * alt and a short caption. `id` is a card id such as "how-wings-lift_c1".
+ */
+import { Picture } from 'astro:assets';
+import { lessonImage } from '@/lib/images';
+interface Props {
+  id: string;
+  alt: string;
+  caption?: string;
+  priority?: boolean;
+}
+const { id, alt, caption, priority = false } = Astro.props;
+const src = lessonImage(id);
+---
+<figure class="fig">
+  <div class="fig-window">
+    <Picture
+      src={src}
+      alt={alt}
+      formats={['avif', 'webp']}
+      fallbackFormat="webp"
+      widths={[480, 720, 960, 1200]}
+      sizes="(min-width: 48rem) 44rem, 100vw"
+      loading={priority ? 'eager' : 'lazy'}
+      fetchpriority={priority ? 'high' : undefined}
+      decoding="async"
+    />
+  </div>
+  {caption && <figcaption class="fig-cap">{caption}</figcaption>}
+</figure>
+
+<style>
+  .fig { margin: 2rem 0; }
+  .fig-window {
+    border-radius: var(--radius-window);
+    overflow: hidden;
+    background: linear-gradient(180deg, #ffffff, #f0edf6);
+    box-shadow: var(--shadow-card);
+  }
+  .fig-window :global(img) { width: 100%; height: auto; display: block; }
+  .fig-cap {
+    margin-top: 0.6rem;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+    color: var(--color-ink-muted);
+    padding-inline: 0.25rem;
+  }
+</style>

@@ -1,0 +1,121 @@
+---
+/**
+ * /daily — the landing page for shared Daily Departure results. The app shares
+ * https://planeology.app/daily?n=<puzzleNo>&s=<score>&ref=<name>. With the app
+ * installed, iOS opens it directly (Universal Link), so this page only reaches
+ * people without the app. noindex; the parameters are read client-side,
+ * validated, and rendered as text only.
+ */
+import Base from '@/layouts/Base.astro';
+import StoreBadge from '@/components/StoreBadge.astro';
+import QrCode from '@/components/QrCode.astro';
+import FlapText from '@/components/FlapText.astro';
+import { ROUTES, NOUNS } from '@/config';
+import { counts } from '@/lib/app-data';
+import type { Seo } from '@/lib/seo';
+
+const seo: Seo = {
+  title: 'Daily Departure: Beat This Score',
+  description:
+    'Someone shared a Daily Departure score from Planeology: five aviation questions in 60 seconds, the same set for everyone each day. Get the app and beat it.',
+  path: ROUTES.daily,
+  noindex: true,
+};
+---
+<Base seo={seo} bodyClass="bg-night">
+  <div class="night-band min-h-[80dvh] rounded-none">
+    <div class="wrap py-10 md:py-16 grid gap-8 lg:grid-cols-[1.1fr_1fr] lg:items-center">
+      <div>
+        <p class="label !text-board-text mb-3">{NOUNS.daily} · shared result</p>
+        <h1 class="text-[2.6rem] sm:text-[3.4rem] md:text-[4rem] leading-[0.98] m-0 max-w-[14ch]" id="daily-heading">Can you beat this score?</h1>
+        <p class="mt-4 mb-6 text-on-night-soft text-[1.15rem] max-w-[48ch] leading-relaxed">
+          Every day, Planeology serves the same {counts.dailyQuestions} aviation questions to everyone, with {counts.dailySeconds} seconds on the clock. Land a score, keep your streak, and share your boarding pass.
+        </p>
+        <div class="flex flex-wrap items-center gap-5">
+          <StoreBadge ct="daily-share" priority />
+          <div class="hidden md:block bg-white rounded-[12px] p-2"><QrCode ct="daily-share" size={72} /></div>
+        </div>
+      </div>
+
+      <aside class="pass card card-raised" aria-labelledby="pass-title" style="--perf-bg: #12233F">
+        <div class="pass-main">
+          <p class="label text-primary mb-2">Boarding pass</p>
+          <p class="font-display text-[1.9rem] leading-[1.05] font-bold text-ink m-0" id="pass-title">
+            <span id="pass-line">Someone landed a {NOUNS.daily} score. Can you beat it?</span>
+          </p>
+          <dl class="pass-grid">
+            <div><dt>Flight</dt><dd><FlapText text="PL 301" size="sm" tone="white" /></dd></div>
+            <div><dt>Score</dt><dd id="pass-score"><span class="font-display text-[2.4rem] font-bold leading-none">?</span><span class="text-ink-muted">/{counts.dailyQuestions}</span></dd></div>
+            <div><dt>Class</dt><dd class="font-mono text-sm">Enthusiast</dd></div>
+          </dl>
+          <div class="seatmap" aria-hidden="true" id="seatmap">
+            {Array.from({ length: counts.dailyQuestions }).map(() => <span class="seat"></span>)}
+          </div>
+        </div>
+        <div class="perf-x"></div>
+        <div class="pass-stub">
+          <p class="label mb-1">Your turn</p>
+          <p class="m-0 text-ink-secondary text-[0.9375rem]">Get the app, board today's flight, and send your own pass back.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .pass { display: grid; overflow: visible; }
+  .pass-main { padding: 1.5rem; }
+  .pass-stub { padding: 1.1rem 1.5rem 1.4rem; }
+  .pass-grid { display: grid; grid-template-columns: repeat(3, auto); gap: 1rem 1.5rem; margin: 1.25rem 0 0; }
+  .pass-grid dt { font-family: var(--font-mono); font-weight: 600; font-size: 0.6875rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-ink-muted); }
+  .pass-grid dd { margin: 0.25rem 0 0; color: var(--color-ink); }
+  .seatmap { display: flex; gap: 0.4rem; margin-top: 1.25rem; }
+  .seat { width: 1.5rem; height: 1.5rem; border-radius: 6px; background: var(--color-sunken); }
+  .seat.is-hit { background: var(--color-primary); }
+</style>
+
+<script>
+  import counts from '@/data/app/counts.json';
+  const params = new URLSearchParams(window.location.search);
+  const nRaw = params.get('n');
+  const sRaw = params.get('s');
+  const refRaw = params.get('ref');
+
+  const n = nRaw && /^\d{1,7}$/.test(nRaw) && Number(nRaw) > 0 ? Number(nRaw) : null;
+  const total = counts.dailyQuestions;
+  let s = sRaw && /^\d{1,2}$/.test(sRaw) ? Number(sRaw) : null;
+  if (s !== null) s = Math.max(0, Math.min(total, s));
+  const ref = refRaw ? refRaw.replace(/\p{Cc}/gu, '').trim().slice(0, 30) : '';
+
+  const line = document.getElementById('pass-line');
+  const score = document.getElementById('pass-score');
+  const heading = document.getElementById('daily-heading');
+  const flight = document.querySelector<HTMLElement>('.pass-grid [role="img"]');
+
+  if (line && n !== null && s !== null) {
+    const who = ref || 'Someone';
+    // Text only: textContent, never HTML.
+    line.textContent = `${who} landed ${s}/${total} on Daily Departure #${n}. Can you beat it?`;
+    if (heading) heading.textContent = `${who} scored ${s}/${total}. Can you beat it?`;
+    if (score) {
+      score.textContent = '';
+      const big = document.createElement('span');
+      big.className = 'font-display text-[2.4rem] font-bold leading-none';
+      big.textContent = String(s);
+      const small = document.createElement('span');
+      small.className = 'text-ink-muted';
+      small.textContent = `/${total}`;
+      score.append(big, small);
+    }
+    document.querySelectorAll<HTMLElement>('#seatmap .seat').forEach((seat, i) => seat.classList.toggle('is-hit', i < s));
+    if (flight) {
+      const code = `PL ${String(n).padStart(3, '0')}`;
+      flight.setAttribute('aria-label', code);
+      const tiles = flight.querySelectorAll<HTMLElement>('.flap');
+      const chars = Array.from(code.replace(' ', ''));
+      tiles.forEach((t, i) => {
+        t.textContent = chars[i] ?? '';
+      });
+    }
+  }
+</script>

@@ -1,0 +1,11 @@
+---
+/** The app icon's mark: a white airliner climbing to the upper right over a dashed magenta route. */
+interface Props { class?: string }
+const { class: cls = 'h-8 w-8' } = Astro.props;
+---
+<svg class={cls} viewBox="0 0 64 64" fill="none" aria-hidden="true" focusable="false">
+  <rect width="64" height="64" rx="14" fill="#12233F"/>
+  <path d="M10 50 C 22 44, 30 34, 44 22" stroke="#B0156E" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 5"/>
+  <circle cx="10" cy="50" r="3.2" fill="#F6B800"/>
+  <path d="M52 12 L44 26 L48 33 L46 36 L40 30 L31 36 L28 33 L35 26 L24 18 L26 15 L38 20 L46 11 Z" fill="#fff"/>
+</svg>

@@ -1,0 +1,94 @@
+{
+  "id": "boeing-747",
+  "h1": "Boeing 747: Facts, Specs and Why It Mattered",
+  "description": "The Boeing 747 first flew on February 9, 1969, and the last of 1,574 was delivered in January 2023. Its specs, notable facts, where to see one and sources.",
+  "era": "jet-age",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Boeing 747 is the original jumbo jet: the first widebody airliner, with two aisles, a hump-backed upper deck and four engines. It first flew on February 9, 1969, when it was the largest civilian airplane in the world, and it stayed in production for 54 years.",
+    "Boeing built it in a hurry. About 50,000 Boeing people, nicknamed the Incredibles, took the first 747 from drawings to first flight in roughly 16 months, in a brand-new factory at Everett, Washington, that became the world's largest building by volume.",
+    "You can recognize a 747 from any angle. The raised flight deck and the short upper deck behind it give the nose its hump, the four engines hang well forward of the wing, and the fuselage is long enough that the tail of the original model stood as tall as a six-story building."
+  ],
+  "whyItMatters": [
+    "In the 1960s, lower fares were filling the skies faster than airports could cope. An airplane that carried far more people per flight was Boeing's answer, and the 747's new high-bypass turbofans made that size practical. The 747-200 held about 440 passengers, several times the load of the [707](/aircraft/boeing-707) that came before it, and that scale helped bring long-haul flying within reach of ordinary travelers.",
+    "The 747 also showed what a big airframe could be adapted to do. Two 747-100s became NASA's Space Shuttle carriers, two 747-200Bs became the presidential [VC-25As](/aircraft/boeing-vc-25a), and freighter versions swing their whole nose open on a hinge to load cargo. The last 747 built was a freighter, delivered on January 31, 2023.",
+    "Its run was long enough to bracket an era. When the first 747 flew, the [Concorde](/aircraft/concorde) prototype was a month from its own first flight; when the last one was delivered, twin-engine jets such as the [777](/aircraft/boeing-777) had taken over the long routes it opened, and the even larger [A380](/aircraft/airbus-a380) had already gone out of production."
+  ],
+  "facts": [
+    "The original 747 was 225 feet long, with a tail as tall as a six-story building.",
+    "Boeing's 747 pilots learned to taxi from the high cockpit in \"Waddell's Wagon\": a mock cockpit on three-story stilts atop a truck, steered by radioing the driver below.",
+    "In all, Boeing built 1,574 of them, from the first flight in 1969 to the final delivery on January 31, 2023.",
+    "NASA turned two 747-100s into Shuttle Carrier Aircraft, which ferried the Space Shuttle orbiters on their backs.",
+    "Freighter 747s load through the nose: the whole front of the fuselage hinges upward so long cargo can slide straight in."
+  ],
+  "whereToSee": {
+    "text": "The forward fuselage of N601US, the first 747 built for Northwest Airlines and the first flown by an airline other than Pan Am, has been in the America by Air exhibition at the Smithsonian's National Air and Space Museum in Washington, DC, since January 2007.",
+    "source": 3
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "February 9, 1969",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Widebody airliner, the first in service",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Four high-bypass turbofans",
+      "source": 1
+    },
+    {
+      "label": "Length",
+      "value": "225 ft (original model)",
+      "source": 1
+    },
+    {
+      "label": "Passengers",
+      "value": "About 440 (747-200)",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "1,574",
+      "source": 2
+    },
+    {
+      "label": "Status",
+      "value": "Production ended; final delivery January 31, 2023",
+      "source": 2
+    }
+  ],
+  "relatedGuides": [
+    "biggest-planes-in-the-world",
+    "how-jet-engines-work",
+    "boeing-vs-airbus"
+  ],
+  "relatedAircraft": [
+    "boeing-707",
+    "airbus-a380",
+    "boeing-777"
+  ],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Boeing and Atlas Air celebrate delivery of the final 747",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2023/Boeing-Atlas-Air-Celebrate-Delivery-of-Final-747-an-Airplane-that-Transformed-Aviation-and-Global-Air-Travel/default.aspx"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Jumbo Jet (Air & Space Quarterly)",
+      "url": "https://airandspace.si.edu/air-and-space-quarterly/issue-12/boeing747-jumbo-jet"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

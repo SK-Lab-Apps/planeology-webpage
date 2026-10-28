@@ -1,0 +1,124 @@
+---
+/**
+ * /glossary — 150 aviation terms, A–Z, each with an anchor and links into the
+ * guides and aircraft pages. DefinedTermSet JSON-LD.
+ */
+import { getCollection } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import HeroBand from '@/components/HeroBand.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import BoardingPass from '@/components/BoardingPass.astro';
+import { ROUTES, guidePath, aircraftPath } from '@/config';
+import { getAircraft, getLesson, counts } from '@/lib/app-data';
+import { breadcrumbList, definedTermSet, graph, organization, type Seo } from '@/lib/seo';
+import { inlineMarkup } from '@/lib/text';
+
+const guides = await getCollection('guides');
+const guideTitle = new Map(guides.map((g) => [g.id, g.data.title]));
+const entries = (await getCollection('glossary')).map((e) => e.data);
+const sortKey = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+entries.sort((a, b) => sortKey(a.term).localeCompare(sortKey(b.term)));
+const byLetter = new Map<string, typeof entries>();
+for (const e of entries) {
+  const L = e.term[0].toUpperCase();
+  if (!byLetter.has(L)) byLetter.set(L, []);
+  byLetter.get(L)!.push(e);
+}
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
+const crumbs = [{ name: 'Home', path: ROUTES.home }, { name: 'Glossary', path: ROUTES.glossary }];
+const seo: Seo = {
+  title: 'Aviation Glossary: 150 Terms Explained',
+  description:
+    'Plain-English definitions of 150 aviation terms, from angle of attack and bypass ratio to jet stream, Mach number, stall, winglet and Zulu time.',
+  path: ROUTES.glossary,
+};
+const jsonld = [
+  graph([
+    organization(),
+    breadcrumbList(crumbs),
+    definedTermSet({
+      name: 'Planeology aviation glossary',
+      path: ROUTES.glossary,
+      terms: entries.map((e) => ({ id: e.id, term: e.term, definition: e.definition })),
+    }),
+  ]),
+];
+---
+<Base seo={seo} jsonld={jsonld} current="glossary">
+  <HeroBand loop={false}>
+    <div class="wrap pt-8 pb-10 md:pt-12 md:pb-12">
+      <Breadcrumbs items={crumbs} onNight />
+      <p class="label !text-board-text mt-6 mb-2">Reference · {entries.length} terms</p>
+      <h1 class="text-[2.6rem] sm:text-[3.4rem] md:text-[4rem] leading-[0.98] m-0 max-w-[14ch]">The aviation glossary</h1>
+      <p class="mt-4 mb-0 text-on-night-soft text-[1.15rem] max-w-[52ch] leading-relaxed">
+        The words you hear at the gate, on the radio and in the window seat, each explained in a sentence or three, the way the app's {counts.lessons} lessons explain them.
+      </p>
+    </div>
+  </HeroBand>
+
+  <nav class="jump" aria-label="Jump to letter">
+    <div class="wrap">
+      <ul class="list-none m-0 p-0 flex flex-wrap gap-1.5 py-3">
+        {alphabet.map((L) =>
+          byLetter.has(L) ? (
+            <li><a href={`#${L}`} class="jump-l">{L}</a></li>
+          ) : (
+            <li><span class="jump-l is-empty" aria-hidden="true">{L}</span></li>
+          ),
+        )}
+      </ul>
+    </div>
+  </nav>
+
+  <div class="wrap wrap-narrow py-8 grid gap-10">
+    {[...byLetter.entries()].map(([L, list]) => (
+      <section id={L} aria-labelledby={`h-${L}`} class="scroll-mt-20">
+        <h2 id={`h-${L}`} class="font-display text-[3rem] leading-none text-primary m-0 mb-4 flex items-baseline gap-3">
+          {L}<span class="label !text-ink-muted">{list.length} {list.length === 1 ? 'term' : 'terms'}</span>
+        </h2>
+        <dl class="m-0 grid gap-4">
+          {list.map((e) => {
+            const lesson = e.lesson ? getLesson(e.lesson) : null;
+            return (
+              <div id={e.id} class="term card p-4 sm:p-5 scroll-mt-20">
+                <dt class="font-display text-[1.45rem] font-bold leading-tight text-ink m-0">
+                  <a href={`#${e.id}`} class="no-underline text-ink hover:text-primary">{e.term}</a>
+                </dt>
+                <dd class="m-0 mt-1.5 text-[1.0625rem] leading-relaxed text-ink prose-links" set:html={inlineMarkup(e.definition)} />
+                {(e.guides.length > 0 || e.aircraft.length > 0 || lesson) && (
+                  <dd class="m-0 mt-2.5 flex flex-wrap gap-x-3 gap-y-1 text-[0.875rem]">
+                    {e.guides.filter((g) => guideTitle.has(g)).map((g) => (
+                      <a href={guidePath(g)} class="text-sky">Guide: {guideTitle.get(g)}</a>
+                    ))}
+                    {e.aircraft.map((a) => (
+                      <a href={aircraftPath(a)} class="text-sky">Hangar: {getAircraft(a).name}</a>
+                    ))}
+                    {lesson && <span class="text-ink-muted">Lesson: {lesson.title}</span>}
+                  </dd>
+                )}
+              </div>
+            );
+          })}
+        </dl>
+      </section>
+    ))}
+    <BoardingPass ct="glossary" title="Every term here has a lesson behind it." body={`Planeology explains the vocabulary where it comes up, in ${counts.lessons} short lessons with a quiz after each, so the words stick because you know what they do.`} />
+  </div>
+</Base>
+
+<style>
+  .jump {
+    position: sticky; top: 0; z-index: 30;
+    background: rgb(245 242 234 / 0.96);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .jump-l {
+    display: inline-grid; place-items: center; min-width: 2.1rem; height: 2.1rem; padding-inline: 0.4rem;
+    border-radius: 8px; font-family: var(--font-mono); font-weight: 600; font-size: 0.875rem;
+    color: var(--color-ink); background: var(--color-surface); border: 1px solid var(--color-border); text-decoration: none;
+  }
+  .jump-l:hover { border-color: var(--color-primary); color: var(--color-primary); }
+  .jump-l.is-empty { color: var(--color-border); background: transparent; }
+  .term:target { outline: 2px solid var(--color-signal); outline-offset: 2px; }
+</style>

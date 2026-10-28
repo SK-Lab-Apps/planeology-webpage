@@ -1,0 +1,15 @@
+---
+import AircraftCard from '@/components/AircraftCard.astro';
+import { getAircraft } from '@/lib/app-data';
+import { aircraftAlt } from '@/lib/alt';
+interface Props { ids: string[]; title?: string }
+const { ids, title = 'From the Hangar' } = Astro.props;
+const list = ids.map(getAircraft);
+---
+<section class="my-10" aria-labelledby="related-aircraft">
+  <p class="label text-primary mb-1">Aircraft</p>
+  <h2 id="related-aircraft" class="font-display text-[1.9rem] font-bold m-0 mb-4">{title}</h2>
+  <div class="grid gap-4 grid-cols-2 lg:grid-cols-3">
+    {list.map((a) => <AircraftCard aircraft={a} alt={aircraftAlt(a)} sizes="(min-width: 64rem) 14rem, 45vw" />)}
+  </div>
+</section>

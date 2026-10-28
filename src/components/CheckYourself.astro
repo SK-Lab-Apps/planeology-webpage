@@ -1,0 +1,66 @@
+---
+/**
+ * CheckYourself — three app quiz questions with their explanations, revealed
+ * with native <details>, so it reads and works with JavaScript off.
+ */
+import { getQuestion } from '@/lib/app-data';
+interface Props { ids: string[]; title?: string }
+const { ids, title = 'Check yourself' } = Astro.props;
+const letters = ['A', 'B', 'C', 'D'];
+const qs = ids.map(getQuestion);
+---
+<section class="cy" aria-labelledby="check-yourself">
+  <p class="label text-primary mb-1">Quiz</p>
+  <h2 id="check-yourself" class="font-display text-[1.9rem] font-bold m-0 mb-4">{title}</h2>
+  <ol class="list-none m-0 p-0 grid gap-3">
+    {qs.map((q, i) => (
+      <li class="cy-q card">
+        <p class="label mb-1.5">Question {i + 1} of {qs.length}</p>
+        <p class="font-semibold text-[1.0625rem] leading-snug m-0 mb-3">{q.question}</p>
+        <ul class="list-none m-0 p-0 grid gap-1.5">
+          {q.options.map((o, j) => (
+            <li class:list={['cy-opt', { 'is-right': j === q.correctIndex }]}>
+              <span class="cy-letter" aria-hidden="true">{letters[j]}</span>
+              <span>{o}</span>
+            </li>
+          ))}
+        </ul>
+        <details class="cy-why">
+          <summary>Show the answer</summary>
+          <p class="m-0 mt-2"><strong>Answer: {letters[q.correctIndex]}.</strong> {q.explanation}</p>
+        </details>
+      </li>
+    ))}
+  </ol>
+</section>
+
+<style>
+  .cy { margin-block: 2.5rem; }
+  .cy-q { padding: 1.125rem 1.25rem; }
+  .cy-opt {
+    display: flex; align-items: center; gap: 0.6rem;
+    padding: 0.5rem 0.625rem;
+    border-radius: var(--radius-tile);
+    border: 1px solid var(--color-hairline);
+    font-size: 1rem;
+  }
+  .cy-letter {
+    display: inline-grid; place-items: center;
+    width: 1.75rem; height: 1.75rem; border-radius: 8px; flex-shrink: 0;
+    background: var(--color-sunken); color: var(--color-ink-muted);
+    font-family: var(--font-mono); font-weight: 600; font-size: 0.8125rem;
+  }
+  .cy-why { margin-top: 0.75rem; }
+  .cy-why summary {
+    cursor: pointer; color: var(--color-sky); font-weight: 600; width: fit-content;
+    list-style: none;
+  }
+  .cy-why summary::-webkit-details-marker { display: none; }
+  .cy-why summary::before { content: '▸ '; }
+  .cy-why[open] summary::before { content: '▾ '; }
+  .cy-why[open] ~ ul .is-right, .cy-q:has(.cy-why[open]) .is-right {
+    border-color: var(--color-success); background: rgb(24 121 78 / 0.08);
+  }
+  .cy-q:has(.cy-why[open]) .is-right .cy-letter { background: var(--color-success); color: #fff; }
+  .cy-why p { font-size: 1rem; line-height: 1.5; color: var(--color-ink-secondary); }
+</style>

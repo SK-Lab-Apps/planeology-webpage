@@ -1,0 +1,59 @@
+---
+/** /learn — the guides hub, grouped by the app's lesson groups. */
+import { getCollection } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import HeroBand from '@/components/HeroBand.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import GuideCard from '@/components/GuideCard.astro';
+import BoardingPass from '@/components/BoardingPass.astro';
+import { ROUTES } from '@/config';
+import { groups, counts } from '@/lib/app-data';
+import { breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
+import { readingMinutes, wordCount } from '@/lib/text';
+
+const guides = (await getCollection('guides')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const byGroup = groups
+  .map((g) => ({ group: g, guides: guides.filter((x) => x.data.groupId === g.id) }))
+  .filter((x) => x.guides.length > 0);
+const minutes = (body: string | undefined) => readingMinutes(wordCount((body ?? '').replace(/<[^>]+>/g, ' ')));
+
+const crumbs = [{ name: 'Home', path: ROUTES.home }, { name: 'Guides', path: ROUTES.learn }];
+const seo: Seo = {
+  title: 'Aviation Guides: How Planes Fly and More',
+  description:
+    'Plain-English guides to how planes fly, jet engines, turbulence, runway numbers, airport codes, the Wright brothers and Concorde, checked against sources.',
+  path: ROUTES.learn,
+};
+const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
+---
+
+<Base seo={seo} jsonld={jsonld} current="learn">
+  <HeroBand loop={false}>
+    <div class="wrap pt-8 pb-12 md:pt-12 md:pb-16">
+      <Breadcrumbs items={crumbs} onNight />
+      <p class="label !text-board-text mt-6 mb-2">Flight plan · {guides.length} guides</p>
+      <h1 class="text-[2.6rem] sm:text-[3.4rem] md:text-[4rem] leading-[0.98] m-0 max-w-[14ch]">Guides to how flying works</h1>
+      <p class="mt-4 mb-0 text-on-night-soft text-[1.15rem] max-w-[52ch] leading-relaxed">
+        The questions people really ask about planes, answered in plain English and checked against official sources. Grouped the way the app's {counts.groups} lesson groups are.
+      </p>
+    </div>
+  </HeroBand>
+
+  <div class="wrap py-10 grid gap-12">
+    {byGroup.map(({ group, guides: gs }) => (
+      <section aria-labelledby={`g-${group.id}`}>
+        <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-4">
+          <span class="label" style={`color:${group.accent}`}>{group.code}</span>
+          <h2 id={`g-${group.id}`} class="font-display text-[1.9rem] font-bold m-0">{group.title}</h2>
+          <span class="hidden sm:inline text-ink-muted text-sm">{group.description}</span>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {gs.map((g) => (
+            <GuideCard slug={g.id} title={g.data.title} dek={g.data.dek} groupId={g.data.groupId} lead={g.data.lead} leadAlt={g.data.leadAlt} minutes={minutes(g.body)} />
+          ))}
+        </div>
+      </section>
+    ))}
+    <BoardingPass ct="guide-hub" title="Every guide here started as a five-minute lesson." body={`Planeology has ${counts.lessons} of them, with a quiz after each and an aircraft to park in your Hangar when you pass.`} />
+  </div>
+</Base>

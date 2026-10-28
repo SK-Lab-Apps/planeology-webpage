@@ -1,0 +1,3852 @@
+[
+  {
+    "id": "four-forces_q1",
+    "lessonId": "four-forces",
+    "groupId": "grp_flight_01",
+    "question": "Which of the four forces acts against an airplane's thrust?",
+    "options": [
+      "Torque",
+      "Drag",
+      "Lift",
+      "Weight"
+    ],
+    "correctIndex": 1,
+    "explanation": "Thrust drives the airplane forward, and drag, the air's resistance to its motion, holds it back."
+  },
+  {
+    "id": "four-forces_q2",
+    "lessonId": "four-forces",
+    "groupId": "grp_flight_01",
+    "question": "Through which point does an airplane's weight act?",
+    "options": [
+      "The tip of the nose",
+      "The center of gravity",
+      "The middle of the tail",
+      "The ends of the wings"
+    ],
+    "correctIndex": 1,
+    "explanation": "Weight is spread through the whole airplane, but it acts as though it all pulls through one point, the center of gravity."
+  },
+  {
+    "id": "four-forces_q3",
+    "lessonId": "four-forces",
+    "groupId": "grp_flight_01",
+    "question": "What does an airplane do when the four forces on it are balanced?",
+    "options": [
+      "Keeps a steady speed and direction",
+      "Starts to sink toward the ground",
+      "Begins a gentle, steady climb",
+      "Slowly loses speed until it stops"
+    ],
+    "correctIndex": 0,
+    "explanation": "Balanced forces mean no acceleration, so the airplane carries on at the same speed in the same direction."
+  },
+  {
+    "id": "four-forces_q4",
+    "lessonId": "four-forces",
+    "groupId": "grp_flight_01",
+    "question": "What is the main job of an airliner's engines?",
+    "options": [
+      "Keeping it level in gusts",
+      "Holding up its weight",
+      "Overcoming drag",
+      "Steering it through turns"
+    ],
+    "correctIndex": 2,
+    "explanation": "Engine thrust overcomes drag; it's the wings that make the lift to hold up the airplane's weight."
+  },
+  {
+    "id": "four-forces_q5",
+    "lessonId": "four-forces",
+    "groupId": "grp_flight_01",
+    "question": "How can a glider keep flying with no engine?",
+    "options": [
+      "Its wings make lift as it glides down",
+      "It's lighter than the air around it",
+      "It stores thrust from its launch",
+      "Its tail lifts it like a second wing"
+    ],
+    "correctIndex": 0,
+    "explanation": "A glider slowly descends through the air, and that forward motion lets its wings keep making lift."
+  },
+  {
+    "id": "how-wings-lift_q1",
+    "lessonId": "how-wings-lift",
+    "groupId": "grp_flight_01",
+    "question": "A wing pushes the passing air downward. What does the air do to the wing?",
+    "options": [
+      "Pushes it downward",
+      "Has no effect on it",
+      "Pushes it upward",
+      "Twists it sideways"
+    ],
+    "correctIndex": 2,
+    "explanation": "By Newton's third law, pushing air down produces an equal and opposite push up on the wing: lift."
+  },
+  {
+    "id": "how-wings-lift_q2",
+    "lessonId": "how-wings-lift",
+    "groupId": "grp_flight_01",
+    "question": "What happens to the air pressure above a wing as air speeds up over it?",
+    "options": [
+      "It drops",
+      "It stays the same",
+      "It rises",
+      "It doubles"
+    ],
+    "correctIndex": 0,
+    "explanation": "Faster-moving air has lower pressure, so the higher pressure under the wing pushes it up toward the top."
+  },
+  {
+    "id": "how-wings-lift_q3",
+    "lessonId": "how-wings-lift",
+    "groupId": "grp_flight_01",
+    "question": "What's wrong with the “equal transit” explanation of lift?",
+    "options": [
+      "It ignores the air's own weight",
+      "Air over the top actually moves slower",
+      "Air never speeds up over a wing",
+      "Air over the top reaches the back first"
+    ],
+    "correctIndex": 3,
+    "explanation": "Air over the top moves far faster than the theory predicts and reaches the trailing edge before the air flowing underneath."
+  },
+  {
+    "id": "how-wings-lift_q4",
+    "lessonId": "how-wings-lift",
+    "groupId": "grp_flight_01",
+    "question": "If a wing flies twice as fast, about how much more lift can it make?",
+    "options": [
+      "Eight times as much",
+      "Four times as much",
+      "Exactly the same",
+      "Twice as much"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lift grows with the square of speed, so doubling the speed gives about four times the lift."
+  },
+  {
+    "id": "how-wings-lift_q5",
+    "lessonId": "how-wings-lift",
+    "groupId": "grp_flight_01",
+    "question": "Why do airplanes need a longer takeoff run on a hot day?",
+    "options": [
+      "Warm fuel weighs more than cold",
+      "Hot tires grip the runway less",
+      "Heat adds drag to the wings",
+      "Thinner hot air makes less lift"
+    ],
+    "correctIndex": 3,
+    "explanation": "Warm air is less dense, and lift depends on density, so the plane needs more speed and more runway to lift off."
+  },
+  {
+    "id": "airfoils-aoa_q1",
+    "lessonId": "airfoils-aoa",
+    "groupId": "grp_flight_01",
+    "question": "What is a wing's angle of attack?",
+    "options": [
+      "The wing's angle to the oncoming air",
+      "How far the wings tilt in a turn",
+      "The angle between the nose and the horizon",
+      "The wing's angle to the fuselage"
+    ],
+    "correctIndex": 0,
+    "explanation": "Angle of attack is measured between the wing's chord line and the oncoming air, not the horizon."
+  },
+  {
+    "id": "airfoils-aoa_q2",
+    "lessonId": "airfoils-aoa",
+    "groupId": "grp_flight_01",
+    "question": "What does an airfoil's camber describe?",
+    "options": [
+      "The curve of its two surfaces",
+      "The angle it meets the air",
+      "Its length from tip to tip",
+      "Its thickness at the root"
+    ],
+    "correctIndex": 0,
+    "explanation": "Camber is the curvature of an airfoil's upper and lower surfaces; many wings curve more on top."
+  },
+  {
+    "id": "airfoils-aoa_q3",
+    "lessonId": "airfoils-aoa",
+    "groupId": "grp_flight_01",
+    "question": "Which of these is also shaped as an airfoil?",
+    "options": [
+      "An engine exhaust pipe",
+      "A landing gear strut",
+      "A cabin window frame",
+      "A propeller blade"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each propeller blade has an airfoil cross-section, so it makes lift that points forward as thrust."
+  },
+  {
+    "id": "airfoils-aoa_q4",
+    "lessonId": "airfoils-aoa",
+    "groupId": "grp_flight_01",
+    "question": "To make the same lift at a slower speed, what must a wing's angle of attack do?",
+    "options": [
+      "Stay exactly the same",
+      "Decrease",
+      "Drop to zero",
+      "Increase"
+    ],
+    "correctIndex": 3,
+    "explanation": "Less speed means less lift at any given angle, so the wing makes up for it by meeting the air at a higher angle of attack."
+  },
+  {
+    "id": "airfoils-aoa_q5",
+    "lessonId": "airfoils-aoa",
+    "groupId": "grp_flight_01",
+    "question": "How much lift does a symmetrical airfoil make at zero angle of attack?",
+    "options": [
+      "Its maximum lift",
+      "About half its maximum",
+      "None at all",
+      "More than a curved airfoil"
+    ],
+    "correctIndex": 2,
+    "explanation": "With equal curves above and below and no tilt, a symmetrical airfoil doesn't turn the air, so it makes no lift."
+  },
+  {
+    "id": "why-planes-stall_q1",
+    "lessonId": "why-planes-stall",
+    "groupId": "grp_flight_01",
+    "question": "In aviation, what makes a wing stall?",
+    "options": [
+      "Flying faster than a set speed",
+      "Climbing above a set altitude",
+      "The engine losing power in flight",
+      "Too high an angle of attack"
+    ],
+    "correctIndex": 3,
+    "explanation": "A wing stalls when its angle of attack passes the critical angle and the airflow over the top breaks away."
+  },
+  {
+    "id": "why-planes-stall_q2",
+    "lessonId": "why-planes-stall",
+    "groupId": "grp_flight_01",
+    "question": "Can an airplane's wing stall at high speed?",
+    "options": [
+      "No, a stall needs the nose pointed up high",
+      "Yes, but just with the engine off",
+      "No, fast-moving wings can't stall",
+      "Yes, if the angle of attack is too high"
+    ],
+    "correctIndex": 3,
+    "explanation": "Angle of attack, not speed, decides a stall, so a wing can stall at any airspeed and in any attitude."
+  },
+  {
+    "id": "why-planes-stall_q3",
+    "lessonId": "why-planes-stall",
+    "groupId": "grp_flight_01",
+    "question": "What happens to the lift of a stalled wing?",
+    "options": [
+      "It briefly doubles, then fades",
+      "It vanishes completely",
+      "It drops sharply but doesn't vanish",
+      "It stays the same, but drag drops"
+    ],
+    "correctIndex": 2,
+    "explanation": "A stalled wing still makes some lift, but no longer enough to support the airplane's weight."
+  },
+  {
+    "id": "why-planes-stall_q4",
+    "lessonId": "why-planes-stall",
+    "groupId": "grp_flight_01",
+    "question": "What does a stick shaker do?",
+    "options": [
+      "Alerts the crew that a door is unlatched",
+      "Shakes the controls to warn of a stall",
+      "Tests the control cables before flight",
+      "Smooths out bumps caused by turbulence"
+    ],
+    "correctIndex": 1,
+    "explanation": "A stick shaker vibrates the control column to warn the crew that the wing is nearing its critical angle of attack."
+  },
+  {
+    "id": "why-planes-stall_q5",
+    "lessonId": "why-planes-stall",
+    "groupId": "grp_flight_01",
+    "question": "Why is a slow-flying airplane closer to a stall?",
+    "options": [
+      "Its flaps fold away as it slows down",
+      "Its engine loses power at low speeds",
+      "Slow-moving air weighs more on the wings",
+      "It must fly at a higher angle of attack"
+    ],
+    "correctIndex": 3,
+    "explanation": "At lower speeds a wing needs a higher angle of attack to make the same lift, bringing it nearer the critical angle."
+  },
+  {
+    "id": "fuselage-structure_q1",
+    "lessonId": "fuselage-structure",
+    "groupId": "grp_anatomy_02",
+    "question": "Which part of an airplane carries the passengers and connects the wings to the tail?",
+    "options": [
+      "The empennage",
+      "The fuselage",
+      "The landing gear",
+      "The wing spar"
+    ],
+    "correctIndex": 1,
+    "explanation": "The fuselage is the main body: it holds the crew, passengers and cargo, and it links the wings and the tail."
+  },
+  {
+    "id": "fuselage-structure_q2",
+    "lessonId": "fuselage-structure",
+    "groupId": "grp_anatomy_02",
+    "question": "What does “monocoque” mean?",
+    "options": [
+      "Single shell",
+      "Open truss",
+      "Double frame",
+      "Light skeleton"
+    ],
+    "correctIndex": 0,
+    "explanation": "Monocoque is French for “single shell”: a structure in which the skin itself carries almost all the loads."
+  },
+  {
+    "id": "fuselage-structure_q3",
+    "lessonId": "fuselage-structure",
+    "groupId": "grp_anatomy_02",
+    "question": "In a semimonocoque fuselage, what carries the loads?",
+    "options": [
+      "The skin and an inner frame together",
+      "An open frame of welded steel tubes",
+      "The skin by itself, like a shell",
+      "The cabin floor and seat rails"
+    ],
+    "correctIndex": 0,
+    "explanation": "A semimonocoque fuselage shares its loads between the skin and an inner frame of bulkheads, formers and stringers."
+  },
+  {
+    "id": "fuselage-structure_q4",
+    "lessonId": "fuselage-structure",
+    "groupId": "grp_anatomy_02",
+    "question": "Which is an advantage of composite materials over aluminum?",
+    "options": [
+      "They conduct electricity better",
+      "They weigh more for extra strength",
+      "They're cheaper to repair",
+      "They don't corrode"
+    ],
+    "correctIndex": 3,
+    "explanation": "Composites such as carbon fiber in resin are light and strong, and unlike aluminum they don't corrode."
+  },
+  {
+    "id": "fuselage-structure_q5",
+    "lessonId": "fuselage-structure",
+    "groupId": "grp_anatomy_02",
+    "question": "At cruise, an airliner's cabin is usually pressurized to feel like about what altitude?",
+    "options": [
+      "Sea level",
+      "About 20,000 feet",
+      "About 8,000 feet",
+      "About 35,000 feet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pressurization typically keeps the cabin at an altitude of about 8,000 feet, even when the jet cruises far higher."
+  },
+  {
+    "id": "wings-flaps-slats_q1",
+    "lessonId": "wings-flaps-slats",
+    "groupId": "grp_anatomy_02",
+    "question": "What do a wing's ribs do?",
+    "options": [
+      "Set the shape of the airfoil",
+      "Hold the navigation lights",
+      "Pump fuel to the engines",
+      "Steer the plane in turns"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ribs run from the wing's front to its back and set its shape and thickness: the airfoil."
+  },
+  {
+    "id": "wings-flaps-slats_q2",
+    "lessonId": "wings-flaps-slats",
+    "groupId": "grp_anatomy_02",
+    "question": "What do extended flaps do to a wing?",
+    "options": [
+      "Add both lift and drag",
+      "Reduce both lift and drag",
+      "Cut lift but add drag",
+      "Add lift but cut drag"
+    ],
+    "correctIndex": 0,
+    "explanation": "Flaps add curve and often area, raising lift for slow flight, and they add drag at the same time."
+  },
+  {
+    "id": "wings-flaps-slats_q3",
+    "lessonId": "wings-flaps-slats",
+    "groupId": "grp_anatomy_02",
+    "question": "How do leading-edge slats help a wing?",
+    "options": [
+      "They shed ice from the wing",
+      "They delay the stall",
+      "They help steer at low speed",
+      "They cut drag in cruise"
+    ],
+    "correctIndex": 1,
+    "explanation": "Slats open a slot that keeps air flowing smoothly over the wing, so it can reach a higher angle of attack before stalling."
+  },
+  {
+    "id": "wings-flaps-slats_q4",
+    "lessonId": "wings-flaps-slats",
+    "groupId": "grp_anatomy_02",
+    "question": "What do spoilers do right after an airliner touches down?",
+    "options": [
+      "Reverse the engines' thrust",
+      "Add lift to soften touchdown",
+      "Cool the brakes with air",
+      "Cut the wing's lift"
+    ],
+    "correctIndex": 3,
+    "explanation": "Raised spoilers disrupt the airflow and cut the wing's lift, putting the airplane's weight on its wheels for better braking."
+  },
+  {
+    "id": "wings-flaps-slats_q5",
+    "lessonId": "wings-flaps-slats",
+    "groupId": "grp_anatomy_02",
+    "question": "Why was the Boeing 727 given elaborate triple-slotted flaps?",
+    "options": [
+      "To carry extra fuel in its wings",
+      "To fly faster than sound",
+      "To cruise higher than other jets",
+      "To use shorter runways"
+    ],
+    "correctIndex": 3,
+    "explanation": "The 727 was designed for smaller airports with shorter runways, so its wings had to fly slowly for takeoff and landing."
+  },
+  {
+    "id": "tail-control-surfaces_q1",
+    "lessonId": "tail-control-surfaces",
+    "groupId": "grp_anatomy_02",
+    "question": "Which movement do an airplane's ailerons control?",
+    "options": [
+      "Thrust",
+      "Yaw",
+      "Roll",
+      "Pitch"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ailerons move in opposite directions near the wingtips, rolling the airplane around its nose-to-tail axis."
+  },
+  {
+    "id": "tail-control-surfaces_q2",
+    "lessonId": "tail-control-surfaces",
+    "groupId": "grp_anatomy_02",
+    "question": "What does an airplane's rudder do?",
+    "options": [
+      "Rolls the wings side to side",
+      "Slows the plane on landing",
+      "Swings the nose left or right",
+      "Tips the nose up or down"
+    ],
+    "correctIndex": 2,
+    "explanation": "The rudder, hinged to the vertical fin, yaws the airplane, swinging its nose left or right."
+  },
+  {
+    "id": "tail-control-surfaces_q3",
+    "lessonId": "tail-control-surfaces",
+    "groupId": "grp_anatomy_02",
+    "question": "Which control surface raises or lowers an airplane's nose?",
+    "options": [
+      "The elevator",
+      "The spoilers",
+      "The rudder",
+      "The ailerons"
+    ],
+    "correctIndex": 0,
+    "explanation": "The elevator, hinged to the horizontal tail, controls pitch, tipping the nose up or down."
+  },
+  {
+    "id": "tail-control-surfaces_q4",
+    "lessonId": "tail-control-surfaces",
+    "groupId": "grp_anatomy_02",
+    "question": "What is a stabilator?",
+    "options": [
+      "A horizontal tail that moves in one piece",
+      "A small tab that trims the rudder",
+      "A fin that holds the airplane straight",
+      "A panel that steadies the wings in gusty air"
+    ],
+    "correctIndex": 0,
+    "explanation": "A stabilator combines the horizontal stabilizer and the elevator into a single tail surface that moves as one."
+  },
+  {
+    "id": "tail-control-surfaces_q5",
+    "lessonId": "tail-control-surfaces",
+    "groupId": "grp_anatomy_02",
+    "question": "On a T-tail airplane, where is the horizontal tail mounted?",
+    "options": [
+      "Halfway along each wing",
+      "On top of the vertical fin",
+      "At the very front of the nose",
+      "Underneath the rear fuselage"
+    ],
+    "correctIndex": 1,
+    "explanation": "A T-tail puts the horizontal stabilizer at the top of the fin, so the tail forms a T when seen from behind."
+  },
+  {
+    "id": "landing-gear_q1",
+    "lessonId": "landing-gear",
+    "groupId": "grp_anatomy_02",
+    "question": "What is a “taildragger”?",
+    "options": [
+      "A plane that sits on a tailwheel",
+      "A glider pulled aloft by another plane",
+      "A plane with its tail mounted high",
+      "A plane that tows a banner behind it"
+    ],
+    "correctIndex": 0,
+    "explanation": "Taildraggers have two main wheels and a small wheel under the tail, so they sit nose-high on the ground."
+  },
+  {
+    "id": "landing-gear_q2",
+    "lessonId": "landing-gear",
+    "groupId": "grp_anatomy_02",
+    "question": "Why do faster airplanes retract their landing gear?",
+    "options": [
+      "To keep the brakes dry",
+      "To cut drag",
+      "To cool the tires",
+      "To save weight"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wheels hanging in the airflow create a lot of drag, so folding them away lets the airplane fly faster on the same power."
+  },
+  {
+    "id": "landing-gear_q3",
+    "lessonId": "landing-gear",
+    "groupId": "grp_anatomy_02",
+    "question": "How is the wear on an airliner's brakes usually tracked?",
+    "options": [
+      "By hours spent in cruise",
+      "By the number of landings",
+      "By miles flown",
+      "By the number of passengers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Brakes do their hardest work during landings, so their wear is counted in landings rather than in distance flown."
+  },
+  {
+    "id": "landing-gear_q4",
+    "lessonId": "landing-gear",
+    "groupId": "grp_anatomy_02",
+    "question": "Why do many airliners use carbon brakes?",
+    "options": [
+      "They're light and absorb more energy",
+      "They work without any hydraulic power",
+      "They never wear out or need replacing",
+      "They make the tires last much longer"
+    ],
+    "correctIndex": 0,
+    "explanation": "Carbon brakes weigh less than steel ones and can absorb more energy, which matters when stopping a heavy jet."
+  },
+  {
+    "id": "landing-gear_q5",
+    "lessonId": "landing-gear",
+    "groupId": "grp_anatomy_02",
+    "question": "Which landing gear lets an airplane land on a lake?",
+    "options": [
+      "Tundra tires",
+      "A tailwheel",
+      "Floats",
+      "Skis"
+    ],
+    "correctIndex": 2,
+    "explanation": "Floats are watertight hulls fitted under the airplane, letting it take off from and land on water."
+  },
+  {
+    "id": "pistons-propellers_q1",
+    "lessonId": "pistons-propellers",
+    "groupId": "grp_engines_03",
+    "question": "In a four-stroke piston engine, which stroke is driven by the burning fuel and air?",
+    "options": [
+      "Power",
+      "Intake",
+      "Exhaust",
+      "Compression"
+    ],
+    "correctIndex": 0,
+    "explanation": "In the power stroke, the burning mixture expands and forces the piston down, turning the crankshaft."
+  },
+  {
+    "id": "pistons-propellers_q2",
+    "lessonId": "pistons-propellers",
+    "groupId": "grp_engines_03",
+    "question": "In a horizontally opposed engine, how are the cylinders arranged?",
+    "options": [
+      "In a V, angled apart",
+      "Flat, in two rows facing each other",
+      "Upright, in a single straight row",
+      "In a star, like spokes of a wheel"
+    ],
+    "correctIndex": 1,
+    "explanation": "Horizontally opposed engines lay their cylinders flat in two rows, one on each side of the crankshaft."
+  },
+  {
+    "id": "pistons-propellers_q3",
+    "lessonId": "pistons-propellers",
+    "groupId": "grp_engines_03",
+    "question": "Which engine type, with cylinders arranged like spokes, powered many WWII aircraft?",
+    "options": [
+      "Horizontally opposed",
+      "Turboprop",
+      "Inline",
+      "Radial"
+    ],
+    "correctIndex": 3,
+    "explanation": "Radial engines arrange their cylinders in a circle around the crankshaft and were widely used in World War II."
+  },
+  {
+    "id": "pistons-propellers_q4",
+    "lessonId": "pistons-propellers",
+    "groupId": "grp_engines_03",
+    "question": "Why are propeller blades twisted along their length?",
+    "options": [
+      "Their tips travel faster than their roots",
+      "So they can fold flat when parked",
+      "To stop ice from building up on the blade tips",
+      "To keep the engine cooler at idle"
+    ],
+    "correctIndex": 0,
+    "explanation": "The tips move much faster than the parts near the hub, so the blade angle shrinks toward the tip to keep lift even along it."
+  },
+  {
+    "id": "pistons-propellers_q5",
+    "lessonId": "pistons-propellers",
+    "groupId": "grp_engines_03",
+    "question": "About how much power did the engine on the Wright brothers' 1903 Flyer make?",
+    "options": [
+      "About 12 horsepower",
+      "About 100 horsepower",
+      "About 400 horsepower",
+      "About 1 horsepower"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Flyer's gasoline engine made about 12 horsepower, which is why efficient propellers mattered so much."
+  },
+  {
+    "id": "turbojets_q1",
+    "lessonId": "turbojets",
+    "groupId": "grp_engines_03",
+    "question": "In a turbojet, what keeps the compressor spinning?",
+    "options": [
+      "Air rushing in through the inlet",
+      "A battery-powered electric motor",
+      "A small piston engine in the nose",
+      "A turbine on the same shaft"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hot gas spins the turbine, and because it shares a shaft with the compressor, it keeps the compressor turning."
+  },
+  {
+    "id": "turbojets_q2",
+    "lessonId": "turbojets",
+    "groupId": "grp_engines_03",
+    "question": "In order, which sections does air pass through in a turbojet?",
+    "options": [
+      "Compressor, combustion, turbine, exhaust",
+      "Compressor, turbine, combustion, exhaust",
+      "Turbine, compressor, combustion, exhaust",
+      "Combustion, compressor, exhaust, turbine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Air is compressed, burned with fuel, used to spin the turbine, and finally sent out through the exhaust."
+  },
+  {
+    "id": "turbojets_q3",
+    "lessonId": "turbojets",
+    "groupId": "grp_engines_03",
+    "question": "Where does most of the gas leaving a jet engine come from?",
+    "options": [
+      "Oxygen tanks carried on board",
+      "The fuel the engine burns",
+      "Water vapor from the clouds",
+      "Air drawn in from outside"
+    ],
+    "correctIndex": 3,
+    "explanation": "A typical jet moves about 100 pounds of air for every 2 pounds of fuel, so its exhaust is mostly outside air."
+  },
+  {
+    "id": "turbojets_q4",
+    "lessonId": "turbojets",
+    "groupId": "grp_engines_03",
+    "question": "Why can't a jet engine work in space?",
+    "options": [
+      "Gravity in space is too weak",
+      "There's no air to supply oxygen",
+      "The fuel would boil away",
+      "It's too cold for the fuel to burn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unlike a rocket, which carries its own oxygen, a jet engine takes oxygen from the surrounding air."
+  },
+  {
+    "id": "turbojets_q5",
+    "lessonId": "turbojets",
+    "groupId": "grp_engines_03",
+    "question": "What does an afterburner do?",
+    "options": [
+      "Burns off leftover fuel after landing",
+      "Burns extra fuel in the exhaust",
+      "Cools the exhaust to cut noise",
+      "Feeds exhaust back into the inlet"
+    ],
+    "correctIndex": 1,
+    "explanation": "An afterburner sprays fuel into the hot exhaust behind the turbine, giving a big boost in thrust at a high fuel cost."
+  },
+  {
+    "id": "turbofans_q1",
+    "lessonId": "turbofans",
+    "groupId": "grp_engines_03",
+    "question": "In a turbofan engine, what is bypass air?",
+    "options": [
+      "Air that leaks out of the passenger cabin",
+      "Air used to cool the brakes",
+      "Air the fan pushes around the core",
+      "Hot gas leaving the turbine"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bypass air is drawn in by the fan and flows around the engine's core instead of through it."
+  },
+  {
+    "id": "turbofans_q2",
+    "lessonId": "turbofans",
+    "groupId": "grp_engines_03",
+    "question": "What does a turbofan's bypass ratio compare?",
+    "options": [
+      "Fan speed with turbine speed",
+      "Takeoff thrust with cruise thrust",
+      "Fuel burned with thrust produced",
+      "Air around the core with air through it"
+    ],
+    "correctIndex": 3,
+    "explanation": "The bypass ratio is the mass of air flowing around the core divided by the mass flowing through it."
+  },
+  {
+    "id": "turbofans_q3",
+    "lessonId": "turbofans",
+    "groupId": "grp_engines_03",
+    "question": "Why do airliners use turbofans rather than turbojets?",
+    "options": [
+      "They need no fuel at all in cruise",
+      "More thrust for less fuel and noise",
+      "They are lighter and much simpler",
+      "They are built to fly faster than sound"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bypass air adds thrust, helps cool the engine and cuts noise, so turbofans are quieter and burn less fuel than turbojets."
+  },
+  {
+    "id": "turbofans_q4",
+    "lessonId": "turbofans",
+    "groupId": "grp_engines_03",
+    "question": "What material did the GE90 introduce for airliner fan blades?",
+    "options": [
+      "Composites",
+      "Titanium",
+      "Aluminum",
+      "Stainless steel"
+    ],
+    "correctIndex": 0,
+    "explanation": "The GE90, built for the Boeing 777, was the first commercial jet engine with composite fan blades."
+  },
+  {
+    "id": "turbofans_q5",
+    "lessonId": "turbofans",
+    "groupId": "grp_engines_03",
+    "question": "What world record does the GE9X turbofan hold?",
+    "options": [
+      "Lightest engine ever fitted to a jet",
+      "Longest run between overhauls",
+      "Highest thrust of any airliner engine",
+      "Lowest fuel burn of any engine ever"
+    ],
+    "correctIndex": 2,
+    "explanation": "The GE9X, built for the Boeing 777X, reached 134,300 pounds of thrust, a world record for an airliner engine."
+  },
+  {
+    "id": "turboprops-turboshafts_q1",
+    "lessonId": "turboprops-turboshafts",
+    "groupId": "grp_engines_03",
+    "question": "In a turboprop engine, what produces most of the thrust?",
+    "options": [
+      "The gearbox",
+      "The propeller",
+      "The jet exhaust",
+      "The compressor"
+    ],
+    "correctIndex": 1,
+    "explanation": "An extra turbine takes most of the hot gas's energy to turn the propeller, so the exhaust adds just a little thrust."
+  },
+  {
+    "id": "turboprops-turboshafts_q2",
+    "lessonId": "turboprops-turboshafts",
+    "groupId": "grp_engines_03",
+    "question": "Why does a turboprop need a reduction gearbox?",
+    "options": [
+      "To keep the hot exhaust from overheating",
+      "So the propeller can spin in reverse during flight",
+      "Propellers work best far slower than turbines",
+      "To start the engine without any battery"
+    ],
+    "correctIndex": 2,
+    "explanation": "A turbine runs at very high rpm, but a propeller performs best much more slowly, so gearing slows the propeller down."
+  },
+  {
+    "id": "turboprops-turboshafts_q3",
+    "lessonId": "turboprops-turboshafts",
+    "groupId": "grp_engines_03",
+    "question": "At about what speeds are turboprop engines at their most efficient?",
+    "options": [
+      "Above 1,000 mph",
+      "About 600 to 700 mph",
+      "About 250 to 400 mph",
+      "About 50 to 100 mph"
+    ],
+    "correctIndex": 2,
+    "explanation": "Turboprops work best at moderate speeds, about 250 to 400 mph, at altitudes between 18,000 and 30,000 feet."
+  },
+  {
+    "id": "turboprops-turboshafts_q4",
+    "lessonId": "turboprops-turboshafts",
+    "groupId": "grp_engines_03",
+    "question": "What can a turboshaft engine drive instead of a propeller?",
+    "options": [
+      "A glider's tow rope",
+      "A rocket's nozzle",
+      "A jet's afterburner",
+      "A helicopter rotor"
+    ],
+    "correctIndex": 3,
+    "explanation": "A turboshaft sends its power down a shaft to drive something other than a propeller, such as a helicopter's rotor."
+  },
+  {
+    "id": "turboprops-turboshafts_q5",
+    "lessonId": "turboprops-turboshafts",
+    "groupId": "grp_engines_03",
+    "question": "Which of these aircraft flies on four turboprop engines?",
+    "options": [
+      "Lockheed C-130 Hercules",
+      "Boeing 747",
+      "Lockheed F-104 Starfighter",
+      "Concorde"
+    ],
+    "correctIndex": 0,
+    "explanation": "The C-130 hauls cargo long distances without needing jet speed, so it flies on four turboprops."
+  },
+  {
+    "id": "classic-six_q1",
+    "lessonId": "classic-six",
+    "groupId": "grp_cockpit_04",
+    "question": "Which instrument uses both the pitot tube and the static ports?",
+    "options": [
+      "The vertical speed indicator",
+      "The airspeed indicator",
+      "The altimeter",
+      "The heading indicator"
+    ],
+    "correctIndex": 1,
+    "explanation": "The airspeed indicator compares ram air pressure from the pitot tube with static pressure to show speed through the air."
+  },
+  {
+    "id": "classic-six_q2",
+    "lessonId": "classic-six",
+    "groupId": "grp_cockpit_04",
+    "question": "What does a classic altimeter actually measure?",
+    "options": [
+      "Outside air pressure",
+      "Outside air temperature",
+      "The pull of gravity",
+      "The speed of the airflow"
+    ],
+    "correctIndex": 0,
+    "explanation": "It senses static air pressure, which falls steadily with height, and shows that as altitude."
+  },
+  {
+    "id": "classic-six_q3",
+    "lessonId": "classic-six",
+    "groupId": "grp_cockpit_04",
+    "question": "Which property of a spinning gyroscope makes the attitude indicator work?",
+    "options": [
+      "Centrifugal lift",
+      "Static pressure",
+      "Magnetic attraction",
+      "Rigidity in space"
+    ],
+    "correctIndex": 3,
+    "explanation": "A spinning gyro holds its position in space, so the airplane effectively turns around it while the horizon bar stays steady."
+  },
+  {
+    "id": "classic-six_q4",
+    "lessonId": "classic-six",
+    "groupId": "grp_cockpit_04",
+    "question": "What does the attitude indicator show?",
+    "options": [
+      "Its height above the ground",
+      "How fast it is climbing",
+      "The airplane's pitch and bank",
+      "Its speed through the air"
+    ],
+    "correctIndex": 2,
+    "explanation": "A miniature airplane against an artificial horizon mirrors the real airplane's pitch and bank against the true horizon."
+  },
+  {
+    "id": "classic-six_q5",
+    "lessonId": "classic-six",
+    "groupId": "grp_cockpit_04",
+    "question": "How long does a full circle take in a standard-rate turn?",
+    "options": [
+      "Thirty seconds",
+      "Ten minutes",
+      "Five minutes",
+      "Two minutes"
+    ],
+    "correctIndex": 3,
+    "explanation": "A standard-rate turn is 3 degrees per second, so turning through all 360 degrees takes two minutes."
+  },
+  {
+    "id": "glass-cockpits_q1",
+    "lessonId": "glass-cockpits",
+    "groupId": "grp_cockpit_04",
+    "question": "What does a primary flight display (PFD) do?",
+    "options": [
+      "Sets engine power for takeoff and climb",
+      "Shows the flight instruments on one screen",
+      "Records cockpit voices for investigators",
+      "Shows passengers the route on a map"
+    ],
+    "correctIndex": 1,
+    "explanation": "A PFD combines the traditional flight instruments, such as attitude, airspeed and altitude, onto a single screen."
+  },
+  {
+    "id": "glass-cockpits_q2",
+    "lessonId": "glass-cockpits",
+    "groupId": "grp_cockpit_04",
+    "question": "On a primary flight display, how are airspeed and altitude usually shown?",
+    "options": [
+      "On scrolling vertical tapes",
+      "On round dials with needles",
+      "As spoken announcements",
+      "On a separate overhead panel"
+    ],
+    "correctIndex": 0,
+    "explanation": "Airspeed and altitude scroll on vertical tapes on either side of the artificial horizon."
+  },
+  {
+    "id": "glass-cockpits_q3",
+    "lessonId": "glass-cockpits",
+    "groupId": "grp_cockpit_04",
+    "question": "What do magenta trend lines on a PFD's tapes show?",
+    "options": [
+      "The speed limit for the airspace",
+      "Speed and altitude 6 seconds ahead",
+      "How much fuel is left in each tank",
+      "Where other aircraft are flying"
+    ],
+    "correctIndex": 1,
+    "explanation": "An air data computer projects the trend, showing where airspeed and altitude will be 6 seconds later if nothing changes."
+  },
+  {
+    "id": "glass-cockpits_q4",
+    "lessonId": "glass-cockpits",
+    "groupId": "grp_cockpit_04",
+    "question": "In many glass cockpits, what replaced the spinning gyroscopes?",
+    "options": [
+      "Solid-state motion sensors",
+      "A larger magnetic compass",
+      "A second vacuum pump",
+      "Extra pitot tubes on the wings"
+    ],
+    "correctIndex": 0,
+    "explanation": "An attitude and heading reference system (AHRS) uses solid-state sensors and a magnetometer instead of spinning gyros."
+  },
+  {
+    "id": "glass-cockpits_q5",
+    "lessonId": "glass-cockpits",
+    "groupId": "grp_cockpit_04",
+    "question": "Which two Boeing jets were developed together with nearly identical glass cockpits?",
+    "options": [
+      "The 777 and 787",
+      "The 707 and 727",
+      "The 757 and 767",
+      "The 737 and 747"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 757 and 767 were developed side by side with nearly identical two-pilot flight decks, so crews could qualify on both."
+  },
+  {
+    "id": "autopilot-fbw_q1",
+    "lessonId": "autopilot-fbw",
+    "groupId": "grp_cockpit_04",
+    "question": "Which two things can even a simple autopilot hold?",
+    "options": [
+      "Altitude and heading",
+      "Cabin pressure and temperature",
+      "Landing gear and flaps",
+      "Fuel flow and engine power"
+    ],
+    "correctIndex": 0,
+    "explanation": "Altitude hold and heading hold are the common autopilot features, keeping the airplane level and on a set course."
+  },
+  {
+    "id": "autopilot-fbw_q2",
+    "lessonId": "autopilot-fbw",
+    "groupId": "grp_cockpit_04",
+    "question": "What moves the control surfaces when an autopilot is flying?",
+    "options": [
+      "Air bled from the engines",
+      "Springs inside the control yoke",
+      "Magnets inside the compass",
+      "Small motors called servos"
+    ],
+    "correctIndex": 3,
+    "explanation": "The autopilot sends commands to servos, small motors linked to the flight controls, which move the control surfaces."
+  },
+  {
+    "id": "autopilot-fbw_q3",
+    "lessonId": "autopilot-fbw",
+    "groupId": "grp_cockpit_04",
+    "question": "What does a three-axis autopilot control?",
+    "options": [
+      "The ailerons alone",
+      "Throttles, flaps and gear",
+      "Ailerons, elevator and rudder",
+      "Brakes, spoilers and slats"
+    ],
+    "correctIndex": 2,
+    "explanation": "A three-axis autopilot uses separate servos to move the ailerons, elevator and rudder, controlling roll, pitch and yaw."
+  },
+  {
+    "id": "autopilot-fbw_q4",
+    "lessonId": "autopilot-fbw",
+    "groupId": "grp_cockpit_04",
+    "question": "In a fly-by-wire airplane, what replaces the cables and rods to the control surfaces?",
+    "options": [
+      "Electrical signals",
+      "Radio links to the ground",
+      "Hydraulic hoses alone",
+      "Chains and pulleys"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fly-by-wire sends the pilot's inputs as electrical signals, which computers turn into commands that move the surfaces."
+  },
+  {
+    "id": "autopilot-fbw_q5",
+    "lessonId": "autopilot-fbw",
+    "groupId": "grp_cockpit_04",
+    "question": "Which airliner was the first civil aircraft with full digital fly-by-wire?",
+    "options": [
+      "Boeing 777",
+      "Airbus A320",
+      "Concorde",
+      "Boeing 747"
+    ],
+    "correctIndex": 1,
+    "explanation": "The A320, first flown in 1987, introduced full digital fly-by-wire to civil aviation, flown with sidesticks."
+  },
+  {
+    "id": "callsigns-phonetic_q1",
+    "lessonId": "callsigns-phonetic",
+    "groupId": "grp_cockpit_04",
+    "question": "In the ICAO phonetic alphabet, what is the code word for the letter J?",
+    "options": [
+      "Juliett",
+      "Jericho",
+      "Jupiter",
+      "Jaguar"
+    ],
+    "correctIndex": 0,
+    "explanation": "J is Juliett, officially spelled with two Ts, just as A is officially spelled Alfa."
+  },
+  {
+    "id": "callsigns-phonetic_q2",
+    "lessonId": "callsigns-phonetic",
+    "groupId": "grp_cockpit_04",
+    "question": "How is the digit 9 spoken on aviation radio?",
+    "options": [
+      "Nina",
+      "Niner",
+      "Nine-oh",
+      "November"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aviation radio uses niner for nine, alongside tree for three and fife for five, so the digits are easy to tell apart."
+  },
+  {
+    "id": "callsigns-phonetic_q3",
+    "lessonId": "callsigns-phonetic",
+    "groupId": "grp_cockpit_04",
+    "question": "What does “Zulu” mean when a time is given on the radio?",
+    "options": [
+      "Time until landing",
+      "Local time at the airport",
+      "Coordinated Universal Time",
+      "Time since takeoff"
+    ],
+    "correctIndex": 2,
+    "explanation": "Aviation runs on Coordinated Universal Time, often called Zulu, so pilots and controllers everywhere share one clock."
+  },
+  {
+    "id": "callsigns-phonetic_q4",
+    "lessonId": "callsigns-phonetic",
+    "groupId": "grp_cockpit_04",
+    "question": "Why might an airline flight add “heavy” to its call sign?",
+    "options": [
+      "It's running low on fuel",
+      "It has a VIP passenger aboard",
+      "It's a big jet with a strong wake",
+      "It's carrying extra cargo today"
+    ],
+    "correctIndex": 2,
+    "explanation": "“Heavy” and “super” tell controllers and other crews that the aircraft is in a large wake turbulence category."
+  },
+  {
+    "id": "callsigns-phonetic_q5",
+    "lessonId": "callsigns-phonetic",
+    "groupId": "grp_cockpit_04",
+    "question": "What is “Air Force One”?",
+    "options": [
+      "A call sign for the president's aircraft",
+      "The name of one particular Boeing 747 jet",
+      "The Air Force's first jet aircraft",
+      "A squadron of presidential fighters"
+    ],
+    "correctIndex": 0,
+    "explanation": "Air Force One is the radio call sign used when the president is aboard an Air Force aircraft, usually a VC-25A."
+  },
+  {
+    "id": "how-airports-work_q1",
+    "lessonId": "how-airports-work",
+    "groupId": "grp_airports_05",
+    "question": "At night, what color are an airport's taxiway edge lights?",
+    "options": [
+      "Green",
+      "Red",
+      "White",
+      "Blue"
+    ],
+    "correctIndex": 3,
+    "explanation": "Taxiway edges are lit in blue, while taxiway centerlines are green and runway edges are mostly white."
+  },
+  {
+    "id": "how-airports-work_q2",
+    "lessonId": "how-airports-work",
+    "groupId": "grp_airports_05",
+    "question": "What color is a sign marking the entrance to a runway?",
+    "options": [
+      "Yellow with black letters",
+      "Red with white letters",
+      "Black with yellow letters",
+      "Green with white letters"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mandatory signs, such as runway holding position signs, have a red background with white lettering."
+  },
+  {
+    "id": "how-airports-work_q3",
+    "lessonId": "how-airports-work",
+    "groupId": "grp_airports_05",
+    "question": "An airport beacon flashing white and green marks what?",
+    "options": [
+      "A lighted land airport",
+      "A military radar site",
+      "A heliport",
+      "A water airport"
+    ],
+    "correctIndex": 0,
+    "explanation": "White and green flashes mark a lighted land airport, while white and yellow mark a water airport."
+  },
+  {
+    "id": "how-airports-work_q4",
+    "lessonId": "how-airports-work",
+    "groupId": "grp_airports_05",
+    "question": "What is an airport's apron?",
+    "options": [
+      "The grass strip beside a runway",
+      "The covered walkway to the airplane",
+      "The paved overrun at each runway end",
+      "Where airplanes park, load and refuel"
+    ],
+    "correctIndex": 3,
+    "explanation": "The apron, also called the ramp, is the area where aircraft park to load passengers and cargo and to refuel."
+  },
+  {
+    "id": "how-airports-work_q5",
+    "lessonId": "how-airports-work",
+    "groupId": "grp_airports_05",
+    "question": "In the US, which is the largest group of airports?",
+    "options": [
+      "Commercial service airports",
+      "Cargo service airports",
+      "General aviation airports",
+      "Military air bases"
+    ],
+    "correctIndex": 2,
+    "explanation": "The FAA counts general aviation airports as the largest single group in the US airport system."
+  },
+  {
+    "id": "runway-markings_q1",
+    "lessonId": "runway-markings",
+    "groupId": "grp_airports_05",
+    "question": "A runway's centerline points to 270 degrees magnetic. What is its runway number?",
+    "options": [
+      "2",
+      "27",
+      "270",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "Runway numbers are the magnetic direction divided by ten and rounded, so 270 degrees becomes Runway 27."
+  },
+  {
+    "id": "runway-markings_q2",
+    "lessonId": "runway-markings",
+    "groupId": "grp_airports_05",
+    "question": "Three parallel runways point the same way. How are they told apart?",
+    "options": [
+      "With the numbers 1, 2 and 3",
+      "With flags at each end",
+      "With different colored paint",
+      "With the letters L, C and R"
+    ],
+    "correctIndex": 3,
+    "explanation": "Parallel runways share a number and add L, C or R for left, center and right."
+  },
+  {
+    "id": "runway-markings_q3",
+    "lessonId": "runway-markings",
+    "groupId": "grp_airports_05",
+    "question": "What color are taxiway markings?",
+    "options": [
+      "White",
+      "Yellow",
+      "Blue",
+      "Red"
+    ],
+    "correctIndex": 1,
+    "explanation": "Runway markings are white, while taxiway and holding-position markings are yellow."
+  },
+  {
+    "id": "runway-markings_q4",
+    "lessonId": "runway-markings",
+    "groupId": "grp_airports_05",
+    "question": "What do two broad white bars about 1,000 feet down a runway mark?",
+    "options": [
+      "The best spot to leave the runway",
+      "The point where takeoffs must begin",
+      "The aiming point for landing",
+      "A section closed for repairs"
+    ],
+    "correctIndex": 2,
+    "explanation": "The aiming point marking gives landing pilots a visual target about 1,000 feet past the threshold."
+  },
+  {
+    "id": "runway-markings_q5",
+    "lessonId": "runway-markings",
+    "groupId": "grp_airports_05",
+    "question": "What do yellow chevrons on pavement lined up with a runway mean?",
+    "options": [
+      "It's where the runway begins",
+      "It's a helicopter landing pad",
+      "Aircraft can't use that area",
+      "It's a parking spot for jets"
+    ],
+    "correctIndex": 2,
+    "explanation": "Yellow chevrons mark paved areas lined up with the runway that aren't usable for landing, takeoff or taxiing."
+  },
+  {
+    "id": "airspace-atc_q1",
+    "lessonId": "airspace-atc",
+    "groupId": "grp_airports_05",
+    "question": "In the US, Class A airspace begins at what altitude?",
+    "options": [
+      "60,000 feet",
+      "3,000 feet",
+      "18,000 feet",
+      "10,000 feet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Class A airspace runs from 18,000 feet up to 60,000 feet, and flights in it normally follow instrument flight rules."
+  },
+  {
+    "id": "airspace-atc_q2",
+    "lessonId": "airspace-atc",
+    "groupId": "grp_airports_05",
+    "question": "Which class of airspace surrounds the busiest US airports?",
+    "options": [
+      "Class B",
+      "Class G",
+      "Class A",
+      "Class E"
+    ],
+    "correctIndex": 0,
+    "explanation": "Class B airspace surrounds the busiest airports, reaching from the ground to 10,000 feet in widening layers."
+  },
+  {
+    "id": "airspace-atc_q3",
+    "lessonId": "airspace-atc",
+    "groupId": "grp_airports_05",
+    "question": "Which controllers look after flights cruising between cities?",
+    "options": [
+      "Ground controllers",
+      "Clearance delivery",
+      "En route centers",
+      "Airport towers"
+    ],
+    "correctIndex": 2,
+    "explanation": "Air route traffic control centers handle aircraft mainly during the en route part of a flight."
+  },
+  {
+    "id": "airspace-atc_q4",
+    "lessonId": "airspace-atc",
+    "groupId": "grp_airports_05",
+    "question": "What creates wake turbulence behind an airplane?",
+    "options": [
+      "Static electricity on its skin",
+      "Hot exhaust from its engines",
+      "Swirling vortices from its wingtips",
+      "Air pushed aside by its nose"
+    ],
+    "correctIndex": 2,
+    "explanation": "As a wing makes lift, air rolls up around each wingtip into a pair of counter-rotating vortices trailing behind."
+  },
+  {
+    "id": "airspace-atc_q5",
+    "lessonId": "airspace-atc",
+    "groupId": "grp_airports_05",
+    "question": "Which airplane is likely to leave the strongest wake?",
+    "options": [
+      "A heavy jet flying fast",
+      "A heavy jet flying slowly",
+      "A light plane flying fast",
+      "A light plane flying slowly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wake strength rises with weight and falls with speed, so a heavy airplane flying slowly makes the strongest vortices."
+  },
+  {
+    "id": "airport-codes_q1",
+    "lessonId": "airport-codes",
+    "groupId": "grp_airports_05",
+    "question": "What is IATA's first choice when giving an airport a new code?",
+    "options": [
+      "The first letters of its country",
+      "Three random unused letters",
+      "The initials of its city's mayor",
+      "The first three letters of its name"
+    ],
+    "correctIndex": 3,
+    "explanation": "Under IATA's rules, the first choice is the first three letters of the place's name, if that combination is still free."
+  },
+  {
+    "id": "airport-codes_q2",
+    "lessonId": "airport-codes",
+    "groupId": "grp_airports_05",
+    "question": "What was Los Angeles International's code before it became LAX in 1947?",
+    "options": [
+      "LOS",
+      "LAI",
+      "LA",
+      "XLA"
+    ],
+    "correctIndex": 2,
+    "explanation": "Early airport codes had two letters, so Los Angeles was simply LA until codes grew to three letters in the late 1940s."
+  },
+  {
+    "id": "airport-codes_q3",
+    "lessonId": "airport-codes",
+    "groupId": "grp_airports_05",
+    "question": "Many airport codes in which country start with the letter Y?",
+    "options": [
+      "Australia",
+      "Japan",
+      "Canada",
+      "Yemen"
+    ],
+    "correctIndex": 2,
+    "explanation": "Many Canadian airport codes begin with Y, a convention IATA traces back to before World War II."
+  },
+  {
+    "id": "airport-codes_q4",
+    "lessonId": "airport-codes",
+    "groupId": "grp_airports_05",
+    "question": "Why did Washington Dulles change its code from DIA to IAD?",
+    "options": [
+      "Because it moved to a new site",
+      "To avoid confusion with DCA",
+      "To match its city's name",
+      "To honor a different president"
+    ],
+    "correctIndex": 1,
+    "explanation": "IATA codes almost never change, but Dulles switched to IAD to avoid confusion with nearby Reagan National, DCA."
+  },
+  {
+    "id": "airport-codes_q5",
+    "lessonId": "airport-codes",
+    "groupId": "grp_airports_05",
+    "question": "How many letters are in an ICAO airport code?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 2,
+    "explanation": "ICAO uses four-letter codes for flight operations; Chicago O'Hare, ORD to airlines, is KORD in the ICAO system."
+  },
+  {
+    "id": "compass-to-gps_q1",
+    "lessonId": "compass-to-gps",
+    "groupId": "grp_navwx_06",
+    "question": "What is navigating by landmarks such as rivers and towns called?",
+    "options": [
+      "Pilotage",
+      "Radar vectoring",
+      "Dead reckoning",
+      "Triangulation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pilotage means navigating by reference to visible landmarks and checkpoints on the ground."
+  },
+  {
+    "id": "compass-to-gps_q2",
+    "lessonId": "compass-to-gps",
+    "groupId": "grp_navwx_06",
+    "question": "What does dead reckoning use to work out position?",
+    "options": [
+      "Satellite signals",
+      "Landmarks on the ground",
+      "Heading, speed and time",
+      "Radio beacons"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dead reckoning calculates position from direction, speed and elapsed time, corrected for the effect of the wind."
+  },
+  {
+    "id": "compass-to-gps_q3",
+    "lessonId": "compass-to-gps",
+    "groupId": "grp_navwx_06",
+    "question": "What is the angle between true north and magnetic north called in aviation?",
+    "options": [
+      "Variation",
+      "Inclination",
+      "Deviation",
+      "Precession"
+    ],
+    "correctIndex": 0,
+    "explanation": "Variation is the angle between true and magnetic north; deviation is a separate error caused by the airplane itself."
+  },
+  {
+    "id": "compass-to-gps_q4",
+    "lessonId": "compass-to-gps",
+    "groupId": "grp_navwx_06",
+    "question": "What does a VOR ground station send out?",
+    "options": [
+      "Satellite timing signals",
+      "Courses called radials in all directions",
+      "Weather reports for nearby airports",
+      "Radar pulses to find aircraft"
+    ],
+    "correctIndex": 1,
+    "explanation": "A VOR transmits radials, magnetic courses that spread out from the station in every direction like spokes of a wheel."
+  },
+  {
+    "id": "compass-to-gps_q5",
+    "lessonId": "compass-to-gps",
+    "groupId": "grp_navwx_06",
+    "question": "How many GPS satellites must a receiver track to find a 3D position, including altitude?",
+    "options": [
+      "At least 2",
+      "At least 4",
+      "At least 12",
+      "Just 1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Three satellites give a position on the map; a fourth lets the receiver also work out altitude."
+  },
+  {
+    "id": "why-jets-fly-high_q1",
+    "lessonId": "why-jets-fly-high",
+    "groupId": "grp_navwx_06",
+    "question": "How does thinner air at high altitude help jets save fuel?",
+    "options": [
+      "It contains more oxygen",
+      "It creates less drag",
+      "It pushes jets forward",
+      "It makes engines hotter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Thinner air means less drag at a given true airspeed, one reason climbing high improves fuel economy."
+  },
+  {
+    "id": "why-jets-fly-high_q2",
+    "lessonId": "why-jets-fly-high",
+    "groupId": "grp_navwx_06",
+    "question": "In which layer of the atmosphere does nearly all weather happen?",
+    "options": [
+      "The thermosphere",
+      "The troposphere",
+      "The stratosphere",
+      "The mesosphere"
+    ],
+    "correctIndex": 1,
+    "explanation": "The troposphere, the lowest layer, holds the vast majority of clouds and storms, and the tropopause caps it like a lid."
+  },
+  {
+    "id": "why-jets-fly-high_q3",
+    "lessonId": "why-jets-fly-high",
+    "groupId": "grp_navwx_06",
+    "question": "About how much does temperature fall for every 1,000 feet of climb in the lower atmosphere?",
+    "options": [
+      "About 2 °C",
+      "About 0.1 °C",
+      "About 10 °C",
+      "About 25 °C"
+    ],
+    "correctIndex": 0,
+    "explanation": "In the troposphere, temperature drops by about 2 degrees Celsius for every 1,000 feet gained."
+  },
+  {
+    "id": "why-jets-fly-high_q4",
+    "lessonId": "why-jets-fly-high",
+    "groupId": "grp_navwx_06",
+    "question": "Why can't a jet simply keep climbing higher and higher?",
+    "options": [
+      "Satellites block the higher altitudes",
+      "Radios don't work above the clouds",
+      "The sky gets too bright to see",
+      "Thin air cuts lift and engine power"
+    ],
+    "correctIndex": 3,
+    "explanation": "As air thins, wings need more speed for the same lift and engines make less power, so every jet has a ceiling."
+  },
+  {
+    "id": "why-jets-fly-high_q5",
+    "lessonId": "why-jets-fly-high",
+    "groupId": "grp_navwx_06",
+    "question": "How does the Boeing 787's cabin altitude compare with conventional jets?",
+    "options": [
+      "Equal to sea level",
+      "About 2,000 feet higher",
+      "About 2,000 feet lower",
+      "Exactly the same"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 787 is pressurized to a cabin altitude of 6,000 feet, about 2,000 feet lower than conventional jets."
+  },
+  {
+    "id": "turbulence-jetstreams-contrails_q1",
+    "lessonId": "turbulence-jetstreams-contrails",
+    "groupId": "grp_navwx_06",
+    "question": "What is wind shear?",
+    "options": [
+      "A sudden change in wind speed or direction",
+      "A steady wind blowing across a runway",
+      "A layer of perfectly still air",
+      "Wind blowing exactly from behind"
+    ],
+    "correctIndex": 0,
+    "explanation": "Wind shear is a sudden, sharp change in wind speed or direction over a short distance, and it can happen at any altitude."
+  },
+  {
+    "id": "turbulence-jetstreams-contrails_q2",
+    "lessonId": "turbulence-jetstreams-contrails",
+    "groupId": "grp_navwx_06",
+    "question": "Which way do jet streams generally blow?",
+    "options": [
+      "North to south",
+      "West to east",
+      "East to west",
+      "South to north"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jet streams generally blow from west to east, though their paths bend north and south."
+  },
+  {
+    "id": "turbulence-jetstreams-contrails_q3",
+    "lessonId": "turbulence-jetstreams-contrails",
+    "groupId": "grp_navwx_06",
+    "question": "Why is flying east often quicker than the same trip west?",
+    "options": [
+      "Jet stream tailwinds push it along",
+      "Earth's spin carries the plane",
+      "Air is denser over the ocean",
+      "Eastbound jets fly at lower altitudes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Flying with a jet stream gives an eastbound airplane a tailwind boost, shortening the trip compared with flying west."
+  },
+  {
+    "id": "turbulence-jetstreams-contrails_q4",
+    "lessonId": "turbulence-jetstreams-contrails",
+    "groupId": "grp_navwx_06",
+    "question": "What makes clear air turbulence hard to see coming?",
+    "options": [
+      "It moves faster than sound",
+      "It happens mostly at night",
+      "There are no clouds to show it",
+      "It is too small for radar"
+    ],
+    "correctIndex": 2,
+    "explanation": "Clear air turbulence happens in cloudless air, often near the jet stream and the tropopause, so nothing visible marks it."
+  },
+  {
+    "id": "turbulence-jetstreams-contrails_q5",
+    "lessonId": "turbulence-jetstreams-contrails",
+    "groupId": "grp_navwx_06",
+    "question": "What are contrails made of?",
+    "options": [
+      "Smoke from the engines",
+      "Unburned fuel",
+      "Dust from the air",
+      "Ice crystals"
+    ],
+    "correctIndex": 3,
+    "explanation": "Water vapor in engine exhaust condenses around tiny particles and freezes into ice crystals in the cold air."
+  },
+  {
+    "id": "balloons-gliders_q1",
+    "lessonId": "balloons-gliders",
+    "groupId": "grp_pioneers_07",
+    "question": "Why does a hot air balloon rise?",
+    "options": [
+      "The flame acts like a jet",
+      "Heat makes the fabric lighter",
+      "Warm air sticks to clouds",
+      "Heated air is less dense"
+    ],
+    "correctIndex": 3,
+    "explanation": "Heating spreads the air's molecules apart, so the balloon's air weighs less than the same volume of cooler air outside."
+  },
+  {
+    "id": "balloons-gliders_q2",
+    "lessonId": "balloons-gliders",
+    "groupId": "grp_pioneers_07",
+    "question": "Which animals flew in a Montgolfier balloon before any people did?",
+    "options": [
+      "A goat, a pig and a goose",
+      "A monkey, a mouse and a hen",
+      "A sheep, a duck and a rooster",
+      "A dog, a cat and a horse"
+    ],
+    "correctIndex": 2,
+    "explanation": "On September 19, 1783, a Montgolfier balloon carried a sheep, a duck and a rooster aloft from Versailles."
+  },
+  {
+    "id": "balloons-gliders_q3",
+    "lessonId": "balloons-gliders",
+    "groupId": "grp_pioneers_07",
+    "question": "In what year did people first make a free flight in a balloon?",
+    "options": [
+      "1850",
+      "1903",
+      "1709",
+      "1783"
+    ],
+    "correctIndex": 3,
+    "explanation": "Pilâtre de Rozier and the marquis d'Arlandes made the first free flight on November 21, 1783."
+  },
+  {
+    "id": "balloons-gliders_q4",
+    "lessonId": "balloons-gliders",
+    "groupId": "grp_pioneers_07",
+    "question": "What gas lifted the balloon that Charles and Robert flew in December 1783?",
+    "options": [
+      "Helium",
+      "Hydrogen",
+      "Hot air",
+      "Steam"
+    ],
+    "correctIndex": 1,
+    "explanation": "Charles and Robert made the first free flight in a hydrogen balloon on December 1, 1783, ten days after the first hot air flight."
+  },
+  {
+    "id": "balloons-gliders_q5",
+    "lessonId": "balloons-gliders",
+    "groupId": "grp_pioneers_07",
+    "question": "How did Otto Lilienthal steer his gliders?",
+    "options": [
+      "With a movable rudder",
+      "By warping the wingtips with cables",
+      "With a small engine",
+      "By shifting his body weight"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lilienthal hung below his gliders and shifted his weight to steer, much like a modern hang glider pilot."
+  },
+  {
+    "id": "wright-brothers_q1",
+    "lessonId": "wright-brothers",
+    "groupId": "grp_pioneers_07",
+    "question": "Why did the Wright brothers test their gliders at Kitty Hawk?",
+    "options": [
+      "It was close to their home",
+      "Its airport had long runways",
+      "Good winds and soft sand dunes",
+      "The government paid them to"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kitty Hawk offered good winds and plenty of sand dunes to cushion landings."
+  },
+  {
+    "id": "wright-brothers_q2",
+    "lessonId": "wright-brothers",
+    "groupId": "grp_pioneers_07",
+    "question": "Why did the Wright brothers build their own wind tunnel?",
+    "options": [
+      "To test motors for their bicycles",
+      "Their rivals already had one",
+      "To keep their workshop cool in summer",
+      "Their glider made too little lift"
+    ],
+    "correctIndex": 3,
+    "explanation": "Their 1901 glider made only about a third of the lift predicted from published data, so they gathered their own measurements."
+  },
+  {
+    "id": "wright-brothers_q3",
+    "lessonId": "wright-brothers",
+    "groupId": "grp_pioneers_07",
+    "question": "What made the Wrights' 1902 glider a breakthrough?",
+    "options": [
+      "It was made entirely of metal",
+      "It could carry four passengers",
+      "It was the first to use an engine",
+      "It had control in all three axes"
+    ],
+    "correctIndex": 3,
+    "explanation": "With wing warping for roll, an elevator for pitch and a movable rudder for yaw, it was the first aircraft controllable in all three axes."
+  },
+  {
+    "id": "wright-brothers_q4",
+    "lessonId": "wright-brothers",
+    "groupId": "grp_pioneers_07",
+    "question": "How long did Orville Wright's first powered flight last?",
+    "options": [
+      "1 hour",
+      "12 seconds",
+      "59 seconds",
+      "3 minutes"
+    ],
+    "correctIndex": 1,
+    "explanation": "On December 17, 1903, Orville's first flight lasted 12 seconds and covered 120 feet."
+  },
+  {
+    "id": "wright-brothers_q5",
+    "lessonId": "wright-brothers",
+    "groupId": "grp_pioneers_07",
+    "question": "Who flew the longest of the four flights on December 17, 1903?",
+    "options": [
+      "Wilbur Wright",
+      "Octave Chanute",
+      "Charlie Taylor",
+      "Orville Wright"
+    ],
+    "correctIndex": 0,
+    "explanation": "Wilbur flew the fourth and longest flight of the day: 852 feet in 59 seconds."
+  },
+  {
+    "id": "bleriot-early-aviators_q1",
+    "lessonId": "bleriot-early-aviators",
+    "groupId": "grp_pioneers_07",
+    "question": "What did Louis Blériot achieve on July 25, 1909?",
+    "options": [
+      "Flew the first airmail in France",
+      "Set a speed record of 100 mph",
+      "Made the first flight across the Atlantic",
+      "Flew an airplane across the English Channel"
+    ],
+    "correctIndex": 3,
+    "explanation": "Blériot flew his Type XI from near Calais to Dover in 36 minutes and 30 seconds, winning the Daily Mail's £1,000 prize."
+  },
+  {
+    "id": "bleriot-early-aviators_q2",
+    "lessonId": "bleriot-early-aviators",
+    "groupId": "grp_pioneers_07",
+    "question": "About how long did Blériot's flight across the Channel take?",
+    "options": [
+      "About 37 minutes",
+      "About 4 hours",
+      "About 12 seconds",
+      "About 2 days"
+    ],
+    "correctIndex": 0,
+    "explanation": "The flight from Les Barraques, near Calais, to Dover took 36 minutes and 30 seconds."
+  },
+  {
+    "id": "bleriot-early-aviators_q3",
+    "lessonId": "bleriot-early-aviators",
+    "groupId": "grp_pioneers_07",
+    "question": "How powerful was the engine on Blériot's Channel-crossing Type XI?",
+    "options": [
+      "About 5 horsepower",
+      "About 25 horsepower",
+      "About 1,000 horsepower",
+      "About 250 horsepower"
+    ],
+    "correctIndex": 1,
+    "explanation": "A 25-horsepower, three-cylinder Anzani engine powered the Type XI across the Channel."
+  },
+  {
+    "id": "bleriot-early-aviators_q4",
+    "lessonId": "bleriot-early-aviators",
+    "groupId": "grp_pioneers_07",
+    "question": "In 1912, Harriet Quimby became the first woman to do what?",
+    "options": [
+      "Fly faster than 100 mph",
+      "Fly across the United States",
+      "Fly solo across the English Channel",
+      "Earn a pilot license in France"
+    ],
+    "correctIndex": 2,
+    "explanation": "On April 16, 1912, Quimby flew a Blériot monoplane alone from Dover to Hardelot, France."
+  },
+  {
+    "id": "bleriot-early-aviators_q5",
+    "lessonId": "bleriot-early-aviators",
+    "groupId": "grp_pioneers_07",
+    "question": "Where did Bessie Coleman earn her pilot's license in 1921?",
+    "options": [
+      "The United States",
+      "Germany",
+      "Canada",
+      "France"
+    ],
+    "correctIndex": 3,
+    "explanation": "No American school would accept her, so she went to France and earned her license on June 15, 1921."
+  },
+  {
+    "id": "record-breakers_q1",
+    "lessonId": "record-breakers",
+    "groupId": "grp_pioneers_07",
+    "question": "Who made the first nonstop flight across the Atlantic, in 1919?",
+    "options": [
+      "Alcock and Brown",
+      "Amelia Earhart",
+      "The Wright brothers",
+      "Charles Lindbergh"
+    ],
+    "correctIndex": 0,
+    "explanation": "John Alcock and Arthur Whitten Brown flew a modified Vickers Vimy from Newfoundland to Ireland on June 14–15, 1919."
+  },
+  {
+    "id": "record-breakers_q2",
+    "lessonId": "record-breakers",
+    "groupId": "grp_pioneers_07",
+    "question": "What prize was Charles Lindbergh trying to win in 1927?",
+    "options": [
+      "The Nobel Prize",
+      "The Schneider Trophy",
+      "The Collier Trophy",
+      "The Orteig Prize"
+    ],
+    "correctIndex": 3,
+    "explanation": "Raymond Orteig had offered $25,000 for the first nonstop flight between New York City and Paris."
+  },
+  {
+    "id": "record-breakers_q3",
+    "lessonId": "record-breakers",
+    "groupId": "grp_pioneers_07",
+    "question": "How long did Lindbergh's flight from New York to Paris take?",
+    "options": [
+      "About 3 days",
+      "About 12 hours",
+      "About 6 hours",
+      "About 33 and a half hours"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lindbergh landed at Le Bourget Field near Paris 33 hours and 30 minutes after leaving New York."
+  },
+  {
+    "id": "record-breakers_q4",
+    "lessonId": "record-breakers",
+    "groupId": "grp_pioneers_07",
+    "question": "How could Lindbergh see ahead in the Spirit of St. Louis?",
+    "options": [
+      "With a camera screen",
+      "With a periscope",
+      "Through a glass nose",
+      "Through the floor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fuel tanks sat in front of the cockpit, so he looked forward through a periscope or by turning to look out a side window."
+  },
+  {
+    "id": "record-breakers_q5",
+    "lessonId": "record-breakers",
+    "groupId": "grp_pioneers_07",
+    "question": "In 1932, Amelia Earhart became the first woman to do what?",
+    "options": [
+      "Earn a pilot license",
+      "Break the sound barrier",
+      "Fly around the world",
+      "Fly the Atlantic solo"
+    ],
+    "correctIndex": 3,
+    "explanation": "Earhart flew alone and nonstop from Harbor Grace, Newfoundland, to near Londonderry in about 15 hours."
+  },
+  {
+    "id": "wwi-aircraft-aces_q1",
+    "lessonId": "wwi-aircraft-aces",
+    "groupId": "grp_earlyair_08",
+    "question": "What were airplanes mainly used for early in World War I?",
+    "options": [
+      "Carrying troops to battle",
+      "Watching enemy positions",
+      "Dropping food supplies",
+      "Bombing faraway cities"
+    ],
+    "correctIndex": 1,
+    "explanation": "Early in the war, airplanes flew reconnaissance, and at first crews simply reported what they had seen after landing."
+  },
+  {
+    "id": "wwi-aircraft-aces_q2",
+    "lessonId": "wwi-aircraft-aces",
+    "groupId": "grp_earlyair_08",
+    "question": "What did a gun synchronizer let fighters do?",
+    "options": [
+      "Fire their guns by remote control",
+      "Fire between propeller blades",
+      "Reload their guns in flight",
+      "Aim at targets behind them"
+    ],
+    "correctIndex": 1,
+    "explanation": "A synchronizer timed each bullet to pass between the spinning propeller blades, so a gun could fire straight ahead."
+  },
+  {
+    "id": "wwi-aircraft-aces_q3",
+    "lessonId": "wwi-aircraft-aces",
+    "groupId": "grp_earlyair_08",
+    "question": "How many victories made a World War I pilot an ace?",
+    "options": [
+      "Ten or more",
+      "Twenty or more",
+      "Five or more",
+      "One hundred or more"
+    ],
+    "correctIndex": 2,
+    "explanation": "The term ace emerged in World War I for an aviator credited with shooting down five or more enemy aircraft."
+  },
+  {
+    "id": "wwi-aircraft-aces_q4",
+    "lessonId": "wwi-aircraft-aces",
+    "groupId": "grp_earlyair_08",
+    "question": "Which World War I pilot was credited with the most victories?",
+    "options": [
+      "Manfred von Richthofen",
+      "Louis Blériot",
+      "Charles Lindbergh",
+      "Eddie Rickenbacker"
+    ],
+    "correctIndex": 0,
+    "explanation": "Germany's Manfred von Richthofen was credited with 80 victories, the most of any World War I pilot."
+  },
+  {
+    "id": "wwi-aircraft-aces_q5",
+    "lessonId": "wwi-aircraft-aces",
+    "groupId": "grp_earlyair_08",
+    "question": "How did the Sopwith Camel get its name?",
+    "options": [
+      "It was built for desert flying",
+      "It could fly for days on end",
+      "A hump covering its two guns",
+      "Its sandy brown paint scheme"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cowling over its two machine guns formed a hump in front of the cockpit, and the nickname Camel stuck."
+  },
+  {
+    "id": "golden-age_q1",
+    "lessonId": "golden-age",
+    "groupId": "grp_earlyair_08",
+    "question": "Which biplane flew the first regular US airmail flights in 1918?",
+    "options": [
+      "Wright Flyer",
+      "Curtiss Jenny",
+      "Boeing Model 40A",
+      "Sopwith Camel"
+    ],
+    "correctIndex": 1,
+    "explanation": "On May 15, 1918, Curtiss Jenny biplanes opened airmail service between Washington, Philadelphia and New York."
+  },
+  {
+    "id": "golden-age_q2",
+    "lessonId": "golden-age",
+    "groupId": "grp_earlyair_08",
+    "question": "What let US airmail planes fly at night by 1924?",
+    "options": [
+      "Rotating beacons on the ground",
+      "Satellite navigation receivers",
+      "Searchlights on the wings",
+      "Radar fitted to every plane"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Post Office built lighted airways, placing powerful rotating beacons along the transcontinental route."
+  },
+  {
+    "id": "golden-age_q3",
+    "lessonId": "golden-age",
+    "groupId": "grp_earlyair_08",
+    "question": "The designer of the Schneider Trophy–winning S.6B went on to create which fighter?",
+    "options": [
+      "The Supermarine Spitfire",
+      "The Sopwith Camel",
+      "The Hawker Hurricane",
+      "The P-51 Mustang"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reginald Mitchell designed Supermarine's racing seaplanes, including the 1931 winner, and then the Spitfire."
+  },
+  {
+    "id": "golden-age_q4",
+    "lessonId": "golden-age",
+    "groupId": "grp_earlyair_08",
+    "question": "Why did the Douglas DC-3 matter so much to airlines?",
+    "options": [
+      "It could land on water or snow",
+      "It could cross the Atlantic nonstop",
+      "It made money carrying passengers alone",
+      "It was the first jet airliner"
+    ],
+    "correctIndex": 2,
+    "explanation": "American Airlines' president said the DC-3 was the first airplane that could make money hauling passengers without subsidies."
+  },
+  {
+    "id": "golden-age_q5",
+    "lessonId": "golden-age",
+    "groupId": "grp_earlyair_08",
+    "question": "What did the US government do with airmail delivery in 1925?",
+    "options": [
+      "Handed it to private airlines",
+      "Shut down all its night flights",
+      "Gave it to the Army to run",
+      "Moved the mail to trains"
+    ],
+    "correctIndex": 0,
+    "explanation": "The government turned airmail delivery over to private airlines, hoping commercial aviation would grow."
+  },
+  {
+    "id": "flying-boats-airships_q1",
+    "lessonId": "flying-boats-airships",
+    "groupId": "grp_earlyair_08",
+    "question": "What made a flying boat different from other airliners?",
+    "options": [
+      "It took off and landed on water",
+      "It flew faster than the speed of sound",
+      "It carried no passengers",
+      "It had no engines at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "A flying boat's boat-shaped hull let it take off from and land on water, which suited ocean crossings."
+  },
+  {
+    "id": "flying-boats-airships_q2",
+    "lessonId": "flying-boats-airships",
+    "groupId": "grp_earlyair_08",
+    "question": "Why was Boeing's Model 314 nicknamed the Clipper?",
+    "options": [
+      "After its short, clipped wings",
+      "After fast sailing ships",
+      "After a famous racehorse",
+      "After the speed of its engines"
+    ],
+    "correctIndex": 1,
+    "explanation": "Boeing named the Model 314 Clipper after the great oceangoing sailing ships."
+  },
+  {
+    "id": "flying-boats-airships_q3",
+    "lessonId": "flying-boats-airships",
+    "groupId": "grp_earlyair_08",
+    "question": "What did the Boeing 314 achieve on June 28, 1939?",
+    "options": [
+      "The first scheduled transatlantic flight",
+      "The first nonstop flight around the world",
+      "The first jet-powered passenger flight",
+      "The first flight over the North Pole"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Model 314 made the first scheduled transatlantic flight on June 28, 1939, and was soon crossing the Pacific routinely too."
+  },
+  {
+    "id": "flying-boats-airships_q4",
+    "lessonId": "flying-boats-airships",
+    "groupId": "grp_earlyair_08",
+    "question": "What keeps an airship aloft?",
+    "options": [
+      "Large spinning rotors",
+      "Jets of hot exhaust",
+      "A gas lighter than air",
+      "Wings and high speed"
+    ],
+    "correctIndex": 2,
+    "explanation": "An airship's gas cells hold a lifting gas that is lighter than the surrounding air, so the whole ship floats."
+  },
+  {
+    "id": "flying-boats-airships_q5",
+    "lessonId": "flying-boats-airships",
+    "groupId": "grp_earlyair_08",
+    "question": "What caused the Hindenburg fire in 1937, according to investigators?",
+    "options": [
+      "A collision with its mooring mast",
+      "A lightning strike on its tail",
+      "An engine explosion",
+      "Leaking hydrogen ignited by a spark"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hydrogen from a leaking gas cell mixed with outside air and was ignited, possibly by a spark of static electricity."
+  },
+  {
+    "id": "spitfire-hurricane_q1",
+    "lessonId": "spitfire-hurricane",
+    "groupId": "grp_ww2_09",
+    "question": "When was the Battle of Britain fought?",
+    "options": [
+      "Winter and spring of 1944",
+      "Summer and autumn of 1940",
+      "Summer and autumn of 1914",
+      "Spring and summer of 1918"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Battle of Britain is officially dated from July 10 to October 31, 1940."
+  },
+  {
+    "id": "spitfire-hurricane_q2",
+    "lessonId": "spitfire-hurricane",
+    "groupId": "grp_ww2_09",
+    "question": "Which fighter did the RAF have more of during the Battle of Britain?",
+    "options": [
+      "Hawker Hurricane",
+      "P-51 Mustang",
+      "Sopwith Camel",
+      "Supermarine Spitfire"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Hurricane was Fighter Command's mainstay and outnumbered the Spitfire during the battle."
+  },
+  {
+    "id": "spitfire-hurricane_q3",
+    "lessonId": "spitfire-hurricane",
+    "groupId": "grp_ww2_09",
+    "question": "Why did the Spitfire have an elliptical wing?",
+    "options": [
+      "It made the plane cheaper to build",
+      "It let the wing be very thin, cutting drag",
+      "It held more fuel than any other shape",
+      "It helped it land on carriers"
+    ],
+    "correctIndex": 1,
+    "explanation": "The elliptical shape allowed the wing to be as thin as possible, which reduced drag."
+  },
+  {
+    "id": "spitfire-hurricane_q4",
+    "lessonId": "spitfire-hurricane",
+    "groupId": "grp_ww2_09",
+    "question": "Which engine powered both the Spitfire and the Hurricane?",
+    "options": [
+      "Wright Cyclone",
+      "Pratt & Whitney Wasp",
+      "Anzani three-cylinder",
+      "Rolls-Royce Merlin"
+    ],
+    "correctIndex": 3,
+    "explanation": "Both fighters used the Rolls-Royce Merlin, which was later fitted to the P-51 Mustang as well."
+  },
+  {
+    "id": "spitfire-hurricane_q5",
+    "lessonId": "spitfire-hurricane",
+    "groupId": "grp_ww2_09",
+    "question": "Which earlier aircraft helped inspire the Spitfire's design?",
+    "options": [
+      "Supermarine racing seaplanes",
+      "The Boeing 314 Clipper",
+      "Zeppelin airships",
+      "The Wright Flyer"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mitchell's Schneider Trophy racing seaplanes, such as the S.6B, were an inspiration for the Spitfire."
+  },
+  {
+    "id": "mustang-escorts_q1",
+    "lessonId": "mustang-escorts",
+    "groupId": "grp_ww2_09",
+    "question": "What made the P-51 Mustang so valuable as an escort fighter?",
+    "options": [
+      "It could land on aircraft carriers",
+      "It could carry its own bombs",
+      "It had a crew of four gunners",
+      "Its range let it stay with bombers"
+    ],
+    "correctIndex": 3,
+    "explanation": "With improved range and speed, P-51 squadrons could accompany bombers on long raids over Europe, and bomber losses fell."
+  },
+  {
+    "id": "mustang-escorts_q2",
+    "lessonId": "mustang-escorts",
+    "groupId": "grp_ww2_09",
+    "question": "Which country first ordered the Mustang?",
+    "options": [
+      "Britain",
+      "The United States",
+      "France",
+      "Canada"
+    ],
+    "correctIndex": 0,
+    "explanation": "North American developed the Mustang for the British, and the Royal Air Force gave it the name Mustang."
+  },
+  {
+    "id": "mustang-escorts_q3",
+    "lessonId": "mustang-escorts",
+    "groupId": "grp_ww2_09",
+    "question": "How quickly did North American finish the first Mustang airframe?",
+    "options": [
+      "In 2 weeks",
+      "In 117 days",
+      "In 10 years",
+      "In 3 years"
+    ],
+    "correctIndex": 1,
+    "explanation": "North American completed the NA-73 airframe 117 days after starting work for the British."
+  },
+  {
+    "id": "mustang-escorts_q4",
+    "lessonId": "mustang-escorts",
+    "groupId": "grp_ww2_09",
+    "question": "Which engine transformed the Mustang's high-altitude performance?",
+    "options": [
+      "Pratt & Whitney Wasp",
+      "Allison inline",
+      "Wright Whirlwind",
+      "Rolls-Royce Merlin"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Merlin's supercharger kept its power up to about 30,000 feet, and the Merlin-powered XP-51B was about 50 mph faster."
+  },
+  {
+    "id": "mustang-escorts_q5",
+    "lessonId": "mustang-escorts",
+    "groupId": "grp_ww2_09",
+    "question": "Who were the Red Tails?",
+    "options": [
+      "A team of aircraft painters",
+      "The Tuskegee Airmen",
+      "The first jet fighter pilots",
+      "A British display team"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 332nd Fighter Group of Tuskegee Airmen flew mostly P-51s with red tail markings, escorting bombers into Europe."
+  },
+  {
+    "id": "heavy-bombers_q1",
+    "lessonId": "heavy-bombers",
+    "groupId": "grp_ww2_09",
+    "question": "Who coined the nickname Flying Fortress for the B-17?",
+    "options": [
+      "The U.S. president",
+      "Its chief test pilot",
+      "A Boeing engineer",
+      "A newspaper reporter"
+    ],
+    "correctIndex": 3,
+    "explanation": "A Seattle Times reporter dubbed the new bomber, with its many machine-gun mounts, the Flying Fortress."
+  },
+  {
+    "id": "heavy-bombers_q2",
+    "lessonId": "heavy-bombers",
+    "groupId": "grp_ww2_09",
+    "question": "How was Boeing's B-17 prototype paid for?",
+    "options": [
+      "By the British government",
+      "Entirely by Boeing",
+      "By the U.S. Army",
+      "By a war bond drive"
+    ],
+    "correctIndex": 1,
+    "explanation": "Boeing financed the Model 299 prototype entirely itself, taking it from design board to first flight in under 12 months."
+  },
+  {
+    "id": "heavy-bombers_q3",
+    "lessonId": "heavy-bombers",
+    "groupId": "grp_ww2_09",
+    "question": "How many crew members flew aboard a B-17?",
+    "options": [
+      "Twenty",
+      "Four",
+      "Two",
+      "Ten"
+    ],
+    "correctIndex": 3,
+    "explanation": "A B-17 carried two pilots, a bombardier, a navigator, a radio operator and five gunners: ten in all."
+  },
+  {
+    "id": "heavy-bombers_q4",
+    "lessonId": "heavy-bombers",
+    "groupId": "grp_ww2_09",
+    "question": "What major new feature did the B-29 Superfortress give its crew?",
+    "options": [
+      "Bunks for every crew member",
+      "An onboard galley kitchen",
+      "An enclosed lounge deck",
+      "Pressurized crew areas"
+    ],
+    "correctIndex": 3,
+    "explanation": "The B-29 was the first bomber to house its crew in pressurized compartments, joined by a tube over the bomb bays."
+  },
+  {
+    "id": "heavy-bombers_q5",
+    "lessonId": "heavy-bombers",
+    "groupId": "grp_ww2_09",
+    "question": "What happened to most B-17s after World War II?",
+    "options": [
+      "They were scrapped",
+      "They went to museums",
+      "They were sunk at sea",
+      "They became airliners"
+    ],
+    "correctIndex": 0,
+    "explanation": "Most B-17s were scrapped at the end of the war, and only a few survive today at museums and air shows."
+  },
+  {
+    "id": "carrier-aviation_q1",
+    "lessonId": "carrier-aviation",
+    "groupId": "grp_ww2_09",
+    "question": "Who made the first takeoff from a ship, in 1910?",
+    "options": [
+      "Glenn Curtiss",
+      "Orville Wright",
+      "Eugene Ely",
+      "Charles Lindbergh"
+    ],
+    "correctIndex": 2,
+    "explanation": "Civilian pilot Eugene Ely took off from a wooden platform on the cruiser Birmingham on November 14, 1910."
+  },
+  {
+    "id": "carrier-aviation_q2",
+    "lessonId": "carrier-aviation",
+    "groupId": "grp_ww2_09",
+    "question": "What stopped Eugene Ely's airplane when he landed on a ship in 1911?",
+    "options": [
+      "Powerful wheel brakes alone",
+      "Ropes weighted with sandbags",
+      "A propeller spun in reverse",
+      "A net strung across the deck"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ropes tied to sandbags caught his airplane on the cruiser Pennsylvania, an early form of carrier arresting gear."
+  },
+  {
+    "id": "carrier-aviation_q3",
+    "lessonId": "carrier-aviation",
+    "groupId": "grp_ww2_09",
+    "question": "What was the US Navy's first aircraft carrier?",
+    "options": [
+      "USS Enterprise",
+      "USS Pennsylvania",
+      "USS Langley",
+      "USS Birmingham"
+    ],
+    "correctIndex": 2,
+    "explanation": "Langley, converted from the coal ship Jupiter, was commissioned on March 20, 1922, as the Navy’s first aircraft carrier."
+  },
+  {
+    "id": "carrier-aviation_q4",
+    "lessonId": "carrier-aviation",
+    "groupId": "grp_ww2_09",
+    "question": "What nickname did sailors give the carrier Langley?",
+    "options": [
+      "The Flattop Queen",
+      "The Iron Duck",
+      "The Covered Wagon",
+      "The Big Deck"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sailors nicknamed Langley, the Navy’s first aircraft carrier, the Covered Wagon."
+  },
+  {
+    "id": "carrier-aviation_q5",
+    "lessonId": "carrier-aviation",
+    "groupId": "grp_ww2_09",
+    "question": "Why did the Corsair have bent gull wings?",
+    "options": [
+      "To scare off enemy pilots",
+      "To carry more bombs",
+      "To fold up more easily",
+      "Room for its big propeller"
+    ],
+    "correctIndex": 3,
+    "explanation": "The bent wing gave the Corsair's large propeller more ground clearance and reduced drag where wing met fuselage."
+  },
+  {
+    "id": "first-jets_q1",
+    "lessonId": "first-jets",
+    "groupId": "grp_jetage_10",
+    "question": "Which two engineers independently invented the jet engine?",
+    "options": [
+      "Orville Wright and Octave Chanute",
+      "Igor Sikorsky and Kelly Johnson",
+      "Louis Blériot and Glenn Curtiss",
+      "Frank Whittle and Hans von Ohain"
+    ],
+    "correctIndex": 3,
+    "explanation": "Frank Whittle in Britain and Hans von Ohain in Germany developed jet engines independently in the 1930s."
+  },
+  {
+    "id": "first-jets_q2",
+    "lessonId": "first-jets",
+    "groupId": "grp_jetage_10",
+    "question": "Which aircraft made the world's first jet-powered flight, in 1939?",
+    "options": [
+      "Heinkel He 178",
+      "Bell XP-59A",
+      "Gloster E.28/39",
+      "Messerschmitt Me 262"
+    ],
+    "correctIndex": 0,
+    "explanation": "On August 27, 1939, von Ohain's HeS 3B engine powered the Heinkel He 178 on the first flight of a jet-powered aircraft."
+  },
+  {
+    "id": "first-jets_q3",
+    "lessonId": "first-jets",
+    "groupId": "grp_jetage_10",
+    "question": "What was the Messerschmitt Me 262?",
+    "options": [
+      "The first supersonic airplane",
+      "The first jet-powered helicopter",
+      "The first jet airliner to carry mail",
+      "The first operational jet fighter"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Me 262 was the world’s first operational jet fighter, about 120 mph faster than the P-51 Mustang."
+  },
+  {
+    "id": "first-jets_q4",
+    "lessonId": "first-jets",
+    "groupId": "grp_jetage_10",
+    "question": "Which company built the engine for the first American jet, the Bell XP-59A?",
+    "options": [
+      "Junkers Motorenbau",
+      "Pratt & Whitney",
+      "General Electric",
+      "Rolls-Royce"
+    ],
+    "correctIndex": 2,
+    "explanation": "GE developed an improved version of Whittle's engine, which powered the Bell XP-59A Airacomet on October 2, 1942."
+  },
+  {
+    "id": "first-jets_q5",
+    "lessonId": "first-jets",
+    "groupId": "grp_jetage_10",
+    "question": "What did Frank Whittle do in 1932?",
+    "options": [
+      "Founded the Rolls-Royce company",
+      "Broke the sound barrier",
+      "Flew the first jet airplane",
+      "Patented his jet engine design"
+    ],
+    "correctIndex": 3,
+    "explanation": "Whittle patented his jet engine in 1932, and his first bench test engine ran on April 12, 1937."
+  },
+  {
+    "id": "sound-barrier_q1",
+    "lessonId": "sound-barrier",
+    "groupId": "grp_jetage_10",
+    "question": "What does Mach 1 mean?",
+    "options": [
+      "One mile per minute",
+      "One kilometer per second",
+      "The speed of sound",
+      "The top speed of a jet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mach number is speed divided by the speed of sound, so Mach 1 is exactly the speed of sound in the surrounding air."
+  },
+  {
+    "id": "sound-barrier_q2",
+    "lessonId": "sound-barrier",
+    "groupId": "grp_jetage_10",
+    "question": "Near sea level, about how fast does sound travel?",
+    "options": [
+      "About 186,000 mph",
+      "About 761 mph",
+      "About 7,600 mph",
+      "About 76 mph"
+    ],
+    "correctIndex": 1,
+    "explanation": "In standard sea-level conditions, sound travels at about 761 mph, or 1,100 feet per second."
+  },
+  {
+    "id": "sound-barrier_q3",
+    "lessonId": "sound-barrier",
+    "groupId": "grp_jetage_10",
+    "question": "What was the “sound barrier” really?",
+    "options": [
+      "A sharp rise in drag near Mach 1",
+      "A layer of hard air high up",
+      "A wall of sound from the engines",
+      "A legal speed limit for airplanes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compressibility effects make drag rise steeply near Mach 1, which led to the early belief in a sound barrier."
+  },
+  {
+    "id": "sound-barrier_q4",
+    "lessonId": "sound-barrier",
+    "groupId": "grp_jetage_10",
+    "question": "Who first flew faster than sound, in the Bell X-1 in 1947?",
+    "options": [
+      "Chuck Yeager",
+      "Pete Knight",
+      "Charles Lindbergh",
+      "Frank Whittle"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chuck Yeager reached Mach 1.06, about 700 mph, in the Bell X-1 Glamorous Glennis on October 14, 1947."
+  },
+  {
+    "id": "sound-barrier_q5",
+    "lessonId": "sound-barrier",
+    "groupId": "grp_jetage_10",
+    "question": "When does a supersonic airplane make a sonic boom?",
+    "options": [
+      "Only at the moment it passes Mach 1",
+      "Only when it flies over the sea",
+      "Only when it slows back down",
+      "All the time it flies supersonic"
+    ],
+    "correctIndex": 3,
+    "explanation": "Shock waves trail the airplane the whole time it is supersonic, sweeping a continuous boom along the ground below."
+  },
+  {
+    "id": "comet-metal-fatigue_q1",
+    "lessonId": "comet-metal-fatigue",
+    "groupId": "grp_jetage_10",
+    "question": "Which airliner became the first jet airliner in service, in 1952?",
+    "options": [
+      "Boeing 707",
+      "Sud Aviation Caravelle",
+      "Douglas DC-8",
+      "de Havilland Comet"
+    ],
+    "correctIndex": 3,
+    "explanation": "The de Havilland Comet entered service with BOAC on May 2, 1952, as the first commercial jet airliner."
+  },
+  {
+    "id": "comet-metal-fatigue_q2",
+    "lessonId": "comet-metal-fatigue",
+    "groupId": "grp_jetage_10",
+    "question": "What is metal fatigue?",
+    "options": [
+      "Cracks growing from repeated loads",
+      "Metal weakening as it gets very cold",
+      "Metal melting from engine heat",
+      "Rust forming in damp weather"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fatigue is the gradual growth of a crack under repeated loading below the level that would normally break the material."
+  },
+  {
+    "id": "comet-metal-fatigue_q3",
+    "lessonId": "comet-metal-fatigue",
+    "groupId": "grp_jetage_10",
+    "question": "How did investigators test the Comet's cabin?",
+    "options": [
+      "Dropping it from a tall crane",
+      "Freezing it in a cold chamber",
+      "Pressurizing it in a water tank",
+      "Flying it straight into thunderstorms"
+    ],
+    "correctIndex": 2,
+    "explanation": "A Comet sat in a water tank while its cabin was pressurized again and again, packing a three-hour flight into ten minutes."
+  },
+  {
+    "id": "comet-metal-fatigue_q4",
+    "lessonId": "comet-metal-fatigue",
+    "groupId": "grp_jetage_10",
+    "question": "Where did the fatigue crack in the tank-tested Comet's cabin start?",
+    "options": [
+      "Inside one of its engines",
+      "Near an escape hatch",
+      "At the very tip of the nose",
+      "At a passenger window"
+    ],
+    "correctIndex": 1,
+    "explanation": "In the tank test, a fatigue crack made the cabin fail at a rivet hole near the forward escape hatch."
+  },
+  {
+    "id": "comet-metal-fatigue_q5",
+    "lessonId": "comet-metal-fatigue",
+    "groupId": "grp_jetage_10",
+    "question": "Which later Comet offered the first scheduled transatlantic jet service?",
+    "options": [
+      "The Comet 4",
+      "The Comet 2",
+      "The Comet 3",
+      "The Comet 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "The redesigned Comet 4 flew in 1958 and became the first to offer a scheduled transatlantic jet service."
+  },
+  {
+    "id": "the-707-jet-set_q1",
+    "lessonId": "the-707-jet-set",
+    "groupId": "grp_jetage_10",
+    "question": "What was the Boeing 367-80, or Dash 80?",
+    "options": [
+      "A propeller airliner of the 1930s",
+      "The jet prototype behind the 707",
+      "A rival design from Douglas",
+      "A jet bomber of World War II"
+    ],
+    "correctIndex": 1,
+    "explanation": "Boeing spent $16 million of its own money on the Dash 80, which led to both the 707 and the KC-135 tanker."
+  },
+  {
+    "id": "the-707-jet-set_q2",
+    "lessonId": "the-707-jet-set",
+    "groupId": "grp_jetage_10",
+    "question": "How did Boeing reassure people who were nervous about jets?",
+    "options": [
+      "Flights and a pierced-fuselage test",
+      "Offering every passenger a parachute",
+      "Free tickets for a whole year",
+      "Backup propellers on every jet"
+    ],
+    "correctIndex": 0,
+    "explanation": "Boeing flew reporters and customers in the Dash 80 and filmed blades piercing a pressurized 707 fuselage without it failing."
+  },
+  {
+    "id": "the-707-jet-set_q3",
+    "lessonId": "the-707-jet-set",
+    "groupId": "grp_jetage_10",
+    "question": "In what year did the Boeing 707 first fly?",
+    "options": [
+      "1967",
+      "1937",
+      "1957",
+      "1947"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 707-120 first flew on December 20, 1957, powered by four turbojets."
+  },
+  {
+    "id": "the-707-jet-set_q4",
+    "lessonId": "the-707-jet-set",
+    "groupId": "grp_jetage_10",
+    "question": "Within about two years of the 707 entering service, what did air travel overtake?",
+    "options": [
+      "Long-distance bus travel",
+      "Airship travel",
+      "Space travel",
+      "Rail and sea travel"
+    ],
+    "correctIndex": 3,
+    "explanation": "In just two years the 707 helped change how the world traveled, as travel by air eclipsed travel by rail and sea."
+  },
+  {
+    "id": "the-707-jet-set_q5",
+    "lessonId": "the-707-jet-set",
+    "groupId": "grp_jetage_10",
+    "question": "How many 707s of all versions did Boeing deliver?",
+    "options": [
+      "85",
+      "85,600",
+      "8,560",
+      "856"
+    ],
+    "correctIndex": 3,
+    "explanation": "Boeing delivered 856 Model 707s in all versions between 1957 and 1994, 725 of them for commercial use."
+  },
+  {
+    "id": "the-747_q1",
+    "lessonId": "the-747",
+    "groupId": "grp_airliners_11",
+    "question": "About how many Boeing people worked on building the first 747?",
+    "options": [
+      "About 5,000",
+      "About 500",
+      "About 50,000",
+      "About 500,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Some 50,000 Boeing workers, nicknamed the Incredibles, built the first 747 in roughly 16 months."
+  },
+  {
+    "id": "the-747_q2",
+    "lessonId": "the-747",
+    "groupId": "grp_airliners_11",
+    "question": "What record does Boeing's 747 factory in Everett hold?",
+    "options": [
+      "Longest runway in the world",
+      "Tallest building in the US",
+      "Largest building by volume",
+      "Oldest factory in Washington"
+    ],
+    "correctIndex": 2,
+    "explanation": "Boeing's Everett assembly plant, built for the 747, became the world's largest building by volume."
+  },
+  {
+    "id": "the-747_q3",
+    "lessonId": "the-747",
+    "groupId": "grp_airliners_11",
+    "question": "In which decade did the jumbo 747 make its maiden flight?",
+    "options": [
+      "The 1960s",
+      "The 1950s",
+      "The 1940s",
+      "The 1970s"
+    ],
+    "correctIndex": 0,
+    "explanation": "The first 747 flew on February 9, 1969, after a development of roughly 16 months."
+  },
+  {
+    "id": "the-747_q4",
+    "lessonId": "the-747",
+    "groupId": "grp_airliners_11",
+    "question": "How do 747 freighters load long cargo?",
+    "options": [
+      "Through the passenger doors",
+      "Through a nose that swings open",
+      "Through a big door in the tail cone",
+      "Through the cockpit windows"
+    ],
+    "correctIndex": 1,
+    "explanation": "Freighter and convertible 747s load cargo through a huge hinged nose."
+  },
+  {
+    "id": "the-747_q5",
+    "lessonId": "the-747",
+    "groupId": "grp_airliners_11",
+    "question": "In what year was the final Boeing 747 delivered?",
+    "options": [
+      "2023",
+      "2013",
+      "1993",
+      "2003"
+    ],
+    "correctIndex": 0,
+    "explanation": "Boeing delivered the final 747, a 747-8 Freighter, on January 31, 2023, after 1,574 had been built."
+  },
+  {
+    "id": "airbus-vs-boeing_q1",
+    "lessonId": "airbus-vs-boeing",
+    "groupId": "grp_airliners_11",
+    "question": "In what year was Airbus Industrie formally set up?",
+    "options": [
+      "1990",
+      "1970",
+      "1950",
+      "2000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Airbus Industrie was formally established on December 18, 1970, to build the A300."
+  },
+  {
+    "id": "airbus-vs-boeing_q2",
+    "lessonId": "airbus-vs-boeing",
+    "groupId": "grp_airliners_11",
+    "question": "What made the Airbus A300 a first when it flew in 1972?",
+    "options": [
+      "First jet airliner in service",
+      "First supersonic airliner",
+      "First full double-deck jet",
+      "First twin-engine widebody"
+    ],
+    "correctIndex": 3,
+    "explanation": "The A300 first flew on October 28, 1972, as the world’s first twin-engine widebody commercial aircraft."
+  },
+  {
+    "id": "airbus-vs-boeing_q3",
+    "lessonId": "airbus-vs-boeing",
+    "groupId": "grp_airliners_11",
+    "question": "Which two countries co-launched the A300 in 1969?",
+    "options": [
+      "France and Germany",
+      "Britain and the USA",
+      "Italy and Spain",
+      "Japan and Canada"
+    ],
+    "correctIndex": 0,
+    "explanation": "France and Germany formally co-launched the A300 program at the 1969 Le Bourget air show."
+  },
+  {
+    "id": "airbus-vs-boeing_q4",
+    "lessonId": "airbus-vs-boeing",
+    "groupId": "grp_airliners_11",
+    "question": "Which passenger aircraft families does Airbus build today?",
+    "options": [
+      "A220, A320, A330 and A350",
+      "DC-9, DC-10, MD-11 and 717",
+      "A300, A310, A340 and A380",
+      "737, 767, 777 and 787"
+    ],
+    "correctIndex": 0,
+    "explanation": "Airbus’s current passenger families are the A220, A320, A330 and A350; the A380 is no longer produced."
+  },
+  {
+    "id": "airbus-vs-boeing_q5",
+    "lessonId": "airbus-vs-boeing",
+    "groupId": "grp_airliners_11",
+    "question": "How many A300-family aircraft did Airbus build?",
+    "options": [
+      "82",
+      "8,210",
+      "821",
+      "82,100"
+    ],
+    "correctIndex": 2,
+    "explanation": "Altogether, Airbus produced 821 aircraft of the A300 family in all versions."
+  },
+  {
+    "id": "narrowbody-families_q1",
+    "lessonId": "narrowbody-families",
+    "groupId": "grp_airliners_11",
+    "question": "What nickname did the Boeing 737 earn when it was announced?",
+    "options": [
+      "Flying Fortress",
+      "Jumbo Junior",
+      "Baby Boeing",
+      "Queen of the Skies"
+    ],
+    "correctIndex": 2,
+    "explanation": "Boeing was known for big multiengine jets, so its small 737 twinjet was nicknamed the Baby Boeing."
+  },
+  {
+    "id": "narrowbody-families_q2",
+    "lessonId": "narrowbody-families",
+    "groupId": "grp_airliners_11",
+    "question": "Why was the early 737 called the “square” airplane?",
+    "options": [
+      "Its passenger windows were square",
+      "It was as long as it was wide",
+      "Its tail was square",
+      "It had a boxy cockpit"
+    ],
+    "correctIndex": 1,
+    "explanation": "The early 737 was about as long as its wingspan was wide, earning it the nickname of the square airplane."
+  },
+  {
+    "id": "narrowbody-families_q3",
+    "lessonId": "narrowbody-families",
+    "groupId": "grp_airliners_11",
+    "question": "By 1987, what record did the Boeing 737 hold?",
+    "options": [
+      "Largest passenger cabin of its time",
+      "Longest-range twinjet",
+      "Fastest airliner in service",
+      "Most ordered airliner in history"
+    ],
+    "correctIndex": 3,
+    "explanation": "By 1987, the 737 had become the most ordered plane in commercial history."
+  },
+  {
+    "id": "narrowbody-families_q4",
+    "lessonId": "narrowbody-families",
+    "groupId": "grp_airliners_11",
+    "question": "In what year did the Airbus A320 first fly?",
+    "options": [
+      "1967",
+      "1987",
+      "2007",
+      "1997"
+    ],
+    "correctIndex": 1,
+    "explanation": "The A320 first flew on February 22, 1987, and entered service in 1988."
+  },
+  {
+    "id": "narrowbody-families_q5",
+    "lessonId": "narrowbody-families",
+    "groupId": "grp_airliners_11",
+    "question": "How many pilots fly a 737, whose design made the flight engineer unnecessary?",
+    "options": [
+      "Four",
+      "Three",
+      "One",
+      "Two"
+    ],
+    "correctIndex": 3,
+    "explanation": "New technology made the flight engineer redundant, and the 737's two-person flight deck became standard."
+  },
+  {
+    "id": "the-a380_q1",
+    "lessonId": "the-a380",
+    "groupId": "grp_airliners_11",
+    "question": "What makes the A380 unique among jet airliners?",
+    "options": [
+      "It can land on water",
+      "It has six engines",
+      "A full-length double deck",
+      "It flies faster than sound"
+    ],
+    "correctIndex": 2,
+    "explanation": "The A380 is the only full-length double-deck jet airliner, and the largest passenger plane ever built."
+  },
+  {
+    "id": "the-a380_q2",
+    "lessonId": "the-a380",
+    "groupId": "grp_airliners_11",
+    "question": "Up to how many passengers is the A380 approved to carry?",
+    "options": [
+      "416",
+      "1,200",
+      "853",
+      "550"
+    ],
+    "correctIndex": 2,
+    "explanation": "The A380 is approved for a maximum of 853 passengers in an all-economy layout."
+  },
+  {
+    "id": "the-a380_q3",
+    "lessonId": "the-a380",
+    "groupId": "grp_airliners_11",
+    "question": "Which airline put the A380 into passenger service first, in 2007?",
+    "options": [
+      "Singapore Airlines",
+      "Qantas",
+      "Lufthansa",
+      "Emirates"
+    ],
+    "correctIndex": 0,
+    "explanation": "Singapore Airlines put the A380 into service on October 25, 2007."
+  },
+  {
+    "id": "the-a380_q4",
+    "lessonId": "the-a380",
+    "groupId": "grp_airliners_11",
+    "question": "How many A380s did Airbus deliver in total?",
+    "options": [
+      "1,574",
+      "12,000",
+      "251",
+      "821"
+    ],
+    "correctIndex": 2,
+    "explanation": "Airbus delivered 251 A380s to 14 customers before production ended."
+  },
+  {
+    "id": "the-a380_q5",
+    "lessonId": "the-a380",
+    "groupId": "grp_airliners_11",
+    "question": "Why did Airbus end A380 production?",
+    "options": [
+      "It could not fly long routes",
+      "Too few new orders",
+      "Its engines were banned",
+      "It was too slow"
+    ],
+    "correctIndex": 1,
+    "explanation": "In 2019 Airbus said that, without a substantial order backlog, it had no basis to keep building the A380."
+  },
+  {
+    "id": "concorde_q1",
+    "lessonId": "concorde",
+    "groupId": "grp_legends_12",
+    "question": "At what speed did Concorde cruise?",
+    "options": [
+      "About five times the speed of sound",
+      "About twice the speed of sound",
+      "Just under the speed of sound",
+      "Exactly the speed of sound"
+    ],
+    "correctIndex": 1,
+    "explanation": "Concorde cruised at twice the speed of sound, between 55,000 and 60,000 feet."
+  },
+  {
+    "id": "concorde_q2",
+    "lessonId": "concorde",
+    "groupId": "grp_legends_12",
+    "question": "Which two countries built Concorde together?",
+    "options": [
+      "Italy and France",
+      "Britain and the USA",
+      "France and Germany",
+      "Britain and France"
+    ],
+    "correctIndex": 3,
+    "explanation": "The British and French governments agreed in 1962 to develop and build Concorde together."
+  },
+  {
+    "id": "concorde_q3",
+    "lessonId": "concorde",
+    "groupId": "grp_legends_12",
+    "question": "Why did Concorde grow about 8 inches longer in flight?",
+    "options": [
+      "Its wings stretched under the load",
+      "Heat from high-speed flight expanded it",
+      "Its tanks swelled as fuel pressure rose",
+      "Its nose slid forward at high speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aerodynamic heating at twice the speed of sound made the airframe expand by about 8 inches."
+  },
+  {
+    "id": "concorde_q4",
+    "lessonId": "concorde",
+    "groupId": "grp_legends_12",
+    "question": "About how long did Concorde's transatlantic flights usually take?",
+    "options": [
+      "About eight hours",
+      "Under four hours",
+      "About twelve hours",
+      "About one hour"
+    ],
+    "correctIndex": 1,
+    "explanation": "Concorde cut transatlantic flight time roughly in half, with the average flight taking less than four hours."
+  },
+  {
+    "id": "concorde_q5",
+    "lessonId": "concorde",
+    "groupId": "grp_legends_12",
+    "question": "In what year did Concorde stop flying passengers?",
+    "options": [
+      "2003",
+      "1989",
+      "1979",
+      "2013"
+    ],
+    "correctIndex": 0,
+    "explanation": "Air France and British Airways ended Concorde operations in May and October 2003."
+  },
+  {
+    "id": "sr-71-blackbird_q1",
+    "lessonId": "sr-71-blackbird",
+    "groupId": "grp_legends_12",
+    "question": "What metal was the SR-71's airframe mostly made of?",
+    "options": [
+      "Titanium",
+      "Aluminum",
+      "Magnesium",
+      "Steel"
+    ],
+    "correctIndex": 0,
+    "explanation": "Above Mach 3 its skin reached about 600°F, so the airframe was built largely of titanium and its alloys."
+  },
+  {
+    "id": "sr-71-blackbird_q2",
+    "lessonId": "sr-71-blackbird",
+    "groupId": "grp_legends_12",
+    "question": "At about what altitude could the SR-71 cruise?",
+    "options": [
+      "15,000 feet",
+      "150,000 feet",
+      "35,000 feet",
+      "85,000 feet"
+    ],
+    "correctIndex": 3,
+    "explanation": "The SR-71's operating altitude reached about 85,000 feet, more than 16 miles up."
+  },
+  {
+    "id": "sr-71-blackbird_q3",
+    "lessonId": "sr-71-blackbird",
+    "groupId": "grp_legends_12",
+    "question": "Why did the SR-71 leak fuel when it slowed down to refuel?",
+    "options": [
+      "Its fuel was too cold to stay in",
+      "Its cooling skin panels shrank",
+      "The pilots dumped fuel on purpose",
+      "Its tanks were never sealed"
+    ],
+    "correctIndex": 1,
+    "explanation": "As the aircraft cooled during refueling, the panels over its fuel tanks contracted and fuel leaked out."
+  },
+  {
+    "id": "sr-71-blackbird_q4",
+    "lessonId": "sr-71-blackbird",
+    "groupId": "grp_legends_12",
+    "question": "How long did the SR-71's 1990 flight from Los Angeles to Washington take?",
+    "options": [
+      "About 64 minutes",
+      "About 20 minutes",
+      "About 5 hours",
+      "About 3 hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "On March 6, 1990, the crew covered the distance in 1 hour, 4 minutes and 20 seconds, averaging 2,124 mph."
+  },
+  {
+    "id": "sr-71-blackbird_q5",
+    "lessonId": "sr-71-blackbird",
+    "groupId": "grp_legends_12",
+    "question": "Which Lockheed design unit created the SR-71?",
+    "options": [
+      "The Phantom Works",
+      "The Mach Shop",
+      "The Skunk Works",
+      "The Blue Sky Lab"
+    ],
+    "correctIndex": 2,
+    "explanation": "The SR-71 came from Lockheed's secretive Skunk Works division."
+  },
+  {
+    "id": "x-planes_q1",
+    "lessonId": "x-planes",
+    "groupId": "grp_legends_12",
+    "question": "What are X-planes?",
+    "options": [
+      "Aircraft with X-shaped crossed wings",
+      "Secret military fighters",
+      "Retired airliners",
+      "Experimental research aircraft"
+    ],
+    "correctIndex": 3,
+    "explanation": "X-planes are experimental aircraft built to test new designs and technologies, not to go into production."
+  },
+  {
+    "id": "x-planes_q2",
+    "lessonId": "x-planes",
+    "groupId": "grp_legends_12",
+    "question": "How did the X-15 begin each flight?",
+    "options": [
+      "Towed into the air by a glider",
+      "Taking off from a runway",
+      "Launched by a catapult",
+      "Dropped from a B-52 bomber"
+    ],
+    "correctIndex": 3,
+    "explanation": "A B-52 carried the X-15 aloft and released it at about 45,000 feet before its rocket fired."
+  },
+  {
+    "id": "x-planes_q3",
+    "lessonId": "x-planes",
+    "groupId": "grp_legends_12",
+    "question": "What speed did Pete Knight reach in the X-15 in 1967?",
+    "options": [
+      "Mach 6.7",
+      "Mach 3.3",
+      "Mach 25",
+      "Mach 2.0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Knight reached 4,520 mph, Mach 6.7, still the world speed record for a winged, powered aircraft."
+  },
+  {
+    "id": "x-planes_q4",
+    "lessonId": "x-planes",
+    "groupId": "grp_legends_12",
+    "question": "How high did Joe Walker fly the X-15 in 1963?",
+    "options": [
+      "About 670 miles",
+      "About 16 miles",
+      "About 67 miles",
+      "About 6 miles"
+    ],
+    "correctIndex": 2,
+    "explanation": "Walker reached 354,200 feet, more than 67 miles above the Earth, on August 22, 1963."
+  },
+  {
+    "id": "x-planes_q5",
+    "lessonId": "x-planes",
+    "groupId": "grp_legends_12",
+    "question": "What powered the X-15?",
+    "options": [
+      "A ramjet",
+      "A propeller engine",
+      "A turbofan",
+      "A rocket engine"
+    ],
+    "correctIndex": 3,
+    "explanation": "The X-15 used a throttleable XLR-99 rocket engine making up to 57,000 pounds of thrust."
+  },
+  {
+    "id": "fighter-generations_q1",
+    "lessonId": "fighter-generations",
+    "groupId": "grp_military_13",
+    "question": "Which early American jets proved no match for the MiG-15 over Korea?",
+    "options": [
+      "The F-15 and F-16",
+      "The F-22 and F-35",
+      "The F-4 and F-14",
+      "The F-80 and F-84"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Smithsonian counts the F-80 and F-84 as first-generation jets, and they proved no match for the swept-wing MiG-15."
+  },
+  {
+    "id": "fighter-generations_q2",
+    "lessonId": "fighter-generations",
+    "groupId": "grp_military_13",
+    "question": "Which fighter became the US Navy's first carrier-based jet to reach Mach 2?",
+    "options": [
+      "The F-86 Sabre",
+      "The F-14 Tomcat",
+      "The F-4 Phantom II",
+      "The F/A-18 Hornet"
+    ],
+    "correctIndex": 2,
+    "explanation": "First flown in 1958, the F-4 Phantom II was the US Navy's first carrier-based jet able to reach Mach 2."
+  },
+  {
+    "id": "fighter-generations_q3",
+    "lessonId": "fighter-generations",
+    "groupId": "grp_military_13",
+    "question": "What were fourth-generation fighters such as the F-16 designed to be?",
+    "options": [
+      "Able to fly at Mach 3",
+      "Fast and highly agile",
+      "Armed only with guns",
+      "Hard to detect on radar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fourth-generation fighters such as the F-16 were built to be fast and agile, helped by features like a blended wing and body."
+  },
+  {
+    "id": "fighter-generations_q4",
+    "lessonId": "fighter-generations",
+    "groupId": "grp_military_13",
+    "question": "Why does the F-35 carry its weapons inside its body?",
+    "options": [
+      "To shield them from the weather",
+      "To let it land on carriers",
+      "To stay hard to detect",
+      "To leave room for fuel tanks"
+    ],
+    "correctIndex": 2,
+    "explanation": "Unlike fourth-generation jets with weapons hung outside, the F-35 can carry its payload internally to keep its stealth edge."
+  },
+  {
+    "id": "fighter-generations_q5",
+    "lessonId": "fighter-generations",
+    "groupId": "grp_military_13",
+    "question": "What does “supercruise” mean for a jet like the F-22?",
+    "options": [
+      "Flying at the very edge of space",
+      "Supersonic flight without afterburners",
+      "Gliding with its engines switched off",
+      "Cruising for a whole day without refueling"
+    ],
+    "correctIndex": 1,
+    "explanation": "The F-22 can supercruise, flying faster than Mach 1.5 without using its afterburners."
+  },
+  {
+    "id": "stealth-aircraft_q1",
+    "lessonId": "stealth-aircraft",
+    "groupId": "grp_military_13",
+    "question": "How does radar work out how far away an aircraft is?",
+    "options": [
+      "By listening to its radio calls",
+      "By timing the echo's return trip",
+      "By sensing the heat of its exhaust",
+      "By measuring the noise of its engines"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radar times how long a radio wave takes to reach the aircraft and bounce back, which gives the distance."
+  },
+  {
+    "id": "stealth-aircraft_q2",
+    "lessonId": "stealth-aircraft",
+    "groupId": "grp_military_13",
+    "question": "How does the F-117's faceted shape help it hide from radar?",
+    "options": [
+      "Its flat panels bounce radar waves away",
+      "Its panels send out jamming signals",
+      "Its curved skin absorbs radar",
+      "Its shape makes radar waves speed up"
+    ],
+    "correctIndex": 0,
+    "explanation": "Flat panels set at angles deflect radar waves away from the radar that sent them, instead of straight back."
+  },
+  {
+    "id": "stealth-aircraft_q3",
+    "lessonId": "stealth-aircraft",
+    "groupId": "grp_military_13",
+    "question": "When did the US Air Force first publicly acknowledge the F-117?",
+    "options": [
+      "In 1981",
+      "In 1977",
+      "In 1999",
+      "In 1988"
+    ],
+    "correctIndex": 3,
+    "explanation": "The F-117 had been in service since 1983, but the Air Force kept it secret until 1988."
+  },
+  {
+    "id": "stealth-aircraft_q4",
+    "lessonId": "stealth-aircraft",
+    "groupId": "grp_military_13",
+    "question": "Besides radar, what else do stealth designers try to reduce?",
+    "options": [
+      "Weight, fuel and range",
+      "Speed, altitude and climb",
+      "Heat, noise and visibility",
+      "Cost, crew and maintenance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Stealth also means cutting the heat, sound and visible signs that could give an aircraft away."
+  },
+  {
+    "id": "stealth-aircraft_q5",
+    "lessonId": "stealth-aircraft",
+    "groupId": "grp_military_13",
+    "question": "Which later aircraft built on the stealth ideas proved by the F-117?",
+    "options": [
+      "The Bell X-1 rocket plane",
+      "The B-2 Spirit bomber",
+      "The Boeing 707 airliner",
+      "The P-51 Mustang fighter"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Smithsonian says the B-2 Spirit, F-22, F-35 and B-21 all built on foundations laid by the programs behind the F-117."
+  },
+  {
+    "id": "how-helicopters-fly_q1",
+    "lessonId": "how-helicopters-fly",
+    "groupId": "grp_military_13",
+    "question": "Why can a helicopter hover when an airplane cannot?",
+    "options": [
+      "Its body is filled with a lighter-than-air gas",
+      "Its engines are much more powerful than a plane's",
+      "Its spinning blades keep air flowing over them",
+      "Its tail rotor pushes it straight upward"
+    ],
+    "correctIndex": 2,
+    "explanation": "A helicopter's rotor blades are wings that keep moving through the air, so they make lift even when it isn't going anywhere."
+  },
+  {
+    "id": "how-helicopters-fly_q2",
+    "lessonId": "how-helicopters-fly",
+    "groupId": "grp_military_13",
+    "question": "What makes a helicopter move forward?",
+    "options": [
+      "Pointing a jet exhaust straight backward",
+      "Speeding up the tail rotor",
+      "Tilting the spinning rotor disk forward",
+      "Flapping the rotor blades faster"
+    ],
+    "correctIndex": 2,
+    "explanation": "When the rotor disk tilts forward, part of its lift points forward and pulls the helicopter along."
+  },
+  {
+    "id": "how-helicopters-fly_q3",
+    "lessonId": "how-helicopters-fly",
+    "groupId": "grp_military_13",
+    "question": "Why do most helicopters need a tail rotor?",
+    "options": [
+      "To push the helicopter forward",
+      "To help it land on uneven ground",
+      "To stop the body from spinning",
+      "To cool the main engine"
+    ],
+    "correctIndex": 2,
+    "explanation": "Turning the main rotor twists the body the opposite way, and the tail rotor's push cancels that torque."
+  },
+  {
+    "id": "how-helicopters-fly_q4",
+    "lessonId": "how-helicopters-fly",
+    "groupId": "grp_military_13",
+    "question": "Which helicopter did Igor Sikorsky build with one main rotor and a tail rotor?",
+    "options": [
+      "The VS-300",
+      "The CH-47",
+      "The Fw 61",
+      "The Bell 47"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sikorsky chose one main rotor plus a tail rotor for his VS-300, and that layout became the standard."
+  },
+  {
+    "id": "how-helicopters-fly_q5",
+    "lessonId": "how-helicopters-fly",
+    "groupId": "grp_military_13",
+    "question": "How does a tandem-rotor helicopter like the Chinook cancel torque?",
+    "options": [
+      "Its rotors spin slowly to make less twist",
+      "It uses a much larger tail rotor than usual",
+      "Its engines turn in the opposite direction",
+      "Its two rotors turn in opposite directions"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Chinook's two big rotors turn in opposite directions, so each cancels the other's torque and no tail rotor is needed."
+  },
+  {
+    "id": "tankers-awacs-transports_q1",
+    "lessonId": "tankers-awacs-transports",
+    "groupId": "grp_military_13",
+    "question": "In what year did two US Army biplanes make the first in-flight refueling?",
+    "options": [
+      "1923",
+      "1963",
+      "1903",
+      "1943"
+    ],
+    "correctIndex": 0,
+    "explanation": "Two US Army DH-4B biplanes made the first in-flight refueling in 1923."
+  },
+  {
+    "id": "tankers-awacs-transports_q2",
+    "lessonId": "tankers-awacs-transports",
+    "groupId": "grp_military_13",
+    "question": "Which two refueling systems does Boeing's KC-46 tanker carry?",
+    "options": [
+      "A winch and a cargo sling",
+      "A boom and a hose-and-drogue",
+      "A catapult and a tailhook",
+      "A pair of fixed pipes on its wingtips"
+    ],
+    "correctIndex": 1,
+    "explanation": "The KC-46 has a refueling boom plus hose-and-drogue units under its centerline and wings, so it can serve both kinds of receiver."
+  },
+  {
+    "id": "tankers-awacs-transports_q3",
+    "lessonId": "tankers-awacs-transports",
+    "groupId": "grp_military_13",
+    "question": "What does the rotating dome on top of an E-3 AWACS aircraft hold?",
+    "options": [
+      "A long-range radar",
+      "A spare engine",
+      "A satellite dish for TV",
+      "Extra fuel tanks"
+    ],
+    "correctIndex": 0,
+    "explanation": "The rotating dome houses a radar that can track aircraft more than 200 miles away in every direction."
+  },
+  {
+    "id": "tankers-awacs-transports_q4",
+    "lessonId": "tankers-awacs-transports",
+    "groupId": "grp_military_13",
+    "question": "Which airliner was the first AWACS aircraft based on?",
+    "options": [
+      "The Airbus A300",
+      "The Boeing 747",
+      "The Boeing 707",
+      "The Douglas DC-8"
+    ],
+    "correctIndex": 2,
+    "explanation": "The E-3 AWACS was a militarized Boeing 707 with a rotating radar dome mounted above its fuselage."
+  },
+  {
+    "id": "tankers-awacs-transports_q5",
+    "lessonId": "tankers-awacs-transports",
+    "groupId": "grp_military_13",
+    "question": "What was the Antonov An-225 Mriya originally built to carry?",
+    "options": [
+      "Tanks for the Soviet army",
+      "The Buran space shuttle",
+      "Passengers on long routes",
+      "Airliner wings for Airbus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mriya was developed to carry the Soviet Buran shuttle orbiter on its back, along with parts of its Energiya rocket."
+  },
+  {
+    "id": "black-boxes_q1",
+    "lessonId": "black-boxes",
+    "groupId": "grp_safety_14",
+    "question": "What color are an airliner's “black boxes”?",
+    "options": [
+      "Bright orange or yellow",
+      "Camouflage green",
+      "Shiny silver metal",
+      "Matte black, as the name says"
+    ],
+    "correctIndex": 0,
+    "explanation": "Their cases are bright orange or bright yellow, with reflective tape, so searchers can find them after an accident."
+  },
+  {
+    "id": "black-boxes_q2",
+    "lessonId": "black-boxes",
+    "groupId": "grp_safety_14",
+    "question": "What does a flight data recorder log?",
+    "options": [
+      "Readings such as altitude and airspeed",
+      "Air traffic controllers' radar screens",
+      "Passenger names and seat numbers",
+      "Only the conversations between pilots"
+    ],
+    "correctIndex": 0,
+    "explanation": "The flight data recorder logs flight readings, while the cockpit voice recorder captures the crew's voices and cockpit sounds."
+  },
+  {
+    "id": "black-boxes_q3",
+    "lessonId": "black-boxes",
+    "groupId": "grp_safety_14",
+    "question": "Where are the flight recorders usually mounted?",
+    "options": [
+      "Under the wings",
+      "In the cockpit",
+      "In the tail",
+      "In the nose gear bay"
+    ],
+    "correctIndex": 2,
+    "explanation": "The recorders usually sit in the tail, the part of the aircraft most likely to survive a crash."
+  },
+  {
+    "id": "black-boxes_q4",
+    "lessonId": "black-boxes",
+    "groupId": "grp_safety_14",
+    "question": "Under the international standard, how much audio must cockpit voice recorders on large new airliners keep?",
+    "options": [
+      "The last 30 minutes",
+      "The last 12 hours",
+      "The last 25 hours",
+      "The last 2 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "The international standard calls for 25-hour cockpit voice recorders on large airliners built since 2021."
+  },
+  {
+    "id": "black-boxes_q5",
+    "lessonId": "black-boxes",
+    "groupId": "grp_safety_14",
+    "question": "Why did NASA and the FAA crash a Boeing 720 on purpose in 1984?",
+    "options": [
+      "To study how to make crashes more survivable",
+      "To dispose of an old aircraft safely",
+      "To film scenes for a disaster movie",
+      "To test a new automatic landing system for airliners"
+    ],
+    "correctIndex": 0,
+    "explanation": "The controlled crash tested ways to make crashes more survivable, from a fire-suppressing fuel additive to seats and restraints."
+  },
+  {
+    "id": "accidents-changed-aviation_q1",
+    "lessonId": "accidents-changed-aviation",
+    "groupId": "grp_safety_14",
+    "question": "What 1956 event helped lead to the creation of the Federal Aviation Agency?",
+    "options": [
+      "The first flight of the Boeing 707",
+      "A record flight across the Pacific",
+      "The launch of the Sputnik satellite",
+      "A midair collision over the Grand Canyon"
+    ],
+    "correctIndex": 3,
+    "explanation": "The 1956 Grand Canyon collision exposed gaps in air traffic control and helped lead to the Federal Aviation Agency in 1958."
+  },
+  {
+    "id": "accidents-changed-aviation_q2",
+    "lessonId": "accidents-changed-aviation",
+    "groupId": "grp_safety_14",
+    "question": "What did the 1978 Portland fuel-exhaustion accident help bring about?",
+    "options": [
+      "Automatic landing systems",
+      "Flight data recorders",
+      "Crew resource management training",
+      "Fuel gauges in the passenger cabin"
+    ],
+    "correctIndex": 2,
+    "explanation": "Investigators found fuel concerns weren't clearly passed to the captain, which spurred training in crew resource management."
+  },
+  {
+    "id": "accidents-changed-aviation_q3",
+    "lessonId": "accidents-changed-aviation",
+    "groupId": "grp_safety_14",
+    "question": "Which cabin feature followed the 1983 lavatory fire on a jet that landed at Cincinnati?",
+    "options": [
+      "Seat-back entertainment screens",
+      "Window shades on every window",
+      "Oxygen masks that drop from the ceiling",
+      "Floor lighting that leads to the exits"
+    ],
+    "correctIndex": 3,
+    "explanation": "After the fire, new rules added floor lighting to guide people through smoke, plus lavatory smoke detectors and fire-resistant seat cushions."
+  },
+  {
+    "id": "accidents-changed-aviation_q4",
+    "lessonId": "accidents-changed-aviation",
+    "groupId": "grp_safety_14",
+    "question": "What caused part of the fuselage to tear away from an Aloha Airlines 737 in 1988?",
+    "options": [
+      "A cargo door that came open in flight",
+      "An engine breaking apart in flight",
+      "A lightning strike on the roof",
+      "Many small fatigue cracks linking up"
+    ],
+    "correctIndex": 3,
+    "explanation": "Many small, hard-to-spot fatigue cracks along a fuselage joint linked up, and a section of the upper fuselage tore away."
+  },
+  {
+    "id": "accidents-changed-aviation_q5",
+    "lessonId": "accidents-changed-aviation",
+    "groupId": "grp_safety_14",
+    "question": "By Airbus's count, what share of the A350's airframe is made of composites?",
+    "options": [
+      "93%",
+      "13%",
+      "53%",
+      "33%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Airbus says the A350's airframe is 53% composites and 14% titanium, which cuts weight and maintenance."
+  },
+  {
+    "id": "why-flying-is-safe_q1",
+    "lessonId": "why-flying-is-safe",
+    "groupId": "grp_safety_14",
+    "question": "In the Swiss cheese model of safety, what do the holes in each slice stand for?",
+    "options": [
+      "Weak spots in a defense",
+      "Accidents that already happened",
+      "Extra safety margins",
+      "Airports along a route"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each slice is a defense such as training or teamwork, and each hole is a way that defense can fail."
+  },
+  {
+    "id": "why-flying-is-safe_q2",
+    "lessonId": "why-flying-is-safe",
+    "groupId": "grp_safety_14",
+    "question": "What does TCAS tell two aircraft on a collision course to do?",
+    "options": [
+      "Turn left or right",
+      "Climb or descend",
+      "Land at the nearest airport",
+      "Speed up or slow down"
+    ],
+    "correctIndex": 1,
+    "explanation": "TCAS gives vertical advice, and when both aircraft have it, they coordinate so one heads up while the other heads down."
+  },
+  {
+    "id": "why-flying-is-safe_q3",
+    "lessonId": "why-flying-is-safe",
+    "groupId": "grp_safety_14",
+    "question": "How does TCAS detect other aircraft nearby?",
+    "options": [
+      "Through a satellite TV link",
+      "By questioning their transponders",
+      "With cameras in the nose",
+      "By listening for the sound of their engines"
+    ],
+    "correctIndex": 1,
+    "explanation": "TCAS works with the transponders that answer air traffic control radar, so it can't see aircraft without one."
+  },
+  {
+    "id": "why-flying-is-safe_q4",
+    "lessonId": "why-flying-is-safe",
+    "groupId": "grp_safety_14",
+    "question": "Why do people trust NASA's Aviation Safety Reporting System with their mistakes?",
+    "options": [
+      "Reporters receive a cash reward",
+      "Only airline bosses can read them",
+      "Reports are read out on the news",
+      "Reports are kept confidential"
+    ],
+    "correctIndex": 3,
+    "explanation": "The NASA system is voluntary, confidential and non-punitive, and analysts remove identifying details before sharing lessons."
+  },
+  {
+    "id": "why-flying-is-safe_q5",
+    "lessonId": "why-flying-is-safe",
+    "groupId": "grp_safety_14",
+    "question": "In 1985, how far from an airport could the first ETOPS rules let twin-engine jets fly?",
+    "options": [
+      "Up to 30 minutes",
+      "Up to 60 minutes",
+      "Up to 240 minutes",
+      "Up to 120 minutes"
+    ],
+    "correctIndex": 3,
+    "explanation": "A 1985 FAA advisory circular let qualifying twins fly up to 120 minutes from an airport, and the limit rose to 180 minutes in 1988."
+  },
+  {
+    "id": "bizjets-general-aviation_q1",
+    "lessonId": "bizjets-general-aviation",
+    "groupId": "grp_future_15",
+    "question": "What does “general aviation” mean?",
+    "options": [
+      "Scheduled flights between big hubs",
+      "Civil flying not done by airlines",
+      "All flying done by the armed forces",
+      "Only flights that carry air cargo"
+    ],
+    "correctIndex": 1,
+    "explanation": "The FAA defines general aviation as civil aviation that doesn't include scheduled or unscheduled air carriers."
+  },
+  {
+    "id": "bizjets-general-aviation_q2",
+    "lessonId": "bizjets-general-aviation",
+    "groupId": "grp_future_15",
+    "question": "What is a fixed-base operator at an airport?",
+    "options": [
+      "The airline that owns the airport",
+      "A runway reserved for business jets",
+      "A terminal and service base for private planes",
+      "The control tower that runs all ground traffic"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fixed-base operators grew up after World War II as terminals for private airplanes, offering repairs and other services."
+  },
+  {
+    "id": "bizjets-general-aviation_q3",
+    "lessonId": "bizjets-general-aviation",
+    "groupId": "grp_future_15",
+    "question": "In what year did the first Lear Jet fly?",
+    "options": [
+      "1973",
+      "1953",
+      "1983",
+      "1963"
+    ],
+    "correctIndex": 3,
+    "explanation": "The prototype Lear Jet 23 made the first Lear Jet flight on October 7, 1963."
+  },
+  {
+    "id": "bizjets-general-aviation_q4",
+    "lessonId": "bizjets-general-aviation",
+    "groupId": "grp_future_15",
+    "question": "What did the name “Lear Jet” become shorthand for?",
+    "options": [
+      "Any fighter plane",
+      "Any business jet",
+      "Any supersonic jet",
+      "Any airliner"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Lear Jet 23 was so influential that for years “Lear Jet” was another way of saying “bizjet.”"
+  },
+  {
+    "id": "bizjets-general-aviation_q5",
+    "lessonId": "bizjets-general-aviation",
+    "groupId": "grp_future_15",
+    "question": "About how far can a Gulfstream G650 fly at Mach 0.85?",
+    "options": [
+      "About 17,000 nautical miles",
+      "About 7,000 nautical miles",
+      "About 700 nautical miles",
+      "About 2,000 nautical miles"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gulfstream says the G650 can fly 7,000 nautical miles, or 12,964 kilometers, at Mach 0.85."
+  },
+  {
+    "id": "drones-evtols_q1",
+    "lessonId": "drones-evtols",
+    "groupId": "grp_future_15",
+    "question": "What does the FAA's term “unmanned aircraft system” include?",
+    "options": [
+      "Just the person who flies it remotely",
+      "Only the aircraft itself",
+      "The aircraft plus a backup pilot aboard",
+      "The aircraft and the equipment to operate it"
+    ],
+    "correctIndex": 3,
+    "explanation": "An unmanned aircraft system is the aircraft plus the equipment needed to operate it safely and efficiently."
+  },
+  {
+    "id": "drones-evtols_q2",
+    "lessonId": "drones-evtols",
+    "groupId": "grp_future_15",
+    "question": "What did NASA's Ingenuity achieve on April 19, 2021?",
+    "options": [
+      "The first powered flight on another planet",
+      "The first drone to deliver a package to a home",
+      "The first flight over Mount Everest",
+      "The first electric air taxi ride"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ingenuity made the first powered, controlled flight on another planet, then flew 72 times on Mars in almost three years."
+  },
+  {
+    "id": "drones-evtols_q3",
+    "lessonId": "drones-evtols",
+    "groupId": "grp_future_15",
+    "question": "How many flights was Ingenuity originally designed to make?",
+    "options": [
+      "Up to 500",
+      "Up to five",
+      "Up to 72",
+      "Exactly one"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ingenuity was planned as a demonstration of up to five flights over 30 days, but it went on to fly 72 times."
+  },
+  {
+    "id": "drones-evtols_q4",
+    "lessonId": "drones-evtols",
+    "groupId": "grp_future_15",
+    "question": "What does eVTOL stand for?",
+    "options": [
+      "Electric vertical takeoff and landing",
+      "Electric vehicle tested on land",
+      "Engine-free vertical takeoff and landing",
+      "Extended-range vertical takeoff and landing"
+    ],
+    "correctIndex": 0,
+    "explanation": "An eVTOL is an electric vertical takeoff and landing aircraft, which rises like a helicopter and cruises like an airplane."
+  },
+  {
+    "id": "drones-evtols_q5",
+    "lessonId": "drones-evtols",
+    "groupId": "grp_future_15",
+    "question": "How do the propellers on Joby's air taxi switch from lifting to cruising?",
+    "options": [
+      "They stop, and a separate jet engine takes over",
+      "They fold flat against the fuselage",
+      "They reverse their direction of spin",
+      "They tilt from pointing up to pointing forward"
+    ],
+    "correctIndex": 3,
+    "explanation": "Joby's six propellers point up for vertical takeoff and landing, then tilt forward so the wing carries the aircraft in cruise."
+  },
+  {
+    "id": "electric-hydrogen-supersonic_q1",
+    "lessonId": "electric-hydrogen-supersonic",
+    "groupId": "grp_future_15",
+    "question": "Why is it hard to build long-range battery-powered airliners?",
+    "options": [
+      "Airports have no way to charge aircraft",
+      "Electric motors cannot spin propellers fast enough",
+      "Batteries stop working in the cold at high altitude",
+      "Batteries store far less energy per kilogram"
+    ],
+    "correctIndex": 3,
+    "explanation": "A NASA study found today's best battery packs hold about 48 times less energy per kilogram than jet fuel."
+  },
+  {
+    "id": "electric-hydrogen-supersonic_q2",
+    "lessonId": "electric-hydrogen-supersonic",
+    "groupId": "grp_future_15",
+    "question": "What happened to NASA's all-electric X-57 Maxwell?",
+    "options": [
+      "It set a record for electric speed",
+      "The project ended before it flew",
+      "It crossed the Atlantic on batteries",
+      "It became the first electric air taxi"
+    ],
+    "correctIndex": 1,
+    "explanation": "NASA ended the X-57 project in 2023 before its first flight, but shared hundreds of lessons about batteries and motors."
+  },
+  {
+    "id": "electric-hydrogen-supersonic_q3",
+    "lessonId": "electric-hydrogen-supersonic",
+    "groupId": "grp_future_15",
+    "question": "Per kilogram, about how much energy does hydrogen hold compared with jet fuel?",
+    "options": [
+      "About half as much",
+      "Roughly ten times as much",
+      "About the same amount",
+      "About three times as much"
+    ],
+    "correctIndex": 3,
+    "explanation": "Airbus says hydrogen holds about three times the energy of jet fuel per kilogram, but it takes up far more space."
+  },
+  {
+    "id": "electric-hydrogen-supersonic_q4",
+    "lessonId": "electric-hydrogen-supersonic",
+    "groupId": "grp_future_15",
+    "question": "Why does liquid hydrogen need special tanks?",
+    "options": [
+      "It eats through ordinary metal pipes",
+      "It is much heavier than jet fuel by volume",
+      "It has to be kept at about −253°C",
+      "It has to be stored under water"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hydrogen turns liquid only at about −253°C, so it needs heavily insulated tanks to stay that cold."
+  },
+  {
+    "id": "electric-hydrogen-supersonic_q5",
+    "lessonId": "electric-hydrogen-supersonic",
+    "groupId": "grp_future_15",
+    "question": "What is NASA's X-59 designed to do?",
+    "options": [
+      "Carry 100 passengers at twice the speed of sound",
+      "Fly supersonic with only a quiet thump",
+      "Fly on hydrogen fuel",
+      "Fly to the edge of space"
+    ],
+    "correctIndex": 1,
+    "explanation": "The X-59 is designed to fly faster than sound while turning the usual loud sonic boom into a much quieter thump."
+  }
+]

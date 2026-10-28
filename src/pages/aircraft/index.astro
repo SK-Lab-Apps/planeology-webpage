@@ -1,0 +1,145 @@
+---
+/** /aircraft — "The Hangar": all 56 aircraft, filterable by era and role (vanilla JS). */
+import { getCollection } from 'astro:content';
+import Base from '@/layouts/Base.astro';
+import HeroBand from '@/components/HeroBand.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import AircraftCard from '@/components/AircraftCard.astro';
+import StatTile from '@/components/StatTile.astro';
+import BoardingPass from '@/components/BoardingPass.astro';
+import { ROUTES, NOUNS } from '@/config';
+import { aircraft, counts } from '@/lib/app-data';
+import { aircraftAlt } from '@/lib/alt';
+import { breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
+
+const entries = await getCollection('aircraft');
+const meta = new Map(entries.map((e) => [e.id, e.data]));
+
+const eras = [
+  { id: 'pioneers', label: 'Pioneers (to 1918)' },
+  { id: 'golden-age', label: 'Golden age (1919–38)' },
+  { id: 'wwii', label: 'WWII (1939–45)' },
+  { id: 'jet-age', label: 'Jet age (1946–69)' },
+  { id: 'widebody-era', label: 'Widebody era (1970–99)' },
+  { id: 'modern', label: 'Modern (2000–)' },
+];
+const roles = [
+  { id: 'airliner', label: 'Airliners' },
+  { id: 'military', label: 'Fighters & military' },
+  { id: 'light-aircraft', label: 'Light & aerobatic' },
+  { id: 'research', label: 'Research & records' },
+  { id: 'rotor-evtol', label: 'Rotors & eVTOL' },
+  { id: 'transport-special', label: 'Transports & specials' },
+];
+const crumbs = [{ name: 'Home', path: ROUTES.home }, { name: 'Hangar', path: ROUTES.aircraft }];
+const seo: Seo = {
+  title: 'The Hangar: 56 Aircraft, Facts and Specs',
+  description:
+    'Every aircraft in the Planeology Hangar with facts, specs and its story: the Wright Flyer, Spitfire, 747, Concorde, SR-71, F-22, A380 and 49 more.',
+  path: ROUTES.aircraft,
+};
+const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
+const tiers = [...new Set(aircraft.map((a) => a.tierLabel))];
+---
+
+<Base seo={seo} jsonld={jsonld} current="aircraft">
+  <HeroBand loop={false} straddle>
+    <div class="wrap pt-8 md:pt-12">
+      <Breadcrumbs items={crumbs} onNight />
+      <p class="label !text-board-text mt-6 mb-2">{NOUNS.collection} · {counts.aircraft} bays</p>
+      <h1 class="text-[2.6rem] sm:text-[3.4rem] md:text-[4rem] leading-[0.98] m-0">The Hangar</h1>
+      <p class="mt-4 mb-6 text-on-night-soft text-[1.15rem] max-w-[52ch] leading-relaxed">
+        Every aircraft you can park in the app, with its facts, specs and story. One is yours from the start; the other {counts.aircraft - 1} are earned by passing a lesson quiz.
+      </p>
+      <div class="grid grid-cols-3 gap-3 max-w-md">
+        <StatTile night label="Aircraft" value={counts.aircraft} />
+        <StatTile night label="Tiers" value={tiers.length} />
+        <StatTile night label="Lesson groups" value={counts.groups} />
+      </div>
+    </div>
+  </HeroBand>
+
+  <div class="wrap -mt-16 relative z-10">
+    <div class="card card-raised p-4 sm:p-5 grid gap-4" id="hangar-filters">
+      <fieldset class="m-0 p-0 border-0 min-w-0">
+        <legend class="label mb-2">Era</legend>
+        <div class="flex flex-wrap gap-2">
+          <button type="button" class="chip is-on" data-filter="era" data-value="all" aria-pressed="true">All eras</button>
+          {eras.map((e) => <button type="button" class="chip" data-filter="era" data-value={e.id} aria-pressed="false">{e.label}</button>)}
+        </div>
+      </fieldset>
+      <fieldset class="m-0 p-0 border-0 min-w-0">
+        <legend class="label mb-2">Role</legend>
+        <div class="flex flex-wrap gap-2">
+          <button type="button" class="chip is-on" data-filter="role" data-value="all" aria-pressed="true">All roles</button>
+          {roles.map((r) => <button type="button" class="chip" data-filter="role" data-value={r.id} aria-pressed="false">{r.label}</button>)}
+        </div>
+      </fieldset>
+      <p class="m-0 text-sm text-ink-muted" id="hangar-count" aria-live="polite">Showing all {counts.aircraft} aircraft.</p>
+    </div>
+
+    <ul class="list-none m-0 p-0 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4 mt-6" id="hangar-grid">
+      {aircraft.map((a, i) => {
+        const m = meta.get(a.id);
+        return (
+          <li data-era={m?.era ?? 'modern'} data-role={m?.roleGroup ?? 'airliner'}>
+            <AircraftCard aircraft={a} alt={aircraftAlt(a)} priority={i < 4} era={m?.era} roleGroup={m?.roleGroup} />
+          </li>
+        );
+      })}
+    </ul>
+    <p class="hidden text-center text-ink-muted py-10" id="hangar-empty">No aircraft match those filters.</p>
+
+    <BoardingPass ct="aircraft-hub" class="my-12" title={`Park all ${counts.aircraft} in your own Hangar.`} body="Each lesson you pass in Planeology parks its aircraft, with a fact card and its sources. The Cessna 172 is waiting in Bay 01 the moment you start." />
+  </div>
+</Base>
+
+<style>
+  .chip {
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    color: var(--color-ink-secondary);
+    border-radius: 999px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    min-height: 2.25rem;
+  }
+  .chip:hover { border-color: var(--color-ink-muted); color: var(--color-ink); }
+  .chip.is-on { background: var(--color-ink); border-color: var(--color-ink); color: var(--color-board-text); }
+</style>
+
+<script>
+  const grid = document.getElementById('hangar-grid');
+  const count = document.getElementById('hangar-count');
+  const empty = document.getElementById('hangar-empty');
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('#hangar-filters .chip'));
+  const state = { era: 'all', role: 'all' };
+  const total = grid ? grid.children.length : 0;
+
+  function apply() {
+    if (!grid || !count || !empty) return;
+    let shown = 0;
+    for (const li of Array.from(grid.children) as HTMLElement[]) {
+      const ok = (state.era === 'all' || li.dataset.era === state.era) && (state.role === 'all' || li.dataset.role === state.role);
+      li.hidden = !ok;
+      if (ok) shown++;
+    }
+    empty.classList.toggle('hidden', shown > 0);
+    count.textContent = shown === total ? `Showing all ${total} aircraft.` : `Showing ${shown} of ${total} aircraft.`;
+  }
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      const key = chip.dataset.filter as 'era' | 'role';
+      state[key] = chip.dataset.value ?? 'all';
+      for (const c of chips) {
+        if (c.dataset.filter !== key) continue;
+        const on = c === chip;
+        c.classList.toggle('is-on', on);
+        c.setAttribute('aria-pressed', String(on));
+      }
+      apply();
+    });
+  }
+</script>

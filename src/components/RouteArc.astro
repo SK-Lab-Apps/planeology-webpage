@@ -1,0 +1,89 @@
+---
+/**
+ * RouteArc — the signature dashed magenta great-circle route with yellow
+ * waypoints and a small white airliner, drawn in SVG. The route draws in once
+ * and the airliner glides along it (offset-path). Static under reduced motion.
+ */
+interface Props {
+  class?: string;
+  /** Loop the glide after the draw-in (home hero); otherwise glide once. */
+  loop?: boolean;
+}
+const { class: cls = '', loop = true } = Astro.props;
+
+// One cubic Bézier in a 1440×600 box, from off the bottom-left to off the top-right.
+const P0 = [-60, 560], P1 = [420, 540], P2 = [900, 150], P3 = [1500, 30];
+const d = `M ${P0[0]} ${P0[1]} C ${P1[0]} ${P1[1]}, ${P2[0]} ${P2[1]}, ${P3[0]} ${P3[1]}`;
+const at = (t: number) => {
+  const u = 1 - t;
+  const x = u * u * u * P0[0] + 3 * u * u * t * P1[0] + 3 * u * t * t * P2[0] + t * t * t * P3[0];
+  const y = u * u * u * P0[1] + 3 * u * u * t * P1[1] + 3 * u * t * t * P2[1] + t * t * t * P3[1];
+  return [Math.round(x), Math.round(y)] as const;
+};
+const waypoints = [0.22, 0.5, 0.78].map(at);
+---
+
+<svg
+  class:list={['route-arc', cls, { 'route-loop': loop }]}
+  viewBox="0 0 1440 600"
+  preserveAspectRatio="xMidYMid slice"
+  aria-hidden="true"
+  focusable="false"
+  data-draw
+>
+  <defs>
+    <pattern id="grat" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    </pattern>
+    <pattern id="grat4" width="192" height="192" patternUnits="userSpaceOnUse">
+      <path d="M192 0H0V192" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="1" />
+    </pattern>
+    <mask id="route-mask">
+      <path class="route-reveal" d={d} pathLength="1" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" />
+    </mask>
+  </defs>
+  <rect width="1440" height="600" fill="url(#grat)" />
+  <rect width="1440" height="600" fill="url(#grat4)" />
+  <g fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="1">
+    <circle cx="1320" cy="-40" r="220" />
+    <circle cx="1320" cy="-40" r="420" />
+    <circle cx="1320" cy="-40" r="640" />
+  </g>
+  <g mask="url(#route-mask)">
+    <path d={d} fill="none" stroke="#B0156E" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12" />
+    {waypoints.map(([x, y]) => (
+      <g>
+        <circle cx={x} cy={y} r="9" fill="rgba(246,184,0,0.22)" />
+        <circle cx={x} cy={y} r="4.5" fill="#F6B800" />
+      </g>
+    ))}
+  </g>
+  <g class="route-plane" style={`offset-path: path("${d}")`}>
+    <path d="M 18 0 L 2 -4 L -4 -22 L -9 -22 L -8 -5 L -16 -3 L -19 -9 L -23 -9 L -22 0 L -23 9 L -19 9 L -16 3 L -8 5 L -9 22 L -4 22 L 2 4 Z" fill="#fff" />
+  </g>
+</svg>
+
+<style>
+  .route-arc {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .route-reveal { stroke-dasharray: 1; stroke-dashoffset: 0; }
+  .route-plane { offset-rotate: auto; offset-distance: 62%; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html.js .route-arc .route-reveal { stroke-dashoffset: 1; }
+    html.js .route-arc.is-in .route-reveal { animation: route-draw 2.4s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+    html.js .route-arc .route-plane { offset-distance: 0%; opacity: 0; }
+    html.js .route-arc.is-in .route-plane { animation: route-glide 9s cubic-bezier(0.3, 0, 0.5, 1) 0.6s forwards; }
+  }
+  @keyframes route-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+  @keyframes route-glide {
+    0% { offset-distance: 2%; opacity: 0; }
+    6% { opacity: 1; }
+    100% { offset-distance: 62%; opacity: 1; }
+  }
+</style>

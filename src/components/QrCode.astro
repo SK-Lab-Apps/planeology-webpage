@@ -1,0 +1,13 @@
+---
+/** A build-time QR code of a store link, shown on desktop only ("Scan to get it on your iPhone"). */
+import { qrSvg } from '@/lib/qr';
+import { storeLink, type Campaign } from '@/config';
+interface Props { ct: Campaign; size?: number; class?: string; color?: string }
+const { ct, size = 104, class: cls = '', color } = Astro.props;
+const svg = await qrSvg(storeLink(ct), { size, color });
+---
+<div class:list={['qr', cls]} set:html={svg} />
+<style>
+  .qr { line-height: 0; }
+  .qr :global(svg) { width: 100%; height: auto; }
+</style>

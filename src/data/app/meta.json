@@ -1,0 +1,9 @@
+{
+  "app": "Planeology",
+  "appVersion": "1.0.0",
+  "appCommit": "984b895cfda484ee50705634554be45bf0b70403",
+  "appCommitDate": "2026-10-28T23:01:31+05:30",
+  "appWorkingTreeDirty": false,
+  "syncedAt": "2026-10-28T18:32:53.564Z",
+  "source": "scripts/sync-from-app.ts"
+}

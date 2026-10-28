@@ -1,0 +1,6 @@
+---
+import { tierClass, type Tier } from '@/lib/app-data';
+interface Props { tier: Tier; label: string; class?: string }
+const { tier, label, class: cls = '' } = Astro.props;
+---
+<span class:list={['pill', tierClass[tier], cls]}>{label}</span>

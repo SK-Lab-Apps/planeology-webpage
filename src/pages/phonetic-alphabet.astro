@@ -1,0 +1,194 @@
+---
+/**
+ * /phonetic-alphabet — the ICAO/NATO alphabet with pronunciations (FAA AIM
+ * 4-2-7), the numbers, a short history, and a "Spell it out" converter that
+ * renders split-flap tiles. Works without JavaScript (the table is the page).
+ */
+import Base from '@/layouts/Base.astro';
+import HeroBand from '@/components/HeroBand.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import BoardingPass from '@/components/BoardingPass.astro';
+import FlapText from '@/components/FlapText.astro';
+import Sources from '@/components/Sources.astro';
+import { ROUTES } from '@/config';
+import { breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
+
+// ICAO spelling alphabet with the FAA AIM's pronunciation guide (capitals mark the stressed syllable).
+const letters: [string, string, string][] = [
+  ['A', 'Alfa', 'AL-FAH'], ['B', 'Bravo', 'BRAH-VOH'], ['C', 'Charlie', 'CHAR-LEE or SHAR-LEE'], ['D', 'Delta', 'DELL-TAH'],
+  ['E', 'Echo', 'ECK-OH'], ['F', 'Foxtrot', 'FOKS-TROT'], ['G', 'Golf', 'GOLF'], ['H', 'Hotel', 'HOH-TEL'],
+  ['I', 'India', 'IN-DEE-AH'], ['J', 'Juliett', 'JEW-LEE-ETT'], ['K', 'Kilo', 'KEY-LOH'], ['L', 'Lima', 'LEE-MAH'],
+  ['M', 'Mike', 'MIKE'], ['N', 'November', 'NO-VEM-BER'], ['O', 'Oscar', 'OSS-CAH'], ['P', 'Papa', 'PAH-PAH'],
+  ['Q', 'Quebec', 'KEH-BECK'], ['R', 'Romeo', 'ROW-ME-OH'], ['S', 'Sierra', 'SEE-AIR-RAH'], ['T', 'Tango', 'TANG-GO'],
+  ['U', 'Uniform', 'YOU-NEE-FORM or OO-NEE-FORM'], ['V', 'Victor', 'VIK-TAH'], ['W', 'Whiskey', 'WISS-KEY'], ['X', 'Xray', 'ECKS-RAY'],
+  ['Y', 'Yankee', 'YANG-KEY'], ['Z', 'Zulu', 'ZOO-LOO'],
+];
+const digits: [string, string, string][] = [
+  ['0', 'Zero', 'ZEE-RO'], ['1', 'One', 'WUN'], ['2', 'Two', 'TOO'], ['3', 'Three', 'TREE'], ['4', 'Four', 'FOW-ER'],
+  ['5', 'Five', 'FIFE'], ['6', 'Six', 'SIX'], ['7', 'Seven', 'SEV-EN'], ['8', 'Eight', 'AIT'], ['9', 'Nine', 'NIN-ER'],
+];
+const wordMap = Object.fromEntries([...letters, ...digits].map(([k, w]) => [k, w]));
+const sources = [
+  { publisher: 'Federal Aviation Administration', title: 'Aeronautical Information Manual, Section 4-2-7, Phonetic Alphabet', url: 'https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap4_section_2.html' },
+  { publisher: 'ICAO', title: 'Annex 10, Aeronautical Telecommunications (postal history)', url: 'https://www.icao.int/sites/default/files/postalhistory/annex_10_aeronautical_telecommunications.htm' },
+  { publisher: 'NATO', title: 'Declassified: The NATO phonetic alphabet', url: 'https://www.nato.int/cps/en/natohq/declassified_136216.htm' },
+];
+const crumbs = [{ name: 'Home', path: ROUTES.home }, { name: 'Phonetic alphabet', path: ROUTES.phonetic }];
+const seo: Seo = {
+  title: 'Aviation Phonetic Alphabet: Alfa to Zulu',
+  description:
+    'The ICAO phonetic alphabet, Alfa to Zulu, with FAA pronunciations, the numbers (tree, fife, niner), why it is Alfa and Juliett, and a converter.',
+  path: ROUTES.phonetic,
+};
+const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
+---
+<Base seo={seo} jsonld={jsonld}>
+  <HeroBand loop={false}>
+    <div class="wrap pt-8 pb-12 md:pt-12 md:pb-14">
+      <Breadcrumbs items={crumbs} onNight />
+      <div class="mt-6 mb-4"><FlapText text="ALFA BRAVO CHARLIE" size="lg" flip /></div>
+      <h1 class="text-[2.6rem] sm:text-[3.4rem] md:text-[4rem] leading-[0.98] m-0 max-w-[16ch]">The aviation phonetic alphabet</h1>
+      <p class="mt-4 mb-0 text-on-night-soft text-[1.15rem] max-w-[52ch] leading-relaxed">
+        Every letter has a code word, every digit a careful pronunciation, so nothing is misheard on a crackling radio. Here is the whole alphabet, how to say it, where it came from, and a tool to spell anything out.
+      </p>
+    </div>
+  </HeroBand>
+
+  <div class="wrap wrap-narrow py-10 grid gap-12">
+    <section aria-labelledby="converter" class="card card-raised p-5 sm:p-6">
+      <p class="label text-primary mb-1">Spell it out</p>
+      <h2 id="converter" class="font-display text-[1.9rem] font-bold m-0 mb-3">Type anything, read it like a pilot</h2>
+      <form class="grid gap-3" id="spell-form">
+        <label for="spell-input" class="sr-only">Text to spell out</label>
+        <input id="spell-input" type="text" inputmode="text" autocomplete="off" maxlength="60" placeholder="e.g. your name, a flight number, PL301" class="spell-input" />
+        <p class="text-sm text-ink-muted m-0" id="spell-hint">Letters become code words, digits become their spoken forms, and other characters are left out.</p>
+      </form>
+      <div class="spell-out" id="spell-out" aria-live="polite" aria-atomic="true"></div>
+      <div class="flex flex-wrap items-center gap-3 mt-4" id="spell-actions" hidden>
+        <button type="button" class="btn btn-ghost" id="spell-copy">Copy as text</button>
+        <span class="text-sm text-ink-muted" id="spell-copied" hidden>Copied.</span>
+      </div>
+      <noscript><p class="text-sm text-ink-muted mt-3 mb-0">The converter needs JavaScript. The full alphabet is just below.</p></noscript>
+    </section>
+
+    <section aria-labelledby="alphabet">
+      <p class="label text-primary mb-1">A to Z</p>
+      <h2 id="alphabet" class="font-display text-[1.9rem] font-bold m-0 mb-2">The ICAO alphabet, with pronunciation</h2>
+      <p class="text-ink-secondary m-0 mb-4 leading-relaxed">The spellings are ICAO's official ones, and the pronunciations are as the FAA's Aeronautical Information Manual prints them, with the stressed syllable in capitals. Note the two that look wrong but aren't: <strong>Alfa</strong> and <strong>Juliett</strong>.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Letter</th><th scope="col">Code word</th><th scope="col">Spoken as</th></tr></thead>
+          <tbody>
+            {letters.map(([l, w, p]) => (
+              <tr id={`letter-${l.toLowerCase()}`}>
+                <th scope="row" class="!font-display !text-[1.4rem] !text-ink !tracking-normal !normal-case">{l}</th>
+                <td class="font-semibold">{w}</td>
+                <td class="font-mono text-[0.9375rem] text-ink-secondary">{p}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="numbers">
+      <p class="label text-primary mb-1">0 to 9</p>
+      <h2 id="numbers" class="font-display text-[1.9rem] font-bold m-0 mb-2">The numbers: tree, fife and niner</h2>
+      <p class="text-ink-secondary m-0 mb-4 leading-relaxed">Digits get special treatment too. Three becomes <em>tree</em>, five becomes <em>fife</em> and nine becomes <em>niner</em>, so that no digit can be mistaken for another, or for a word such as "fire". Altitudes and headings are spoken digit by digit: a heading of 270 is "two seven zero", and 12,500 feet is "one two thousand five hundred".</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Digit</th><th scope="col">Word</th><th scope="col">Spoken as</th></tr></thead>
+          <tbody>
+            {digits.map(([d, w, p]) => (
+              <tr>
+                <th scope="row" class="!font-display !text-[1.4rem] !text-ink !tracking-normal !normal-case">{d}</th>
+                <td class="font-semibold">{w}</td>
+                <td class="font-mono text-[0.9375rem] text-ink-secondary">{p}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="why" class="article">
+      <p class="label text-primary mb-1 !mt-0">Why these words</p>
+      <h2 id="why" class="!mt-0">Why is it Alfa, not Alpha, and Juliett with two Ts?</h2>
+      <p>Because the alphabet was built for people whose first language isn't English. ICAO, the UN body that sets aviation's common standards, keeps the official spelling as <em>Alfa</em> because "alpha" with a <em>ph</em> would not be pronounced correctly by speakers of languages where <em>ph</em> is not read as an <em>f</em>. <em>Juliett</em> carries a second <em>t</em> so that French speakers, who would treat a single final <em>t</em> as silent, say the last syllable out loud. The same thinking shows in the pronunciations: the words were chosen to be live words in English, French and Spanish, easy to say and to recognize over a radio by crews of any nationality, and free of any awkward meaning.</p>
+      <h2>Where did the phonetic alphabet come from?</h2>
+      <p>Spelling alphabets are older than aviation radio. The International Telecommunication Union produced the first internationally recognized one in 1927 and revised it in 1932. In 1941 the United States adopted the "Able Baker" alphabet for its armed forces, and Britain's Royal Air Force took it up two years later. Able Baker was built on English sounds, which was a problem for the rest of the world's aviators.</p>
+      <p>Between 1948 and 1949, Professor Jean-Paul Vinay of the Université de Montréal worked with ICAO's language section on a replacement, testing words for how well they survived noise and accents. The result came into effect for civil aviation on November 1, 1951. After a review led by Britain and the United States that swapped several code words, NATO adopted the alphabet on March 1, 1956, with ICAO's approval and <em>November</em> as the word for N. It has stayed essentially unchanged since, which is why a controller in Tokyo and a pilot from Toledo can spell a call sign to each other without a second thought.</p>
+      <h2>Where will I hear it?</h2>
+      <p>On every radio call that spells something: a private airplane identifies itself by its registration ("Bonanza Six Five Five Golf"), parallel runways are "two seven left" and "two seven right", taxiways carry single letters, and airline flights add "heavy" when they are big jets with strong wakes. If you listen to air traffic control online, the alphabet is the first thing that starts to make sense. Our guide to <a href={`${ROUTES.learn}/how-air-traffic-control-works`}>how air traffic control works</a> explains who is talking to whom, and the <a href={ROUTES.glossary}>glossary</a> covers the rest of the vocabulary.</p>
+    </section>
+
+    <BoardingPass ct="phonetic" title="Alfa to Zulu is one lesson. There are 54 more." body="Planeology's cockpit lessons cover call signs, the phonetic alphabet, the six classic instruments and glass cockpits, each a few minutes long with a quiz at the end." />
+
+    <Sources sources={sources} />
+  </div>
+</Base>
+
+<style>
+  .spell-input {
+    width: 100%; font: inherit; font-size: 1.125rem; padding: 0.8rem 1rem;
+    border: 1.5px solid var(--color-border); border-radius: var(--radius-tile); background: var(--color-surface); color: var(--color-ink);
+  }
+  .spell-input:focus { border-color: var(--color-sky); outline: 3px solid rgb(36 89 196 / 0.25); outline-offset: 0; }
+  .spell-out { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; margin-top: 1rem; min-height: 0; }
+  .spell-out:empty { display: none; }
+  .spell-word { display: inline-flex; flex-direction: column; gap: 0.25rem; align-items: flex-start; }
+  .spell-char { font-family: var(--font-mono); font-size: 0.6875rem; letter-spacing: 0.1em; color: var(--color-ink-muted); padding-left: 0.1rem; }
+</style>
+
+<script define:vars={{ wordMap }}>
+  const input = document.getElementById('spell-input');
+  const out = document.getElementById('spell-out');
+  const actions = document.getElementById('spell-actions');
+  const copy = document.getElementById('spell-copy');
+  const copied = document.getElementById('spell-copied');
+  const form = document.getElementById('spell-form');
+  let words = [];
+
+  function tile(ch) {
+    const s = document.createElement('span');
+    s.className = 'flap' + (ch === ' ' ? ' flap-space' : '');
+    s.textContent = ch === ' ' ? '' : ch;
+    s.setAttribute('aria-hidden', 'true');
+    return s;
+  }
+  function render() {
+    const text = input.value.toUpperCase();
+    out.textContent = '';
+    words = [];
+    for (const ch of text) {
+      const w = wordMap[ch];
+      if (!w) continue;
+      words.push(w);
+      const wrap = document.createElement('span');
+      wrap.className = 'spell-word';
+      const label = document.createElement('span');
+      label.className = 'spell-char';
+      label.textContent = ch;
+      const row = document.createElement('span');
+      row.className = 'flap-row text-[1rem]';
+      row.setAttribute('role', 'img');
+      row.setAttribute('aria-label', w);
+      for (const c of w.toUpperCase()) row.appendChild(tile(c));
+      wrap.append(label, row);
+      out.appendChild(wrap);
+    }
+    actions.hidden = words.length === 0;
+    copied.hidden = true;
+  }
+  input.addEventListener('input', render);
+  form.addEventListener('submit', (e) => { e.preventDefault(); render(); });
+  copy.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(words.join(' '));
+      copied.textContent = 'Copied.';
+    } catch {
+      copied.textContent = words.join(' ');
+    }
+    copied.hidden = false;
+  });
+</script>

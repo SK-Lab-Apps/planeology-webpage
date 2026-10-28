@@ -1,0 +1,86 @@
+---
+import { ROUTES, storeLink } from '@/config';
+import Logo from '@/components/Logo.astro';
+
+interface Props {
+  current?: 'learn' | 'aircraft' | 'glossary' | 'quiz' | 'support';
+}
+const { current } = Astro.props;
+const links = [
+  { href: ROUTES.learn, label: 'Guides', key: 'learn' },
+  { href: ROUTES.aircraft, label: 'Hangar', key: 'aircraft' },
+  { href: ROUTES.glossary, label: 'Glossary', key: 'glossary' },
+  { href: ROUTES.quiz, label: 'Quiz', key: 'quiz' },
+] as const;
+---
+
+<header class="site-nav bg-night text-white">
+  <div class="wrap flex items-center justify-between gap-4" style="min-height: 3.75rem;">
+    <a href={ROUTES.home} class="flex items-center gap-2.5 no-underline text-white" aria-label="Planeology home">
+      <Logo class="h-7 w-7" />
+      <span class="font-display text-[1.45rem] font-bold tracking-tight leading-none">Planeology</span>
+    </a>
+    <nav aria-label="Primary" class="hidden md:block">
+      <ul class="flex items-center gap-6 list-none m-0 p-0">
+        {links.map((l) => (
+          <li>
+            <a
+              href={l.href}
+              class:list={['nav-link', { 'is-current': current === l.key }]}
+              aria-current={current === l.key ? 'page' : undefined}
+            >
+              {l.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href={storeLink('home-hero')} class="btn btn-signal !min-h-10 !px-3.5 text-[0.9375rem]" rel="noopener">
+        Get the app
+      </a>
+      <details class="md:hidden nav-menu">
+        <summary class="btn btn-night-ghost !min-h-10 !px-3 cursor-pointer list-none" aria-label="Open menu">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </summary>
+        <nav aria-label="Primary (mobile)" class="nav-sheet">
+          <ul class="list-none m-0 p-0 grid">
+            {links.map((l) => (
+              <li><a href={l.href} class="block py-3 px-4 text-ink no-underline font-semibold" aria-current={current === l.key ? 'page' : undefined}>{l.label}</a></li>
+            ))}
+            <li><a href={ROUTES.phonetic} class="block py-3 px-4 text-ink no-underline font-semibold">Phonetic alphabet</a></li>
+            <li><a href={ROUTES.support} class="block py-3 px-4 text-ink no-underline font-semibold">Support</a></li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+<style>
+  .site-nav { position: relative; z-index: 40; }
+  .nav-link {
+    color: var(--color-on-night-soft);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    padding: 0.25rem 0;
+    border-bottom: 2px solid transparent;
+  }
+  .nav-link:hover { color: #fff; }
+  .nav-link.is-current { color: #fff; border-bottom-color: var(--color-signal); }
+  .nav-menu { position: relative; }
+  .nav-menu summary::-webkit-details-marker { display: none; }
+  .nav-sheet {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.5rem);
+    min-width: 13rem;
+    background: var(--color-surface);
+    border-radius: var(--radius-tile);
+    box-shadow: var(--shadow-raised);
+    overflow: hidden;
+    padding-block: 0.25rem;
+  }
+  .nav-sheet a:hover { background: var(--color-sunken); }
+</style>

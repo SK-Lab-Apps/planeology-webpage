@@ -1,0 +1,44 @@
+---
+/**
+ * FlapText — split-flap text, one dark tile per character with a hinge line.
+ * Pass `flip` to animate the tiles once they scroll into view (JS + motion allowed).
+ */
+interface Props {
+  text: string;
+  class?: string;
+  size?: 'sm' | 'md' | 'lg';
+  tone?: 'amber' | 'white' | 'green';
+  flip?: boolean;
+  /** Stagger offset so several rows cascade. */
+  delay?: number;
+}
+const { text, class: cls = '', size = 'md', tone = 'amber', flip = false, delay = 0 } = Astro.props;
+const sizes = { sm: 'text-[0.8125rem]', md: 'text-[1.0625rem]', lg: 'text-[1.5rem] md:text-[1.75rem]' };
+const tones = { amber: '', white: 'flap-white', green: 'flap-green' };
+const words = text.toUpperCase().split(' ');
+let i = 0;
+const wordTiles = words.map((w) => Array.from(w).map((c) => ({ c, i: i++ })));
+---
+<span class:list={['flap-row', sizes[size], cls]} data-flip={flip ? '' : undefined} aria-label={text} role="img">
+  {wordTiles.map((tiles) => (
+    <span class="flap-word">
+      {tiles.map(({ c, i }) => (
+        <span class:list={['flap', tones[tone]]} style={`--i:${i + delay}`} aria-hidden="true">{c}</span>
+      ))}
+    </span>
+  ))}
+</span>
+
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    html.js [data-flip].is-in .flap {
+      animation: flap-flip 480ms cubic-bezier(0.3, 0.7, 0.2, 1) both;
+      animation-delay: calc(min(var(--i), 36) * 22ms);
+    }
+  }
+  @keyframes flap-flip {
+    0% { transform: rotateX(-88deg); opacity: 0.4; }
+    60% { transform: rotateX(12deg); opacity: 1; }
+    100% { transform: rotateX(0); opacity: 1; }
+  }
+</style>

@@ -1,0 +1,1596 @@
+[
+  {
+    "id": "ace",
+    "term": "Ace",
+    "definition": "A fighter pilot credited with shooting down five or more enemy aircraft. French newspapers coined the term in World War I, and Manfred von Richthofen was credited with 80 victories, the most of any pilot in that war.",
+    "guides": [],
+    "aircraft": [
+      "sopwith-camel"
+    ],
+    "lesson": "wwi-aircraft-aces"
+  },
+  {
+    "id": "aerial-refueling",
+    "term": "Aerial refueling",
+    "definition": "Passing fuel from a tanker aircraft to another aircraft in flight, so it can fly far beyond the range of its own tanks. Two US Army biplanes made the first in-flight refueling in 1923.",
+    "guides": [],
+    "aircraft": [
+      "antonov-an-225-mriya"
+    ],
+    "lesson": "tankers-awacs-transports"
+  },
+  {
+    "id": "afterburner",
+    "term": "Afterburner",
+    "definition": "A device behind a jet engine's turbine that sprays fuel straight into the hot exhaust and ignites it. Thrust jumps and fuel use soars, so fighters save it for moments such as pushing through the speed of sound.",
+    "guides": [
+      "how-jet-engines-work",
+      "what-is-mach-1"
+    ],
+    "aircraft": [
+      "lockheed-f104-starfighter"
+    ],
+    "lesson": "turbojets"
+  },
+  {
+    "id": "ahrs",
+    "term": "AHRS",
+    "definition": "Attitude and heading reference system: the solid-state sensors that replaced spinning gyroscopes in glass cockpits, with a magnetometer that senses Earth's magnetic field.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [],
+    "lesson": "glass-cockpits"
+  },
+  {
+    "id": "aileron",
+    "term": "Aileron",
+    "definition": "A hinged panel near each wingtip. The two move in opposite directions, so one wing gains lift while the other loses some, and the airplane rolls into a bank.",
+    "guides": [
+      "what-do-flaps-and-slats-do"
+    ],
+    "aircraft": [],
+    "lesson": "tail-control-surfaces"
+  },
+  {
+    "id": "airfoil",
+    "term": "Airfoil",
+    "definition": "The cross-section shape of a wing, propeller blade or tail surface: a rounded leading edge, a curved upper surface and a thin trailing edge, shaped to turn moving air into a useful force.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "airfoils-aoa"
+  },
+  {
+    "id": "airship",
+    "term": "Airship",
+    "definition": "A powered, steerable aircraft held up by a lifting gas lighter than air. Germany's Graf Zeppelin flew around the world in 1929, and the Hindenburg fire of 1937 marked the beginning of the end of the airship era.",
+    "guides": [],
+    "aircraft": [
+      "boeing-314-clipper"
+    ],
+    "lesson": "flying-boats-airships"
+  },
+  {
+    "id": "airspace-classes",
+    "term": "Airspace classes",
+    "definition": "The lettered divisions of the sky, A to G in the United States. Class A runs from 18,000 to 60,000 feet under full air traffic control, Class B surrounds the busiest airports, and Class G is uncontrolled.",
+    "guides": [
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [],
+    "lesson": "airspace-atc"
+  },
+  {
+    "id": "airspeed-indicator",
+    "term": "Airspeed indicator",
+    "definition": "The instrument that shows how fast the airplane is moving through the air, by comparing the pressure caught by the pitot tube with the still-air pressure from the static ports.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "altimeter",
+    "term": "Altimeter",
+    "definition": "The instrument that shows altitude by measuring outside air pressure, which falls steadily as an airplane climbs.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "angle-of-attack",
+    "term": "Angle of attack",
+    "definition": "The angle between a wing's chord line and the oncoming air. It is measured against the air, not the horizon. Lift rises with the angle until the critical angle, where the wing stalls.",
+    "guides": [
+      "how-do-planes-fly",
+      "what-is-a-stall"
+    ],
+    "aircraft": [
+      "extra-300"
+    ],
+    "lesson": "airfoils-aoa"
+  },
+  {
+    "id": "apron",
+    "term": "Apron",
+    "definition": "The paved area of an airport where airplanes park, load, unload and refuel. Taxiways link it to the runways.",
+    "guides": [
+      "what-do-runway-numbers-mean"
+    ],
+    "aircraft": [],
+    "lesson": "how-airports-work"
+  },
+  {
+    "id": "attitude-indicator",
+    "term": "Attitude indicator",
+    "definition": "The instrument that shows the airplane's pitch and bank against an artificial horizon, using a spinning gyroscope that resists being tilted.",
+    "guides": [],
+    "aircraft": [
+      "consolidated-ny-2-husky"
+    ],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "autopilot",
+    "term": "Autopilot",
+    "definition": "An automatic flight control system. At its simplest it holds a set altitude and heading, sensing the airplane's attitude and moving the controls through small motors called servos.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [
+      "airbus-a320"
+    ],
+    "lesson": "autopilot-fbw"
+  },
+  {
+    "id": "aviation-safety-reporting-system",
+    "term": "Aviation Safety Reporting System",
+    "definition": "NASA's confidential system, running since 1976, that lets pilots, controllers, cabin crew and mechanics report unsafe events and near misses. Reports are stripped of names and studied for hidden hazards.",
+    "guides": [
+      "how-safe-is-flying"
+    ],
+    "aircraft": [],
+    "lesson": "why-flying-is-safe"
+  },
+  {
+    "id": "awacs",
+    "term": "AWACS",
+    "definition": "Airborne Warning and Control System: a flying radar station such as Boeing's E-3, a militarized 707 with a rotating radar dome that can track aircraft more than 200 miles away.",
+    "guides": [],
+    "aircraft": [
+      "boeing-707"
+    ],
+    "lesson": "tankers-awacs-transports"
+  },
+  {
+    "id": "biplane",
+    "term": "Biplane",
+    "definition": "An airplane with two wings stacked one above the other, braced with struts and wires. Most World War I fighters were biplanes, and aerobatic biplanes such as the Pitts Special are still flown today.",
+    "guides": [],
+    "aircraft": [
+      "sopwith-camel",
+      "pitts-special"
+    ],
+    "lesson": "wwi-aircraft-aces"
+  },
+  {
+    "id": "black-box",
+    "term": "Black box",
+    "definition": "The nickname for an airliner's two flight recorders, the flight data recorder and the cockpit voice recorder. Despite the name, their cases are bright orange or yellow so searchers can spot them.",
+    "guides": [
+      "why-are-black-boxes-orange"
+    ],
+    "aircraft": [
+      "nasa-boeing-720-cid"
+    ],
+    "lesson": "black-boxes"
+  },
+  {
+    "id": "boundary-layer",
+    "term": "Boundary layer",
+    "definition": "The thin layer of air that clings to a wing's surface as it moves through the air. In effect it changes the wing's shape as the passing air sees it.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "airfoils-aoa"
+  },
+  {
+    "id": "bush-plane",
+    "term": "Bush plane",
+    "definition": "A rugged airplane built to fly from short, rough strips far from any runway, often on wheels, floats or skis. The DHC-2 Beaver is the classic example.",
+    "guides": [],
+    "aircraft": [
+      "dhc-2-beaver",
+      "dhc-6-twin-otter"
+    ],
+    "lesson": "how-wings-lift"
+  },
+  {
+    "id": "business-jet",
+    "term": "Business jet",
+    "definition": "A jet built to carry a small number of passengers on their own schedule rather than an airline's. The Lear Jet 23 of 1963 made the idea famous, and today's largest business jets cross oceans nonstop.",
+    "guides": [],
+    "aircraft": [
+      "gulfstream-g650"
+    ],
+    "lesson": "bizjets-general-aviation"
+  },
+  {
+    "id": "bypass-ratio",
+    "term": "Bypass ratio",
+    "definition": "In a turbofan, the comparison between the air the fan blows around the engine's core and the air that goes through it. The GE9X sends about ten times as much air around its core as through it.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [
+      "boeing-777"
+    ],
+    "lesson": "turbofans"
+  },
+  {
+    "id": "cabin-altitude",
+    "term": "Cabin altitude",
+    "definition": "The altitude the air inside a pressurized cabin feels like. Most airliners are pressurized to about 8,000 feet while cruising far higher, and the Boeing 787's cabin sits at 6,000 feet.",
+    "guides": [
+      "why-do-planes-fly-so-high"
+    ],
+    "aircraft": [
+      "boeing-787-dreamliner"
+    ],
+    "lesson": "why-jets-fly-high"
+  },
+  {
+    "id": "call-sign",
+    "term": "Call sign",
+    "definition": "The name a flight uses on the radio. A private airplane uses its type and registration, while an airline flight uses its company call sign and flight number. Air Force One is a call sign, not an airplane.",
+    "guides": [
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [
+      "boeing-vc-25a"
+    ],
+    "lesson": "callsigns-phonetic"
+  },
+  {
+    "id": "camber",
+    "term": "Camber",
+    "definition": "The curve of an airfoil's upper and lower surfaces. Many wings are curved more on top than underneath, which helps them make lift.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "airfoils-aoa"
+  },
+  {
+    "id": "canard",
+    "term": "Canard",
+    "definition": "A tail arrangement that puts a small wing at the front of the airplane instead of the back.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "tail-control-surfaces"
+  },
+  {
+    "id": "center-of-gravity",
+    "term": "Center of gravity",
+    "definition": "The single point through which an airplane's weight acts, as if all of it were gathered there. The three axes of pitch, roll and yaw all pass through it.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "four-forces"
+  },
+  {
+    "id": "chord-line",
+    "term": "Chord line",
+    "definition": "An imaginary straight line from an airfoil's leading edge to its trailing edge. The angle of attack is measured between the chord line and the oncoming air.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "airfoils-aoa"
+  },
+  {
+    "id": "clear-air-turbulence",
+    "term": "Clear air turbulence",
+    "definition": "Bumps in cloudless air, often near the jet stream and the tropopause, with nothing visible to warn of them.",
+    "guides": [
+      "is-turbulence-dangerous"
+    ],
+    "aircraft": [],
+    "lesson": "turbulence-jetstreams-contrails"
+  },
+  {
+    "id": "cockpit-voice-recorder",
+    "term": "Cockpit voice recorder",
+    "definition": "The flight recorder that captures the crew's voices and other cockpit sounds. Early units kept only the last 30 minutes, and an international standard now calls for 25 hours on large airliners built since 2021.",
+    "guides": [
+      "why-are-black-boxes-orange"
+    ],
+    "aircraft": [],
+    "lesson": "black-boxes"
+  },
+  {
+    "id": "composite",
+    "term": "Composite",
+    "definition": "A material made of strong fibers, such as carbon, set in resin. Composites are light and don't corrode, and the Boeing 787's fuselage is made of them.",
+    "guides": [
+      "why-are-airplane-windows-round"
+    ],
+    "aircraft": [
+      "boeing-787-dreamliner",
+      "airbus-a350"
+    ],
+    "lesson": "fuselage-structure"
+  },
+  {
+    "id": "compressor",
+    "term": "Compressor",
+    "definition": "The first section of a jet engine, which raises the pressure of incoming air before fuel is burned with it. It sits on the same shaft as the turbine that drives it.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [],
+    "lesson": "turbojets"
+  },
+  {
+    "id": "contrail",
+    "term": "Contrail",
+    "definition": "A cloud made by an airplane: water vapor in the hot exhaust condenses around tiny particles and freezes into ice crystals. In dry air contrails vanish quickly, while in cold, moist air they persist and spread.",
+    "guides": [
+      "what-are-contrails"
+    ],
+    "aircraft": [],
+    "lesson": "turbulence-jetstreams-contrails"
+  },
+  {
+    "id": "control-tower",
+    "term": "Control tower",
+    "definition": "The airport building from which controllers handle traffic on and around the airport, while ground control directs airplanes as they taxi.",
+    "guides": [
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [],
+    "lesson": "airspace-atc"
+  },
+  {
+    "id": "crew-resource-management",
+    "term": "Crew resource management",
+    "definition": "Training that teaches flight crews to work as a team and speak up. It followed the 1978 Portland accident, in which concerns about fuel were not passed on clearly to the captain.",
+    "guides": [
+      "how-safe-is-flying"
+    ],
+    "aircraft": [],
+    "lesson": "accidents-changed-aviation"
+  },
+  {
+    "id": "critical-angle-of-attack",
+    "term": "Critical angle of attack",
+    "definition": "The angle beyond which the air can no longer follow a wing's curved top and lift falls away sharply: a stall. Depending on the design it is roughly 16 to 20 degrees.",
+    "guides": [
+      "what-is-a-stall"
+    ],
+    "aircraft": [],
+    "lesson": "why-planes-stall"
+  },
+  {
+    "id": "dead-reckoning",
+    "term": "Dead reckoning",
+    "definition": "Working out position from heading, speed and time, then correcting for the wind. It works even over open water with no landmarks in sight.",
+    "guides": [
+      "why-flying-east-is-faster"
+    ],
+    "aircraft": [
+      "douglas-world-cruiser"
+    ],
+    "lesson": "compass-to-gps"
+  },
+  {
+    "id": "density-altitude",
+    "term": "Density altitude",
+    "definition": "A way of describing how thin the air is. Hot days and high airports have thinner air, so a wing needs more speed, and a longer run, to make the same lift.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "how-wings-lift"
+  },
+  {
+    "id": "displaced-threshold",
+    "term": "Displaced threshold",
+    "definition": "A runway's landing threshold moved down from the start of the pavement, marked by white arrows leading to a thick white bar. The arrowed stretch may be used for takeoffs, but landings touch down beyond the bar.",
+    "guides": [
+      "what-do-runway-numbers-mean"
+    ],
+    "aircraft": [],
+    "lesson": "runway-markings"
+  },
+  {
+    "id": "drag",
+    "term": "Drag",
+    "definition": "The air's resistance to anything moving through it, holding the airplane back. Thrust from the engines exists to overcome it.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "four-forces"
+  },
+  {
+    "id": "drone",
+    "term": "Drone",
+    "definition": "An aircraft flown with no one on board. The FAA's formal term is unmanned aircraft system, because the aircraft is only one part of the system needed to operate it.",
+    "guides": [],
+    "aircraft": [
+      "joby-s4"
+    ],
+    "lesson": "drones-evtols"
+  },
+  {
+    "id": "elevator",
+    "term": "Elevator",
+    "definition": "The hinged surface on the horizontal tail that tips the airplane's nose up or down.",
+    "guides": [
+      "what-do-flaps-and-slats-do"
+    ],
+    "aircraft": [],
+    "lesson": "tail-control-surfaces"
+  },
+  {
+    "id": "emas",
+    "term": "EMAS",
+    "definition": "Engineered materials arresting system: a bed of crushable material at a runway's end, marked with yellow chevrons, built to collapse under an airliner's weight and slow it down if it rolls past the end.",
+    "guides": [
+      "what-do-runway-numbers-mean"
+    ],
+    "aircraft": [],
+    "lesson": "runway-markings"
+  },
+  {
+    "id": "etops",
+    "term": "ETOPS",
+    "definition": "Extended operations: the approvals that let twin-engine airliners fly routes more than 60 minutes from a suitable airport. The limit rose to 120 minutes in 1985 and 180 minutes in 1988 as engines became more reliable.",
+    "guides": [
+      "how-safe-is-flying"
+    ],
+    "aircraft": [
+      "airbus-a330",
+      "boeing-767"
+    ],
+    "lesson": "why-flying-is-safe"
+  },
+  {
+    "id": "evtol",
+    "term": "eVTOL",
+    "definition": "Electric vertical takeoff and landing aircraft: an air taxi that rises like a helicopter, then cruises on wings like an airplane. The FAA treats them as powered-lift, a wholly new kind of aircraft.",
+    "guides": [],
+    "aircraft": [
+      "joby-s4"
+    ],
+    "lesson": "drones-evtols"
+  },
+  {
+    "id": "fifth-generation-fighter",
+    "term": "Fifth-generation fighter",
+    "definition": "A jet fighter that adds stealth and sensor fusion, where computers merge radar and other sensor data into one picture for the pilot. The F-22 was the first in service.",
+    "guides": [
+      "how-does-stealth-work"
+    ],
+    "aircraft": [
+      "lockheed-martin-f-22-raptor"
+    ],
+    "lesson": "fighter-generations"
+  },
+  {
+    "id": "flap",
+    "term": "Flap",
+    "definition": "A panel that slides out and down from a wing's trailing edge, adding area and curve. Flaps raise lift so the airplane can fly more slowly for landing, and their extra drag helps it slow down.",
+    "guides": [
+      "what-do-flaps-and-slats-do"
+    ],
+    "aircraft": [
+      "boeing-727"
+    ],
+    "lesson": "wings-flaps-slats"
+  },
+  {
+    "id": "flight-data-recorder",
+    "term": "Flight data recorder",
+    "definition": "The flight recorder that logs measurements such as altitude, airspeed and heading, in a crash-protected case usually mounted in the tail.",
+    "guides": [
+      "why-are-black-boxes-orange"
+    ],
+    "aircraft": [],
+    "lesson": "black-boxes"
+  },
+  {
+    "id": "flight-level",
+    "term": "Flight level",
+    "definition": "An altitude spoken in hundreds of feet. At and above 18,000 feet in the United States, altitudes are given as flight levels, so flight level 350 means 35,000 feet.",
+    "guides": [
+      "why-do-planes-fly-so-high"
+    ],
+    "aircraft": []
+  },
+  {
+    "id": "fly-by-wire",
+    "term": "Fly-by-wire",
+    "definition": "A control system in which electrical signals, not cables and rods, link the pilot's controls to the control surfaces. The Airbus A320 was the first civil aircraft with full digital fly-by-wire.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [
+      "airbus-a320"
+    ],
+    "lesson": "autopilot-fbw"
+  },
+  {
+    "id": "flying-boat",
+    "term": "Flying boat",
+    "definition": "An airplane with a boat-shaped hull that takes off from and lands on water. Boeing's 314 Clipper carried passengers across oceans in the late 1930s.",
+    "guides": [],
+    "aircraft": [
+      "boeing-314-clipper"
+    ],
+    "lesson": "flying-boats-airships"
+  },
+  {
+    "id": "four-forces",
+    "term": "Four forces",
+    "definition": "Lift, weight, thrust and drag: the forces every airplane in flight feels at once. In steady, level cruise, lift equals weight and thrust equals drag.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [
+      "piper-j3-cub"
+    ],
+    "lesson": "four-forces"
+  },
+  {
+    "id": "fuselage",
+    "term": "Fuselage",
+    "definition": "The main body of the airplane: a long, hollow tube that carries crew, passengers and cargo and joins the wings and tail together.",
+    "guides": [
+      "why-are-airplane-windows-round"
+    ],
+    "aircraft": [
+      "junkers-f13"
+    ],
+    "lesson": "fuselage-structure"
+  },
+  {
+    "id": "general-aviation",
+    "term": "General aviation",
+    "definition": "All civil flying that isn't done by airlines or other air carriers, from small propeller planes to long-range business jets, including air ambulances and emergency response.",
+    "guides": [],
+    "aircraft": [
+      "cessna-172-skyhawk",
+      "beechcraft-bonanza"
+    ],
+    "lesson": "bizjets-general-aviation"
+  },
+  {
+    "id": "glass-cockpit",
+    "term": "Glass cockpit",
+    "definition": "A cockpit in which computer screens replace the old round dials. A primary flight display gathers the flight instruments onto one screen, and a multi-function display beside it shows maps and engine readings.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [
+      "boeing-767"
+    ],
+    "lesson": "glass-cockpits"
+  },
+  {
+    "id": "glider",
+    "term": "Glider",
+    "definition": "An aircraft with no engine. As it slowly descends, its forward motion keeps its wings making lift, and rising air can pay the altitude back. Otto Lilienthal made close to 2,000 glider flights in the 1890s.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [
+      "wright-flyer-1903"
+    ],
+    "lesson": "balloons-gliders"
+  },
+  {
+    "id": "go-around",
+    "term": "Go-around",
+    "definition": "A landing approach that is broken off, with the airplane climbing away to try again. In Planeology it is also the stamp you get when a quiz score falls short.",
+    "guides": [],
+    "aircraft": []
+  },
+  {
+    "id": "gps",
+    "term": "GPS",
+    "definition": "The satellite navigation system built by the US Department of Defense and opened to civilian use in the 1980s. A receiver needs at least four satellites to fix its position in three dimensions.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [],
+    "lesson": "compass-to-gps"
+  },
+  {
+    "id": "great-circle-route",
+    "term": "Great-circle route",
+    "definition": "The shortest path between two points on the globe. On a flat map it looks like a curve bending toward the pole, which is why long flights seem to take a detour north.",
+    "guides": [
+      "why-flying-east-is-faster"
+    ],
+    "aircraft": [
+      "douglas-world-cruiser"
+    ]
+  },
+  {
+    "id": "ground-control",
+    "term": "Ground control",
+    "definition": "The controllers who direct airplanes as they taxi between the gate and the runway.",
+    "guides": [
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [],
+    "lesson": "airspace-atc"
+  },
+  {
+    "id": "gyroscope",
+    "term": "Gyroscope",
+    "definition": "A spinning wheel that resists being tilted, a property called rigidity in space. The classic attitude indicator and heading indicator are built around one.",
+    "guides": [],
+    "aircraft": [
+      "consolidated-ny-2-husky"
+    ],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "heading-indicator",
+    "term": "Heading indicator",
+    "definition": "The gyroscopic instrument that shows which way the airplane is pointing, without the swinging of a magnetic compass.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "heavy",
+    "term": "Heavy",
+    "definition": "A word added to an airline flight's call sign to warn that it is a big jet with a strong wake. Super is used for the very largest.",
+    "guides": [
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [
+      "airbus-a380"
+    ],
+    "lesson": "callsigns-phonetic"
+  },
+  {
+    "id": "horizontally-opposed-engine",
+    "term": "Horizontally opposed engine",
+    "definition": "A piston engine whose cylinders lie flat in two rows facing each other, usually cooled by air. It is the most popular engine on small airplanes.",
+    "guides": [],
+    "aircraft": [
+      "cessna-172-skyhawk"
+    ],
+    "lesson": "pistons-propellers"
+  },
+  {
+    "id": "hot-air-balloon",
+    "term": "Hot air balloon",
+    "definition": "A balloon lifted by air heated by a burner. Hot air is less dense than the cooler air around it, so the balloon floats upward, and the Montgolfier brothers flew the first ones in 1783.",
+    "guides": [],
+    "aircraft": [
+      "montgolfier-balloon"
+    ],
+    "lesson": "balloons-gliders"
+  },
+  {
+    "id": "hurricane-hunter",
+    "term": "Hurricane hunter",
+    "definition": "An aircraft flown into hurricanes on purpose to measure them. NOAA's two WP-3D Orions cross the eyewall into the eye, dropping probes that radio back pressure, humidity, temperature and wind.",
+    "guides": [
+      "is-turbulence-dangerous"
+    ],
+    "aircraft": [
+      "lockheed-wp-3d-orion"
+    ],
+    "lesson": "turbulence-jetstreams-contrails"
+  },
+  {
+    "id": "iata-code",
+    "term": "IATA code",
+    "definition": "The three-letter airport code on bag tags, assigned by the airline industry's trade association. Its first choice is the first three letters of the place's name, as in GVA for Geneva.",
+    "guides": [
+      "airport-codes-explained"
+    ],
+    "aircraft": [],
+    "lesson": "airport-codes"
+  },
+  {
+    "id": "icao-code",
+    "term": "ICAO code",
+    "definition": "The four-letter airport code used for flight operations, assigned by ICAO. Chicago O'Hare is ORD to airlines and KORD in the ICAO system.",
+    "guides": [
+      "airport-codes-explained"
+    ],
+    "aircraft": [],
+    "lesson": "airport-codes"
+  },
+  {
+    "id": "induced-drag",
+    "term": "Induced drag",
+    "definition": "The drag created by lift itself, as high-pressure air under the wing spills around the tip and spins off as a vortex. Winglets exist to reduce it.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": []
+  },
+  {
+    "id": "instrument-flight",
+    "term": "Instrument flight",
+    "definition": "Flying by reference to the cockpit instruments alone, with no view outside. Jimmy Doolittle made the first flight of its kind, from takeoff to landing, on September 24, 1929.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [
+      "consolidated-ny-2-husky"
+    ],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "jet-engine",
+    "term": "Jet engine",
+    "definition": "An engine that compresses air, burns fuel with it and expels the hot gas backward, pushing the aircraft forward. Turbojets, turbofans, turboprops and turboshafts are all jet engines at heart.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [
+      "messerschmitt-me-262"
+    ],
+    "lesson": "turbojets"
+  },
+  {
+    "id": "jet-stream",
+    "term": "Jet stream",
+    "definition": "A narrow band of fast wind about 5 to 9 miles up, blowing west to east at around 110 mph on average and sometimes 250 mph or more. Riding one makes eastbound flights quicker.",
+    "guides": [
+      "why-flying-east-is-faster"
+    ],
+    "aircraft": [],
+    "lesson": "turbulence-jetstreams-contrails"
+  },
+  {
+    "id": "knot",
+    "term": "Knot",
+    "definition": "One nautical mile per hour, the unit aviation uses for speed. Because a nautical mile is a little longer than a land mile, a knot is a little faster than a mile per hour.",
+    "guides": [
+      "what-is-mach-1"
+    ],
+    "aircraft": []
+  },
+  {
+    "id": "landing-gear",
+    "term": "Landing gear",
+    "definition": "The wheels, struts and brakes an airplane rests and rolls on. Tricycle gear has two main wheels and a nose wheel, a taildragger has a small tailwheel instead, and floats and skis replace wheels for water, snow and ice.",
+    "guides": [],
+    "aircraft": [
+      "dhc-6-twin-otter"
+    ],
+    "lesson": "landing-gear"
+  },
+  {
+    "id": "lift",
+    "term": "Lift",
+    "definition": "The upward force a wing makes by turning the passing air downward. It can also be described as the pressure difference between the faster-moving air above the wing and the slower air below it.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [
+      "dhc-2-beaver"
+    ],
+    "lesson": "how-wings-lift"
+  },
+  {
+    "id": "mach-number",
+    "term": "Mach number",
+    "definition": "An aircraft's speed compared with the speed of sound, named after the physicist Ernst Mach. Mach 1 is the speed of sound itself, about 761 mph near sea level and slower in the colder air up high.",
+    "guides": [
+      "what-is-mach-1"
+    ],
+    "aircraft": [
+      "bell-x-1"
+    ],
+    "lesson": "sound-barrier"
+  },
+  {
+    "id": "magnetic-variation",
+    "term": "Magnetic variation",
+    "definition": "The difference between true north and magnetic north, which a compass points to. Charts show it so that courses can be corrected.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "compass-to-gps"
+  },
+  {
+    "id": "metal-fatigue",
+    "term": "Metal fatigue",
+    "definition": "The slow growth of a crack under repeated loads too small to break the metal outright. It caused the loss of two Comets in the 1950s and the 1988 Aloha Airlines fuselage failure, and it shaped how every jet is now tested.",
+    "guides": [
+      "why-are-airplane-windows-round"
+    ],
+    "aircraft": [
+      "de-havilland-comet"
+    ],
+    "lesson": "comet-metal-fatigue"
+  },
+  {
+    "id": "monocoque",
+    "term": "Monocoque",
+    "definition": "French for single shell: a fuselage whose outer skin carries the loads, strong like a soda can until its side gets dented.",
+    "guides": [
+      "why-are-airplane-windows-round"
+    ],
+    "aircraft": [],
+    "lesson": "fuselage-structure"
+  },
+  {
+    "id": "monoplane",
+    "term": "Monoplane",
+    "definition": "An airplane with a single set of wings. Louis Blériot's Type XI monoplane made the first airplane flight across the English Channel in 1909.",
+    "guides": [
+      "wright-brothers-first-flight"
+    ],
+    "aircraft": [
+      "bleriot-xi"
+    ],
+    "lesson": "bleriot-early-aviators"
+  },
+  {
+    "id": "narrowbody",
+    "term": "Narrowbody",
+    "definition": "An airliner with a single aisle, such as the Boeing 737 and Airbus A320 families, the workhorses of short-haul flying.",
+    "guides": [
+      "boeing-vs-airbus"
+    ],
+    "aircraft": [
+      "boeing-737",
+      "airbus-a320"
+    ],
+    "lesson": "narrowbody-families"
+  },
+  {
+    "id": "nautical-mile",
+    "term": "Nautical mile",
+    "definition": "The distance unit aviation shares with seafaring, based on one minute of latitude. It is a little longer than a land mile, and speeds in knots are nautical miles per hour.",
+    "guides": [
+      "what-is-mach-1"
+    ],
+    "aircraft": []
+  },
+  {
+    "id": "phonetic-alphabet",
+    "term": "Phonetic alphabet",
+    "definition": "The ICAO code words that stand for letters on the radio, Alfa through Zulu, so that single letters aren't misheard. Numbers get special pronunciations too: tree, fife and niner.",
+    "guides": [
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [
+      "boeing-vc-25a"
+    ],
+    "lesson": "callsigns-phonetic"
+  },
+  {
+    "id": "pilotage",
+    "term": "Pilotage",
+    "definition": "Navigating by following landmarks such as rivers, roads and towns.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "compass-to-gps"
+  },
+  {
+    "id": "piston-engine",
+    "term": "Piston engine",
+    "definition": "An engine in which burning fuel and air drive pistons that turn a crankshaft, which spins the propeller. Each cylinder repeats four strokes: intake, compression, power and exhaust.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [
+      "piper-j3-cub",
+      "beechcraft-bonanza"
+    ],
+    "lesson": "pistons-propellers"
+  },
+  {
+    "id": "pitch-roll-yaw",
+    "term": "Pitch, roll and yaw",
+    "definition": "The three ways an airplane rotates, around axes that meet at its center of gravity. Pitch raises or lowers the nose, roll dips one wing and raises the other, and yaw swings the nose left or right.",
+    "guides": [
+      "what-do-flaps-and-slats-do"
+    ],
+    "aircraft": [],
+    "lesson": "tail-control-surfaces"
+  },
+  {
+    "id": "pitot-tube",
+    "term": "Pitot tube",
+    "definition": "A small forward-facing tube that catches the pressure of the oncoming air, feeding the airspeed indicator.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "powered-lift",
+    "term": "Powered-lift",
+    "definition": "The FAA's category for aircraft such as eVTOL air taxis, which take off vertically on rotors or propellers and then cruise on wings.",
+    "guides": [],
+    "aircraft": [
+      "joby-s4"
+    ],
+    "lesson": "drones-evtols"
+  },
+  {
+    "id": "pressurization",
+    "term": "Pressurization",
+    "definition": "Pumping air into an airliner's cabin so that it feels like a far lower altitude than the airplane is flying at, typically about 8,000 feet.",
+    "guides": [
+      "why-do-planes-fly-so-high",
+      "why-are-airplane-windows-round"
+    ],
+    "aircraft": [
+      "de-havilland-comet"
+    ],
+    "lesson": "why-jets-fly-high"
+  },
+  {
+    "id": "primary-flight-display",
+    "term": "Primary flight display",
+    "definition": "The main screen of a glass cockpit, which gathers the six traditional flight instruments into one picture, with airspeed and altitude on scrolling tapes either side of a wide artificial horizon.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [],
+    "lesson": "glass-cockpits"
+  },
+  {
+    "id": "propeller",
+    "term": "Propeller",
+    "definition": "A set of small, spinning wings. Each blade has an airfoil shape and makes lift that points forward, which is thrust. Blades are twisted because their tips travel far faster through the air than their roots.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [
+      "wright-flyer-1903"
+    ],
+    "lesson": "pistons-propellers"
+  },
+  {
+    "id": "radar",
+    "term": "Radar",
+    "definition": "A system that sends out radio waves and listens for the echoes that bounce back. Timing an echo gives an aircraft's distance, and the antenna's direction shows where it is.",
+    "guides": [
+      "how-does-stealth-work",
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [],
+    "lesson": "stealth-aircraft"
+  },
+  {
+    "id": "radar-absorbing-material",
+    "term": "Radar-absorbing material",
+    "definition": "Coatings and materials that soak up some of the radio energy that hits them, so less of it bounces back to a radar. Their exact makeup is still secret.",
+    "guides": [
+      "how-does-stealth-work"
+    ],
+    "aircraft": [
+      "lockheed-f-117-nighthawk"
+    ],
+    "lesson": "stealth-aircraft"
+  },
+  {
+    "id": "radial-engine",
+    "term": "Radial engine",
+    "definition": "A piston engine with its cylinders arranged in a circle like the spokes of a wheel, usually cooled by air. Many World War II aircraft used radials.",
+    "guides": [],
+    "aircraft": [
+      "vought-f4u-corsair",
+      "douglas-dc-3"
+    ],
+    "lesson": "pistons-propellers"
+  },
+  {
+    "id": "rotary-engine",
+    "term": "Rotary engine",
+    "definition": "A World War I piston engine in which the whole block of cylinders spun around with the propeller. It made the Sopwith Camel very agile but tricky to fly.",
+    "guides": [],
+    "aircraft": [
+      "sopwith-camel"
+    ],
+    "lesson": "wwi-aircraft-aces"
+  },
+  {
+    "id": "rotor",
+    "term": "Rotor",
+    "definition": "A helicopter's spinning wings, whirling around a mast. Because the blades move through the air even when the helicopter is standing still, it can hover, climb straight up and land without a runway.",
+    "guides": [
+      "how-do-helicopters-fly"
+    ],
+    "aircraft": [
+      "boeing-ch-47-chinook"
+    ],
+    "lesson": "how-helicopters-fly"
+  },
+  {
+    "id": "rudder",
+    "term": "Rudder",
+    "definition": "The hinged surface on the vertical fin that swings the airplane's nose left or right.",
+    "guides": [
+      "what-do-flaps-and-slats-do"
+    ],
+    "aircraft": [],
+    "lesson": "tail-control-surfaces"
+  },
+  {
+    "id": "runway-number",
+    "term": "Runway number",
+    "definition": "The painted number at each end of a runway: the magnetic direction of its centerline divided by ten and rounded. A runway pointing north is Runway 36, its other end is 18, and parallel runways add L, C or R.",
+    "guides": [
+      "what-do-runway-numbers-mean"
+    ],
+    "aircraft": [
+      "bae-146"
+    ],
+    "lesson": "runway-markings"
+  },
+  {
+    "id": "semimonocoque",
+    "term": "Semimonocoque",
+    "definition": "A fuselage with a shell plus a skeleton inside: formers and bulkheads give it its shape, stringers run between them, and the skin fastened over this frame shares the loads. It is today's standard.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "fuselage-structure"
+  },
+  {
+    "id": "shock-wave",
+    "term": "Shock wave",
+    "definition": "A sharp jump in air pressure that forms as an aircraft nears and passes the speed of sound. The cones of shock waves trailing a supersonic airplane reach the ground as a sonic boom.",
+    "guides": [
+      "what-is-mach-1"
+    ],
+    "aircraft": [
+      "bell-x-1"
+    ],
+    "lesson": "sound-barrier"
+  },
+  {
+    "id": "sidestick",
+    "term": "Sidestick",
+    "definition": "A small control stick at the pilot's side, used instead of a control column in fly-by-wire airliners such as the Airbus A320.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [
+      "airbus-a320"
+    ],
+    "lesson": "autopilot-fbw"
+  },
+  {
+    "id": "six-pack",
+    "term": "Six-pack",
+    "definition": "The traditional group of six flight instruments: the airspeed indicator, altimeter and vertical speed indicator, which work from air pressure, and the attitude indicator, heading indicator and turn coordinator, which use gyroscopes.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "skunk-works",
+    "term": "Skunk Works",
+    "definition": "Lockheed's secretive advanced design unit, which created the SR-71 Blackbird.",
+    "guides": [
+      "fastest-planes-ever"
+    ],
+    "aircraft": [
+      "lockheed-sr-71-blackbird"
+    ],
+    "lesson": "sr-71-blackbird"
+  },
+  {
+    "id": "slat",
+    "term": "Slat",
+    "definition": "A panel on a wing's leading edge that slides forward and droops down, opening a narrow slot. Air flowing through the slot keeps the flow over the top attached, so the wing can reach a higher angle of attack before it stalls.",
+    "guides": [
+      "what-do-flaps-and-slats-do"
+    ],
+    "aircraft": [],
+    "lesson": "wings-flaps-slats"
+  },
+  {
+    "id": "sonic-boom",
+    "term": "Sonic boom",
+    "definition": "The thunder-like sound people on the ground hear from the shock waves of a supersonic aircraft. It isn't a one-time bang: the boom sweeps along the whole flight path, in a carpet about a mile wide for every 1,000 feet of altitude.",
+    "guides": [
+      "what-is-mach-1",
+      "why-was-concorde-retired"
+    ],
+    "aircraft": [
+      "concorde"
+    ],
+    "lesson": "sound-barrier"
+  },
+  {
+    "id": "spar",
+    "term": "Spar",
+    "definition": "A long beam running from a wing's root to its tip, the main structure that carries the wing's loads. Ribs crossing the spars set the airfoil's shape.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "wings-flaps-slats"
+  },
+  {
+    "id": "spoiler",
+    "term": "Spoiler",
+    "definition": "A panel that flips up on top of a wing to cut its lift. After touchdown, spoilers press the airplane onto its wheels so the brakes work better.",
+    "guides": [
+      "what-do-flaps-and-slats-do"
+    ],
+    "aircraft": [],
+    "lesson": "wings-flaps-slats"
+  },
+  {
+    "id": "stabilator",
+    "term": "Stabilator",
+    "definition": "A horizontal tail that moves as one piece, doing the job of both the stabilizer and the elevator.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "tail-control-surfaces"
+  },
+  {
+    "id": "stall",
+    "term": "Stall",
+    "definition": "The sudden loss of much of a wing's lift when it meets the air at too steep an angle and the smooth flow over its top breaks away. It has nothing to do with the engine, and it can happen at any speed.",
+    "guides": [
+      "what-is-a-stall"
+    ],
+    "aircraft": [
+      "pitts-special"
+    ],
+    "lesson": "why-planes-stall"
+  },
+  {
+    "id": "static-port",
+    "term": "Static port",
+    "definition": "A small opening on the fuselage that senses the still air around the airplane. The altimeter and vertical speed indicator use its pressure alone, and the airspeed indicator compares it with the pitot tube's.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "stealth",
+    "term": "Stealth",
+    "definition": "Designing an aircraft to send back as faint a radar echo as possible, through its shape and radar-absorbing materials, while also reducing its heat, noise and visibility.",
+    "guides": [
+      "how-does-stealth-work"
+    ],
+    "aircraft": [
+      "lockheed-f-117-nighthawk",
+      "lockheed-martin-f-22-raptor"
+    ],
+    "lesson": "stealth-aircraft"
+  },
+  {
+    "id": "stick-shaker",
+    "term": "Stick shaker",
+    "definition": "A warning device in many jets that shakes the control column when a stall is near, starting while the airplane is still 5 to 7 percent faster than its stall speed.",
+    "guides": [
+      "what-is-a-stall"
+    ],
+    "aircraft": [],
+    "lesson": "why-planes-stall"
+  },
+  {
+    "id": "stratosphere",
+    "term": "Stratosphere",
+    "definition": "The layer of the atmosphere above the troposphere, with little weather and steadier air.",
+    "guides": [
+      "why-do-planes-fly-so-high"
+    ],
+    "aircraft": [],
+    "lesson": "why-jets-fly-high"
+  },
+  {
+    "id": "supercruise",
+    "term": "Supercruise",
+    "definition": "Flying faster than the speed of sound without using afterburners, which the F-22 can do above Mach 1.5.",
+    "guides": [
+      "fastest-planes-ever"
+    ],
+    "aircraft": [
+      "lockheed-martin-f-22-raptor"
+    ],
+    "lesson": "fighter-generations"
+  },
+  {
+    "id": "supersonic",
+    "term": "Supersonic",
+    "definition": "Faster than the speed of sound, Mach 1. Concorde cruised at twice the speed of sound, and the X-15 reached Mach 6.7.",
+    "guides": [
+      "what-is-mach-1",
+      "fastest-planes-ever"
+    ],
+    "aircraft": [
+      "concorde",
+      "north-american-x-15"
+    ],
+    "lesson": "sound-barrier"
+  },
+  {
+    "id": "swiss-cheese-model",
+    "term": "Swiss cheese model",
+    "definition": "A way of picturing safety as a stack of cheese slices. Each slice is a defense and each hole a weak spot, and trouble gets through only when the holes in every slice happen to line up.",
+    "guides": [
+      "how-safe-is-flying"
+    ],
+    "aircraft": [],
+    "lesson": "why-flying-is-safe"
+  },
+  {
+    "id": "synthetic-vision",
+    "term": "Synthetic vision",
+    "definition": "A glass-cockpit display that draws the terrain ahead from a stored elevation database, so the picture stays on the screen however poor the visibility gets.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "glass-cockpits"
+  },
+  {
+    "id": "t-tail",
+    "term": "T-tail",
+    "definition": "A tail layout that mounts the horizontal tail on top of the vertical fin.",
+    "guides": [],
+    "aircraft": [
+      "boeing-727"
+    ],
+    "lesson": "tail-control-surfaces"
+  },
+  {
+    "id": "tail-rotor",
+    "term": "Tail rotor",
+    "definition": "The small rotor on a helicopter's tail that pushes sideways to cancel torque, the twist that would otherwise spin the body the opposite way to the main rotor.",
+    "guides": [
+      "how-do-helicopters-fly"
+    ],
+    "aircraft": [],
+    "lesson": "how-helicopters-fly"
+  },
+  {
+    "id": "taildragger",
+    "term": "Taildragger",
+    "definition": "An airplane with a small tailwheel instead of a nose wheel, resting with its nose tilted up. The FAA calls this conventional landing gear.",
+    "guides": [],
+    "aircraft": [
+      "piper-j3-cub"
+    ],
+    "lesson": "landing-gear"
+  },
+  {
+    "id": "tandem-rotor",
+    "term": "Tandem rotor",
+    "definition": "A helicopter layout with two big rotors turning in opposite directions, so each cancels the other's torque and no tail rotor is needed. The Chinook is the classic example.",
+    "guides": [
+      "how-do-helicopters-fly"
+    ],
+    "aircraft": [
+      "boeing-ch-47-chinook"
+    ],
+    "lesson": "how-helicopters-fly"
+  },
+  {
+    "id": "taxiway",
+    "term": "Taxiway",
+    "definition": "The paved path linking runways to the apron. Its edge lights glow blue at night, its centerline lights are green, and its painted markings are yellow.",
+    "guides": [
+      "what-do-runway-numbers-mean"
+    ],
+    "aircraft": [],
+    "lesson": "how-airports-work"
+  },
+  {
+    "id": "tcas",
+    "term": "TCAS",
+    "definition": "Traffic alert and collision avoidance system: airliner equipment that questions the transponders of nearby aircraft and, if two are on a collision course, tells the crews to climb or descend.",
+    "guides": [
+      "how-safe-is-flying"
+    ],
+    "aircraft": [],
+    "lesson": "why-flying-is-safe"
+  },
+  {
+    "id": "threshold",
+    "term": "Threshold",
+    "definition": "The beginning of the part of a runway available for landing, marked with white stripes. On many runways the number of stripes reflects the runway's width.",
+    "guides": [
+      "what-do-runway-numbers-mean"
+    ],
+    "aircraft": [],
+    "lesson": "runway-markings"
+  },
+  {
+    "id": "thrust",
+    "term": "Thrust",
+    "definition": "The forward force that drives an airplane through the air, made by a propeller or a jet engine. Its job is to beat drag, not to hold the airplane up.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "four-forces"
+  },
+  {
+    "id": "torque",
+    "term": "Torque",
+    "definition": "The twisting reaction that pushes a helicopter's body to turn the opposite way to its rotor, as Newton's third law requires. Most helicopters cancel it with a tail rotor.",
+    "guides": [
+      "how-do-helicopters-fly"
+    ],
+    "aircraft": [
+      "boeing-ch-47-chinook"
+    ],
+    "lesson": "how-helicopters-fly"
+  },
+  {
+    "id": "transponder",
+    "term": "Transponder",
+    "definition": "A radio device aboard an aircraft that answers interrogations from radar and from other aircraft. TCAS works by questioning the transponders nearby.",
+    "guides": [
+      "how-safe-is-flying"
+    ],
+    "aircraft": [],
+    "lesson": "why-flying-is-safe"
+  },
+  {
+    "id": "tricycle-gear",
+    "term": "Tricycle gear",
+    "definition": "Landing gear with two main wheels and a nose wheel, which gives a good view ahead while moving on the ground.",
+    "guides": [],
+    "aircraft": [
+      "cessna-172-skyhawk"
+    ],
+    "lesson": "landing-gear"
+  },
+  {
+    "id": "tropopause",
+    "term": "Tropopause",
+    "definition": "The upper boundary of the troposphere, which acts like a lid that traps moisture beneath it. Jets cruise near it, above most of the weather.",
+    "guides": [
+      "why-do-planes-fly-so-high"
+    ],
+    "aircraft": [],
+    "lesson": "why-jets-fly-high"
+  },
+  {
+    "id": "troposphere",
+    "term": "Troposphere",
+    "definition": "The lowest layer of the atmosphere, where nearly all clouds and storms live. Temperature drops about 2 °C for every 1,000 feet of climb through it.",
+    "guides": [
+      "why-do-planes-fly-so-high"
+    ],
+    "aircraft": [],
+    "lesson": "why-jets-fly-high"
+  },
+  {
+    "id": "turbine",
+    "term": "Turbine",
+    "definition": "A wheel of blades spun by hot gas, a little like wind turning a windmill. In a jet engine it sits on the same shaft as the compressor and keeps it turning.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [],
+    "lesson": "turbojets"
+  },
+  {
+    "id": "turbofan",
+    "term": "Turbofan",
+    "definition": "A jet engine with a large fan at the front, driven by its own turbine. Some air goes through the core and the rest is blown around it, giving more push for less fuel and noise, which is why nearly all airliners use them.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [
+      "boeing-777"
+    ],
+    "lesson": "turbofans"
+  },
+  {
+    "id": "turbojet",
+    "term": "Turbojet",
+    "definition": "The simplest jet engine: a compressor, a combustion chamber, a turbine and an exhaust, with all the thrust coming from the jet of hot gas.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [
+      "lockheed-f104-starfighter",
+      "de-havilland-comet"
+    ],
+    "lesson": "turbojets"
+  },
+  {
+    "id": "turboprop",
+    "term": "Turboprop",
+    "definition": "A jet engine built to turn a propeller through a gearbox. The propeller makes most of the thrust, and turboprops are at their most efficient between about 250 and 400 mph.",
+    "guides": [
+      "how-jet-engines-work"
+    ],
+    "aircraft": [
+      "lockheed-c130-hercules",
+      "dhc-6-twin-otter"
+    ],
+    "lesson": "turboprops-turboshafts"
+  },
+  {
+    "id": "turboshaft",
+    "term": "Turboshaft",
+    "definition": "A jet engine whose turbine drives a shaft rather than a propeller, powering a helicopter's rotor, for example. Most of its energy goes into the shaft, so the exhaust gives little push.",
+    "guides": [
+      "how-do-helicopters-fly"
+    ],
+    "aircraft": [
+      "boeing-ch-47-chinook"
+    ],
+    "lesson": "turboprops-turboshafts"
+  },
+  {
+    "id": "turbulence",
+    "term": "Turbulence",
+    "definition": "Uneven air. Sun-warmed ground sends up rising currents, wind tumbles over mountains, towering clouds hold rough air, and wind shear can shake an airplane too.",
+    "guides": [
+      "is-turbulence-dangerous"
+    ],
+    "aircraft": [],
+    "lesson": "turbulence-jetstreams-contrails"
+  },
+  {
+    "id": "turn-coordinator",
+    "term": "Turn coordinator",
+    "definition": "The instrument that shows how fast the airplane is turning, with marks for a standard-rate turn of 3 degrees per second, which takes two minutes for a full circle.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "underwater-locator-beacon",
+    "term": "Underwater locator beacon",
+    "definition": "The pinger attached to a flight recorder, which starts sending signals if the recorder ends up in water.",
+    "guides": [
+      "why-are-black-boxes-orange"
+    ],
+    "aircraft": [],
+    "lesson": "black-boxes"
+  },
+  {
+    "id": "v-tail",
+    "term": "V-tail",
+    "definition": "A tail that combines the jobs of the horizontal and vertical surfaces in two slanted surfaces, as on the early Beechcraft Bonanza.",
+    "guides": [],
+    "aircraft": [
+      "beechcraft-bonanza"
+    ],
+    "lesson": "tail-control-surfaces"
+  },
+  {
+    "id": "vertical-speed-indicator",
+    "term": "Vertical speed indicator",
+    "definition": "The instrument that shows how fast the airplane is climbing or descending, from the rate at which the static air pressure changes.",
+    "guides": [],
+    "aircraft": [],
+    "lesson": "classic-six"
+  },
+  {
+    "id": "vor",
+    "term": "VOR",
+    "definition": "A ground radio station that sends out courses, called radials, in every direction like the spokes of a wheel, numbered by magnetic direction from 001 to 360.",
+    "guides": [
+      "how-does-autopilot-work"
+    ],
+    "aircraft": [],
+    "lesson": "compass-to-gps"
+  },
+  {
+    "id": "wake-turbulence",
+    "term": "Wake turbulence",
+    "definition": "The pair of swirling vortices every wing sheds from its tips. The heavier and slower the airplane, the stronger its wake, which is why controllers keep smaller aircraft well behind big jets.",
+    "guides": [
+      "how-air-traffic-control-works",
+      "is-turbulence-dangerous"
+    ],
+    "aircraft": [
+      "boeing-757"
+    ],
+    "lesson": "airspace-atc"
+  },
+  {
+    "id": "weight",
+    "term": "Weight",
+    "definition": "Gravity pulling on the airplane and everything inside it. It always points toward the center of the Earth, and it falls as fuel burns.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [],
+    "lesson": "four-forces"
+  },
+  {
+    "id": "widebody",
+    "term": "Widebody",
+    "definition": "An airliner with two aisles. The Boeing 747 was the first, and the Airbus A300 was the first with two engines.",
+    "guides": [
+      "biggest-planes-in-the-world",
+      "boeing-vs-airbus"
+    ],
+    "aircraft": [
+      "boeing-747",
+      "airbus-a300"
+    ],
+    "lesson": "airbus-vs-boeing"
+  },
+  {
+    "id": "wind-shear",
+    "term": "Wind shear",
+    "definition": "A sudden change in wind speed or direction over a short distance, which can shake an airplane at any altitude.",
+    "guides": [
+      "is-turbulence-dangerous"
+    ],
+    "aircraft": [],
+    "lesson": "turbulence-jetstreams-contrails"
+  },
+  {
+    "id": "wing-warping",
+    "term": "Wing warping",
+    "definition": "The Wright brothers' way of rolling their aircraft, by twisting the wingtips. NASA's X-53 later tested a high-tech version of the idea.",
+    "guides": [
+      "wright-brothers-first-flight"
+    ],
+    "aircraft": [
+      "wright-flyer-1903"
+    ],
+    "lesson": "wright-brothers"
+  },
+  {
+    "id": "winglet",
+    "term": "Winglet",
+    "definition": "A nearly vertical surface at a wingtip that weakens the vortex the wing sheds, cutting induced drag. NASA tests on a KC-135 in 1979 and 1980 showed a 7 percent better lift-to-drag ratio.",
+    "guides": [
+      "how-do-planes-fly"
+    ],
+    "aircraft": [
+      "boeing-737"
+    ]
+  },
+  {
+    "id": "wingtip-vortex",
+    "term": "Wingtip vortex",
+    "definition": "The spinning column of air that spills around a wingtip from the high pressure below the wing to the low pressure above it. Vortices cause induced drag and wake turbulence.",
+    "guides": [
+      "how-do-planes-fly",
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [
+      "boeing-757"
+    ],
+    "lesson": "airspace-atc"
+  },
+  {
+    "id": "x-plane",
+    "term": "X-plane",
+    "definition": "An experimental research aircraft built to test new designs and technologies rather than to go into production. The series began with the Bell X-1 in the 1940s.",
+    "guides": [
+      "fastest-planes-ever"
+    ],
+    "aircraft": [
+      "bell-x-1",
+      "north-american-x-15"
+    ],
+    "lesson": "x-planes"
+  },
+  {
+    "id": "zulu-time",
+    "term": "Zulu time",
+    "definition": "Coordinated Universal Time, as used on aviation radio so that everyone works from one clock.",
+    "guides": [
+      "how-air-traffic-control-works"
+    ],
+    "aircraft": [],
+    "lesson": "callsigns-phonetic"
+  }
+]

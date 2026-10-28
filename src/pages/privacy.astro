@@ -1,0 +1,227 @@
+---
+/**
+ * /privacy — the app's privacy policy, ported faithfully from the app's
+ * site/privacy/index.html (its wording was checked against the app's code on
+ * 2026-10-28). Only the contact email and the date come from src/config.ts.
+ * The app ships this exact URL, so it must answer 200 with no redirect.
+ */
+import Base from '@/layouts/Base.astro';
+import LegalShell from '@/components/LegalShell.astro';
+import { CONTACT_EMAIL, LEGAL_UPDATED, PUBLISHER, ROUTES } from '@/config';
+import { breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
+
+const seo: Seo = {
+  title: 'Privacy Policy',
+  description: 'What the Planeology app collects, why, who processes it, how long it is kept, and how to reach us. No account, no ads, no tracking, and nothing sold.',
+  path: ROUTES.privacy,
+};
+const jsonld = [graph([organization(), breadcrumbList([{ name: 'Home', path: ROUTES.home }, { name: 'Privacy Policy', path: ROUTES.privacy }])])];
+const contents = [
+  { id: 'collect', label: 'What we collect' },
+  { id: 'use', label: 'How we use it' },
+  { id: 'bases', label: 'Legal bases' },
+  { id: 'providers', label: 'Who processes it' },
+  { id: 'retention', label: 'How long we keep it' },
+  { id: 'rights', label: 'Your choices and rights' },
+  { id: 'children', label: 'Children' },
+  { id: 'security', label: 'Security' },
+  { id: 'transfers', label: 'International transfers' },
+  { id: 'website', label: 'This website' },
+  { id: 'changes', label: 'Changes to this policy' },
+  { id: 'contact', label: 'Contact' },
+];
+const glance = [
+  ['Account', 'Not needed'],
+  ['Ads', 'None'],
+  ['Tracking', 'None'],
+  ['Data sold', 'Never'],
+  ['Progress', 'On your device'],
+];
+---
+<Base seo={seo} jsonld={jsonld}>
+  <LegalShell title="Privacy Policy" updated={LEGAL_UPDATED} contents={contents}>
+    <div slot="intro" class="grid gap-6">
+      <div class="grid gap-4 text-[1.125rem] leading-relaxed">
+        <p>Planeology is an app for people who love aviation. This policy explains what information the app collects, why, who helps us process it, how long we keep it, and the choices you have.</p>
+        <p>Planeology is published by {PUBLISHER} (“we”, “us”), who is responsible for the personal information described here. You can reach us through the support button in the app, or at <span class="address">{CONTACT_EMAIL}</span>.</p>
+      </div>
+      <section class="board" aria-labelledby="glance">
+        <h2 id="glance" class="board-title">At a glance</h2>
+        <dl class="m-0">
+          {glance.map(([k, v]) => (
+            <div class="board-row">
+              <dt>{k}</dt>
+              <dd>{v}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    </div>
+
+    <section id="collect">
+      <h2><span class="num">1</span>What we collect</h2>
+      <h3>1.1 On your device only</h3>
+      <p>Your lesson progress, quiz results, streaks, Hangar, settings, the name you give the app and your answers to its opening questions are stored on your device. Deleting the app deletes them. Your answers to the opening questions are also sent to our analytics (1.3).</p>
+      <h3>1.2 Purchases</h3>
+      <p>The App Store or Google Play handles payment for the Boarding Pass, so we never see your card or bank details. RevenueCat, the service that manages our in-app purchases, receives what you bought and whether your subscription is active, a random ID it creates for your copy of the app (your <strong>app ID</strong>), and basic device and app details such as the system version, app version and region. A new install gets a new app ID.</p>
+      <h3>1.3 Analytics</h3>
+      <p>We use PostHog to see how the app is used, so we can improve the lessons and features. It receives:</p>
+      <ul>
+        <li>what you do in the app, such as onboarding steps, the plans you look at on the purchase screen (with their prices), lessons, quizzes, the daily challenge and rank-ups;</li>
+        <li>your answers to the opening questions and how you heard about Planeology;</li>
+        <li>whether you have a Boarding Pass;</li>
+        <li>a random install ID.</li>
+      </ul>
+      <p>Your name isn’t sent. We set PostHog to discard IP addresses, so it doesn’t work out your location.</p>
+      <h3>1.4 Crash reports</h3>
+      <p>If the app crashes or slows down, Sentry receives a technical report: the device model, system and app versions, the error and where in the app it happened, and timings for a sample of sessions. Reports don’t include your name or app ID.</p>
+      <h3>1.5 Notifications and our server</h3>
+      <p>Daily reminders are scheduled on your device and don’t involve our server. Our server runs on Supabase, and the app sends it:</p>
+      <ul>
+        <li>if you allow notifications: a push token for your device, your app ID, the platform and app version, your notification setting and your time zone, so we can send you announcements;</li>
+        <li>how you heard about Planeology with your time zone, and where a purchase started with the plan chosen, both kept only as running totals that aren’t linked to you;</li>
+        <li>if you cancel and choose to tell us why: the reason you type, your first name, your app ID, your time zone and the app version;</li>
+        <li>when the app opens: the platform (iOS or Android), to check whether a newer version exists.</li>
+      </ul>
+      <p>Expo, which delivers our push notifications, receives your push token and the announcements we send.</p>
+      <h3>1.6 Support chat</h3>
+      <p>Each time you open the Home screen, AppSupportKit, our support chat service, receives your app ID, your first name (or “Anonymous”), whether you have a Boarding Pass or are on its free trial, the app version and your platform. This lets our team write to you first in the support chat, for example to ask how the app is working for you. Once you allow notifications, it also receives a push token so we can tell you about messages. When you open support, it receives the language you choose, and when you write to us, your message. Messages are translated automatically, so you and our team can each write in your own language. If you email us instead, we receive your email address and message and use them only to reply.</p>
+      <h3>1.7 What we don’t collect</h3>
+      <p>Planeology doesn’t collect your location, contacts, photos, health data, browsing history or advertising ID, and it doesn’t ask for an email address or an account.</p>
+    </section>
+
+    <section id="use">
+      <h2><span class="num">2</span>How we use it</h2>
+      <p>We use this information to:</p>
+      <ul>
+        <li>provide the app and the Boarding Pass, including restoring purchases;</li>
+        <li>answer your support requests;</li>
+        <li>send the notifications you’ve allowed;</li>
+        <li>see which lessons and features work, and improve them;</li>
+        <li>find and fix crashes;</li>
+        <li>understand where purchases start and why people cancel.</li>
+      </ul>
+      <p>We don’t use your information for advertising, we don’t sell it, and we don’t share it with anyone for advertising. We don’t make automated decisions about you that have legal or similarly significant effects.</p>
+    </section>
+
+    <section id="bases">
+      <h2><span class="num">3</span>Legal bases</h2>
+      <p>If you’re in the European Economic Area, the UK or a country with similar law, we rely on these legal bases:</p>
+      <ul>
+        <li><strong>Contract:</strong> to sell, restore and check your Boarding Pass, and to answer your support requests.</li>
+        <li><strong>Legitimate interests:</strong> analytics, crash reports, the running totals and cancellation feedback, which we need to run and improve the app. You can object at any time (section 6).</li>
+        <li><strong>Consent:</strong> notifications. You can withdraw it at any time in your phone’s settings.</li>
+        <li><strong>Legal obligation:</strong> keeping purchase records for tax and accounting.</li>
+      </ul>
+    </section>
+
+    <section id="providers">
+      <h2><span class="num">4</span>Who processes it</h2>
+      <p>These services process information for us, only to provide their service and under their own security and privacy terms. Apple and Google also process payments under their own privacy policies.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Service</th><th scope="col">What it does for us</th></tr></thead>
+          <tbody>
+            <tr><td><strong>RevenueCat</strong></td><td>Manages purchases and subscription status</td></tr>
+            <tr><td><strong>PostHog</strong></td><td>Product analytics</td></tr>
+            <tr><td><strong>Sentry</strong></td><td>Crash and performance reports</td></tr>
+            <tr><td><strong>Supabase</strong></td><td>Hosts our server and database, in the EU (Ireland)</td></tr>
+            <tr><td><strong>AppSupportKit</strong></td><td>In-app support chat, including message translation</td></tr>
+            <tr><td><strong>Expo</strong></td><td>Delivers push notifications</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="retention">
+      <h2><span class="num">5</span>How long we keep it</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Information</th><th scope="col">Kept for</th></tr></thead>
+          <tbody>
+            <tr><td><strong>On your device</strong></td><td>Until you delete the app</td></tr>
+            <tr><td><strong>Analytics</strong></td><td>Up to 24 months</td></tr>
+            <tr><td><strong>Crash reports</strong></td><td>Up to 90 days</td></tr>
+            <tr><td><strong>Support conversations</strong></td><td>Up to 24 months after your last message</td></tr>
+            <tr><td><strong>Cancellation feedback</strong></td><td>Up to 24 months</td></tr>
+            <tr><td><strong>Push and device records</strong></td><td>Deleted after 12 months without use</td></tr>
+            <tr><td><strong>Running totals</strong></td><td>Kept, since they contain no personal information</td></tr>
+            <tr><td><strong>Purchase records</strong></td><td>As long as tax and accounting law requires</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>When you ask us to delete your information, we do so sooner, unless the law requires us to keep it.</p>
+    </section>
+
+    <section id="rights">
+      <h2><span class="num">6</span>Your choices and rights</h2>
+      <h3>Choices</h3>
+      <ul>
+        <li>Turn notifications off at any time in your phone’s settings.</li>
+        <li>Support chat and cancellation feedback are optional.</li>
+        <li>Deleting the app removes everything stored on your device.</li>
+      </ul>
+      <h3>Rights</h3>
+      <p>Depending on where you live, you can ask us to give you a copy of your information, correct it or delete it, and you can object to or limit how we use it. California residents and those of some other US states also have the right to know what we collect, and not to be treated differently for using these rights. We don’t sell or share personal information as those laws define it.</p>
+      <h3>How to ask</h3>
+      <p>Use the support button in the app. Your request then comes with your app ID, which is how we find information linked to you, since Planeology has no accounts. You can also email <span class="address">{CONTACT_EMAIL}</span>, but we may ask you to send the request from the app so we can find your information. We reply within 30 days.</p>
+      <p>Analytics use a random install ID that isn’t linked to your app ID, so we can’t pick out your analytics data. It is deleted when its retention period ends.</p>
+      <p>If you’re in the EEA or the UK, you can also complain to your local data protection authority.</p>
+    </section>
+
+    <section id="children">
+      <h2><span class="num">7</span>Children</h2>
+      <p>Planeology is for a general audience. It isn’t directed at children under 13, and we don’t knowingly collect personal information from them. If you believe a child has sent us personal information, for example through support chat, contact us and we’ll delete it.</p>
+    </section>
+
+    <section id="security">
+      <h2><span class="num">8</span>Security</h2>
+      <p>Everything the app sends travels over encrypted connections (HTTPS). Only the people who run Planeology can access our services, and our providers protect the information they hold. No system is perfectly secure, but we work to keep your information safe.</p>
+    </section>
+
+    <section id="transfers">
+      <h2><span class="num">9</span>International transfers</h2>
+      <p>Our providers may process information in the United States, the European Union and other countries. Where the law requires it, these transfers are protected by safeguards such as the European Commission’s Standard Contractual Clauses.</p>
+    </section>
+
+    <section id="website">
+      <h2><span class="num">10</span>This website</h2>
+      <p>This website doesn’t use cookies, analytics or ads, and it loads nothing from other companies. Like any website, our hosting provider may keep standard server logs, such as IP addresses, for a short time for security.</p>
+    </section>
+
+    <section id="changes">
+      <h2><span class="num">11</span>Changes to this policy</h2>
+      <p>If we change this policy, we’ll update this page and the date at the top. If a change is significant, we’ll also tell you in the app before it takes effect.</p>
+    </section>
+
+    <section id="contact">
+      <h2><span class="num">12</span>Contact</h2>
+      <div class="contact">
+        <p><strong>{PUBLISHER}</strong>, publisher of Planeology</p>
+        <p>Email: <a class="address" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
+        <p>In the app: the support button on the Home screen</p>
+      </div>
+    </section>
+  </LegalShell>
+</Base>
+
+<style>
+  .board {
+    background: var(--color-night);
+    border-radius: var(--radius-card);
+    padding: 1.25rem 1.5rem 0.5rem;
+    color: var(--color-board-text);
+  }
+  .board-title {
+    margin: 0 0 0.75rem;
+    font-family: var(--font-mono); font-weight: 600; font-size: 0.875rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--color-board-text);
+  }
+  .board-row {
+    display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; align-items: baseline;
+    padding-block: 0.8rem; border-top: 1px solid #2b3c5e;
+  }
+  .board dt { font-family: var(--font-mono); font-weight: 600; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-board-muted); }
+  .board dd { margin: 0; font-family: var(--font-mono); font-weight: 600; font-size: 1.0625rem; letter-spacing: 0.06em; text-transform: uppercase; }
+  @media (min-width: 30rem) { .board-row { grid-template-columns: 8.5rem 1fr; } }
+</style>

@@ -1,0 +1,19 @@
+---
+/** Instrument stat tile: mono label, big condensed number, optional total. */
+interface Props {
+  label: string;
+  value: string | number;
+  total?: string | number;
+  caption?: string;
+  night?: boolean;
+  class?: string;
+}
+const { label, value, total, caption, night = false, class: cls = '' } = Astro.props;
+---
+<div class:list={['stat-tile', { 'on-night': night }, cls]}>
+  <p class="label m-0">{label}</p>
+  <p class="readout m-0">
+    {value}{total !== undefined && <span class="text-[0.55em] font-semibold text-ink-muted">/{total}</span>}
+  </p>
+  {caption && <p class:list={['m-0 text-sm', night ? 'text-on-night-soft' : 'text-ink-secondary']}>{caption}</p>}
+</div>

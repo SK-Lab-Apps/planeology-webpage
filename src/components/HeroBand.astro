@@ -1,0 +1,27 @@
+---
+/**
+ * HeroBand — a night-blue band with the graticule, range rings and the route
+ * arc behind whatever is slotted in. Rounded bottom corners like the app.
+ */
+import RouteArc from '@/components/RouteArc.astro';
+interface Props {
+  class?: string;
+  loop?: boolean;
+  /** Extra bottom padding so a card can straddle the band's edge. */
+  straddle?: boolean;
+}
+const { class: cls = '', loop = true, straddle = false } = Astro.props;
+---
+<section class:list={['night-band hero-band', cls, { 'pb-24': straddle }]}>
+  <RouteArc loop={loop} />
+  <div class="relative z-10">
+    <slot />
+  </div>
+</section>
+
+<style>
+  .hero-band {
+    border-bottom-left-radius: var(--radius-hero);
+    border-bottom-right-radius: var(--radius-hero);
+  }
+</style>
