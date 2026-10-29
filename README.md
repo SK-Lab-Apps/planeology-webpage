@@ -17,7 +17,7 @@ The app lives in `../Planeology` and is read-only from here. `CLAUDE.md` has the
 | Hosting | Vercel (`vercel.json`); the output is plain static files, so any static host works |
 | Package manager | bun, pinned to the public npm registry by `.npmrc` |
 
-No UI framework, no third-party requests at runtime: fonts, the Apple badge and QR codes are self-hosted or generated at build. Node ≥ 22.23.4 (`.nvmrc` says 24).
+No UI framework, no third-party requests at runtime: fonts, the Apple badge and QR codes are self-hosted or generated at build. Node ≥ 22.23.4 (`.nvmrc` says 24; with nvm, run `nvm use` first).
 
 ## Commands
 
@@ -38,6 +38,7 @@ bun run gen:og           # OG images into public/og/ (also run by build)
 bun run gen:icons        # favicons and manifest from the app icon
 bun run screenshots      # .screenshots/ at 375 and 1440 px (needs local Chrome)
 bun run lighthouse       # mobile Lighthouse on /, a guide and an aircraft page (needs local Chrome)
+bun run check-overflow   # every built page at 375 and 768 px must not scroll sideways (needs local Chrome)
 ```
 
 ## How it fits together
@@ -48,7 +49,8 @@ bun run lighthouse       # mobile Lighthouse on /, a guide and an aircraft page 
 - **Aircraft pages** (`src/content/aircraft/<id>.json`) hold only the words and the sourced quick facts; name, tier, role, power, bay and the lesson that awards each aircraft come from the app snapshot.
 - **Legal:** `/privacy` is ported faithfully from the app's drafted policy (`src/pages/privacy.astro`); `/terms` is data in `src/content/legal.ts`. No banners on either (App Review reads them).
 - **Universal Links:** `public/.well-known/apple-app-site-association` is served as `application/json` by a header rule in `vercel.json`. `/daily` reads the shared-result parameters client-side, validates them and renders them as text only.
-- **Checks** run in `bun run build` (`check-dist` over `dist/`) and `bun run check` (source). Both must pass before a change ships.
+- **Checks** run in `bun run build` (`check-dist` over `dist/`) and `bun run check` (source). Both must pass before a change ships. The three Chrome-based checks (`check-overflow`, `lighthouse`, `screenshots`) run locally, not on Vercel.
+- **Fonts and layout shift.** Each web font has a metric-matched local fallback (`size-adjust` fitted to real text), and layout widths use rem, not ch, so nothing moves when the fonts arrive. Phone frames reserve their size with a fixed width and aspect ratio.
 
 ### Adding a guide
 

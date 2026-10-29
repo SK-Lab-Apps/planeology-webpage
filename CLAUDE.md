@@ -46,7 +46,9 @@ bun run check-brand    # banned strings, colours and placeholders
 bun run build          # gen:og + astro build + check-dist
 ```
 
-`bun run sync` re-snapshots the app's content and art (commit its outputs). `bun run screenshots` and `bun run lighthouse` need local Chrome.
+`bun run sync` re-snapshots the app's content and art (commit its outputs). `bun run check-overflow` (375 and 768 px), `bun run screenshots` and `bun run lighthouse` need local Chrome; run them after layout changes.
+
+Layout rules learned the hard way: use rem (not ch) for widths that wrap text, give grid tracks `minmax(0, 1fr)` when they hold images or tables, keep tables inside `.table-wrap`, and give anything above the fold a size that doesn't depend on its children.
 
 ## Adding content
 
