@@ -98,6 +98,10 @@ Search the repo for `TODO(you)` to find each item in context.
 - [ ] ⬜ **Google Play.** `GOOGLE_PLAY_URL` stays `null` until a Play listing exists; the Play badge is hidden and the site never promises Android. When there is a Play app with a signing certificate, add `public/.well-known/assetlinks.json` with its SHA-256 fingerprint so Android App Links open `/daily` in the app, and set the URL in `src/config.ts`.
 - [ ] ⬜ **App Store Connect fields.** Support URL `https://planeology.app/support`, privacy policy URL `https://planeology.app/privacy`, marketing URL `https://planeology.app`. The app's `constants/identity.json` still carries the placeholder domain; set `webDomain` to `planeology.app` there so the app's own privacy link and share links match.
 - [ ] ⬜ **Time-sensitive facts.** Guides that say "as of October 2026" (supersonic projects, eVTOL status, the An-225, fighter programs) should be re-checked every few months; `CONTENT_REVIEW.md` lists each one with its source.
+- [ ] ⬜ **Content follow-ups** (rows marked ⚠️ in `CONTENT_REVIEW.md`; each says what was done):
+  - **ICAO pages blocked automated access.** The accident statistics on `/learn/how-safe-is-flying` and the alphabet history on `/phonetic-alphabet` were read through search-engine copies of icao.int pages. Open those two ICAO sources in a browser once and confirm the figures.
+  - **Two app Hangar cards to review in the app repo** (the site was written around them, and the app was not modified): the Beechcraft Bonanza card says it "first flew in 1947", while 1947 is when it was introduced (the site says "introduced in 1947"); the Consolidated NY-2 card's "One radial engine" has no source row in the app's `CONTENT_REVIEW.md`.
+  - **Museum display claims** change. The B-17G at the RAF Museum London is dated "as of October 2026" from the museum's own listing; re-check "where to see one" entries once a year.
 
 ## Notes and deliberate choices
 

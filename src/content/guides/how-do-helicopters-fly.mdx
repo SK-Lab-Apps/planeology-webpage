@@ -1,0 +1,101 @@
+---
+title: "How Do Helicopters Fly? Rotors, Torque and the Tail That Fixes It"
+seoTitle: "How Do Helicopters Fly? Rotors Explained"
+description: "A helicopter's rotor is a set of spinning wings. How it hovers, tilts to fly forward, beats its torque with a tail rotor, and glides down without power."
+dek: "A helicopter does not need a runway because its wings never stop moving. Everything else follows from that."
+answer: "A helicopter flies because its rotor blades are wings that whirl around a mast, so they make lift even when it stands still. Changing all the blades' angle together makes more or less lift. Changing it as each blade sweeps around tilts the rotor disk, and the helicopter moves that way. A tail rotor stops the body from spinning."
+groupId: grp_military_13
+query: "how do helicopters fly"
+keywords: ["rotor", "collective", "cyclic", "torque", "tail rotor", "tandem rotor", "autorotation", "Ingenuity"]
+datePublished: "2026-10-29"
+dateModified: "2026-10-29"
+lead: how-helicopters-fly_c1
+leadAlt: "A red helicopter with its main rotor disk shaded above it and a small tail rotor, with an inset showing the airfoil cross-section of one blade"
+lessons: [how-helicopters-fly, turboprops-turboshafts]
+relatedGuides: [how-do-planes-fly, how-jet-engines-work, what-is-a-stall, what-do-flaps-and-slats-do]
+relatedAircraft: [boeing-ch-47-chinook, joby-s4, lockheed-c130-hercules]
+quiz: [how-helicopters-fly_q1, how-helicopters-fly_q3, how-helicopters-fly_q5]
+sources:
+  - { publisher: "Federal Aviation Administration", title: "Helicopter Flying Handbook: Introduction to the Helicopter", url: "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch01.pdf" }
+  - { publisher: "Federal Aviation Administration", title: "Helicopter Flying Handbook: Aerodynamics of Flight", url: "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch02.pdf" }
+  - { publisher: "Boeing", title: "Select Products in Boeing History", url: "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf" }
+  - { publisher: "Federal Aviation Administration", title: "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", url: "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" }
+  - { publisher: "NASA Science", title: "Ingenuity Mars Helicopter", url: "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/" }
+---
+import Figure from '@/components/Figure.astro';
+import DidYouKnow from '@/components/DidYouKnow.astro';
+import AppCard from '@/components/AppCard.astro';
+
+An airplane has to run down a runway before its wings make enough lift to carry it. A helicopter skips that step, because its wings are already moving. Each rotor blade is a long, thin wing, and spinning the set around a mast gives them airspeed while the aircraft itself stands still. That single idea explains the hover, the vertical takeoff and the rooftop landing. It also creates a few problems that every helicopter has to solve, and they are the interesting part.
+
+<Figure id="how-helicopters-fly_c1" alt="A red helicopter with its main rotor disk shaded above it and a small tail rotor, with an inset showing the airfoil cross-section of one blade" caption="Spinning wings. Slice a rotor blade and you find the same airfoil shape as an airplane wing." />
+
+## How do helicopter blades create lift?
+
+The same way an airplane wing does. A blade meets the air at an angle, bends the air downward, and the air pushes the blade up in return. The difference is where the airspeed comes from. An airplane wing needs the whole airplane to move; a rotor blade is swept through the air by the engine, so it has airspeed in a hover, in a climb straight up, and on a mountain ledge with no runway for miles. That is why helicopters do the rescues in tight spots.
+
+The physics of lift, angle of attack and drag all carry over from [How do planes fly?](/learn/how-do-planes-fly) A rotor blade can even stall like a wing, as we will see. Most helicopters turn their rotors with a turboshaft, a jet engine whose turbine spends nearly all its energy driving a shaft instead of making exhaust thrust. [How do jet engines work?](/learn/how-jet-engines-work) explains that engine family.
+
+The FAA's Helicopter Flying Handbook adds a detail you can see at any helipad. Close to the ground, the rotor works more efficiently because the ground interferes with the downward flow of air. This ground effect fades with height and is gone at about one rotor diameter up, which is why a loaded helicopter sometimes hovers low for a moment before it climbs away.
+
+## How do helicopters fly forward?
+
+By tilting the whole spinning disk. Two kinds of blade adjustment make everything happen. Changing the angle of all the blades at once makes the rotor produce more or less lift, so the helicopter rises or sinks. Changing each blade's angle as it sweeps around the circle, so it bites more on one side than the other, tilts the rotor disk, and the helicopter moves the way the disk tilts.
+
+<Figure id="how-helicopters-fly_c2" alt="A red helicopter with its rotor disk tilted forward, and arrows splitting the rotor's thrust into an upward lift arrow and a forward arrow" caption="Tilt the disk forward and part of the rotor's lift becomes a pull toward the nose." />
+
+When the disk tips forward, the rotor's thrust leans forward with it. Part of that force still holds the helicopter up, and part now pulls it ahead. Tip the disk back and the helicopter slows or backs up; tip it sideways and it slides sideways. Pilots have separate controls for the two kinds of adjustment, the collective for all blades together and the cyclic for blade-by-blade changes, but the rotor disk is doing the flying.
+
+The forward tilt is also why a helicopter in cruise flies nose-down. The body hangs under a disk that is leaning into the direction of travel, so the cabin tilts with it. Watch a helicopter accelerate away from a helipad and the nose dips first, then the aircraft follows.
+
+## Why do helicopters have a tail rotor?
+
+Because of Newton's third law. When the engine turns the rotor one way, the rotor pushes back on the helicopter's body and tries to spin it the other way. This twisting effect is torque, and without something to cancel it the fuselage would rotate under the rotor. Most helicopters cancel it with a small rotor at the tail, mounted sideways, that pushes the tail in the opposite direction.
+
+<Figure id="how-helicopters-fly_c3" alt="A helicopter seen from above with its rotor turning one way, a red arrow showing the body trying to turn the other way, and a green arrow for the tail rotor's sideways push" caption="Torque. The rotor turns one way, the body wants to turn the other, and the tail rotor pushes back." />
+
+This is the layout Igor Sikorsky settled on for his VS-300, and the handbook calls it the recognized convention for helicopter design. The tail rotor's push can be varied, which is also how a helicopter turns its nose left or right in a hover. The handbook lists three common antitorque designs today: the traditional tail rotor, the Fenestron, which is a fan shrouded inside the tail fin, and the NOTAR system, which does the job with air blown from the tail boom instead of a visible rotor.
+
+<AppCard />
+
+## Why do some helicopters not have a tail rotor?
+
+Because two main rotors can cancel each other's torque. Tandem helicopters such as the [Boeing CH-47 Chinook](/aircraft/boeing-ch-47-chinook) carry two big rotors, one at each end, turning in opposite directions. Each rotor's twist cancels the other's, so no tail rotor is needed. The CH-47A entered US Army service in 1962, and Boeing has said that upgraded Chinooks will stay in the Army's fleet through at least the 2030s.
+
+<Figure id="how-helicopters-fly_c4" alt="A tandem-rotor Chinook helicopter with curved arrows showing its front and rear rotors turning in opposite directions" caption="Two rotors, no tail rotor. Each cancels the other's torque, so all the power goes into lift." />
+
+The layout has a payoff. A single-rotor helicopter must spend some of its power driving the tail rotor, which lifts nothing. In a tandem, all the engine power goes into the two lifting rotors, and the handbook notes that two blade sets can carry more weight with shorter blades. That is why tandems are among the most powerful rotor aircraft, and why a Chinook is the machine that turns up to lift a stranded vehicle or a load of relief supplies.
+
+There are other ways to pair rotors. Coaxial designs stack two counter-rotating rotors on one mast, a hallmark of Russia's Kamov bureau. Intermeshing designs tilt two masts slightly apart so their blades pass between each other without touching. Electric air taxis such as the [Joby S4](/aircraft/joby-s4) take the idea further still, with six tilting propellers that lift it like a helicopter and then swing forward for cruise.
+
+## How fast can a helicopter fly?
+
+Not as fast as a jet, and the rotor itself sets the limit. In forward flight, the blade sweeping toward the nose meets the air at the rotor's speed plus the helicopter's speed, while the blade sweeping back toward the tail meets it at the rotor's speed minus the helicopter's. The FAA handbook gives an example: with blade tips moving at about 400 knots and the helicopter flying at 100 knots, the advancing blade sees 500 knots of airflow and the retreating one only 300. The two sides make different amounts of lift, which the handbook calls dissymmetry of lift.
+
+Rotor blades flap up and down slightly as they go around to even that out. But the faster the helicopter flies, the slower the retreating blade's airflow becomes, and the steeper the angle it must use to keep up. Eventually that blade stalls, exactly as a wing does past its critical angle, which [What is a stall?](/learn/what-is-a-stall) explains. This retreating blade stall is what normally caps a helicopter's top speed, and every helicopter has a published speed it does not exceed.
+
+## What is autorotation?
+
+It is how a helicopter glides. If the engine stops, a freewheeling unit, a special clutch between the engine and the rotor, lets the rotor keep spinning on its own. As the helicopter descends, air flows up through the rotor disk from below instead of being pulled down through it from above, and that upward flow keeps the blades turning like a windmill. The spinning rotor keeps making lift, so the helicopter comes down under control rather than falling.
+
+The FAA handbook describes autorotation as the means by which a helicopter can be landed safely after an engine failure, and every helicopter design has to demonstrate it before it is approved for service. It is also a sight you can watch for at air shows and in training circuits near heliports, where the maneuver is practiced with the engine still running: a helicopter descending steeply and quietly, then flaring to a gentle stop.
+
+<DidYouKnow source="Federal Aviation Administration">
+Helicopters were built from aviation's early decades, but none reached full-scale production until 1942. The first to do it was a design by Igor Sikorsky, and 131 were built.
+</DidYouKnow>
+
+## How did Ingenuity fly on Mars?
+
+By spinning very fast in very thin air. NASA's Ingenuity helicopter made the first powered flight on another planet on April 19, 2021, in an atmosphere less than 1 percent as dense as Earth's. Thin air means little for a blade to push against, so Ingenuity was built light, at 1.8 kilograms (3.97 pounds), with two counter-rotating rotors just under 1.2 meters (4 feet) from tip to tip. Those stacked rotors cancel torque the coaxial way, so it needed no tail rotor.
+
+It was designed as a technology demonstration that would make no more than five test flights in 30 days. Instead it flew 72 times, and its last flight was on January 18, 2024; NASA declared the mission complete a week later, on January 25. Every lesson in this guide, from spinning wings to canceled torque, applied on another planet.
+
+## What to watch for on your next flight
+
+- **At the helipad**, a loaded helicopter often hovers low for a moment, riding the ground effect, before it climbs away.
+- **As it accelerates**, the nose dips first. The rotor disk has tilted forward and the body is following it.
+- **In a hover**, watch the tail rotor blur and the tail swing a few degrees as the pilot points the nose; that is the torque being balanced.
+- **On a Chinook or any tandem**, there is no tail rotor to look for. The two main rotors turn in opposite directions and cancel each other.
+- **At an air show**, a helicopter descending steeply and quietly with its engine throttled back may be demonstrating autorotation.
+
+A helicopter is a flying machine built around one trade: it gives up the runway and takes on torque, flapping blades and a speed limit set by its own rotor. The fixed-wing answer to the same problem, a wing that changes shape to fly slowly, is the subject of [What do flaps and slats do?](/learn/what-do-flaps-and-slats-do)

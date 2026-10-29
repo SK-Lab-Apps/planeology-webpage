@@ -1,0 +1,122 @@
+---
+title: "How Do Jet Engines Work? Turbojets, Turbofans and Turboprops"
+seoTitle: "How Do Jet Engines Work? Turbofans Explained"
+description: "How turbojets, turbofans and turboprops work, what bypass ratio means, why airliner fans grew so huge, and who invented the jet engine."
+dek: "Squeeze air, burn fuel in it, and let the hot gas spin a turbine on its way out. Every jet engine is a variation on that loop."
+answer: "A jet engine squeezes incoming air with a compressor, burns fuel in it, and sends the hot gas through a turbine that keeps the compressor turning. The gas rushing out the back pushes the airplane forward. A turbofan adds a big fan that blows most of its air around the core, making it quieter and more frugal."
+groupId: grp_engines_03
+query: "how do jet engines work"
+keywords: ["turbojet", "turbofan", "bypass ratio", "afterburner", "turboprop", "turboshaft", "Frank Whittle", "Hans von Ohain"]
+datePublished: "2026-10-29"
+dateModified: "2026-10-29"
+lead: turbojets_c1
+leadAlt: "A cutaway turbojet with a blue arrow entering the compressor, a flame in the combustion chamber, turbine blades behind it and hot exhaust leaving the nozzle"
+lessons: [turbojets, turbofans, turboprops-turboshafts, first-jets]
+relatedGuides: [what-is-mach-1, how-do-helicopters-fly, what-is-a-stall, why-do-planes-fly-so-high]
+relatedAircraft: [boeing-777, lockheed-f104-starfighter, lockheed-c130-hercules]
+quiz: [turbojets_q2, turbofans_q2, first-jets_q1]
+sources:
+  - { publisher: "Federal Aviation Administration", title: "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", url: "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" }
+  - { publisher: "NASA Glenn Research Center", title: "Gas Turbine Propulsion", url: "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/turbine-engines/" }
+  - { publisher: "NASA Glenn Research Center", title: "Turbojet Engines", url: "https://www.grc.nasa.gov/WWW/K-12/airplane/aturbj.html" }
+  - { publisher: "NASA Glenn Research Center", title: "Afterburning Turbojet", url: "https://www.grc.nasa.gov/WWW/K-12/airplane/aturba.html" }
+  - { publisher: "NASA Glenn Research Center", title: "Turbofan Engine", url: "https://www.grc.nasa.gov/WWW/K-12/airplane/aturbf.html" }
+  - { publisher: "NASA Glenn Research Center", title: "Turboprop Thrust", url: "https://www.grc.nasa.gov/WWW/K-12/airplane/turbprp.html" }
+  - { publisher: "GE Aerospace", title: "GE9X Engine", url: "https://www.geaerospace.com/commercial/aircraft-engines/ge9x" }
+  - { publisher: "GE Aerospace", title: "GE90 Engine", url: "https://www.geaerospace.com/commercial/aircraft-engines/ge90" }
+  - { publisher: "Smithsonian National Air and Space Museum", title: "Lockheed F-104A Starfighter", url: "https://airandspace.si.edu/collection-objects/lockheed-f-104a-starfighter/nasm_A19761017000" }
+  - { publisher: "Lockheed Martin", title: "Story of Innovation: C-130 Hercules", url: "https://www.lockheedmartin.com/en-us/news/features/history/hercules.html" }
+  - { publisher: "Smithsonian National Air and Space Museum", title: "Whittle W.1X Engine", url: "https://airandspace.si.edu/collection-objects/whittle-w1x-turbojet-engine/nasm_A19500082000" }
+  - { publisher: "Smithsonian Institution", title: "Heinkel-von Ohain HeS 3B turbojet engine (reproduction)", url: "https://si.edu/object/heinkel-von-ohain-hes-3b-turbojet-engine-reproduction%3Anasm_A19810039000" }
+  - { publisher: "Science Museum Group", title: "Gloster Whittle E28/39 jet aeroplane", url: "https://collection.sciencemuseumgroup.org.uk/objects/co29600/gloster-whittle-e28-39-jet-aeroplane-built-1941" }
+  - { publisher: "Smithsonian National Air and Space Museum", title: "Messerschmitt Me 262 A-1a Schwalbe (Swallow)", url: "https://airandspace.si.edu/collection-objects/messerschmitt-me-262-a-1a-schwalbe-swallow/nasm_A19600328000" }
+  - { publisher: "RAF Museum", title: "Comet: the world's first jet airliner", url: "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/" }
+  - { publisher: "Boeing", title: "Select Products in Boeing History", url: "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf" }
+---
+import Figure from '@/components/Figure.astro';
+import DidYouKnow from '@/components/DidYouKnow.astro';
+import AppCard from '@/components/AppCard.astro';
+
+From the boarding bridge, a jet engine looks like a giant fan in a polished tube, and that is a fair description of what you can see. The clever part is hidden behind the fan: a hot, fast-spinning core the size of a small car that keeps itself running on the air it swallows. Here is how that core works, why the fan in front of it grew so big, and how the whole idea got off the ground.
+
+<Figure id="turbojets_c1" alt="A cutaway turbojet with a blue arrow entering the compressor, a flame in the combustion chamber, turbine blades behind it and hot exhaust leaving the nozzle" caption="The four sections of a turbojet: compressor, combustion chamber, turbine and exhaust." />
+
+## How do jet engines work?
+
+The simplest jet engine, the turbojet, has four main sections. At the front, a compressor raises the pressure of the incoming air. In the combustion chamber, fuel burns with that squeezed air and the gas expands violently. The hot gas then spins a turbine and rushes out of the exhaust nozzle at the back, and that jet of gas pushing backward drives the airplane forward.
+
+The turbine is the part that makes the engine self-sustaining. It is a wheel of blades spun by the hot gas, a little like wind turning a windmill, and it sits on the same shaft as the compressor. So the exhaust keeps the compressor turning, the compressor keeps feeding the fire, and the energy left over after the turbine has taken its share becomes thrust.
+
+Compressors come in two basic forms, as the FAA's handbook describes. A centrifugal compressor is an impeller that flings air outward to squeeze it, and an axial compressor passes the air straight through row after row of small blades. Those blades are tiny airfoils, which is why an engine can suffer its own kind of stall; [What is a stall?](/learn/what-is-a-stall) explains the connection.
+
+One number puts the whole machine in proportion. NASA notes that a typical jet moves about 100 pounds of air through the engine every second for every 2 pounds of fuel it burns. Nearly everything leaving the back of a jet engine is air it swallowed at the front.
+
+## What is the difference between a turbojet and a turbofan?
+
+A pure turbojet pushes all of its air through the core. It makes thrust by throwing a modest amount of gas backward very fast, which works well at high speed but is noisy and thirsty at airliner speeds. Early jets, from the first fighters to the [de Havilland Comet](/aircraft/de-havilland-comet), the world's first jet airliner, flew on turbojets.
+
+A turbofan is a jet engine with a large fan on the front, driven by its own turbine behind the core. The fan pulls in a huge amount of air. Some of it flows into the core, where fuel burns exactly as in a turbojet, and the rest is blown around the outside of the core and out the back without ever being burned.
+
+<Figure id="turbofans_c1" alt="A cutaway turbofan with a large fan at the front and blue arrows showing cool air flowing around a smaller hot core that has a flame and glowing exhaust" caption="A turbofan: a jet core inside, and a fan that blows most of the air around it." />
+
+That bypass stream is the point of the design. Moving a lot of air a little faster is more efficient than moving a little air very fast. The bypass air gives extra push, helps keep the engine cool and wraps the hot, noisy core exhaust in a sleeve of slower air, which makes the engine quieter. NASA notes that most modern airliners use turbofans, and the fuel they save is the reason.
+
+## What is bypass ratio?
+
+Air that skips the core is called bypass air, and the bypass ratio compares the air going around the core with the air going through it. A ratio of 10 to 1 means ten times as much air passes around the core as through it. Big airliner engines have high ratios: GE's GE9X, built for Boeing's 777X, sends about 10 times as much air around its core as through it.
+
+Fighters sit at the other end of the scale, with small fans and low ratios, because they need speed more than economy. The engine makers' choice of ratio is a choice about what the airplane is for. The [Boeing 777](/aircraft/boeing-777) was offered with turbofans from three different makers, all of them built around the same high-bypass idea.
+
+<AppCard />
+
+## Why are jet engines so big?
+
+Because a high bypass ratio needs a big fan. If ten times as much air is to go around the core as through it, the fan has to be far wider than the core it surrounds. The fan then sets the size of the whole engine. The GE9X's fan measures 134 inches (3.4 meters) across, and the engine holds a world record of 134,300 pounds of thrust. Its predecessor on the 777, the GE90, was the first airliner engine with composite fan blades.
+
+<Figure id="turbofans_c4" alt="A worker in a hard hat and high-visibility vest standing beside a turbofan engine on a trolley, dwarfed by its fan" caption="Airliner fans are now wider than a person is tall. The fan sets the size of the whole engine." />
+
+Giant fans explain some of what you see on the ramp. Engines hang well forward of the wing and close to the ground, and the shape of their nacelles is one of the clues spotters use to tell one airliner from another, as [Boeing vs Airbus](/learn/boeing-vs-airbus) points out. Composite blades are lighter than metal ones, which is part of what lets such large fans spin at all.
+
+<DidYouKnow source="GE Aerospace">
+The GE9X's front fan is wider than the whole fuselage of a Boeing 737. It also has fewer fan blades than the older GE90: just 16, all made of composites.
+</DidYouKnow>
+
+## What is an afterburner?
+
+An afterburner is the jet engine's emergency boost. It sprays fuel straight into the hot exhaust behind the turbine, where there is still oxygen left to burn, and the extra fire adds a great deal of thrust. Fuel use soars at the same time, so afterburners are saved for moments such as takeoff from a short runway or pushing through the drag rise near the speed of sound. The physics of that wall is the subject of [What is Mach 1?](/learn/what-is-mach-1)
+
+The [Lockheed F-104 Starfighter](/aircraft/lockheed-f104-starfighter) shows how much of an airplane an afterburning engine can claim. It was built around a single General Electric J79 turbojet of 14,800 pounds of thrust, and it was the first US interceptor able to fly at sustained speeds above Mach 2. The Smithsonian notes that the engine and its afterburner took up more than half the length of the fuselage.
+
+## What is a turboprop engine?
+
+A turboprop is a jet engine built to turn a propeller. Behind the core, an extra turbine takes most of the energy from the hot gas and drives the propeller through a gearbox. The propeller, not the exhaust, makes most of the thrust, so the engine behaves more like a very powerful piston engine than like a jet.
+
+<Figure id="turboprops-turboshafts_c1" alt="A cutaway turboprop with a propeller at the front driven through a gearbox by a jet core with a compressor, a flame and turbine blades behind" caption="A turboprop: a jet core that spends its energy turning a propeller through a reduction gearbox." />
+
+The gearbox is there because a turbine spins far faster than a propeller can usefully turn, so the gears slow the output down. The result has a sweet spot. The FAA handbook puts turboprops at their most efficient between about 250 and 400 mph, at altitudes from 18,000 to 30,000 feet, and they cope well with the slow speeds of takeoff and landing. That is why many regional airliners and cargo planes use them, along with the four-engined [Lockheed C-130 Hercules](/aircraft/lockheed-c130-hercules), which has had the longest continuous production run of any military aircraft.
+
+Take the propeller away and you have a turboshaft. Its turbine drives a shaft that powers something else, most famously a helicopter's rotor, and because almost all the energy goes into the shaft, the exhaust gives little push. Turboshafts also power some boats and tanks. What a helicopter does with all that shaft power is the subject of [How do helicopters fly?](/learn/how-do-helicopters-fly)
+
+## Can a jet engine work in space?
+
+No. A jet engine is an air-breathing machine. It takes the oxygen for its fire from the atmosphere, and it uses the air itself as the stuff it throws backward. With no air there is nothing to burn with and nothing to push. A rocket solves both problems by carrying its own oxidizer along with its fuel, which is why rockets work in a vacuum and jets do not.
+
+The same fact explains a jet's ceiling. The higher it climbs, the thinner the air, and the less oxygen and mass the engine has to work with. That is one reason every airliner has a maximum altitude, as explained in [Why do planes fly so high?](/learn/why-do-planes-fly-so-high)
+
+## Who invented the jet engine?
+
+Two engineers, separately. Frank Whittle in Britain and Hans von Ohain in Germany each developed a jet engine without knowing of the other's work. Whittle patented his design in 1932, and his first test engine ran on April 12, 1937. Von Ohain's engine was the first into the air: on August 27, 1939, it powered the Heinkel He 178 on the world's first flight of a jet-powered aircraft.
+
+Britain followed on May 15, 1941, when the Gloster E.28/39, the first Allied jet, made its first official flight on a Whittle engine. That year Britain also shared a Whittle engine and drawings with General Electric, whose improved version powered the first American jet, the Bell XP-59A Airacomet, on October 2, 1942.
+
+The first jet to reach a front line was Germany's [Messerschmitt Me 262](/aircraft/messerschmitt-me-262), the world's first operational jet fighter. Its two Jumo 004 engines and swept wings made it about 120 mph faster than a P-51 Mustang, but it appeared only in small numbers late in the war. Within a decade of the war's end, the Comet had carried the first jet passengers, and the turbofan was on its way.
+
+## What to watch for on your next flight
+
+- **At the gate**, the fan turns lazily in the breeze. Once the engine starts, listen for the rising whine as the core spools up and the fan follows.
+- **On the takeoff roll**, look at the front of the engine. Almost all the air it moves will go around the core, not through it.
+- **At cruise**, the engines are quiet because the bypass air wraps the hot exhaust in a slower sleeve.
+- **After touchdown**, the back of the nacelle slides open and the roar returns. Thrust reversers are redirecting the engine's airflow forward to help slow the airplane.
+- **On a regional turboprop**, the propellers' note changes sharply on the runway while the turbines behind them keep up a steady high whine.
+
+Compress, burn, spin, exhaust. From Whittle's bench test to a fan wider than a 737's fuselage, every jet engine still runs on that loop. The next step up in speed, and the shock waves that come with it, are covered in [What is Mach 1?](/learn/what-is-mach-1)

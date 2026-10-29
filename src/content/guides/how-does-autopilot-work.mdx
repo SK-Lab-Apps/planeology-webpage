@@ -1,0 +1,107 @@
+---
+title: "How Does Autopilot Work? Do Pilots Still Fly the Plane?"
+seoTitle: "How Does Autopilot Work? Do Pilots Still Fly?"
+description: "How autopilot works, from Sperry's 1914 gyroscopes to fly-by-wire and autoland: what the servos, modes and computers do, and what pilots do meanwhile."
+dek: "An autopilot holds whatever it is told to hold. The interesting part is who tells it, and what happens when the wires replace the cables."
+answer: "An autopilot senses the airplane's attitude, heading, altitude and speed, compares them with the targets the pilots have set, and moves the flight controls through small motors called servos to close any gap. Simple ones hold altitude and heading; airliner systems also follow routes, manage speed and can land in fog. Pilots set every target and keep watch."
+groupId: grp_cockpit_04
+query: "how does autopilot work"
+keywords: ["autopilot explained", "fly-by-wire", "autoland", "do pilots fly the plane", "Sperry autopilot 1914", "flight envelope protection"]
+datePublished: "2026-10-29"
+dateModified: "2026-10-29"
+lead: autopilot-fbw_c1
+leadAlt: "An airliner in level flight with a dashed line through it and a looping arrow circling the airplane, showing it holding a set altitude and heading"
+lessons: [autopilot-fbw, glass-cockpits, classic-six]
+relatedGuides: [how-do-planes-fly, what-is-a-stall, boeing-vs-airbus, how-safe-is-flying]
+relatedAircraft: [airbus-a320, boeing-767, consolidated-ny-2-husky]
+quiz: [autopilot-fbw_q1, autopilot-fbw_q4, glass-cockpits_q1]
+sources:
+  - { publisher: "Federal Aviation Administration", title: "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", url: "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" }
+  - { publisher: "Smithsonian National Air and Space Museum", title: "The Secret History of Drones (Air & Space Quarterly)", url: "https://airandspace.si.edu/air-and-space-quarterly/issue-12/secret-history-of-drones" }
+  - { publisher: "Smithsonian National Air and Space Museum", title: "Gyro Stabilizer, Sperry, Paris Competition Winner, 1914", url: "https://airandspace.si.edu/collection-objects/gyro-stabilizer-sperry-paris-competition-winner-1914/nasm_A19630399000" }
+  - { publisher: "Federal Aviation Administration", title: "Flying Blind: Doolittle's first instrument flight", url: "https://www.faa.gov/sites/faa.gov/files/about/history/pioneers/First_Instrument_Flight_Doolittle.pdf" }
+  - { publisher: "NASA", title: "Flying with NASA: Digital Fly-By-Wire", url: "https://www.nasa.gov/centers-and-facilities/armstrong/flying-with-nasa-digital-fly-by-wire/" }
+  - { publisher: "NASA", title: "45th Anniversary of the Digital Fly-by-Wire First Flight", url: "https://www.nasa.gov/image-article/45th-anniversary-of-digital-fly-by-wire-first-flight/" }
+  - { publisher: "Airbus", title: "A320 Family", url: "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family" }
+  - { publisher: "Airbus", title: "Safety Innovation #7: Flight Envelope Protection", url: "https://www.airbus.com/en/newsroom/stories/2023-02-safety-innovation-7-flight-envelope-protection" }
+  - { publisher: "Federal Aviation Administration", title: "Aeronautical Information Manual: Navigation Aids", url: "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap1_section_1.html" }
+  - { publisher: "Garmin", title: "Garmin Autoland achieves FAA approval for general aviation aircraft (press release, May 18, 2020)", url: "https://www.garmin.com/en-US/newsroom/press-release/aviation/2020-garmin-autoland-achieves-faa-certification-for-general-aviation-aircraft/" }
+  - { publisher: "Boeing", title: "Select Products in Boeing History", url: "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf" }
+---
+import Figure from '@/components/Figure.astro';
+import DidYouKnow from '@/components/DidYouKnow.astro';
+import AppCard from '@/components/AppCard.astro';
+
+Autopilot may be the most misunderstood word in aviation. To some passengers it means the pilots are dozing; to others it means the airplane flies itself from gate to gate. Neither is true. An autopilot is a tireless assistant that holds whatever it is told to hold. Understanding it means understanding how a pilot's hands, a set of sensors and a few computers share the work of keeping an airplane where it belongs.
+
+<Figure id="autopilot-fbw_c1" alt="An airliner in level flight with a dashed line through it and a looping arrow circling the airplane, showing it holding a set altitude and heading" caption="The basic job: hold an altitude and a heading, and correct every drift before a person would notice it." />
+
+## How does autopilot work in planes?
+
+At its simplest, an autopilot holds an altitude and a heading. Sensors measure the airplane's attitude, meaning its pitch and bank, along with its heading, altitude and speed. A computer compares those readings with the targets the pilots have dialed in. Whenever the two drift apart, it moves the flight controls through small electric motors called servos, nudging the airplane back on target many times a minute, without fatigue or distraction.
+
+More capable systems have more modes. They can hold a rate of climb or a chosen airspeed, fly a selected course, or follow a route from radio navigation beacons or GPS, turning at each waypoint on the way. On airliners an autothrottle manages engine power in the same spirit, and a flight director paints command bars on the pilot's display that show what the autopilot would do, so a pilot flying by hand can follow the same guidance.
+
+## Who invented the autopilot?
+
+The autopilot is almost as old as the airplane. Elmer Sperry, an American who built gyroscopes for ships, and his son Lawrence developed an automatic gyrostabilizer in 1913 with help from the US Navy. Four small gyroscopes, linked to the controls, kept a Curtiss flying boat straight and level with nobody's hands on the stick. On June 18, 1914, Lawrence Sperry demonstrated it at the Aero Club of France's airplane safety competition. In front of the judges he climbed out onto one wing while his assistant, Emil Cachin, stood on the other, and the flying boat flew on, level. Sperry took the first prize of 50,000 francs, and the stabilizer itself is now in the Smithsonian's National Air and Space Museum.
+
+Gyroscopes then gave pilots instruments that could stand in for the horizon on a cloudy day. On September 24, 1929, Jimmy Doolittle flew a [Consolidated NY-2 Husky](/aircraft/consolidated-ny-2-husky) from takeoff to landing under a hood, guided only by a new artificial horizon, a directional gyro and a sensitive altimeter. The flight took 15 minutes and proved that instruments could do the eyes' job, which is the foundation every autopilot stands on.
+
+<DidYouKnow source="Federal Aviation Administration">
+A check pilot rode in the front cockpit of Doolittle's NY-2 in case anything went wrong. To prove he never touched the controls, he kept his arms above his head for the whole 15-minute flight.
+</DidYouKnow>
+
+## What does a three-axis autopilot control?
+
+An airplane rotates around three axes, and its controls are divided the same way, as [How do planes fly?](/learn/how-do-planes-fly) describes. Ailerons on the wings roll it. The elevator on the tail pitches the nose up or down. The rudder yaws it left or right. The simplest autopilots, found in light airplanes, work one axis: they move the ailerons to keep the wings level, and nothing more.
+
+A three-axis autopilot commands the ailerons, elevator and rudder together, so it can climb, descend, turn and hold a heading while keeping each turn coordinated. Airliner autopilots are three-axis systems layered with the modes described above, so the same box that keeps the wings level at 35,000 feet can also fly a curving arrival into a busy airport.
+
+<Figure id="autopilot-fbw_c2" alt="Two small airplanes side by side with colored arrows showing the three axes of rotation: roll, pitch and yaw" caption="Roll, pitch and yaw. A single-axis autopilot handles roll alone; a three-axis system handles all three." />
+
+<AppCard />
+
+## What is fly-by-wire?
+
+In older airplanes, cables, pushrods and pulleys connect the pilot's controls to the control surfaces, so when the pilot pulls, a cable physically pulls the elevator. Fly-by-wire removes that link. The pilot's inputs become electrical signals, computers read them and command the actuators that move the surfaces. Because nothing pushes back through a wire, the feel in the pilot's hands has to be built in artificially.
+
+NASA proved the idea. On May 25, 1972, research pilot Gary Krier took off from the agency's Flight Research Center in California in a modified F-8 Crusader whose mechanical linkages had been replaced by a digital computer borrowed from the Apollo program. It was the first flight of an aircraft controlled by digital fly-by-wire, and the program ran for 13 years and more than 200 flights, with a triple-redundant system eventually replacing the lunar hardware.
+
+Airliners followed. Concorde had used an analog version, and the [Airbus A320](/aircraft/airbus-a320), which first flew on February 22, 1987, became the first civil aircraft with full digital fly-by-wire, flown with small sidesticks instead of control columns. NASA notes that Boeing's [777](/aircraft/boeing-777) followed in 1994, and new airliners from both makers now use it. Whether a cockpit has a sidestick or a yoke is one of the quickest ways to tell the two companies apart, as [Boeing vs Airbus](/learn/boeing-vs-airbus) explains.
+
+<Figure id="autopilot-fbw_c3" alt="A top-down diagram of an airliner with a flight control computer in the fuselage wired to the ailerons, elevators and rudder, which are highlighted" caption="Fly-by-wire: the pilot's inputs reach the control surfaces as electrical signals, routed through computers." />
+
+## Does fly-by-wire protect against pilot mistakes?
+
+Once computers sit between the pilot and the wings, they can do more than relay commands. Airbus's fly-by-wire airliners include flight envelope protection, a set of limits written into the control software. The computers give the pilot full authority within the airplane's approved limits of angle of attack, speed and bank, and hold it inside them no matter how hard the sidestick is pushed. The wing cannot be pulled past the angle at which it [stalls](/learn/what-is-a-stall), for example, because the computers will not command it.
+
+Airbus introduced the protections with the A320 and has fitted them as standard on every program since. The company says loss-of-control accidents are down 89 percent for the latest generation of airliners equipped this way, a figure that belongs in any discussion of [how safe flying has become](/learn/how-safe-is-flying).
+
+## Can a plane land itself?
+
+Yes, in the right conditions, and it has been possible for decades. An autoland system follows the radio beams of an instrument landing system all the way to the runway, flaring and touching down on its own while the crew monitors every step. The FAA grades landing systems by how little the crew needs to see. A Category I approach needs a decision height of 200 feet and a runway visual range of 2,400 feet. Category II brings the decision height down to 100 feet. Category III, where autoland is the normal method, starts below 100 feet and ends with Category IIIc, which has no decision height and no visibility limit at all.
+
+Small airplanes have caught up in a different way. In May 2020 the FAA approved Garmin's Autoland on the Piper M600, the first of several light aircraft to receive it. It is an emergency system. If the pilot becomes unable to fly, a passenger presses a button, or the system activates itself if it judges that necessary. It then chooses a suitable airport while avoiding terrain and bad weather, tells air traffic control what it is doing, flies the approach, lowers the landing gear and flaps, lands, brakes to a stop on the centerline and shuts down the engine.
+
+Takeoff is another matter. On today's airliners the takeoff is flown by hand, and the autopilot is usually engaged on the way up. Most landings are hand-flown too; autoland is reserved for the days when the crew would not see the runway until the last moment.
+
+## Do pilots actually fly the plane?
+
+Yes, and more than the autopilot's reputation suggests. The pilots choose every target the automation follows: the altitude, the speed, the route and the moment to descend. In cruise they manage fuel, watch the weather ahead, talk to each controller in turn, and reprogram the flight computer when air traffic control changes the route, which happens often. The autopilot holds the airplane steady so that they can do all of that. It does not decide any of it.
+
+The screens in front of them changed in the 1980s. Boeing's 757 and [767](/aircraft/boeing-767), which first flew in 1982 and 1981, pioneered two-pilot flight decks built around computer displays, with cockpits so alike that crews could qualify to fly both. On a modern primary flight display, airspeed and altitude scroll past on vertical tapes beside a wide artificial horizon, and magenta trend lines show where the speed and altitude will be six seconds from now, so a drift is caught before it grows.
+
+<Figure id="autopilot-fbw_c4" alt="A cockpit seen from the pilot's seat with a sidestick controller on the left, a primary flight display and a navigation display on the panel" caption="A sidestick cockpit. The stick talks to computers, and the screens show what the automation is doing." />
+
+## What to watch for on your next flight
+
+The automation leaves fingerprints that a passenger can spot.
+
+- **On takeoff**, the first turns after liftoff are often flown by hand, before the autopilot is engaged in the climb.
+- **In the climb**, notice how the nose settles at one steady angle for minutes at a time. That is an autopilot holding a target speed.
+- **In cruise**, the wings stay level for hours, with an occasional small bank as the airplane turns at a waypoint on its route.
+- **In the descent**, the engines quieten and spool up in steps as the autothrottle trades speed for height.
+- **On a foggy arrival**, the gentlest touchdown of your year may belong to the autoland system, with two pilots watching it like hawks.
+
+An autopilot is only as good as the targets it is given and the people watching it. For the physics those targets are built on, start with [How do planes fly?](/learn/how-do-planes-fly), and for why a wing stops flying when it is asked for too much, read [What is a stall?](/learn/what-is-a-stall).

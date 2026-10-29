@@ -61,7 +61,7 @@ const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
       <h2 id="converter" class="font-display text-[1.9rem] font-bold m-0 mb-3">Type anything, read it like a pilot</h2>
       <form class="grid gap-3" id="spell-form">
         <label for="spell-input" class="sr-only">Text to spell out</label>
-        <input id="spell-input" type="text" inputmode="text" autocomplete="off" maxlength="60" placeholder="e.g. your name, a flight number, PL301" class="spell-input" />
+        <input id="spell-input" type="text" inputmode="text" autocomplete="off" maxlength="60" placeholder="Your name or a flight, like PL301" class="spell-input" />
         <p class="text-sm text-ink-muted m-0" id="spell-hint">Letters become code words, digits become their spoken forms, and other characters are left out.</p>
       </form>
       <div class="spell-out" id="spell-out" aria-live="polite" aria-atomic="true"></div>

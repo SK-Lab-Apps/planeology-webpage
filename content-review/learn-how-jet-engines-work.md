@@ -1,0 +1,13 @@
+## /learn/how-jet-engines-work
+
+| Claim | Source | Status |
+|---|---|---|
+| Compressors are of centrifugal-flow, axial-flow or combined centrifugal-axial types; a centrifugal compressor is an impeller-shaped device | PHAK, PDF p.180 and p.482 (glossary) | ✅ |
+| Thrust reversers give negative thrust during the landing roll (page describes them redirecting the engine's airflow forward to help slow the airplane) | PHAK, PDF p.272 | ✅ |
+| The de Havilland Comet was the world's first jet airliner | App Hangar card `de-havilland-comet` (RAF Museum, "Comet: the world's first jet airliner") | ✅ app fact reused outside its lesson |
+| The Boeing 777 was offered with turbofans from three makers | App Hangar card `boeing-777` (Boeing, "Select Products in Boeing History") | ✅ app fact (lesson `turbofans`) |
+| Fighters use low-bypass engines; a 10:1 ratio means ten times as much air around the core as through it | Explanatory restatement of the bypass-ratio definition (PHAK p.181; NASA Glenn "Turbofan Engine"); no new figure claimed | ✅ |
+| Engines hang forward of the wing and close to the ground; nacelle shape is a spotting clue | Observation only, no figure or record claimed | ✅ |
+| Everything else (the four sections; the turbine on the compressor's shaft; 100 lb of air per 2 lb of fuel; no oxygen in space; afterburners and the drag rise near the speed of sound; the F-104's 14,800-lb J79 and sustained Mach 2, and the engine filling half its fuselage; bypass air and the bypass ratio; GE9X 10:1, 134-inch (3.4 m) fan, 134,300 lb record thrust, 16 composite blades, fan wider than a 737 fuselage; GE90 first composite fan blades; most airliners use turbofans; turboprop gearbox, 250–400 mph and 18,000–30,000 ft; C-130 four turboprops and the longest continuous military production run; turboshafts in helicopters, boats and tanks; Whittle's 1932 patent and April 12, 1937 run; He 178 on August 27, 1939; Gloster E.28/39 on May 15, 1941; W.1X to GE in 1941 and the XP-59A on October 2, 1942; Me 262 first operational jet fighter, two Jumo 004s, about 120 mph faster than a P-51) | App lessons `turbojets`, `turbofans`, `turboprops-turboshafts`, `first-jets` and their Hangar cards | ✅ |
+
+H2 phrasing checked against Google Autocomplete for: "how do jet engines work", "difference between turbojet and turbofan", "what is bypass ratio", "why are jet engines so big", "what is an afterburner", "what is a turboprop engine", "can a jet engine work in space", "who invented the jet engine" (also checked: "what is a turboshaft engine", "what is reverse thrust", "how do jet engines work in space").
