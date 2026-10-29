@@ -62,13 +62,13 @@ const groupGuides = (groupId: string) => guides.filter((g) => g.data.groupId ===
     <div class="wrap pt-10 pb-14 md:pt-16 md:pb-20 grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
       <div>
         <p class="label !text-board-text mb-4">{STORE_NAME} · iPhone</p>
-        <h1 class="text-[2.9rem] sm:text-[3.8rem] md:text-[4.6rem] leading-[0.96] m-0 max-w-[12ch]">Learn aviation, one short lesson at a time</h1>
-        <p class="mt-5 mb-7 text-on-night-soft text-[1.2rem] leading-relaxed max-w-[46ch] text-pretty">
+        <h1 class="text-[2.9rem] sm:text-[3.8rem] md:text-[4.6rem] leading-[0.96] m-0 max-w-[11em]">Learn aviation, one short lesson at a time</h1>
+        <p class="mt-5 mb-7 text-on-night-soft text-[1.2rem] leading-relaxed max-w-[34rem] text-pretty">
           Planeology turns curiosity about airplanes into real knowledge, a few minutes at a time: how a wing makes lift, why jets fly so high, what the runway numbers mean, and the stories behind {counts.aircraft} aircraft.
         </p>
         <div class="flex flex-wrap items-center gap-5">
           <StoreBadge ct="home-hero" height={48} priority />
-          <p class="m-0 text-on-night-soft text-sm max-w-[26ch]">{counts.lessons} lessons · {counts.questions} questions · a new five-question challenge every day</p>
+          <p class="m-0 text-on-night-soft text-sm max-w-[12.5rem]">{counts.lessons} lessons · {counts.questions} questions · a new five-question challenge every day</p>
         </div>
       </div>
       <div class="justify-self-center lg:justify-self-end">
@@ -95,10 +95,10 @@ const groupGuides = (groupId: string) => guides.filter((g) => g.data.groupId ===
           const href = gs.length ? `${ROUTES.learn}#g-${g.id}` : ROUTES.learn;
           return (
             <li class="board-row">
-              <a href={href} class="board-link" aria-label={`${g.flight} ${g.title}: ${g.lessonIds.length} lessons, ${i === 0 ? 'boarding' : 'on time'}`}>
+              <a href={href} class="board-link">
                 <span class="board-cell board-flight"><FlapText text={g.flight} size="sm" tone="white" flip delay={i * 2} /></span>
                 <span class="board-cell board-topic"><FlapText text={g.title} size="sm" flip delay={i * 2 + 6} /></span>
-                <span class="board-cell board-lessons"><FlapText text={String(g.lessonIds.length)} size="sm" tone="white" flip delay={i * 2 + 28} /></span>
+                <span class="board-cell board-lessons"><FlapText text={String(g.lessonIds.length)} size="sm" tone="white" flip delay={i * 2 + 28} /><span class="sr-only"> lessons</span></span>
                 <span class="board-cell board-status"><FlapText text={i === 0 ? 'BOARDING' : 'ON TIME'} size="sm" tone={i === 0 ? 'green' : 'amber'} flip delay={i * 2 + 32} /></span>
               </a>
             </li>

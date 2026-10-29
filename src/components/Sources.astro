@@ -6,7 +6,7 @@ const { sources, id = 'sources' } = Astro.props;
 ---
 <section class="srcs" aria-labelledby={id}>
   <h2 id={id} class="font-display text-[1.6rem] font-bold m-0 mb-3">Sources</h2>
-  <ol class="m-0 pl-6 grid gap-1.5 text-[0.9375rem] leading-snug">
+  <ol class="m-0 pl-6 grid gap-1.5 text-[0.9375rem] leading-snug list-decimal">
     {sources.map((s) => (
       <li id={`${id}-${sources.indexOf(s) + 1}`}>
         <span class="text-ink-muted">{s.publisher}</span>, <a href={s.url} rel="noopener">{s.title}</a>

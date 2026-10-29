@@ -34,13 +34,15 @@ const BANNED = [
 ];
 // Pages allowed to say "not flight training" (and only that phrasing).
 const NOT_TRAINING_OK = new Set(['src/pages/index.astro', 'src/pages/support.astro', 'src/content/legal.ts', 'src/pages/terms.astro', 'src/content/faq.ts']);
+// Legal and support pages describe the purchase and the app factually; the marketing claim rules don't apply to them.
+const CLAIMS_EXEMPT = new Set(['src/pages/privacy.astro', 'src/pages/terms.astro', 'src/content/legal.ts', 'src/pages/support.astro', 'src/content/faq.ts']);
 const HIDDEN_RANKS = ['Hall of Famer', 'Sky Sage'];
 const CLAIM_WORDS = [/\b#1\b/i, /\bbest (app|aviation app)\b/i, /\bfree trial\b/i, /\btestimonial/i, /\bandroid (is )?coming\b/i, /\bcoming (soon )?to android\b/i, /\bfree sample\b/i, /\bfree lesson\b/i, /\bfrom the app\b/i, /\bpreview of the app\b/i, /\bunlock the rest\b/i];
 
 function words(text: string): number {
   return text.split(/\s+/).filter((w) => /[A-Za-z0-9]/.test(w)).length;
 }
-function bannedIn(text: string, where: string, allowNotTraining = false) {
+function bannedIn(text: string, where: string, allowNotTraining = false, skipClaims = false) {
   const lower = text.toLowerCase();
   for (const b of BANNED) {
     const re = new RegExp(`(^|[^a-z])${b.replace(/[-\s]/g, '[\\s-]')}([^a-z]|$)`, 'g');
@@ -56,6 +58,7 @@ function bannedIn(text: string, where: string, allowNotTraining = false) {
     }
   }
   for (const r of HIDDEN_RANKS) if (text.includes(r)) fail(where, `hidden rank "${r}" must never appear`);
+  if (skipClaims) return;
   for (const re of CLAIM_WORDS) {
     const m = text.match(re);
     if (m) fail(where, `claim rule: "${m[0]}" is not allowed`);
@@ -299,7 +302,7 @@ if (!only) {
       const text = await readFile(p, 'utf8');
       // Only check human-readable strings in code files: skip import lines and comments.
       const stripped = text.replace(/^\s*(import|\/\/|\*|\/\*\*).*$/gm, '');
-      bannedIn(stripped, rel, NOT_TRAINING_OK.has(rel));
+      bannedIn(stripped, rel, NOT_TRAINING_OK.has(rel), CLAIMS_EXEMPT.has(rel));
     }
   };
   await scan(join(REPO, 'src'));

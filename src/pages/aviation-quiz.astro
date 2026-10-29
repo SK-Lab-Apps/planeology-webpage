@@ -185,7 +185,7 @@ const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
     let index = 0;
     let correct = 0;
 
-    function show(i: number) {
+    function show(i: number, moveFocus = true) {
       qs.forEach((q, j) => q.classList.toggle('is-active', j === i));
       segs.forEach((s, j) => {
         s.classList.toggle('is-done', j < i);
@@ -193,8 +193,7 @@ const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
       });
       counter.textContent = `Question ${i + 1} / ${total}`;
       foot.hidden = true;
-      const first = qs[i].querySelector<HTMLButtonElement>('.opt');
-      first?.focus({ preventScroll: true });
+      if (moveFocus) qs[i].querySelector<HTMLButtonElement>('.opt')?.focus({ preventScroll: true });
     }
 
     qs.forEach((q) => {
@@ -274,6 +273,6 @@ const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
       shareNote.hidden = false;
     });
 
-    show(0);
+    show(0, false);
   }
 </script>

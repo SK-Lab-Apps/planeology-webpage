@@ -27,7 +27,7 @@ function resolveFile(pathname: string): { file: string; status: number } {
 }
 Bun.serve({
   port,
-  fetch(req) {
+  async fetch(req: Request) {
     const url = new URL(req.url);
     const { file, status } = resolveFile(url.pathname);
     if (status === 308) return new Response(null, { status: 308, headers: { location: url.pathname.replace(/\/+$/, '') + url.search } });
@@ -36,6 +36,12 @@ Bun.serve({
     if (url.pathname === '/.well-known/apple-app-site-association') headers['content-type'] = 'application/json';
     if (url.pathname.startsWith('/_astro/') || url.pathname.startsWith('/fonts/')) headers['cache-control'] = 'public, max-age=31536000, immutable';
     else if (/\.(png|svg|ico|webmanifest|xml|txt)$/.test(url.pathname)) headers['cache-control'] = 'public, max-age=86400';
+    // Compress text like Vercel does, so local Lighthouse runs see production-like transfer sizes.
+    const textual = /\.(html|css|js|json|svg|xml|txt|webmanifest)$/.test(file) || headers['content-type'].startsWith('application/json');
+    if (textual && (req.headers.get('accept-encoding') ?? '').includes('gzip')) {
+      const body = Bun.gzipSync(new Uint8Array(await Bun.file(file).arrayBuffer()));
+      return new Response(body, { status, headers: { ...headers, 'content-encoding': 'gzip', vary: 'accept-encoding' } });
+    }
     return new Response(Bun.file(file), { status, headers });
   },
 });

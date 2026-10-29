@@ -77,7 +77,6 @@ export const APPLE_STANDARD_EULA_URL = 'https://www.apple.com/legal/internet-ser
 /** Apple's own help pages, linked from /support and /terms. */
 export const APPLE_MANAGE_SUBSCRIPTIONS_URL = 'https://support.apple.com/en-us/118428';
 export const APPLE_REFUND_URL = 'https://support.apple.com/en-us/118223';
-export const APPLE_RESTORE_PURCHASES_URL = 'https://support.apple.com/en-us/118222';
 
 /** Names the app uses for its own concepts. Keep them in step with the app's copy. */
 export const NOUNS = {

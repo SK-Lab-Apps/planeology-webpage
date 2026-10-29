@@ -60,13 +60,15 @@
 @font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/ibm-plex-mono-latin-500-normal.woff2') format('woff2'); }
 @font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/ibm-plex-mono-latin-600-normal.woff2') format('woff2'); }
 
-/* Metric-matched local fallbacks (size-adjust and overrides computed from the font files),
-   so text set in the fallback occupies the same space and the swap causes no layout shift. */
-@font-face { font-family: 'Barlow Condensed Fallback'; src: local('Arial Narrow Bold'), local('ArialNarrow-Bold'); font-weight: 700; size-adjust: 109.16%; ascent-override: 91.61%; descent-override: 18.32%; line-gap-override: 0%; }
-@font-face { font-family: 'Barlow Condensed Fallback'; src: local('Arial Narrow'), local('ArialNarrow'); font-weight: 600; size-adjust: 109.16%; ascent-override: 91.61%; descent-override: 18.32%; line-gap-override: 0%; }
-@font-face { font-family: 'Barlow Condensed Fallback Wide'; src: local('Arial Bold'), local('Arial-BoldMT'), local('Helvetica-Bold'); font-weight: 600 700; size-adjust: 89.44%; ascent-override: 111.80%; descent-override: 22.36%; line-gap-override: 0%; }
-@font-face { font-family: 'Barlow Fallback'; src: local('Arial'), local('ArialMT'), local('Helvetica'); font-weight: 400 700; size-adjust: 116.22%; ascent-override: 86.04%; descent-override: 17.21%; line-gap-override: 0%; }
-@font-face { font-family: 'IBM Plex Mono Fallback'; src: local('Courier New Bold'), local('CourierNewPS-BoldMT'), local('Courier New'); font-weight: 500 600; size-adjust: 99.98%; ascent-override: 102.52%; descent-override: 27.50%; line-gap-override: 0%; }
+/* Metric-matched local fallbacks. size-adjust is fitted to real English text with
+   opentype.js (Barlow vs Arial), so text set in the fallback wraps the same way and
+   the swap to the web font causes no layout shift. */
+@font-face { font-family: 'Barlow Condensed Fallback'; src: local('Arial Narrow Bold'), local('ArialNarrow-Bold'); font-weight: 700; size-adjust: 92.59%; ascent-override: 108%; descent-override: 21.6%; line-gap-override: 0%; }
+@font-face { font-family: 'Barlow Condensed Fallback'; src: local('Arial Narrow'), local('ArialNarrow'); font-weight: 600; size-adjust: 97.21%; ascent-override: 102.87%; descent-override: 20.57%; line-gap-override: 0%; }
+@font-face { font-family: 'Barlow Condensed Fallback Wide'; src: local('Arial Bold'), local('Arial-BoldMT'); font-weight: 600 700; size-adjust: 75.32%; ascent-override: 132.77%; descent-override: 26.55%; line-gap-override: 0%; }
+@font-face { font-family: 'Barlow Fallback'; src: local('Arial'), local('ArialMT'); font-weight: 400 500; size-adjust: 95.92%; ascent-override: 104.25%; descent-override: 20.85%; line-gap-override: 0%; }
+@font-face { font-family: 'Barlow Fallback'; src: local('Arial Bold'), local('Arial-BoldMT'); font-weight: 600 700; size-adjust: 90.9%; ascent-override: 110.02%; descent-override: 22%; line-gap-override: 0%; }
+@font-face { font-family: 'IBM Plex Mono Fallback'; src: local('Courier New Bold'), local('CourierNewPS-BoldMT'), local('Courier New'); font-weight: 500 600; size-adjust: 99.98%; ascent-override: 102.52%; descent-override: 27.5%; line-gap-override: 0%; }
 
 @layer base {
   :root {
@@ -376,7 +378,7 @@
     font-size: 1.125rem;
     line-height: 1.65;
     color: var(--color-ink);
-    max-width: 68ch;
+    max-width: 43rem;
   }
   .article > * + * { margin-top: 1.1em; }
   .article h2 {
@@ -396,6 +398,8 @@
   .article a { color: var(--color-sky); text-decoration: underline; }
   .article a:hover { color: var(--color-ink); }
   .article ul, .article ol { padding-left: 1.4rem; }
+  .article ul { list-style: disc; }
+  .article ol { list-style: decimal; }
   .article li + li { margin-top: 0.4em; }
   .article ul li::marker { color: var(--color-primary); }
   .article ol li::marker { font-family: var(--font-mono); font-weight: 600; color: var(--color-primary); }

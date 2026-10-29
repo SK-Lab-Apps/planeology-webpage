@@ -11,8 +11,14 @@ interface Props {
   width?: number;
 }
 const { src, alt, class: cls = '', priority = false, width = 300 } = Astro.props;
+// Reserve the frame's final size from its own CSS, so the page doesn't shift when the
+// browser paints before the screenshot markup has arrived (progressive rendering).
+const PAD = 8.8; // 0.55rem
+const screenW = width - 2 * PAD;
+const frameH = screenW * (2868 / 1320) + 2 * PAD;
+const ratio = `${width} / ${frameH.toFixed(1)}`;
 ---
-<figure class:list={['phone', cls]} style={`--phone-w:${width}px`}>
+<figure class:list={['phone', cls]} style={`--phone-w:${width}px;--phone-ratio:${ratio}`}>
   <div class="phone-screen">
     <Picture
       src={src}
@@ -33,7 +39,11 @@ const { src, alt, class: cls = '', priority = false, width = 300 } = Astro.props
 <style>
   .phone {
     position: relative;
-    width: min(var(--phone-w), 100%);
+    /* A fixed width capped at the container, not a percentage: inside a shrink-to-fit
+       grid item a percentage resolves to nothing until the screenshot markup arrives. */
+    width: var(--phone-w);
+    max-width: 100%;
+    aspect-ratio: var(--phone-ratio);
     margin: 0;
     padding: 0.55rem;
     border-radius: 2.6rem;

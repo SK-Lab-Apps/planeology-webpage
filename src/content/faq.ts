@@ -3,14 +3,14 @@
  * render them with <Faq> and emit the matching FAQPage JSON-LD. Keep these
  * consistent with the privacy policy and the app's store listing.
  */
-import { CONTACT_EMAIL, APPLE_MANAGE_SUBSCRIPTIONS_URL, APPLE_REFUND_URL, APPLE_RESTORE_PURCHASES_URL, ROUTES } from '@/config';
+import { CONTACT_EMAIL, APPLE_MANAGE_SUBSCRIPTIONS_URL, APPLE_REFUND_URL, ROUTES } from '@/config';
 import counts from '@/data/app/counts.json';
 
 export type FaqItem = { question: string; answer: string };
 
 export const homeFaq: FaqItem[] = [
   {
-    question: 'Is Planeology flight training?',
+    question: 'Does Planeology teach you to fly?',
     answer:
       "No. Planeology is for aviation enthusiasts: people who love planes and want to understand how flight works, the stories behind the aircraft, and what happens at airports. It is not flight training and it does not prepare anyone to operate an aircraft.",
   },
@@ -44,7 +44,7 @@ export const supportFaq: FaqItem[] = [
   {
     question: 'How do I restore my purchases?',
     answer:
-      `Open Planeology on the iPhone signed in to the same Apple Account you bought the Boarding Pass with, go to Profile and tap Restore Purchases. If it does not come back, <a href="${APPLE_RESTORE_PURCHASES_URL}" rel="noopener">Apple's restore guide</a> walks through the account checks, and the support chat in the app can look at it with you.`,
+      `Use an iPhone signed in to the Apple Account you bought the Boarding Pass with. Open the purchase screen, which appears after the opening questions on a new install or from Get Boarding Pass in Profile, and tap Restore Purchases at the bottom. If it does not come back, check in Settings that the iPhone is signed in with the Apple Account you used to buy it, then write to us in the support chat and we will look at it with you.`,
   },
   {
     question: 'How do I cancel my subscription?',

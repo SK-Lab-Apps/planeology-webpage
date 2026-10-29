@@ -42,7 +42,7 @@ export const terms = {
       heading: 'What the app is, and what it is not',
       blocks: [
         { p: `${SITE_NAME} is enthusiast education: short lessons, quizzes, a daily challenge and a collection of aircraft fact cards about how flight works, aviation history, airliners, military aviation and airports. It is made for curious people who enjoy aviation.` },
-        { p: `It is not flight training, ground instruction, exam preparation or professional advice of any kind, and nothing in it is written for operational use. Do not rely on the app to fly, maintain or operate anything, or to make safety, medical or legal decisions.` },
+        { p: `It is not flight training, ground instruction, licence or test preparation, or professional advice of any kind, and nothing in it is written for operational use. Do not rely on the app to fly, maintain or operate anything, or to make safety, medical or legal decisions.` },
         { p: `We check every number, date and record against official sources and list those sources in each lesson, but we cannot guarantee that the content is complete, current or free of error. Aviation changes, sources sometimes disagree, and we fix mistakes when we learn of them.` },
       ],
     },
