@@ -1,0 +1,81 @@
+{
+  "id": "boeing-777",
+  "h1": "Boeing 777: The First Jetliner Designed Entirely on Computer",
+  "description": "The Boeing 777 first flew on June 12, 1994, as the first jetliner designed 100 percent digitally. Specs, the 777X with folding wingtips and sources.",
+  "era": "widebody-era",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Boeing 777 is a long-range widebody airliner with two engines, and the first jetliner designed 100 percent digitally. Boeing's engineers preassembled the whole airplane as a three-dimensional computer model instead of building a costly full-scale mock-up. It first flew on June 12, 1994.",
+    "It was Boeing's first entirely new airplane in more than a decade. United Airlines launched the program with an order in October 1990 and began 777 passenger service in June 1995, on a route between London and Washington, DC. The new jet was bigger than any twinjet or trijet before it, but smaller than the [747](/aircraft/boeing-747).",
+    "The family grew in steps. The larger 777-300 was first delivered to Cathay Pacific in June 1998, and the long-range 777-300ER rolled out on November 14, 2002. The 777-200LR, which Boeing billed as the world's longest-range commercial airplane, and the 777 Freighter completed the lineup. Boeing builds every model at its factory in Everett, Washington."
+  ],
+  "whyItMatters": [
+    "The 777 is a showcase for the turbofan. Airlines could pick engines from three makers: Pratt & Whitney, Rolls-Royce or GE. GE's GE90 was the first airliner engine with composite fan blades. The new 777X uses the GE9X, whose 134-inch fan sends about 10 times as much air around the engine's core as through it. The [jet engines guide](/learn/how-jet-engines-work) explains why fans that big save fuel.",
+    "It also became a fixture of long-haul flying. By December 2025, nearly 100 customers had ordered more than 2,300 777s, and Boeing had delivered more than 1,750. By Boeing's count, the fleet had carried nearly 4 billion passengers and flown 49 billion miles, and it was making nearly 1,800 flights a day.",
+    "Before any passenger boarded, Boeing tested the structure hard. A 1995 static test showed it could bear 150 percent of the highest loads any airplane should meet in service. A fatigue test that ended in 1997 then ran an airframe through 120,000 simulated flight cycles, or three design lifetimes. The [turbulence guide](/learn/is-turbulence-dangerous) explains why such margins matter, and [Boeing vs Airbus](/learn/boeing-vs-airbus) compares the two makers' families."
+  ],
+  "facts": [
+    "The 777 was the first airplane to have a rose named after it: a deep purple-red variety with a citrus-like scent, bred by Western Independent Nurseries of Olympia, Washington.",
+    "The 777-9's wingtips fold. Its span is 235 feet 5 inches (71.8 m) with the tips extended for flight. Folded on the ground, it shrinks to 212 feet 9 inches (64.8 m), about the same as a 777-300ER's span.",
+    "At 251 feet 9 inches (76.7 m) long, the 777-9 seats 375 to 450 passengers in two classes, by Boeing's figures.",
+    "Boeing launched the 777X at the Dubai Airshow in November 2013 with 259 commitments from four customers. As of October 2026, the 777-9 was in flight testing, with first delivery planned for 2027.",
+    "The GE9X holds a world record of 134,300 pounds of thrust, yet it has only 16 composite fan blades, six fewer than the GE90."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "June 12, 1994", "source": 1 },
+    { "label": "Role", "value": "Long-range twinjet, larger than any earlier twinjet or trijet", "source": 1 },
+    { "label": "Engines", "value": "Two turbofans: Pratt & Whitney PW4000, Rolls-Royce Trent 800 or GE90", "source": 2 },
+    { "label": "Range", "value": "Up to 7,500 nmi (777-200ER, 777-300ER); up to 8,500 nmi (777-200LR)", "source": 2 },
+    { "label": "Passengers", "value": "300 to 375 (777-200ER) or 350 to 425 (777-300ER), two-class", "source": 2 },
+    { "label": "Length", "value": "209 ft 1 in (777-200ER) to 242 ft 4 in (777-300ER)", "source": 2 },
+    { "label": "Orders and deliveries", "value": "More than 2,300 ordered and 1,750 delivered, as of December 2025", "source": 3 },
+    { "label": "Status", "value": "In production; 777-9 in flight testing, first delivery planned for 2027 (October 2026)", "source": 5 }
+  ],
+  "relatedGuides": ["how-jet-engines-work", "boeing-vs-airbus", "biggest-planes-in-the-world"],
+  "relatedAircraft": ["boeing-747", "boeing-787-dreamliner", "airbus-a350"],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "777",
+      "url": "https://www.boeing.com/commercial/777"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Video: 20 ways to say 'thank you' for 30 years of 777 flights",
+      "url": "https://www.boeing.com/features/2025/12/20-ways-to-say-thank-you-for-30-years-of-777-flights"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "777X",
+      "url": "https://www.boeing.com/commercial/777x"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Boeing Reports Third Quarter Results",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "777 Quality Information",
+      "url": "https://www.boeing.com/commercial/777/quality-information"
+    },
+    {
+      "publisher": "GE Aerospace",
+      "title": "GE90 Engine",
+      "url": "https://www.geaerospace.com/commercial/aircraft-engines/ge90"
+    },
+    {
+      "publisher": "GE Aerospace",
+      "title": "GE9X Engine",
+      "url": "https://www.geaerospace.com/commercial/aircraft-engines/ge9x"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

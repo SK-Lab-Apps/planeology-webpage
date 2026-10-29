@@ -1,0 +1,109 @@
+{
+  "id": "bell-x-1",
+  "h1": "Bell X-1: The Rocket Plane That Broke the Sound Barrier",
+  "description": "The Bell X-1 became the first airplane to fly faster than sound on October 14, 1947, with Chuck Yeager at Mach 1.06. Rocket engine, specs, where to see it.",
+  "era": "jet-age",
+  "roleGroup": "research",
+  "intro": [
+    "The Bell X-1 was the first airplane to fly faster than the speed of sound. On October 14, 1947, US Air Force Captain Charles \"Chuck\" Yeager took the rocket-powered X-1 #1 to Mach 1.06, about 700 mph, over the Mojave Desert near Muroc Dry Lake, California. He had named it Glamorous Glennis, after his wife.",
+    "It was built for exactly that job. In 1944 the National Advisory Committee for Aeronautics and the Army Air Forces set out to build a piloted research airplane for transonic and supersonic flight, and in March 1945 Bell Aircraft won a contract for three of them. The fuselage copied the shape of a .50-caliber bullet, which was known to be stable at supersonic speeds, and the straight wings were unusually thin for the time.",
+    "Instead of a jet, it had a four-chamber Reaction Motors XLR-11 rocket burning liquid oxygen and a mixture of alcohol and water, with about 6,000 pounds of thrust. A Boeing B-29 carried the X-1 aloft and dropped it, because ground takeoffs under rocket power were judged too hazardous and too costly in performance."
+  ],
+  "whyItMatters": [
+    "Near Mach 1, shock waves form and drag rises sharply, and in the 1940s that led some to believe in a literal sound barrier. The X-1 proved the barrier was only a steep rise in drag. Yeager crept up on it through the autumn of 1947, reaching Mach 0.997 on October 10, and went through four days later. The Air Force stamped the flight Top Secret within two hours and did not confirm it publicly until March 1948.",
+    "The X-1 also invented the research airplane as a category: a machine built only to learn, with no military or commercial job to do. NASA credits it with establishing that idea, which led to the [X-15](/aircraft/north-american-x-15) and every X-plane since. Bell, NACA engineer John Stack and Yeager shared the 1947 Collier Trophy.",
+    "Accounts differ on the details of the famous flight. The B-29 dropped the X-1 at 20,000 feet according to one Smithsonian account and 23,000 feet according to its collection record, and the airplane went supersonic at 42,000 or 43,000 feet. NASA dates the first glide flight to January 19, 1946, at Pinecastle Field, Florida. What nobody disputes is the result: Mach 1 was a number, not a wall."
+  ],
+  "facts": [
+    "The X-1 #1 flew 78 times. Its fastest flight came on March 26, 1948, when Yeager reached Mach 1.45, about 957 mph, and on August 8, 1949, Frank Everest took it to 71,902 feet, its highest flight.",
+    "The first powered flight, in the X-1 #2 on December 9, 1946, reached only Mach 0.79; Bell's contract covered the airplane up to Mach 0.8 and no further.",
+    "Although designed for runway takeoffs, every X-1 was air-launched. Yeager made the one exception on January 5, 1949, taking Glamorous Glennis off from Muroc Dry Lake under its own power.",
+    "The airplane is 30 feet 9 inches long with a 28-foot wingspan, weighs 6,130 pounds as displayed and is painted international orange.",
+    "Rocket airplanes were dangerous on the ground: the third X-1 and the later X-1A and X-1D were all destroyed by propulsion-system explosions, the first of them in 1951 while still attached to its carrier aircraft."
+  ],
+  "whereToSee": {
+    "text": "Glamorous Glennis hangs in the Boeing Milestones of Flight Hall, the central gallery of the Smithsonian's National Air and Space Museum on the National Mall in Washington, DC. The Air Force presented it to the Smithsonian on August 26, 1950.",
+    "source": 3
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "January 19, 1946 (glide); first powered flight December 9, 1946",
+      "source": 2
+    },
+    {
+      "label": "Role",
+      "value": "Supersonic research airplane",
+      "source": 2
+    },
+    {
+      "label": "Engine",
+      "value": "One four-chamber Reaction Motors rocket (XLR-11), about 6,000 lb of thrust",
+      "source": 1
+    },
+    {
+      "label": "First supersonic flight",
+      "value": "October 14, 1947, Mach 1.06 (about 700 mph)",
+      "source": 1
+    },
+    {
+      "label": "Top speed",
+      "value": "Mach 1.45 (about 957 mph), March 26, 1948",
+      "source": 1
+    },
+    {
+      "label": "Highest flight",
+      "value": "71,902 ft, August 8, 1949",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "Three first-generation X-1s, plus the later X-1A, X-1B, X-1D and X-1E",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "Retired in 1950; at the Smithsonian since August 26, 1950",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "what-is-mach-1",
+    "fastest-planes-ever",
+    "why-do-planes-fly-so-high"
+  ],
+  "relatedAircraft": [
+    "north-american-x-15",
+    "lockheed-sr-71-blackbird",
+    "concorde"
+  ],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Bell X-1 Glamorous Glennis",
+      "url": "https://airandspace.si.edu/collection-objects/bell-x-1/nasm_A19510007000"
+    },
+    {
+      "publisher": "NASA",
+      "title": "First Generation X-1",
+      "url": "https://www.nasa.gov/aeronautics/first-generation-x-1/"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Boeing Milestones of Flight Hall",
+      "url": "https://airandspace.si.edu/exhibitions/boeing-milestones-flight-hall"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Chuck Yeager Broke the Sound Barrier in the Bell X-1",
+      "url": "https://airandspace.si.edu/stories/editorial/breaking-sound-barrier"
+    },
+    {
+      "publisher": "NASA Glenn Research Center",
+      "title": "Mach Number",
+      "url": "https://www.grc.nasa.gov/WWW/K-12/airplane/mach.html"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "bleriot-xi",
+  "h1": "Blériot XI: The Little Monoplane That Crossed the Channel",
+  "description": "Blériot flew his Type XI monoplane from Calais to Dover on July 25, 1909, the first airplane crossing of the English Channel. Specs, facts and sources.",
+  "era": "pioneers",
+  "roleGroup": "research",
+  "intro": [
+    "The Blériot XI is a small monoplane of 1909: a wooden frame covered in fabric, with the engine in front pulling it along. The engineer Raymond Saulnier did most of the design work, and Louis Blériot, a French maker of automobile headlamps and accessories, contributed a good deal himself.",
+    "Blériot had been chasing flight since 1901, when he built an ornithopter. Before the Type XI he worked through ten designs, and only one of them managed a flight of more than ten minutes. The Type XI first flew at Issy-les-Moulineaux on January 23, 1909, and by the end of May it had a 25-horsepower, three-cylinder Anzani engine: unrefined, but dependable.",
+    "Early on July 25, 1909, Blériot took off from Les Barraques, near Calais, and landed at Dover 36 minutes and 30 seconds later. It was the first airplane flight across the English Channel and the first successful flight by an airplane over a large body of water. He made it with a badly injured foot from an earlier test flight, and when rain began he feared it would stop the Anzani."
+  ],
+  "whyItMatters": [
+    "It was not the longest flight yet, in time or in distance. What counted was what it stood for: an airplane had crossed the Channel. The Smithsonian ranks it as the most celebrated flight of all until Lindbergh's in the [Spirit of St. Louis](/aircraft/spirit-of-st-louis), 18 years later.",
+    "Orders followed straight away. Blériot's own firm, licensees abroad and amateur builders in Europe and America turned out hundreds of Type XIs, with production running on into the First World War. Many of the best-known aviators of the day flew them.",
+    "One of those monoplanes carried Harriet Quimby, the first American woman to earn a pilot's license, from Dover to Hardelot, France, on April 16, 1912. She became the first woman to fly the Channel solo. Like the [Wright Flyer](/aircraft/wright-flyer-1903), the Type XI rolled by warping its wings, before [ailerons](/learn/what-do-flaps-and-slats-do) took over that job, and the [Wright brothers guide](/learn/wright-brothers-first-flight) follows these early years."
+  ],
+  "facts": [
+    "Two Smithsonian accounts differ. The story of the flight gives 22 miles (36.6 km) and a £1,000 prize from London's Daily Mail; the airplane's catalog entry gives 25 miles (40 km) and $2,500.",
+    "Blériot's rival Hubert Latham had tried six days earlier and come down in the sea, and he was still asleep when Blériot took off. Blériot's own landing at Dover was hard enough to damage the landing gear and propeller.",
+    "The Smithsonian's Blériot XI was built in 1914 at Levallois-Perret and bought new on July 31, 1914, by the Swiss stunt pilot John Domenjoz. Its 50-horsepower Gnome rotary engine has twice the power of the Channel airplane's Anzani.",
+    "Over Buenos Aires in April 1915, Domenjoz looped that airplane 40 times in a row in 28 minutes. Flying like that won him the nickname “upside-down Domenjoz.”"
+  ],
+  "whereToSee": {
+    "text": "The National Air and Space Museum's Blériot XI, built in 1914 and restored in 1979, is in the Early Flight gallery (Gallery 103) in Washington, DC. It shares the room with a Lilienthal glider and the 1909 Wright Military Flyer. Blériot's own Channel airplane belongs to the Conservatoire des Arts et Métiers in Paris.",
+    "source": 4
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "January 23, 1909, Issy-les-Moulineaux", "source": 1 },
+    { "label": "Role", "value": "Early monoplane", "source": 1 },
+    { "label": "Designer", "value": "Raymond Saulnier, with Louis Blériot", "source": 1 },
+    { "label": "Engine (Channel aircraft)", "value": "One 25-hp, three-cylinder Anzani", "source": 1 },
+    { "label": "Engine (NASM's 1914 example)", "value": "One 50-hp Gnome seven-cylinder rotary", "source": 1 },
+    { "label": "Wingspan (1914 example)", "value": "9.88 m (32 ft 5 in)", "source": 1 },
+    { "label": "Channel crossing", "value": "July 25, 1909, in 36 min 30 s", "source": 2 },
+    { "label": "Number built", "value": "Hundreds", "source": 1 }
+  ],
+  "relatedGuides": ["wright-brothers-first-flight",  "what-do-flaps-and-slats-do",  "how-to-learn-about-aviation"],
+  "relatedAircraft": ["wright-flyer-1903",  "spirit-of-st-louis",  "sopwith-camel"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Blériot XI",
+      "url": "https://airandspace.si.edu/collection-objects/bleriot-xi/nasm_A19500095000"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Blériot's Cross-Channel Flight",
+      "url": "https://airandspace.si.edu/stories/editorial/bleriots-cross-channel-flight"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "First American Women in Flight",
+      "url": "https://airandspace.si.edu/stories/editorial/first-american-women-flight"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Early Flight",
+      "url": "https://airandspace.si.edu/exhibitions/early-flight"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

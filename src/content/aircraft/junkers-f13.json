@@ -1,0 +1,113 @@
+{
+  "id": "junkers-f13",
+  "h1": "Junkers F 13: The First All-Metal Airliner",
+  "description": "In June 1919 the Junkers F 13 became the first all-metal passenger airplane, with a cabin for four. Specs from a 1920s NACA report and where to see one.",
+  "era": "golden-age",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Junkers F 13 is the airplane that turned the airliner into a metal machine. In June 1919 it became the first passenger airplane made of metal, an enclosed \"air limousine\" with a cabin for four, at a time when most aircraft were wood-and-fabric biplanes braced with wires. More than 300 were built.",
+    "Hugo Junkers had tried steel first, but steel could not be rolled thin enough and the airplane came out too heavy. The F 13 used duralumin, an aluminum alloy about as strong as steel at a third of the weight. Its skin was corrugated to stiffen it, and the thick wing carried all of its bracing inside, with no struts or wires out in the airflow.",
+    "By the figures in a 1920s NACA report, the landplane version spanned 17.75 meters (58 feet), was 9.6 meters long and flew at about 170 km/h (106 mph) on an engine of roughly 200 horsepower. It came on wheels, skis or floats, and two men could take the wings off in a few minutes for transport."
+  ],
+  "whyItMatters": [
+    "The F 13 is a chapter in the story of the [fuselage](/learn/why-are-airplane-windows-round). Early airplanes were built around a truss, a braced framework covered in fabric. Junkers let the metal skin carry the loads, and his engineers argued that metal gave uniform strength, exact calculation and interchangeable parts, and that neither damp nor termites could touch it. The metal shell-and-skeleton fuselage became the standard for airliners.",
+    "It also made the case for the thick cantilever wing. Thin wings braced with struts and wires paid for them in drag, so Junkers put the bracing inside a deeper airfoil. His team found its aerodynamic qualities very favorable, contrary to the assumptions of the day, and nearly every airliner since has flown on an unbraced wing.",
+    "The F 13 was part of Lufthansa's starting fleet when the airline was founded in 1926, and F 13s flew on skis and floats in some of the remotest parts of the world. Its ideas run through every metal airliner that followed, from the [Douglas DC-3](/aircraft/douglas-dc-3) to the jets, and it was already in daily service when the [Spirit of St. Louis](/aircraft/spirit-of-st-louis) crossed the Atlantic."
+  ],
+  "facts": [
+    "Junkers's first airplane was built entirely of steel; it was too heavy, so the F 13 and its successors used duralumin, an alloy of about 95 percent aluminum with small amounts of copper, manganese and magnesium.",
+    "Instead of an adjustable tailplane, the F 13 trimmed itself with a small fuel tank in the tail: the pilot pumped fuel in or out to balance a nose-heavy or tail-heavy load.",
+    "The cabin held four passengers, with room for a fifth person beside the pilot.",
+    "On September 13, 1919, an F 13 made a record flight to 6,700 meters, according to a witness account quoted by the Deutsches Museum.",
+    "The Deutsches Museum's F 13 was built in 1927 with a Junkers L5 inline engine and sold to the king of Afghanistan; it was found in a Kabul scrapyard in the 1960s, flown home in June 1969 and first shown in Munich in 1984."
+  ],
+  "whereToSee": {
+    "text": "The Deutsches Museum in Munich shows an original F 13 in its Historic Aviation exhibition on the Museumsinsel. The airplane, built in 1927, was displayed from 1984 to 2015, spent the museum's modernization in storage and is back in the reopened galleries.",
+    "source": 1
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "June 1919",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Four-passenger airliner",
+      "source": 1
+    },
+    {
+      "label": "Engine",
+      "value": "One piston engine of about 200 hp (1920s data)",
+      "source": 2
+    },
+    {
+      "label": "Wingspan",
+      "value": "17.75 m (58 ft 3 in)",
+      "source": 2
+    },
+    {
+      "label": "Speed",
+      "value": "About 170 km/h (106 mph)",
+      "source": 2
+    },
+    {
+      "label": "Passengers",
+      "value": "4 in the cabin, plus one beside the pilot",
+      "source": 2
+    },
+    {
+      "label": "Number built",
+      "value": "More than 300",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "Out of production; an original is on display in Munich",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "why-are-airplane-windows-round",
+    "how-do-planes-fly"
+  ],
+  "relatedAircraft": [
+    "douglas-dc-3",
+    "spirit-of-st-louis",
+    "douglas-world-cruiser"
+  ],
+  "sources": [
+    {
+      "publisher": "Deutsches Museum",
+      "title": "Historic Aviation",
+      "url": "https://www.deutsches-museum.de/en/museum-island/exhibitions/historic-aviation"
+    },
+    {
+      "publisher": "NASA Technical Reports Server",
+      "title": "NACA Aircraft Circular No. 6: All-Metal Junkers Airplane, Type F 13",
+      "url": "https://ntrs.nasa.gov/api/citations/19930085313/downloads/19930085313.pdf"
+    },
+    {
+      "publisher": "Deutsches Museum",
+      "title": "Sammlung (collection highlights)",
+      "url": "https://www.deutsches-museum.de/museum/sammlung"
+    },
+    {
+      "publisher": "Deutsches Museum",
+      "title": "Historische Luftfahrt",
+      "url": "https://www.deutsches-museum.de/museumsinsel/ausstellung/historische-luftfahrt"
+    },
+    {
+      "publisher": "Deutsches Museum",
+      "title": "Die Odyssee der F 13",
+      "url": "https://blog.deutsches-museum.de/2019/11/15/die-odyssee-der-f-13"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

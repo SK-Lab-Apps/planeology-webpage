@@ -1,0 +1,109 @@
+{
+  "id": "messerschmitt-me-262",
+  "h1": "Messerschmitt Me 262: The First Jet Fighter in Service",
+  "description": "The Messerschmitt Me 262 was the first operational jet fighter: two Jumo 004 turbojets, swept wings, about 540 mph. Specs, facts and where to see one.",
+  "era": "wwii",
+  "roleGroup": "military",
+  "intro": [
+    "The Messerschmitt Me 262 Schwalbe (Swallow) was the world's first operational jet fighter. Two Junkers Jumo 004 B turbojets slung under swept wings gave it a top speed of about 540 mph (870 km/h), roughly 120 mph faster than a [P-51 Mustang](/aircraft/north-american-p-51-mustang) at the same altitude, and it carried four 30-mm cannons in the nose.",
+    "It took a long time to arrive. Design work began in 1938 under a team led by Waldemar Voigt, but the jet engines were not ready, so the airframe first flew on April 18, 1941, with a piston engine in the nose. The first takeoff under jet power alone came on July 19, 1942, with Fritz Wendel at the controls.",
+    "Germany built 1,443 Me 262s, but the Smithsonian estimates that only about 300 saw combat, in the war's closing year. The RAF Museum notes that late mass production relied in part on slave labor, and that by then fuel shortages had grounded most of the Luftwaffe."
+  ],
+  "whyItMatters": [
+    "The jet engine was invented twice. Frank Whittle in Britain and Hans von Ohain in Germany developed turbojets independently; von Ohain's engine powered the Heinkel He 178 on the world's first jet flight on August 27, 1939, and Britain's Gloster E.28/39 followed on May 15, 1941. The Me 262 turned that laboratory idea into a weapon in squadron service, and Allied pilots found its speed a shock.",
+    "Historians once blamed Hitler's order to build it as a bomber for delaying the fighter. The Smithsonian says that is not so: engine development was the real bottleneck, though the order did divert about 30 percent of production to the Me 262A-2a bomber version. Either way the airplane came too late, and in too small numbers, to change the air war.",
+    "Its influence outlasted it. The Smithsonian lists the swept wing, wing slots, underslung engine nacelles and heavy nose-mounted cannon as features that reappeared on later jets, and the RAF Museum notes that its aerodynamic secrets were eagerly studied after the war. Within five years the [Bell X-1](/aircraft/bell-x-1) had flown faster than sound and the jet age was under way."
+  ],
+  "facts": [
+    "The Me 262 was the only jet fighter to see air-to-air combat in World War II.",
+    "Its wingspan is 12.5 meters (40 ft 11 in), and it weighed 4,419 kg empty and 6,010 kg loaded.",
+    "Early jet engines were fragile: the Smithsonian records that the airplane was delightful to fly as long as the pilot moved the throttles gently, to avoid a compressor stall.",
+    "Only nine Me 262s survive in museums around the world, according to the Smithsonian; its own example served with Jagdgeschwader 7 and took 6,077 hours to restore.",
+    "By the last weeks of the war, with airfields under constant attack, the remaining Me 262 units flew from makeshift strips along the autobahns."
+  ],
+  "whereToSee": {
+    "text": "The RAF Museum Midlands at Cosford displays an Me 262A-2a fighter-bomber, VK893, in its War in the Air hangar. The Smithsonian's National Air and Space Museum holds an Me 262A-1a fighter in its collection.",
+    "source": 2
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "April 18, 1941 (piston engine); July 19, 1942 under jet power",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Jet fighter and fighter-bomber",
+      "source": 2
+    },
+    {
+      "label": "Engines",
+      "value": "Two Junkers Jumo 004 B turbojets",
+      "source": 1
+    },
+    {
+      "label": "Top speed",
+      "value": "About 540 mph (870 km/h)",
+      "source": 1
+    },
+    {
+      "label": "Wingspan",
+      "value": "12.5 m (40 ft 11 in)",
+      "source": 1
+    },
+    {
+      "label": "Armament",
+      "value": "Four 30-mm cannons (A-1a fighter)",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "1,443; about 300 saw combat",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "Retired 1945; nine survive in museums (Smithsonian)",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "how-jet-engines-work",
+    "fastest-planes-ever",
+    "what-is-mach-1"
+  ],
+  "relatedAircraft": [
+    "bell-x-1",
+    "north-american-p-51-mustang",
+    "lockheed-f104-starfighter"
+  ],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Messerschmitt Me 262 A-1a Schwalbe (Swallow)",
+      "url": "https://airandspace.si.edu/collection-objects/messerschmitt-me-262-a-1a-schwalbe-swallow/nasm_A19600328000"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Messerschmitt Me 262A-2a Schwalbe (Swallow)",
+      "url": "https://www.rafmuseum.org.uk/research/collections/messerschmitt-me-262a-2a-schwalbe-swallow/"
+    },
+    {
+      "publisher": "Smithsonian Institution",
+      "title": "Heinkel-von Ohain HeS 3B turbojet engine (reproduction)",
+      "url": "https://si.edu/object/heinkel-von-ohain-hes-3b-turbojet-engine-reproduction%3Anasm_A19810039000"
+    },
+    {
+      "publisher": "Science Museum Group",
+      "title": "Gloster Whittle E28/39 jet aeroplane",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co29600/gloster-whittle-e28-39-jet-aeroplane-built-1941"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Whittle W.1X Engine",
+      "url": "https://airandspace.si.edu/collection-objects/whittle-w1x-turbojet-engine/nasm_A19500082000"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

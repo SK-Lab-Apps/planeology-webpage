@@ -1,0 +1,47 @@
+{
+  "id": "extra-300",
+  "h1": "Extra 300: Built to Fly Upside Down",
+  "description": "The Extra 300 first flew on May 6, 1988, the first two-seat Extra, with a carbon-fiber wing spar. Specs, how many were built, its successors and sources.",
+  "era": "widebody-era",
+  "roleGroup": "light-aircraft",
+  "intro": [
+    "The Extra 300 is a two-seat aerobatic monoplane from Walter Extra's company in Hünxe, Germany. The prototype first flew on May 6, 1988, and it was the first Extra with two seats. Its wing broke new ground for the firm, with a carbon-fiber composite spar and a carbon composite skin.",
+    "Up front sits a 300-horsepower, six-cylinder Lycoming. Behind it is a steel fuselage, a construction Extra still uses on its two-seat 330LX today, because a competition airplane has to shrug off loads that would fold an ordinary light aircraft.",
+    "Only 68 Extra 300s were built, between 1988 and 1998, but the family it started grew large. The single-seat Extra 300S debuted in March 1992 with its wing lowered eight inches and a roll rate of roughly 400 degrees per second, and the two-seat Extra 300L of 1993 ran to 326 examples by 2015."
+  ],
+  "whyItMatters": [
+    "Air show airplanes like the Extra 300 settle an old argument about [how wings make lift](/learn/how-do-planes-fly). If lift came only from the curved shape of a wing, an airplane could not fly upside down. It can, because what matters is the angle at which the wing meets the air. Inverted, the pilot simply holds the wing at an angle that still turns the air downward.",
+    "The same geometry sets the limits. Every wing has a critical angle of attack beyond which the airflow breaks away and lift collapses, and a competition pilot works right up to that edge, upright and inverted alike. Explaining [what a stall is](/learn/what-is-a-stall) is easiest with an airplane that treats both sides of the wing as the top.",
+    "Extra's lineage runs straight through modern competition aerobatics. The company, founded in 1980, had produced more than 850 aircraft by 2026, and its current two-seat 330LX carries a 315-horsepower Lycoming and is built to a load limit of plus or minus 10 g. The older [Pitts Special](/aircraft/pitts-special) biplane shows where the sport came from; the Extra shows where it went."
+  ],
+  "facts": [
+    "The Extra 300 prototype first flew on May 6, 1988; Germany's aviation authority, the LBA, approved the type on May 16, 1990, and the FAA followed on February 26, 1993.",
+    "A total of 68 Extra 300s were built between 1988 and 1998.",
+    "The single-seat Extra 300S of 1992 lowered the wing eight inches for a better view of the ground and rolled at about 400 degrees per second; 34 were built through 2006.",
+    "The two-seat Extra 300L, introduced in 1993, combined the 300 and the 300S and became the company's long-running competition and training mount: 326 were built between 1993 and 2015.",
+    "At the 1988 world championship, Eric Müller flew an Extra 300 to sixth place in the Final Freestyle, the type's debut at world level."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "May 6, 1988", "source": 1 },
+    { "label": "Role", "value": "Two-seat aerobatic airplane", "source": 1 },
+    { "label": "Engine", "value": "One 300-hp six-cylinder Lycoming", "source": 1 },
+    { "label": "Wing", "value": "Carbon-fiber composite spar and carbon composite skin", "source": 1 },
+    { "label": "Number built", "value": "68 (1988–1998)", "source": 1 },
+    { "label": "Extra 300L built", "value": "326 (1993–2015)", "source": 5 },
+    { "label": "Status", "value": "Out of production; Extra builds the 330 series and the NG (as of October 2026)", "source": 6 }
+  ],
+  "relatedGuides": ["how-do-planes-fly", "what-is-a-stall"],
+  "relatedAircraft": ["pitts-special", "piper-j3-cub", "beechcraft-bonanza"],
+  "sources": [
+    { "publisher": "Extra Aircraft", "title": "Milestones: 1988", "url": "https://extraaircraft.com/milestones/1988/" },
+    { "publisher": "NASA Glenn Research Center", "title": "Effects of Inclination on Lift", "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/incline/" },
+    { "publisher": "NASA Glenn Research Center", "title": "Equal Transit Theory", "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/foilw1/" },
+    { "publisher": "Extra Aircraft", "title": "Milestones: 1992", "url": "https://extraaircraft.com/milestones/1992/" },
+    { "publisher": "Extra Aircraft", "title": "Milestones: 1993", "url": "https://extraaircraft.com/milestones/1993/" },
+    { "publisher": "Extra Aircraft", "title": "Extra Aircraft", "url": "https://extraaircraft.com/" },
+    { "publisher": "Extra Aircraft", "title": "330LX", "url": "https://extraaircraft.com/330lx/" }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

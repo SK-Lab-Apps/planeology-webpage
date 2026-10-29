@@ -1,0 +1,76 @@
+{
+  "id": "bae-146",
+  "h1": "BAe 146: Four Engines, Steep Approaches and a Royal Posting",
+  "description": "The BAe 146 is a four-engine jet known for steep approaches: in 1988 one became the first jet to land at London City Airport. Facts, specs and sources.",
+  "era": "widebody-era",
+  "roleGroup": "airliner",
+  "intro": [
+    "The BAe 146 is a short-haul jet with an unusual layout: a high wing, a T-tail and four small turbofans where most airliners of its size have two. British Aerospace completed the first of three development aircraft on May 20, 1981, and the type won US approval from the FAA on February 17, 1983.",
+    "Its maker highlights exceptional slow-speed handling, hot-and-high performance and steep approach capability. Those qualities made it the right airplane for airports other jets could not use: on July 24, 1988, a Loganair 146-200 became the first jet to land at London City Airport, which until then had handled only propeller-driven short-takeoff aircraft.",
+    "The 146-200 carries up to 96 passengers in airline service or, in its quick-change freighter form, up to 23,500 lb (10.6 tonnes) of cargo through a rear door 131 by 76 inches, and it can operate from unpaved runways. BAE Systems quotes a cruise of up to Mach 0.72 at 31,000 feet for the 146 and 35,000 feet for the later Avro RJ versions."
+  ],
+  "whyItMatters": [
+    "Steep approaches are the 146's signature, and they are worth understanding. London City had only ever handled propeller-driven short-takeoff aircraft until the 146 showed that a jet could come down its steep approach and stop in the space available. On a runway like that, the threshold stripes and aiming-point bars explained in [what runway numbers mean](/learn/what-do-runway-numbers-mean) matter more than usual.",
+    "The same manners won it a royal posting. In 1986 two BAe 146s joined The Queen's Flight to carry Britain's royal family, and the type stayed with the RAF for decades: in 2012 the Ministry of Defence paid £15.5 million to convert two more 146-200QCs into transports for Afghanistan, fitted with defensive systems, to supplement the [C-130 Hercules](/aircraft/lockheed-c130-hercules) force.",
+    "Its second career is firefighting. BAE Systems reported in 2013 that four North American companies had chosen the 146 and the Avro RJ85 for conversion into 3,000-gallon airtankers, with ten aircraft being converted at the time, because slow-speed handling, hot-and-high performance and a steep approach are exactly what dropping retardant on a mountainside demands. Each wildfire drop, BAE estimates, costs the airframe between four and seven ordinary flight cycles of wear."
+  ],
+  "facts": [
+    "The 146 has four turbofans, a high wing and a T-tail; BAE Systems calls it simply a quad jet.",
+    "On July 24, 1988, a Loganair BAe 146-200 became the first jet aircraft to land at London City Airport.",
+    "In 1986 two BAe 146s joined The Queen's Flight to carry Britain's royal family.",
+    "A 146-200QC can carry up to 96 passengers or 23,500 lb (10.6 tonnes) of freight, and can operate from unpaved runways.",
+    "The RAF's two converted 146 C Mk 3 transports were ordered in June 2012 under a £15.5 million contract, for delivery by March 2013."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First development aircraft completed", "value": "May 20, 1981", "source": 5 },
+    { "label": "Role", "value": "Regional jet", "source": 1 },
+    { "label": "Engines", "value": "Four turbofans", "source": 1 },
+    { "label": "Passengers", "value": "Up to 96 (146-200)", "source": 3 },
+    { "label": "Payload", "value": "Up to 23,500 lb (10.6 t) of freight (146-200QC)", "source": 3 },
+    { "label": "Cruise", "value": "Up to Mach 0.72 at 31,000 ft (146) or 35,000 ft (Avro RJ)", "source": 4 },
+    { "label": "US approval", "value": "FAA, February 17, 1983", "source": 6 },
+    { "label": "Royal service", "value": "Two joined The Queen's Flight in 1986", "source": 2 }
+  ],
+  "relatedGuides": ["what-do-runway-numbers-mean", "how-jet-engines-work", "what-do-flaps-and-slats-do"],
+  "relatedAircraft": ["lockheed-c130-hercules", "dhc-6-twin-otter", "boeing-737"],
+  "sources": [
+    {
+      "publisher": "BAE Systems",
+      "title": "BAe146/Avro RJ airtanker conversion programmes",
+      "url": "https://www.baesystems.com/en/article/bae-systems-provides-design-engineering-expertise-to-bae146avro-rj-airtanker-aerial-firefighter-conversion-programmes-in-north-america"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Kings, Queens & Flying Machines: BAe146s",
+      "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/kings-queens-flying-machines/bae146s/"
+    },
+    {
+      "publisher": "BAE Systems",
+      "title": "BAE Systems wins £15.5 Million MoD Contract for BAE 146 conversions for The Royal Air Force",
+      "url": "https://www.baesystems.com/en/article/bae-systems-wins-pound155-million-mod-contract-for-bae-146-conversions-for-the-royal-air-force"
+    },
+    {
+      "publisher": "BAE Systems",
+      "title": "BAE Systems proposes air-to-air refuelling variant of BAe 146/Avro RJ",
+      "url": "https://www.baesystems.com/en/article/bae-systems-proposes-airto-air-refuelling-variant-of-bae146avro-rj"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "History of Aviation Timeline: British Civil Aviation, 1981",
+      "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-civil-aviation/1981-2/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "History of Aviation Timeline: British Civil Aviation, 1983",
+      "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-civil-aviation/1983-2/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "History of Aviation Timeline: British Civil Aviation, 1988",
+      "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-civil-aviation/1988-2"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

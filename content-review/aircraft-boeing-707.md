@@ -1,0 +1,10 @@
+## /aircraft/boeing-707
+
+| Claim | Source | Status |
+|---|---|---|
+| 707-120 specs: span 130 ft 10 in, length 144 ft 6 in, gross weight 248,000 lb, cruising speed 600 mph, range 3,000 miles, ceiling 41,000 ft, four 13,500-lb-thrust P&W JT3C-6 turbojets, up to 181 passengers | Boeing, Select Products in Boeing History (707/720 technical specifications), https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf | ✅ |
+| 725 commercial 707s delivered 1957–1978; 154 720s built 1959–1967; the Operation Guillotine film (two blades vs five blades, wisps of air, no failure); fuselage 4 in wider than the tanker's; more than 100 windows; long-range models for Qantas and bigger engines for Braniff; 707 outsold the DC-8; 707s intended as medium-range | Boeing PDF, 707/720 entry | ✅ |
+| Dash 80 rollout May 14, 1954; first flight July 15, 1954; Air Force ordered 29 KC-135s a week later; Pan Am ordered 20 707s and 25 DC-8s; Dash 80 to the Smithsonian in 1972 and flown to permanent display at the Udvar-Hazy Center in August 2003 | Boeing PDF, Model 367-80 entry | ✅ |
+| 707-320 Intercontinental the most-ordered version, 8 ft longer and 12 ft more span; 707-320B became VC-137C in 1962; 707s served as presidential aircraft until replaced by VC-25A 747s in 1990 | Boeing PDF, VC-137C / Air Force One entry | ✅ |
+| Tex Johnston barrel roll, August 1955, Gold Cup, Lake Washington; the 707 cross-section became standard for Boeing's later narrowbodies; 855 707s built (725 for airlines) | NASM, Boeing 367-80 Jet Transport, https://airandspace.si.edu/collection-objects/boeing-367-80-jet-transport/nasm_A19730272000 | ✅ Boeing (856) and NASM (855) differ by one; both given |
+| Everything else ($16 million in 1952, two-thirds / nearly all profits, Dash 80 disguise, first flight December 20, 1957, four turbojets, 181 seats, air overtook rail and sea, 707 in product names and the 1957 swimwear collection, 856 delivered by 1994, 100-foot cabin, 20 mph faster than the DC-8, left-side doors) | App lesson `the-707-jet-set` and its aircraft card | ✅ In the app |

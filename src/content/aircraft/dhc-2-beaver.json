@@ -1,0 +1,44 @@
+{
+  "id": "dhc-2-beaver",
+  "h1": "de Havilland Canada DHC-2 Beaver: Built to a Bush Pilot's Wish List",
+  "description": "The DHC-2 Beaver first flew on August 16, 1947, after de Havilland Canada asked bush pilots what they needed. Specs, numbers built and sources.",
+  "era": "jet-age",
+  "roleGroup": "light-aircraft",
+  "intro": [
+    "The de Havilland Canada DHC-2 Beaver is an all-metal bush plane that can leave the ground on wheels, floats or skis. Before designing it in 1946, the company surveyed bush pilots in remote northern communities and in several other countries about what they needed most. The answers were rugged, reliable and all-metal, able to carry half a tonne, with short takeoffs and landings, in anything from blazing sun to ice and snow.",
+    "The first Beaver flew from Downsview Airport in Toronto on August 16, 1947. Production ran about 20 years, and the maker's own pages differ on the total: one says approximately 1,600 before production ended in 1967, another says 1,692. A turboprop version, the DHC-2T Turbo Beaver, first flew on December 30, 1963, and about 60 were built.",
+    "It is a big, square-shouldered single: a high wing braced by one strut on each side, a round radial-engine cowling up front, and a tailwheel, floats or skis behind. De Havilland Canada said in 2022 that more than 750 were still at work around the world."
+  ],
+  "whyItMatters": [
+    "The Beaver is a lesson in [how wings make lift](/learn/how-do-planes-fly) at low speed. A wing's lift grows with the square of its speed, so an airplane that must climb out of a short lake or a gravel bar needs a big wing meeting the air at a high angle, not a fast one. The Beaver's long wing lets it lift a heavy load off the water at low speed.",
+    "It also shows why air density matters. Hot days and high lakes thin the air, so the same wing needs more speed and a longer run to take off, and that is exactly the margin a pilot in the mountains is short of. A design that already lifts well when slow has the most to spare.",
+    "Its legacy runs in two directions. Its twin-engine descendant, the [DHC-6 Twin Otter](/aircraft/dhc-6-twin-otter), is still in production, and Canada Post put the Beaver on a stamp in October 2022 as one of five achievements in its Canadians in Flight series. Set it next to a [Piper J-3 Cub](/aircraft/piper-j3-cub) from a decade earlier and you can see how fast the working light airplane grew up."
+  ],
+  "facts": [
+    "De Havilland Canada says more than 750 Beavers were still flying worldwide in 2022, 75 years after the first flight.",
+    "The design brief came from the pilots themselves: a half-tonne payload, all-metal construction and year-round operation on wheels, floats or skis.",
+    "The Turbo Beaver was the first single-engine utility aircraft with a turbine engine; it first flew on December 30, 1963, and about 60 were built between 1963 and 1968.",
+    "In 1987 the Canadian Engineering Centennial Board named the Beaver one of the top ten Canadian engineering achievements of the 20th century.",
+    "Viking Air of Sidney, British Columbia, took over Beaver spare parts in 1983 and the rights to the design in 2006, and Canada Post unveiled its Beaver stamp there on October 13, 2022."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "August 16, 1947, at Downsview, Toronto", "source": 1 },
+    { "label": "Role", "value": "Bush plane on wheels, floats or skis", "source": 1 },
+    { "label": "Payload", "value": "Designed to carry half a tonne", "source": 1 },
+    { "label": "Number built", "value": "1,692; another De Havilland Canada page says about 1,600", "source": 1 },
+    { "label": "Turbo Beaver", "value": "First flew December 30, 1963; about 60 built", "source": 1 },
+    { "label": "Status", "value": "Production ended 1967", "source": 2 },
+    { "label": "Still flying", "value": "More than 750 (as of 2022)", "source": 1 }
+  ],
+  "relatedGuides": ["how-do-planes-fly", "what-do-flaps-and-slats-do"],
+  "relatedAircraft": ["dhc-6-twin-otter", "piper-j3-cub", "cessna-172-skyhawk"],
+  "sources": [
+    { "publisher": "De Havilland Canada", "title": "DHC-2 Beaver in Canada Post's Canadians in Flight series", "url": "https://dehavilland.com/corporate-initiatives/dhc-2-beaver-featured-in-canada-posts-canadians-in-flight-series/" },
+    { "publisher": "De Havilland Canada", "title": "Legacy Aircraft", "url": "https://dehavilland.com/legacy-aircraft/" },
+    { "publisher": "NASA Glenn Research Center", "title": "Lift Equation", "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/" },
+    { "publisher": "Federal Aviation Administration", "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

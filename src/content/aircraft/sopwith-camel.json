@@ -1,0 +1,98 @@
+{
+  "id": "sopwith-camel",
+  "h1": "Sopwith F.1 Camel: The Hump-Backed Fighter of 1917",
+  "description": "The Sopwith F.1 Camel entered service in July 1917 and was credited with 1,294 enemy aircraft, more than any other Allied fighter. Specs and facts.",
+  "era": "pioneers",
+  "roleGroup": "military",
+  "intro": [
+    "The Sopwith F.1 Camel is the most famous British fighter of World War I: a single-seat biplane with a rotary engine and two Vickers machine guns under a humped cowling, which gave it its name. It entered front-line service in July 1917 and stayed there until the war ended.",
+    "It was not an easy airplane. The Smithsonian describes it as unstable, needing constant attention from the pilot, and the gyroscopic pull of its spinning rotary engine made it dangerous for beginners; it cost almost as many pilots in accidents as in combat. The same quirks made it agile once mastered, and Camels were credited with 1,294 enemy aircraft, more than any other Allied fighter of the war.",
+    "About 5,500 were built by Sopwith and a string of contractors, as the land-based F.1 and the 2F.1 shipboard version, with six different rotary engines fitted over the production run. The RAF Museum notes that the final total is blurred by cancellations after the Armistice."
+  ],
+  "whyItMatters": [
+    "When the war began in 1914, airplanes were a new technology used mostly to watch the enemy from above. Within a year both sides were arming them, and the gun synchronizer of 1915, which timed each shot to pass between the propeller blades, turned the airplane into a fighter. The Camel, with two synchronized guns ahead of the cockpit, is that idea in its mature form.",
+    "The war also sped design up enormously. Four years took aircraft higher, faster and farther, with stronger engines, and production reached industrial scale: SPAD built more than 8,000 of its SPAD XIII alone. The single-seat fighter with forward-firing guns became the pattern that the [Spitfire](/aircraft/supermarine-spitfire) and the [P-51 Mustang](/aircraft/north-american-p-51-mustang) would follow a generation later.",
+    "The word ace dates from the same war. French newspapers used it for an aviator with five or more victories; Germany's Manfred von Richthofen was credited with 80, the most of any World War I pilot, and American Eddie Rickenbacker with 26. The Camel's record, though, belongs to the type rather than to any one pilot."
+  ],
+  "facts": [
+    "Camel was a nickname before it was a name. One squadron used it for the hump over the gun breeches, it spread, and the Smithsonian notes it was never an official military designation.",
+    "The first prototype flew in December 1916, only seven months before the type reached the front in July 1917.",
+    "The Smithsonian's Camel, B6291, is a wood-and-fabric airframe with a 130-horsepower Clerget 9B rotary engine, a 28-foot (8.5 m) wingspan and an empty weight of 930 pounds.",
+    "Camels kept flying long after the Armistice: on training and test work in Britain until 1923, and with other countries until 1928, a long life for an airplane of its day.",
+    "Its predecessors, the Sopwith Pup and Triplane, were docile and well liked. The Camel traded that gentleness for maneuverability, which is why pilots who mastered it rated it so highly."
+  ],
+  "whereToSee": {
+    "text": "The RAF Museum London displays Camel F6314 in Hangar 2 at Hendon. The Smithsonian's National Air and Space Museum holds B6291, which served with No. 10 Squadron of the Royal Naval Air Service.",
+    "source": 2
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "December 1916 (prototype)",
+      "source": 2
+    },
+    {
+      "label": "Role",
+      "value": "Single-seat fighter biplane",
+      "source": 1
+    },
+    {
+      "label": "Engine",
+      "value": "One 130 hp Clerget 9B rotary on the Smithsonian's example; six rotary types were fitted",
+      "source": 1
+    },
+    {
+      "label": "Wingspan",
+      "value": "28 ft (8.5 m)",
+      "source": 1
+    },
+    {
+      "label": "Entered service",
+      "value": "July 1917",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "About 5,500 (the Smithsonian says approximately 5,490)",
+      "source": 2
+    },
+    {
+      "label": "Status",
+      "value": "Retired; last military use abroad ended in 1928",
+      "source": 2
+    }
+  ],
+  "relatedGuides": [
+    "wright-brothers-first-flight",
+    "how-do-planes-fly"
+  ],
+  "relatedAircraft": [
+    "bleriot-xi",
+    "wright-flyer-1903",
+    "supermarine-spitfire"
+  ],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Sopwith F.1 Camel",
+      "url": "https://airandspace.si.edu/collection-objects/sopwith-f1-camel/nasm_A20170105000"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Sopwith F1 Camel",
+      "url": "https://www.rafmuseum.org.uk/research/collections/sopwith-f1-camel/"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "The Evolution of World War I Aircraft",
+      "url": "https://airandspace.si.edu/explore/stories/world-war-i-laboratory-air"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "What Did It Mean to Be a Flying Ace?",
+      "url": "https://airandspace.si.edu/stories/editorial/what-did-it-mean-be-flying-ace"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

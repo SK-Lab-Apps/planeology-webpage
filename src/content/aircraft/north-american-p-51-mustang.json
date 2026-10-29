@@ -1,0 +1,101 @@
+{
+  "id": "north-american-p-51-mustang",
+  "h1": "North American P-51 Mustang: Designed in 117 Days, Transformed by a Merlin",
+  "description": "The P-51 Mustang went from a British order to a finished airframe in 117 days, and more than 14,000 were built. Its Merlin engine, specs and sources.",
+  "era": "wwii",
+  "roleGroup": "military",
+  "intro": [
+    "The North American P-51 Mustang was the long-range escort fighter of the Second World War's final two years, and it started as a rush job for someone else. In 1940, British purchasing agents asked North American Aviation to build Curtiss P-40s under license. The company offered an original design instead and promised it in under three months.",
+    "The first airframe, the NA-73, was finished 117 days later. Its first flight came in October 1940: Boeing's history, which now holds North American's records, gives October 26, while the Smithsonian gives October 25. The Royal Air Force ordered 150 and named it Mustang.",
+    "More than 14,000 were built. The definitive P-51D, with a cut-down rear fuselage, a bubble canopy and six .50-caliber machine guns, accounted for 8,302 of them, more than all other versions combined."
+  ],
+  "whyItMatters": [
+    "Bombers flying deep into Europe needed fighters to protect them, and early escorts could not go the whole way. The Mustang's first engine, an Allison, lost power at altitude. Rolls-Royce and fighter pilots who had flown the airplane urged a switch to the Merlin, whose supercharger held sea-level power up to about 30,000 feet, and the Merlin-powered XP-51B was about 50 mph faster. Once P-51s could stay with the bombers for the entire mission, bomber losses dropped sharply.",
+    "The Mustang was the first single-engine fighter based in Britain to reach Berlin, and it escorted B-29s across the Pacific too. The Tuskegee Airmen, the first Black aviators allowed to fly for the US military, flew mostly P-51s with red-painted tails in the 332nd Fighter Group.",
+    "It also marks a handover. The Merlin came from the [Spitfire](/aircraft/supermarine-spitfire); the Mustang's successor as the fastest thing in the sky was the jet-powered [Me 262](/aircraft/messerschmitt-me-262), about 120 mph faster at the same altitude. The US Air Force did not retire its last P-51s until 1957."
+  ],
+  "facts": [
+    "The P-51D's Packard-built Merlin V-1650 produced 1,695 horsepower and gave a top speed of 425 mph; the late-war P-51H reached 490 mph.",
+    "The wing spans 37 feet and the airplane is about 32 feet long; the Smithsonian's example weighs 7,635 pounds.",
+    "One weak point was the cooling system: the Smithsonian notes that a single bullet through a radiator or coolant pipe was usually enough to bring a Mustang down.",
+    "The Smithsonian's P-51D-30-NA, serial 44-74939, was delivered in July 1945, never saw combat and flew 211 hours before being set aside as a museum specimen.",
+    "In 1941 Charles \"Chief\" Anderson, who trained Black pilots at the Tuskegee Institute, took First Lady Eleanor Roosevelt flying when she visited."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "October 26, 1940 (Boeing) or October 25, 1940 (Smithsonian), NA-73X prototype",
+      "source": 2
+    },
+    {
+      "label": "Role",
+      "value": "Long-range escort fighter",
+      "source": 1
+    },
+    {
+      "label": "Engine",
+      "value": "One Packard-built Rolls-Royce Merlin V-1650, 1,695 hp (P-51D)",
+      "source": 2
+    },
+    {
+      "label": "Top speed",
+      "value": "425 mph (P-51D); 490 mph (P-51H)",
+      "source": 2
+    },
+    {
+      "label": "Wingspan",
+      "value": "37 ft",
+      "source": 2
+    },
+    {
+      "label": "Armament",
+      "value": "Six .50-caliber machine guns (P-51D)",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "More than 14,000, including 8,302 P-51Ds",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "Retired; the last US Air Force P-51s were withdrawn in 1957",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "why-do-planes-fly-so-high",
+    "how-do-planes-fly",
+    "fastest-planes-ever"
+  ],
+  "relatedAircraft": [
+    "supermarine-spitfire",
+    "boeing-b-17-flying-fortress",
+    "messerschmitt-me-262"
+  ],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "North American P-51D Mustang",
+      "url": "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Tuskegee Airmen",
+      "url": "https://airandspace.si.edu/explore/stories/tuskegee-airmen"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Messerschmitt Me 262 A-1a Schwalbe (Swallow)",
+      "url": "https://airandspace.si.edu/collection-objects/messerschmitt-me-262-a-1a-schwalbe-swallow/nasm_A19600328000"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

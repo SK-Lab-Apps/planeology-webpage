@@ -1,0 +1,64 @@
+{
+  "id": "north-american-x-15",
+  "h1": "North American X-15: Facts, Specs and the Mach 6.7 Record",
+  "description": "The rocket-powered X-15 flew 199 times from 1959 to 1968 and still holds the winged-aircraft speed record, Mach 6.7. Specs, facts, museum and sources.",
+  "era": "jet-age",
+  "roleGroup": "research",
+  "intro": [
+    "The North American X-15 was a rocket-powered research airplane that flew to the edge of space and back 199 times between 1959 and 1968. It still holds the world speed record for a winged, powered aircraft: 4,520 mph, Mach 6.7, set by Pete Knight on October 3, 1967. Three were built, for a joint program of NASA, the US Air Force, the Navy and North American Aviation.",
+    "Each flight began under the wing of a B-52. Dropped at about 45,000 feet, the pilot lit the XLR-99 rocket engine, which produced up to 57,000 pounds of thrust for 80 to 120 seconds, then glided back to land at about 200 mph on skids on a dry lakebed. The airplane was roughly 50 feet long with a 22-foot wingspan, and it weighed 31,275 pounds at launch but only 12,295 pounds once its propellant was gone.",
+    "Its skin was Inconel X, a nickel-chrome alloy chosen to survive temperatures on the order of 1,200°F, and its blunt nose and thick wing leading edges were shaped to reduce heating rather than drag, the opposite of a supersonic fighter. Above the atmosphere, where rudders and tail surfaces have nothing to push against, small hydrogen peroxide thrusters in the nose and wings took over."
+  ],
+  "whyItMatters": [
+    "The X-15 was the bridge between airplanes and spacecraft. On August 22, 1963, Joe Walker flew one to 354,200 feet, more than 67 miles up, and eight of its 12 pilots flew above 50 miles and were recognized as astronauts, three of them only in 2013, when NASA finally awarded civilian astronaut wings. Among the twelve was Neil Armstrong, later the commander of Apollo 11.",
+    "It was the first winged aircraft to reach Mach 4, 5 and 6 and to fly above 100,000 feet, and the data from its flights filled more than 765 research reports. Its pilots were the first to steer a vehicle out of the atmosphere with reaction controls, and its instruments showed that hypersonic skin friction and heating were lower than theory had predicted. NASA credits the program with shaping Mercury, Gemini, Apollo and the Space Shuttle.",
+    "The program had its costs. On November 15, 1967, Air Force Major Michael Adams was killed when the third X-15 entered a spin during reentry after a flight-control system failure and crashed. The last flight came on October 24, 1968, when Bill Dana reached Mach 5.38 and 255,000 feet in a flight of 11 minutes and 28 seconds. No airplane has flown faster since, as [the fastest planes ever flown](/learn/fastest-planes-ever) shows: the [SR-71](/aircraft/lockheed-sr-71-blackbird) remains the fastest with jet engines, and the [Bell X-1](/aircraft/bell-x-1) is where the X-plane series began."
+  ],
+  "facts": [
+    "The first X-15 flight, on June 8, 1959, was an unpowered glide: Scott Crossfield was released from the B-52 at 37,550 feet and reached Mach 0.79 on the way down.",
+    "The rocket burned for only 80 to 120 seconds per flight, yet the fastest flight reached 4,520 mph and the highest reached 354,200 feet.",
+    "The lower half of the tail fin was jettisoned before every landing so the skids could touch down, and it came back to Earth by parachute.",
+    "Pilots' heart rates ran 145 to 185 beats per minute during X-15 flights, which NASA put down to the strain of the minutes before launch; the same pattern later appeared in astronauts.",
+    "The record-setting X-15A-2 flew its Mach 6.7 flight coated in a white ablative heat shield and carrying external propellant tanks that added 60 seconds of engine burn."
+  ],
+  "whereToSee": {
+    "text": "X-15 number one, Air Force serial 56-6670, is displayed in the Boeing Milestones of Flight Hall at the Smithsonian's National Air and Space Museum in Washington, DC. The X-15A-2, the fastest of the three, is at the National Museum of the US Air Force in Dayton, Ohio.",
+    "source": 1
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "June 8, 1959 (unpowered glide)", "source": 1 },
+    { "label": "Role", "value": "Hypersonic rocket research aircraft", "source": 2 },
+    { "label": "Engine", "value": "One XLR-99 throttleable rocket engine, 57,000 lb thrust", "source": 2 },
+    { "label": "Top speed", "value": "4,520 mph (Mach 6.7), October 3, 1967", "source": 2 },
+    { "label": "Peak altitude", "value": "354,200 ft (about 67 miles), August 22, 1963", "source": 2 },
+    { "label": "Crew", "value": "One pilot", "source": 2 },
+    { "label": "Number built", "value": "Three", "source": 2 },
+    { "label": "Status", "value": "Retired; last flight October 24, 1968", "source": 2 }
+  ],
+  "relatedGuides": ["fastest-planes-ever", "what-is-mach-1", "why-do-planes-fly-so-high"],
+  "relatedAircraft": ["bell-x-1", "lockheed-sr-71-blackbird", "nasa-boeing-720-cid"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "The X-15 Still Holds The World Speed Record 50+ Years Later",
+      "url": "https://airandspace.si.edu/stories/editorial/x-15-still-holds-world-speed-record-50-years-later"
+    },
+    {
+      "publisher": "NASA",
+      "title": "X-15 Hypersonic Research Program",
+      "url": "https://www.nasa.gov/reference/x-15/"
+    },
+    {
+      "publisher": "NASA",
+      "title": "X-15 Space Pioneers Now Honored as Astronauts",
+      "url": "https://www.nasa.gov/news-release/x-15-space-pioneers-now-honored-as-astronauts/"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "North American X-15",
+      "url": "https://airandspace.si.edu/collection-objects/north-american-x-15/nasm_A19690360000"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "cessna-172-skyhawk",
+  "h1": "Cessna 172 Skyhawk: The Airplane Built More Than Any Other",
+  "description": "The Cessna 172 Skyhawk first flew in 1955, and more than 45,000 have been sold, more than any other airplane. Specs, history, where to see one and sources.",
+  "era": "jet-age",
+  "roleGroup": "light-aircraft",
+  "intro": [
+    "The Cessna 172 Skyhawk is a four-seat, high-wing light airplane with one piston engine, and there are more of them than of any other aircraft ever produced. Cessna flew the first one in 1955 and put the 172 on sale a year later, selling more than 1,400 in that first year at $9,000 to $12,000 apiece. By 2026 the total had passed 45,000.",
+    "It is easy to recognize. The wing sits on top of the cabin, held by a single strut on each side, so the view downward from the seats is wide open. A nose wheel sits under the engine, and the whole airplane cruises at up to 124 knots (230 km/h), with a range of about 640 nautical miles (1,185 km).",
+    "Textron Aviation, Cessna's parent company, still builds the Skyhawk in 2026. In June 2025 the company marked 70 years of the type, and it calls the 172 the most popular aircraft in aviation history."
+  ],
+  "whyItMatters": [
+    "A Skyhawk is the plainest possible demonstration of the [four forces of flight](/learn/how-do-planes-fly). One engine supplies the thrust, one braced wing supplies the lift, and nothing about it is exotic. Its 180-horsepower Lycoming is a horizontally opposed, air-cooled, four-cylinder engine, the layout found on most small airplanes.",
+    "That ordinariness is the point. Its maker calls it the world's most popular trainer, so the pilots on your next airline flight may well have started in one. If you have ever been offered a sightseeing flight at a small airfield, there is a fair chance it was in a 172.",
+    "It also marks a changing of the guard. The [Piper J-3 Cub](/aircraft/piper-j3-cub) of 1937 was fabric-covered and sat on a tailwheel. The all-metal Skyhawk of the 1950s put a nose wheel under the engine, and that tricycle layout, with its clear view ahead on the ground, became the norm for light airplanes. Faster, retractable-gear designs such as the [Beechcraft Bonanza](/aircraft/beechcraft-bonanza) sit a rung above it."
+  ],
+  "facts": [
+    "The Smithsonian puts Skyhawk sales at more than 45,000, more than any other aircraft ever produced; more than 1,400 were sold in the first year alone, at $9,000 to $12,000 each.",
+    "Today's Skyhawk has a 180-horsepower fuel-injected Lycoming IO-360 engine, a top cruise speed of 124 knots, a range of up to 640 nautical miles and a 14,000-foot service ceiling.",
+    "Its wingspan is 36 feet 1 inch (11 meters) and it is 27 feet 2 inches long, with a useful load of 878 pounds for people, bags and fuel.",
+    "The National Air and Space Museum's Skyhawk, N172SH, was built by Textron Aviation purely as an exhibit; the S and H in its registration stand for Smithsonian and How Things Fly.",
+    "Textron Aviation marked the Skyhawk's 70th anniversary on June 24, 2025, calling it the most popular aircraft in aviation history."
+  ],
+  "whereToSee": {
+    "text": "A Skyhawk sits just inside the west entrance of the Textron How Things Fly gallery at the National Air and Space Museum in Washington, DC, which reopened in its new form in 2026. Visitors can climb into the cockpit and move the controls.",
+    "source": 3
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "1955", "source": 3 },
+    { "label": "Role", "value": "Four-seat light airplane", "source": 1 },
+    { "label": "Engine", "value": "One 180-hp Lycoming IO-360-L2A piston engine", "source": 1 },
+    { "label": "Maximum cruise speed", "value": "124 knots (230 km/h)", "source": 1 },
+    { "label": "Range", "value": "Up to 640 nautical miles (1,185 km)", "source": 1 },
+    { "label": "Seats", "value": "4", "source": 1 },
+    { "label": "Number built", "value": "More than 45,000 sold (as of 2026)", "source": 3 },
+    { "label": "Status", "value": "In production by Textron Aviation (as of October 2026)", "source": 1 }
+  ],
+  "relatedGuides": ["how-do-planes-fly", "how-to-learn-about-aviation", "what-is-a-stall"],
+  "relatedAircraft": ["piper-j3-cub", "beechcraft-bonanza", "dhc-2-beaver"],
+  "sources": [
+    { "publisher": "Textron Aviation", "title": "Cessna Skyhawk", "url": "https://cessna.txtav.com/en/piston/cessna-skyhawk" },
+    { "publisher": "Textron Aviation", "title": "Cessna 172 Skyhawk marks 70 years", "url": "https://media.txtav.com/251490-cessna-172-skyhawk-marks-70-years-of-excellence-and-continues-to-lead-the-industry-as-the-most-popular-aircraft-in-the-world/" },
+    { "publisher": "Smithsonian National Air and Space Museum", "title": "New Exhibitions at the National Air and Space Museum (Air & Space Quarterly, issue 19)", "url": "https://airandspace.si.edu/air-and-space-quarterly/issue-19/air-and-space-2026-gallery-highlights" },
+    { "publisher": "Smithsonian National Air and Space Museum", "title": "How Things Fly", "url": "https://airandspace.si.edu/exhibitions/how-things-fly" },
+    { "publisher": "Federal Aviation Administration", "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

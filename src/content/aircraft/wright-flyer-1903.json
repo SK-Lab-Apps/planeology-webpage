@@ -1,0 +1,64 @@
+{
+  "id": "wright-flyer-1903",
+  "h1": "1903 Wright Flyer: Twelve Seconds That Started It All",
+  "description": "The 1903 Wright Flyer made the first successful flights of a powered airplane at Kitty Hawk on December 17, 1903. Specs, the four flights and sources.",
+  "era": "pioneers",
+  "roleGroup": "research",
+  "intro": [
+    "The 1903 Wright Flyer is the airplane that worked. On December 17, 1903, at Kitty Hawk, North Carolina, Wilbur and Orville Wright made the world's first successful flights of a powered, heavier-than-air flying machine. They made four that morning, taking turns at the controls.",
+    "It is a canard biplane, meaning the elevator sits out in front, with two pusher propellers behind the wings. One 12-horsepower, four-cylinder engine, built with the brothers' mechanic Charlie Taylor, turns both propellers through chains and sprockets. The frame is wood and the covering is muslin, left with no sealant or paint.",
+    "Orville flew first, for 12 seconds and 120 feet (36 m). Wilbur flew the fourth and longest, 852 feet (255.6 m) in 59 seconds. While the group talked over that last flight, a gust flipped the Flyer and rolled it across the sand, damaging it so badly that it never flew again."
+  ],
+  "whyItMatters": [
+    "The Wrights' great insight was control. They warped, or twisted, the wingtips to roll, a job [ailerons](/learn/what-do-flaps-and-slats-do) do on airplanes today. Their 1902 glider added a movable rudder, which made it the first aircraft with control in all three axes. By the Smithsonian's count they made between 700 and 1,000 glides in it that year, so by 1903 they already knew how to steer.",
+    "They did their own research, too. Their 1901 glider made only about a third of the lift that published figures predicted, so they began to doubt the figures. In the back room of their Dayton bicycle shop they built a wind tunnel and tested more than fifty wing shapes. They even shaped the propellers as rotating wings, an idea the Smithsonian ranks among their most inventive.",
+    "In the Smithsonian's description, the powered airplane was the 1902 glider made bigger and stronger, with propulsion as its one truly new ingredient. Improved Flyers followed in 1904 and 1905, and on October 5, 1905, Wilbur stayed up for 39 minutes and covered 24.5 miles (39.2 km) around a closed course. The [Wright brothers guide](/learn/wright-brothers-first-flight) tells the whole story, and [how planes fly](/learn/how-do-planes-fly) explains the lift they were after."
+  ],
+  "facts": [
+    "Wilbur won a coin toss to go first, but his attempt on December 14 failed and slightly damaged the Flyer. After repairs, Orville lifted off at 10:35 a.m. on December 17.",
+    "The brothers found Kitty Hawk by asking the U.S. Weather Bureau for a test site. It had brisk, steady winds and soft sand to land on.",
+    "Crated in a shed behind the bicycle shop, the Flyer spent eleven days under water and mud in the Dayton flood of March 1913.",
+    "From 1928 the Flyer was on loan to the Science Museum in London. During World War II it sheltered underground near Corsham, about 100 miles from the city, not in the London Underground, despite a story often told.",
+    "Orville Wright's last flight came decades after Kitty Hawk, as copilot on a test run of the Lockheed [Constellation](/aircraft/lockheed-constellation) airliner at Wright Field, Ohio."
+  ],
+  "whereToSee": {
+    "text": "The original Flyer is the heart of The Wright Brothers & The Invention of the Aerial Age, Gallery 107 on the first floor of the National Air and Space Museum in Washington, DC. It has been on public display at the Smithsonian since its donation on December 17, 1948, the 45th anniversary of the flights.",
+    "source": 4
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "December 17, 1903, Kitty Hawk, North Carolina", "source": 1 },
+    { "label": "Role", "value": "Experimental airplane; the first successful powered airplane", "source": 1 },
+    { "label": "Engine", "value": "One 12-hp Wright four-cylinder, driving two pusher propellers", "source": 1 },
+    { "label": "Wingspan", "value": "12.3 m (40 ft 4 in)", "source": 1 },
+    { "label": "Weight", "value": "274 kg (605 lb) empty; 341 kg (750 lb) gross", "source": 1 },
+    { "label": "Crew", "value": "One pilot", "source": 1 },
+    { "label": "Longest flight that day", "value": "852 ft (255.6 m) in 59 seconds", "source": 1 },
+    { "label": "Number built", "value": "One; damaged after the fourth flight and never flown again", "source": 1 }
+  ],
+  "relatedGuides": ["wright-brothers-first-flight",  "how-do-planes-fly",  "what-do-flaps-and-slats-do"],
+  "relatedAircraft": ["bleriot-xi",  "montgolfier-balloon",  "spirit-of-st-louis"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "1903 Wright Flyer",
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+    },
+    {
+      "publisher": "National Park Service",
+      "title": "Wright Brothers",
+      "url": "https://www.nps.gov/articles/wright-brothers.htm"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "How the Constellation Became the Star of the Skies",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "The Wright Brothers & The Invention of the Aerial Age",
+      "url": "https://airandspace.si.edu/exhibitions/wright-brothers"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

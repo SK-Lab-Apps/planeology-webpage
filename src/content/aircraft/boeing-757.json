@@ -1,0 +1,51 @@
+{
+  "id": "boeing-757",
+  "h1": "Boeing 757: The Narrowbody With Its Own Line in the Rulebook",
+  "description": "The Boeing 757 first flew on February 19, 1982; 1,050 were built before the line closed in 2005. Why ATC spaces traffic behind it, plus specs and sources.",
+  "era": "widebody-era",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Boeing 757 is a single-aisle twinjet with the legs of a bigger airplane. It first flew on February 19, 1982, rolled out of Boeing's Renton, Washington, factory, and was designed to replace the three-engine [727](/aircraft/boeing-727) while keeping that jet's knack for short runways.",
+    "Boeing developed it alongside the widebody [767](/aircraft/boeing-767). The two share near-identical two-crew computerized flight decks, so a pilot qualified on one could move to the other with ease. The standard 757-200 carries up to 228 passengers about 3,900 nautical miles (7,222 km); the stretched 757-300, launched in 1996, seats up to 280.",
+    "It is a powerful airplane for its size. Each of its two engines delivers 37,000 to 40,100 pounds of thrust, and on March 29, 1991, a 757 took off, circled and landed on only one engine at Gonggar Airport in Tibet, 11,621 feet (3,542 m) above sea level, inside a box canyon ringed by peaks higher than 16,400 feet."
+  ],
+  "whyItMatters": [
+    "The 757 earned a place in the rulebook. Every wing sheds a pair of swirling vortices from its tips, and the heavier and slower the airplane, the stronger they are. The 757 is the one airliner that the FAA's Aeronautical Information Manual names by type in its wake turbulence spacing: controllers typically keep small aircraft 4 miles behind a 757, and a small airplane taking off behind one waits at least two minutes.",
+    "That makes it a good way into how [air traffic control](/learn/how-air-traffic-control-works) works. Controllers do not only keep airplanes apart in space; they space them by what flew ahead. A small airplane landing behind a heavy jet gets 6 miles, behind most large jets 4 miles, and behind the 757 its own entry in the table.",
+    "Commercially, the 757 bridged two eras. Boeing had delivered more than 1,000 by 1999, four were modified into C-32A transports for senior US officials, replacing the 707-based VC-137s, and in late 2003 Boeing decided that the newest [737s](/aircraft/boeing-737) and the coming [787](/aircraft/boeing-787-dreamliner) could cover its market. The 1,050th and last 757 went to Shanghai Airlines on April 27, 2005, closing a 23-year run."
+  ],
+  "facts": [
+    "Boeing says the 757 was up to 80 percent more fuel efficient than the 727s it was designed to replace, while keeping their short-field capability.",
+    "On March 29, 1991, a 757 flying on one engine took off, circled and landed at Gonggar Airport in Tibet, 11,621 feet above sea level.",
+    "The FAA's Aeronautical Information Manual lists 4 miles as the typical spacing for a small aircraft directly behind a 757, against 5 miles behind a heavy jet.",
+    "Four 757s became C-32A transports for senior US government officials, replacing the older 707-based VC-137s.",
+    "Production ended on April 27, 2005, with the 1,050th airplane, delivered to Shanghai Airlines."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "February 19, 1982", "source": 1 },
+    { "label": "Role", "value": "Narrowbody (single-aisle) airliner", "source": 1 },
+    { "label": "Engines", "value": "Two Rolls-Royce RB211 or Pratt & Whitney PW2000 turbofans, 37,000 to 40,100 lb thrust each", "source": 1 },
+    { "label": "Range", "value": "3,200 to 4,500 miles", "source": 1 },
+    { "label": "Passengers", "value": "200 to 228 (757-200); up to 280 (757-300)", "source": 1 },
+    { "label": "Number built", "value": "1,050", "source": 1 },
+    { "label": "Status", "value": "Production ended April 27, 2005", "source": 1 },
+    { "label": "Wake spacing", "value": "Small aircraft typically 4 miles behind (FAA)", "source": 2 }
+  ],
+  "relatedGuides": ["how-air-traffic-control-works", "how-does-autopilot-work", "boeing-vs-airbus"],
+  "relatedAircraft": ["boeing-767", "boeing-727", "boeing-737"],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Aeronautical Information Manual: Wake Turbulence",
+      "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap7_section_4.html"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

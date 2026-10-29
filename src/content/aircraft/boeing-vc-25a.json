@@ -1,0 +1,61 @@
+{
+  "id": "boeing-vc-25a",
+  "h1": "Boeing VC-25A: The 747 That Answers to Air Force One",
+  "description": "Two Boeing VC-25As, modified 747-200Bs, have flown US presidents since 1990. Why Air Force One is a call sign, not a plane, plus specs, facts and sources.",
+  "era": "widebody-era",
+  "roleGroup": "transport-special",
+  "intro": [
+    "Air Force One is not an airplane. It is the radio call sign used whenever the president of the United States is aboard a US Air Force aircraft. Since 1990 the aircraft that usually carry it have been two heavily modified Boeing [747-200Bs](/aircraft/boeing-747), designated VC-25A.",
+    "They replaced the 707-based VC-137Cs, which had carried presidents for nearly 30 years after a 707-320B took on the job in 1962. Jacqueline Kennedy chose the colors of that first presidential jet.",
+    "Inside, Boeing describes a flying Oval Office: 4,000 square feet (371 m²) of floor space with presidential living quarters, offices, work and rest areas for staff, press and crew, a medical suite and two galleys that can serve 100 people at one sitting. Outside, the differences from a standard 747 are harder to spot: advanced navigation, electronic and communications equipment, a self-contained baggage loader and its own front and rear airstairs, so the aircraft can operate at airports abroad without outside support."
+  ],
+  "whyItMatters": [
+    "The call sign exists for the same reason as the [phonetic alphabet](/phonetic-alphabet) and the rest of the formal language of the radio: to remove doubt. Controllers handle thousands of flights a day by company name and number, and a flight carrying the president needs a name that cannot be confused with anything else. [Air traffic control](/learn/how-air-traffic-control-works) runs on names like that.",
+    "The first aircraft to use it was not a 747, or even a jet. Lockheed Martin records that President Eisenhower's VC-121E, the only one of its kind built, was the first to carry the name Air Force One when the president was on board; it was a [Constellation](/aircraft/lockheed-constellation). Presidents have flown in Boeing aircraft since 1943, when Franklin Roosevelt became the first sitting president to fly, aboard the [Boeing 314 Clipper](/aircraft/boeing-314-clipper) flying boat Dixie Clipper.",
+    "The VC-25As have now served longer than the 707s they replaced, and their successors are late. Boeing is converting two 747-8s into VC-25Bs, built, in its words, for increased capacity and enhanced capabilities, and in July 2026 it said it still expected the first delivery in 2028. Until then the two 1990 747s remain, as Boeing puts it, the current Air Force One."
+  ],
+  "facts": [
+    "Air Force One is a call sign, used only when the president is aboard an Air Force aircraft; the two VC-25As are the aircraft that normally carry it.",
+    "Each VC-25A has 4,000 square feet of interior floor space, with presidential quarters, offices and two galleys that can serve 100 people at one sitting.",
+    "The 707-based VC-137Cs served as the presidential airplane for nearly 30 years before the 747s took over in 1990.",
+    "The first aircraft to use the call sign Air Force One was President Eisenhower's Lockheed VC-121E Constellation, the only one built.",
+    "Their replacements, two 747-8s designated VC-25B, are being built by Boeing, which in July 2026 still anticipated a first delivery in 2028."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "Entered service", "value": "1990, replacing the VC-137C", "source": 1 },
+    { "label": "Role", "value": "Presidential transport; Air Force One when the president is aboard", "source": 1 },
+    { "label": "Base aircraft", "value": "Boeing 747-200B", "source": 1 },
+    { "label": "Engines", "value": "Four turbofans", "source": 1 },
+    { "label": "Number built", "value": "Two", "source": 1 },
+    { "label": "Interior", "value": "4,000 sq ft (371 m²) of floor space; galleys serve 100 at one sitting", "source": 1 },
+    { "label": "Crew", "value": "US Air Force personnel", "source": 1 },
+    { "label": "Status", "value": "In service as of October 2026; VC-25B replacements expected from 2028", "source": 3 }
+  ],
+  "relatedGuides": ["how-air-traffic-control-works", "biggest-planes-in-the-world", "how-to-learn-about-aviation"],
+  "relatedAircraft": ["boeing-747", "lockheed-constellation", "boeing-314-clipper"],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Air Force One",
+      "url": "https://www.boeing.com/defense/tankers-and-transports/air-force-one"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Boeing Reports Second Quarter Results",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Second-Quarter-Results/default.aspx"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "How the Constellation Became the Star of the Skies",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "boeing-314-clipper",
+  "h1": "Boeing 314 Clipper: The Flying Boat With a Dining Room",
+  "description": "Boeing built only 12 Model 314 Clippers (1938–1941). The flying boat seated 74, slept 40 and opened scheduled transatlantic service in 1939. Its specs.",
+  "era": "golden-age",
+  "roleGroup": "transport-special",
+  "intro": [
+    "The Boeing 314 Clipper was the largest and most luxurious airliner of the late 1930s, and it never touched a runway. A flying boat with a whale-shaped hull, four radial engines and a 152-foot wingspan, it took off from and landed on water, which let it serve ocean routes long before airports existed to receive it.",
+    "Pan American Airways asked Boeing for a long-range, four-engine flying boat in the mid-1930s, when passengers were beginning to want to cross oceans by air. Boeing answered with the Model 314, named Clipper after the great oceangoing sailing ships. It first flew on June 7, 1938, and only 12 were built between 1938 and 1941.",
+    "Inside, it was closer to a ship than to a modern jet. Its 74 seats converted into 40 bunks for the night, and passengers had dressing rooms, a dining salon that doubled as a lounge and even a bridal suite. Four-star hotels catered the meals, which were served from the galley."
+  ],
+  "whyItMatters": [
+    "The Clipper opened the first scheduled air service across the Atlantic, on June 28, 1939, and by the end of that year Clippers were crossing the Pacific routinely. Boeing calls it the jumbo of its time and notes that its nose looked ahead to the [747](/aircraft/boeing-747) of three decades later.",
+    "It was also a clever piece of recycling. Boeing reused the wings and engine nacelles of its giant XB-15 bomber and fitted new 1,500-horsepower Wright Double Cyclone engines, which cured the lack of power that had held the XB-15 back. Large windows gave passengers a view of the sea far below.",
+    "Its rival for ocean travel was the airship. The Graf Zeppelin had flown around the world in 1929 in about 12 and a half days of flying, but the Hindenburg fire at Lakehurst on May 6, 1937, marked the beginning of the end of the airship era, just as the Clipper arrived. The Clipper's own era was short too: when the United States entered World War II, the flying boats were drafted to ferry people and materials across oceans, because few other aircraft could carry such loads so far."
+  ],
+  "facts": [
+    "President Franklin D. Roosevelt flew to the Casablanca Conference in a Boeing Clipper in 1943 and celebrated his birthday in its dining room on the way home.",
+    "Boeing's history gives two ranges: about 3,500 miles in its account of the airplane, and 5,200 miles in its specification table for the later 314A.",
+    "Each Clipper carried a crew of 10 for its 74 passengers, cruised at 184 mph and topped out at 199 mph, with a ceiling of 19,600 feet.",
+    "At 84,000 pounds gross weight, the 314A weighed nearly three times as much as a [DC-3](/aircraft/douglas-dc-3) of the same era."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "June 7, 1938",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Long-range flying-boat airliner",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Four 1,500 hp Wright GR-2600 Double Cyclone radials",
+      "source": 1
+    },
+    {
+      "label": "Wingspan",
+      "value": "152 ft",
+      "source": 1
+    },
+    {
+      "label": "Cruising speed",
+      "value": "184 mph (top speed 199 mph)",
+      "source": 1
+    },
+    {
+      "label": "Range",
+      "value": "About 3,500 miles in Boeing's narrative; 5,200 miles in its 314A table",
+      "source": 1
+    },
+    {
+      "label": "Crew and passengers",
+      "value": "10 crew, 74 passengers (40 bunks at night)",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "12, between 1938 and 1941",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "biggest-planes-in-the-world",
+    "why-flying-east-is-faster",
+    "how-do-planes-fly"
+  ],
+  "relatedAircraft": [
+    "douglas-dc-3",
+    "lockheed-constellation",
+    "boeing-747"
+  ],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Medal, Dr. Eckener Graf Zeppelin World Flight 1929",
+      "url": "https://airandspace.si.edu/collection-objects/medal-dr-eckener-graf-zeppelin-world-flight-1929/nasm_A19640529000"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Dealing with the Aftermath of the Hindenburg Disaster",
+      "url": "https://airandspace.si.edu/stories/editorial/aftermath-hindenburg"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

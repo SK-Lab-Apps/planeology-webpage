@@ -1,0 +1,56 @@
+{
+  "id": "boeing-767",
+  "h1": "Boeing 767: The Twinjet That Opened the Atlantic",
+  "description": "The Boeing 767 first flew on September 26, 1981, and in 1985 became the first twinjet cleared for scheduled Atlantic crossings. Specs, facts and sources.",
+  "era": "widebody-era",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Boeing 767 is a widebody twin: two aisles, two engines and a cabin for roughly 200 to 300 passengers. It first flew on September 26, 1981, and was built at Everett, Washington, on the same site as the [747](/aircraft/boeing-747).",
+    "Boeing developed it side by side with the narrower [757](/aircraft/boeing-757), so the two were built around the same new engines, wing ideas and electronics, and, above all, the same flight deck. Their pioneering two-crew computerized cockpits, early examples of what pilots now call glass cockpits, are nearly identical, which let airlines qualify pilots on both types with little extra effort.",
+    "The family grew into five passenger models, from the original 767-200 to the stretched 767-400ER, plus a freighter and several military versions. Boeing describes the 767 as the only product in its range that serves the passenger, freighter and tanker markets at once."
+  ],
+  "whyItMatters": [
+    "Before the mid-1980s, regular ocean crossings were the business of three- and four-engine jets. In 1985 the 767 became the pioneer of ETOPS, the rules for extended-range twin-engine operations, and the first commercial twinjet approved to fly regular routes across the Atlantic. Every long-haul twin since, including the [777](/aircraft/boeing-777) and the [787](/aircraft/boeing-787-dreamliner), followed through the door the 767 opened.",
+    "The 767 was also built to be adapted. Its freighter, based on the 767-300ER fuselage, was first delivered in October 1995 and carries about 53 tonnes of cargo. A modified 767 became Japan's E-767 radar-surveillance jet, and underneath its boom and tanks the US Air Force's KC-46A Pegasus tanker is a 767-2C, a freighter version of the 767-200ER.",
+    "Its story is not over. Boeing celebrated the 1,000th 767 at Everett in February 2011, and as of October 2026 the line is still running. In October 2024 Boeing said it would deliver the remaining freighters on order and then end commercial 767 production in 2027, while KC-46A tankers continue to be built on the same line."
+  ],
+  "facts": [
+    "The 767 and 757 were developed concurrently, and their computerized flight decks are so alike that pilots could easily qualify to fly both.",
+    "In 1985 the 767 pioneered ETOPS and became the first commercial twinjet to fly regular scheduled routes across the Atlantic.",
+    "The 767-400ER, which first flew in 1999, carries 304 passengers in two classes more than 7,000 miles (11,265 km).",
+    "The US Air Force took delivery of its first two KC-46A Pegasus tankers, built on the 767 airframe, in December 2018.",
+    "FedEx, the biggest operator of the 767-300 Freighter, has taken delivery of its 100th 767. Boeing lists the freighter's range as 3,255 nautical miles with a payload of 52,480 kg (115,700 lb)."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "September 26, 1981", "source": 1 },
+    { "label": "Role", "value": "Widebody airliner, freighter and tanker", "source": 1 },
+    { "label": "Engines", "value": "Two turbofans: P&W JT9D-R4D or GE CF6-80A2 on the 767-200", "source": 1 },
+    { "label": "Cruising speed", "value": "550 mph", "source": 1 },
+    { "label": "Range", "value": "3,840 to 7,800 miles, depending on model", "source": 1 },
+    { "label": "Passengers", "value": "216 to 290 (767-200); 304 in two classes (767-400ER)", "source": 1 },
+    { "label": "Wingspan", "value": "156 ft 1 in (47.57 m)", "source": 2 },
+    { "label": "Status", "value": "Still in production as of October 2026; freighter line ends in 2027, KC-46A tankers continue", "source": 3 }
+  ],
+  "relatedGuides": ["how-does-autopilot-work", "how-safe-is-flying", "boeing-vs-airbus"],
+  "relatedAircraft": ["boeing-757", "airbus-a300", "boeing-787-dreamliner"],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "767 Freighter",
+      "url": "https://www.boeing.com/commercial/767"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Boeing CEO Message to Employees on Positioning for the Future",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2024/Boeing-CEO-Message-to-Employees-on-Positioning-for-the-Future/default.aspx"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

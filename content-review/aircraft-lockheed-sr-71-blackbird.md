@@ -1,0 +1,14 @@
+## /aircraft/lockheed-sr-71-blackbird
+
+| Claim | Source | Status |
+|---|---|---|
+| Two Pratt & Whitney J58 afterburning turbojets with inlet shock cones; crew of two (pilot and reconnaissance systems officer); pressure suits against sudden cabin pressure loss; top speed Mach 3.3 at more than 16 miles / 85,000 ft (25,908 m) | NASM, Lockheed SR-71 Blackbird, https://airandspace.si.edu/collection-objects/lockheed-sr-71-blackbird/nasm_A19920072000 | ✅ |
+| Lockheed built 32 Blackbirds including the SR-71C and two SR-71B pilot trainers | NASM, Lockheed SR-71 Blackbird ("Including the SR-71C and two SR-71B pilot trainers, Lockheed constructed thirty-two Blackbirds") | ✅ Written as "32 SR-71s, including three pilot trainers" |
+| Length 107 ft 5 in; wingspan 55 ft 7 in; composite vertical tails to reduce radar cross-section; shaping and paint as an early stealth measure that never fully met its goals; paint absorbs radar, radiates heat and camouflages the aircraft | NASM, Lockheed SR-71 Blackbird | ✅ |
+| A U-2 was shot down over the Soviet Union in 1960; the A-12 was designed to cruise at Mach 3.2; the SR-71 added a second seat and more fuel | NASM, Lockheed SR-71 Blackbird; Lockheed Martin, Fastest Plane in History: The Blackbird, https://www.lockheedmartin.com/en-us/news/features/history/blackbird.html | ✅ |
+| 9th SRW ceased SR-71 operations in January 1990; Congress revived the program in 1995; final termination over budgets; NASA flew two SR-71As and the SR-71B until 1999 | NASM, Lockheed SR-71 Blackbird | ✅ |
+| 61-7972: 24 years of service, 2,801.1 flight hours; RSO Joseph Vida had logged 1,392.7 Blackbird hours, more than any other crewman; displayed at the Udvar-Hazy Center | NASM, Lockheed SR-71 Blackbird (page location "Udvar-Hazy Center in VA") | ✅ |
+| Several aerial refuelings per mission; tankers met at 20,000–30,000 ft; vapor trail of leaking fuel | NASM, Lockheed SR-71 Blackbird | ✅ |
+| Lockheed Martin says the 1990 coast-to-coast flight took "67 minutes" | Lockheed Martin, Fastest Plane in History: The Blackbird | ⚠️ Disagrees with NASM's 1 h 4 min 20 s (64 minutes), which is the figure of the museum that received the aircraft; both are given in the text |
+| Lockheed Martin calls the Blackbird "the world's fastest and highest-flying manned aircraft"; NASM calls it "the fastest aircraft propelled by air-breathing engines" | Both pages above | ⚠️ The rocket-powered X-15 flew faster and higher; the text gives both phrasings and explains the difference |
+| Everything else (Skunk Works; first flight December 22, 1964; titanium and 600°F; Mach 3 cruise at 85,000 ft; afterburner throughout; best fuel economy above Mach 3; fuel leaks during refueling descents; March 6, 1990 record of 1 h 4 min 20 s at 2,124 mph; the name from the black paint; the liquid-hydrogen first proposal) | App lesson `sr-71-blackbird` and its NASM source | ✅ |

@@ -1,0 +1,47 @@
+{
+  "id": "piper-j3-cub",
+  "h1": "Piper J-3 Cub: The Four Forces at Their Gentlest",
+  "description": "The Piper J-3 Cub was first built in 1937, sold for $1,300, and 19,888 Cubs were built by 1947. Specs, history, where to see one and sources.",
+  "era": "golden-age",
+  "roleGroup": "light-aircraft",
+  "intro": [
+    "The Piper J-3 Cub is a small, slow, fabric-covered light airplane with a tailwheel and, in most examples, a 65-horsepower engine. First built in 1937, it sold for $1,300 and became one of the most recognized shapes in aviation. By the time production ended in 1947, 19,888 Cubs had been built, most of them in Piper's bright yellow.",
+    "Its family tree starts with the Taylor E-2 Cub, completed in late 1930 around a 20-horsepower engine. William Piper bought the Taylor company's assets that year for $761, a redesign produced the J-2 in 1935, and the J-3 arrived in late 1937, the same year the firm became the Piper Aircraft Company. Production engines grew from 40 horsepower to 65 by 1940.",
+    "Everything about a Cub is light. The Smithsonian's example weighs 680 pounds empty and 1,220 pounds fully loaded, spans 35 feet 3 inches (10.7 meters) and tops out at about 80 mph (129 km/h). That gentleness is why it belongs with the [four forces of flight](/learn/how-do-planes-fly): in a Cub you can almost watch lift, weight, thrust and drag trade places."
+  ],
+  "whyItMatters": [
+    "The Cub taught a generation. Three quarters of the pilots in the US Civilian Pilot Training Program learned in Cubs, and during the Second World War the Lock Haven factory turned out a new J-3 every 20 minutes. In 1940 alone, 3,016 Cubs were built.",
+    "Military Cubs flew as observation, liaison and ambulance aircraft under the designations L-4, O-59 and NE-1, and troops nicknamed them Grasshoppers. The name Cub itself became shorthand for any light airplane.",
+    "It is also the classic taildragger. A small wheel at the back and two main wheels under the wing leave the Cub resting nose-high on the ground. The FAA still calls that arrangement conventional landing gear, even though most airplanes built since, including the [Cessna 172 Skyhawk](/aircraft/cessna-172-skyhawk), use a nose wheel instead. Set it beside the [DHC-2 Beaver](/aircraft/dhc-2-beaver), a bush plane designed a decade later for far heavier loads, and you can see how quickly the working light airplane grew up."
+  ],
+  "facts": [
+    "The J-3 sold for $1,300 when it was introduced in late 1937.",
+    "Piper's standard color was Lock Haven Yellow, an orange-tinged shade later replaced by a lighter Cub yellow with black trim.",
+    "In all, 19,888 Cubs were built before production ended in 1947; 1,547 of the earlier E-2 and J-2 models had been built between February 1931 and May 1938.",
+    "During the war the Lock Haven line completed a new J-3 every 20 minutes.",
+    "The Smithsonian's Cub, serial number 6578, was built in March 1941 and flew about 6,000 hours before a full restoration in 1975."
+  ],
+  "whereToSee": {
+    "text": "The Smithsonian's J-3 Cub, N35773, hung in the General Aviation gallery in Washington for several years and is now at the National Air and Space Museum's Steven F. Udvar-Hazy Center in Chantilly, Virginia.",
+    "source": 1
+  },
+  "quickFacts": [
+    { "label": "Introduced", "value": "Late 1937", "source": 1 },
+    { "label": "Role", "value": "Light trainer and sport plane", "source": 1 },
+    { "label": "Engine", "value": "One 65-hp Continental A-65 (production engines ranged from 40 to 65 hp)", "source": 1 },
+    { "label": "Top speed", "value": "80 mph (129 km/h)", "source": 1 },
+    { "label": "Wingspan", "value": "35 ft 3 in (10.7 m)", "source": 1 },
+    { "label": "Weight", "value": "680 lb empty, 1,220 lb gross", "source": 1 },
+    { "label": "Number built", "value": "19,888 Cubs", "source": 1 },
+    { "label": "Status", "value": "Production ended 1947", "source": 1 }
+  ],
+  "relatedGuides": ["how-do-planes-fly", "what-is-a-stall", "how-to-learn-about-aviation"],
+  "relatedAircraft": ["cessna-172-skyhawk", "dhc-2-beaver", "pitts-special"],
+  "sources": [
+    { "publisher": "Smithsonian National Air and Space Museum", "title": "Piper J-3 Cub", "url": "https://airandspace.si.edu/collection-objects/piper-j-3-cub/nasm_A19771128000" },
+    { "publisher": "NASA Glenn Research Center", "title": "Four Forces on an Airplane", "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/four-forces-on-an-airplane/" },
+    { "publisher": "Federal Aviation Administration", "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

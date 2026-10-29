@@ -1,0 +1,55 @@
+{
+  "id": "antonov-an-225-mriya",
+  "h1": "Antonov An-225 Mriya: Facts, Specs and What Happened to It",
+  "description": "The Antonov An-225 Mriya first flew on December 21, 1988, weighed up to 640 tonnes and was destroyed in 2022. Specs, records, facts and sources.",
+  "era": "widebody-era",
+  "roleGroup": "transport-special",
+  "intro": [
+    "The Antonov An-225 Mriya was the heaviest airplane ever to fly, with a maximum takeoff weight of 640 tonnes, six turbofan engines and a cargo hold that swallowed loads nothing else could lift. Mriya means \"dream\" in Ukrainian. It first flew on December 21, 1988, from Antonov's factory airfield at Svyatoshyn in Kyiv, and it was designed to carry the Soviet Buran space shuttle on its back.",
+    "Antonov developed it from its An-124 Ruslan as a bigger, six-engine version, and the company's plans went further still: the An-225 was meant to be the first stage of a reusable space-launch system, with a small shuttle and fuel tank riding on top. Two were started, but only one was ever completed. The fuselage and tail were built in Kyiv and the wings in Tashkent, and the wings traveled to Kyiv on the back of an An-22 transport.",
+    "On May 13, 1989, it carried Buran, weighing about 60 tonnes, for the first time, and that summer it brought the shuttle to the Paris Air Show at Le Bourget. When the Soviet space program faded, the giant sat idle for seven years before Antonov overhauled it and flew it again in May 2001 as a commercial freighter, the flagship of Antonov Airlines."
+  ],
+  "whyItMatters": [
+    "For two decades the An-225 was the airplane the world called when something was too big or too heavy for anything else: generators, pipe-laying machines, relief equipment after the 2010 Haiti earthquake, medical supplies in the first months of the COVID-19 pandemic. In September 2001 it lifted the heaviest payload ever airlifted, 253,820 kg (about 254 tonnes), and in 2010 it flew two 42.1-meter wind turbine blades, the longest cargo items ever carried by air at the time.",
+    "In February 2022, on the fourth day of Russia's full-scale invasion of Ukraine, the only completed Mriya was destroyed in the fighting. Ukraine pledged to rebuild it, as the Smithsonian noted at the time, and the second, never-finished airframe is the natural starting point. As of October 2026, though, Antonov's own history page still says only that two were built and one was completed, and no completion date for the second appears on the company's site.",
+    "Its place in the record books is secure. The An-225 held the records for the heaviest takeoff weight and the heaviest single payload, and on a single flight on September 11, 2001, it set 124 world and 214 national records. For how it compares with the [A380](/aircraft/airbus-a380) and today's outsize haulers such as the [Beluga XL](/aircraft/airbus-belugaxl), see [the biggest planes in the world](/learn/biggest-planes-in-the-world)."
+  ],
+  "facts": [
+    "Antonov's history page gives the first flight as December 21, 1988, in its main text and December 20 in its timeline, so even the maker's own account differs by a day.",
+    "On an early record flight it took off with 156.3 tonnes of cargo and set 110 speed, altitude and weight-to-altitude records within 3 hours and 45 minutes.",
+    "In 2012 it carried an entire art exhibition, 500 paintings by 120 Ukrainian artists, to an altitude of 10,150 meters, a flight entered in the Guinness Book of Records.",
+    "Antonov had extended the airframe's service life to at least 2033 before it was destroyed.",
+    "It was the first Soviet aircraft given a Ukrainian rather than a Russian name, a choice made by its Ukrainian chief designer, Petro Balabuev."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "December 21, 1988, Kyiv (Antonov's timeline says December 20)", "source": 1 },
+    { "label": "Role", "value": "Outsize heavy transport, built to carry the Buran orbiter", "source": 1 },
+    { "label": "Engines", "value": "Six turbofans", "source": 2 },
+    { "label": "Maximum takeoff weight", "value": "640 tonnes (640,000 kg), the heaviest of any aircraft", "source": 2 },
+    { "label": "Maximum payload", "value": "250 tonnes (250,000 kg)", "source": 2 },
+    { "label": "Number built", "value": "Two started, one completed", "source": 1 },
+    { "label": "Status", "value": "Destroyed in February 2022; the second airframe still unfinished as of October 2026", "source": 3 }
+  ],
+  "relatedGuides": ["biggest-planes-in-the-world", "how-jet-engines-work"],
+  "relatedAircraft": ["airbus-belugaxl", "lockheed-c130-hercules", "airbus-a380"],
+  "sources": [
+    {
+      "publisher": "Antonov",
+      "title": "AN-225 Mriya",
+      "url": "https://www.antonov.com/en/history/an-225-mriya"
+    },
+    {
+      "publisher": "Antonov",
+      "title": "Antonov Airlines brochure",
+      "url": "https://www.antonov.com/en/file/V5hQc2hGrJGRs?inline=1"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "The Strength and Resolve of Ukraine",
+      "url": "https://airandspace.si.edu/stories/editorial/strength-and-resolve-ukraine"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "boeing-727",
+  "h1": "Boeing 727: The Trijet Built for Short Runways",
+  "description": "The Boeing 727 first flew on February 9, 1963, with three rear engines and triple-slotted flaps for short runways. Specs, where to see one and sources.",
+  "era": "jet-age",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Boeing 727 is the three-engine jetliner with the T-tail. Boeing announced it on December 5, 1960, with 40 orders each from United Airlines and Eastern Air Lines, and designed it for smaller airports with shorter runways than the [707](/aircraft/boeing-707) could use. The first one rolled out on November 27, 1962, and flew on February 9, 1963.",
+    "All three engines sit at the back, a trio of rear-mounted engines beneath a rakish T-shaped tail. That left the wing clean for the high-lift devices that were the whole point of the design, and gave the 727 the most distinctive look of any early Boeing jet.",
+    "Boeing planned to build 250. The 727 proved so popular, especially after the larger 727-200 of 1967 that carried up to 189 passengers, that 1,832 were built at Renton, Washington. The last one, a freighter for Federal Express, was delivered in September 1984 after a 22-year production run."
+  ],
+  "whyItMatters": [
+    "The 727 is the airplane to picture when you read about [flaps and slats](/learn/what-do-flaps-and-slats-do). It was the first Boeing jetliner with triple-slotted flaps, which let a wing designed for 570 mph cruising make enough lift to use runways built for propeller airliners. The wing also carried leading-edge slats outboard and Krueger flaps inboard, so that at landing speed almost its entire span changed shape.",
+    "It was a plane of firsts for Boeing. The 727 was the first Boeing jetliner to go through rigorous fatigue testing, the first with completely powered flight controls, and the first with an auxiliary power unit, a small gas turbine that let it start its engines and run its systems at airports with no ground equipment.",
+    "Commercially it rescued a risky bet. Orders were still below the 200 needed to break even when it first flew, so Boeing sent a 727 on a 76,000-mile tour of 26 countries. It became the first commercial jet to pass 1,000 sales, and its short-field talents fed directly into the [737](/aircraft/boeing-737), which eventually surpassed it."
+  ],
+  "facts": [
+    "The 727-100 spanned 108 feet, was 133 feet 2 inches long, cruised at 570 mph and could fly 3,110 miles with 131 passengers, on three 14,000-pound-thrust Pratt & Whitney engines.",
+    "Boeing originally planned to build 250 727s; it built 1,832, all at its Renton plant, over a 22-year production run.",
+    "The first 727 wore a lemon-yellow and copper-brown paint scheme like the one on the Dash 80, the prototype of the 707.",
+    "The 727 was the first Boeing jetliner with triple-slotted flaps, completely powered flight controls, an auxiliary power unit and rigorous fatigue testing.",
+    "The last 727, a 727-200F freighter, went to Federal Express in September 1984."
+  ],
+  "whereToSee": {
+    "text": "The very first 727, N7001U, entered United Air Lines service after Boeing's 1964 test program and was donated to the Museum of Flight in Seattle in 1991. It made its final flight, from Paine Field to Boeing Field, on March 2, 2016, and stands in the museum's Aviation Pavilion.",
+    "source": 4
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "February 9, 1963", "source": 1 },
+    { "label": "Role", "value": "Short- and medium-range trijet airliner", "source": 4 },
+    { "label": "Engines", "value": "Three rear-mounted 14,000-lb-thrust Pratt & Whitney engines", "source": 1 },
+    { "label": "Cruising speed", "value": "570 mph (727-100)", "source": 1 },
+    { "label": "Range", "value": "3,110 miles (727-100)", "source": 1 },
+    { "label": "Passengers", "value": "131 (727-100); up to 189 (727-200)", "source": 1 },
+    { "label": "Number built", "value": "1,832", "source": 1 },
+    { "label": "Status", "value": "Production ended; last delivery September 1984", "source": 1 }
+  ],
+  "relatedGuides": ["what-do-flaps-and-slats-do", "how-jet-engines-work", "boeing-vs-airbus"],
+  "relatedAircraft": ["boeing-707", "boeing-737", "boeing-747"],
+  "sources": [
+    { "publisher": "Boeing", "title": "Select Products in Boeing History", "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf" },
+    { "publisher": "NASA Glenn Research Center", "title": "Flaps and Slats", "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/flaps-and-slats/" },
+    { "publisher": "Federal Aviation Administration", "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" },
+    { "publisher": "The Museum of Flight", "title": "Boeing 727-022", "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/boeing-727-022" }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

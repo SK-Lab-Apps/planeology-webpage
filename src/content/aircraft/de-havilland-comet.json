@@ -1,0 +1,128 @@
+{
+  "id": "de-havilland-comet",
+  "h1": "de Havilland Comet: The First Jet Airliner and Its Hard Lesson",
+  "description": "The de Havilland Comet entered service on May 2, 1952, as the first jet airliner. What it carried, what went wrong, what changed and where to see one.",
+  "era": "jet-age",
+  "roleGroup": "airliner",
+  "intro": [
+    "The de Havilland Comet was the world's first jet airliner. Sir Geoffrey de Havilland conceived the DH106 in 1943, design work began in September 1946, and the prototype first flew on July 27, 1949. On May 2, 1952, BOAC put the Comet 1 into scheduled service, years ahead of every rival planemaker.",
+    "It carried 36 passengers at a cruising speed of about 450 mph (725 km/h) over a range of about 2,500 miles (4,000 km), on four de Havilland Ghost turbojets. It was the first airliner with a highly pressurized cabin and the first with fully hydraulic flight controls, and its smooth, quiet ride made BOAC the envy of the world's airlines.",
+    "Then, after only 18 months of service, two Comets were lost within three months of each other in early 1954: one on January 10 on its way from Rome to London, and a second between Rome and Johannesburg. The fleet was grounded, and the Secretary of State for Civil Aviation ordered a full investigation, carried out by the Royal Aircraft Establishment at Farnborough alongside a court of inquiry."
+  ],
+  "whyItMatters": [
+    "The investigators put a Comet, G-ALYU, into a giant water tank and pressurized its cabin again and again, with hydraulic rams loading the wings, compressing a three-hour flight into ten minutes. After 3,057 pressurization cycles, 1,221 real and 1,836 simulated, a fatigue crack caused the cabin to fail at a rivet hole near the forward escape hatch. Wreckage of one of the lost aircraft, about 70 percent of which the Royal Navy recovered from the sea bed, confirmed the same cause.",
+    "Metal fatigue is the slow growth of a crack under repeated loads that are each too small to break the metal outright, and the RAF Museum notes it was little understood at the time. The Comet taught the industry to test whole fuselages for fatigue life, and de Havilland passed what it learned to other manufacturers. The redesigned Comet 4 flew in 1958 and became the first jet to offer a scheduled transatlantic service.",
+    "It is also part of why your [window is round](/learn/why-are-airplane-windows-round). The rebuilt Comet 1XB conversions of the late 1950s had strengthened fuselages and rounded windows, and every pressurized jet since, from the [707](/aircraft/boeing-707) onward, has been designed with the Comet's lesson in mind. Boeing even showed airline customers a film of blades piercing a pressurized 707 fuselage without causing it to fail."
+  ],
+  "facts": [
+    "The Comet 1 was built with a mix of rivets and Redux adhesive bonding, a technique de Havilland had pioneered on its Hornet and Dove to save weight without losing strength.",
+    "The RAF Museum's Comet, G-APAS, was the last of 21 Comet 1s completed. It flew for Air France in 1953, was rebuilt as a Comet 1XB with Ghost 50 Mk 4 engines of 5,500 pounds of thrust each, and then served as a flying laboratory until 1967.",
+    "On April 8, 1968, G-APAS flew from Hatfield to RAF Shawbury: the last of its 602 flights, and the last flight by any Comet 1.",
+    "By the RAF Museum's count, 113 Comets had been built when production ended in 1968. The Comet 4 also served the RAF as a transport, and its design became the basis of the Nimrod maritime patrol aircraft."
+  ],
+  "whereToSee": {
+    "text": "G-APAS is on display in Hangar 1 at the RAF Museum Midlands, Cosford, painted in BOAC colors it never wore in service, to represent the world's first fleet of passenger jets.",
+    "source": 4
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "July 27, 1949 (prototype)",
+      "source": 1
+    },
+    {
+      "label": "Entered service",
+      "value": "May 2, 1952, with BOAC",
+      "source": 2
+    },
+    {
+      "label": "Role",
+      "value": "Jet airliner, the first in service",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Four de Havilland Ghost turbojets (5,500 lb of thrust each on the Comet 1XB)",
+      "source": 8
+    },
+    {
+      "label": "Cruising speed",
+      "value": "About 450 mph (725 km/h)",
+      "source": 4
+    },
+    {
+      "label": "Range",
+      "value": "About 2,500 miles (4,000 km)",
+      "source": 4
+    },
+    {
+      "label": "Passengers",
+      "value": "36 (Comet 1)",
+      "source": 2
+    },
+    {
+      "label": "Status",
+      "value": "Production ended in 1968 (113 built, by the RAF Museum's count)",
+      "source": 5
+    }
+  ],
+  "relatedGuides": [
+    "why-are-airplane-windows-round",
+    "how-safe-is-flying",
+    "how-jet-engines-work"
+  ],
+  "relatedAircraft": [
+    "boeing-707",
+    "boeing-727",
+    "boeing-737"
+  ],
+  "sources": [
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Comet: The World's First Jet Airliner",
+      "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Comet Enters Service",
+      "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-enters-service/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Comet Firsts",
+      "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-firsts/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "de Havilland Comet 1XB",
+      "url": "https://www.rafmuseum.org.uk/research/collections/de-havilland-comet-1a/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Comet Retires",
+      "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-retires/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Comet Disaster",
+      "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-disaster/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Comet Failure",
+      "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/comet-the-worlds-first-jet-airliner/comet-failure/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Individual History: de Havilland Comet 1XB G-APAS",
+      "url": "https://www.rafmuseum.org.uk/documents/collections/84-A-1186-DH-Comet-1XB-XM823.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "airbus-belugaxl",
+  "h1": "Airbus BelugaXL: The Whale That Carries Airliner Wings",
+  "description": "The Airbus BelugaXL, an A330 rebuilt as a flying cargo hold, first flew on July 19, 2018, and carries two A350 wings at once. Specs, facts and sources.",
+  "era": "modern",
+  "roleGroup": "transport-special",
+  "intro": [
+    "The Airbus BelugaXL is an [A330-200](/aircraft/airbus-a330) freighter rebuilt as a flying cargo hold. Airbus lowered the cockpit beneath a vastly enlarged upper fuselage and redesigned the rear end and tail, so that whole airliner wings and fuselage sections fit inside.",
+    "It exists to move Airbus's own parts between its factories. The program was launched in November 2014, the first aircraft flew from Toulouse on July 19, 2018, and the first operational BelugaXL entered service on January 9, 2020, with a flight from Toulouse to Broughton in Wales.",
+    "Six are in service, operated by Airbus Transport International, the company's in-house airline since 1996. Each is 63.1 meters long, which Airbus likens to two blue whales, carries up to 51 tonnes, and flies on the same two Rolls-Royce Trent 700 turbofans as a standard A330."
+  ],
+  "whyItMatters": [
+    "Airbus is a dispersed company. Its airliners' parts are made at sites across Europe and have to meet on a final assembly line, and the BelugaXL is the link. It serves 11 destinations in Europe and can carry two 30-meter A350 wings at once, or the largest A350 fuselage section, which is 30 percent more payload than the BelugaST it replaced.",
+    "It is also the most photographed airplane at any Airbus site, and that is deliberate. When Airbus asked its employees to vote on a livery, almost 21,000 took part and picked the whale face with eyes and a grin. The [biggest planes guide](/learn/biggest-planes-in-the-world) puts it beside the other outsize haulers, from the [An-225](/aircraft/antonov-an-225-mriya) to the Super Guppy that carried Airbus parts before the first Beluga.",
+    "The BelugaXL also marks a generational change. The earlier BelugaST, a conversion of the [A300-600](/aircraft/airbus-a300), carried Airbus's production for 30 years. Now the STs are being retired to new roles as Airbus moves to using only the XL fleet: one arrived at Broughton in January 2026 to become a STEM education facility, and another joined the Aeroscopia museum in June 2026."
+  ],
+  "facts": [
+    "The BelugaXL is based on the A330-200 Freighter, with a lowered cockpit, an enlarged cargo bay and a new rear end and tail.",
+    "The first BelugaXL landed at Toulouse-Blagnac on July 19, 2018, after a maiden flight of four hours and 11 minutes.",
+    "It can carry 51 tonnes, or two 30-meter A350 wings at once, 30 percent more by payload than the BelugaST's 47 tonnes.",
+    "Airbus employees chose the smiling whale livery in a vote with almost 21,000 participants.",
+    "Six BelugaXLs are in service, assembled in Toulouse and operated by Airbus Transport International."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "July 19, 2018, Toulouse", "source": 2 },
+    { "label": "Entered service", "value": "January 9, 2020", "source": 3 },
+    { "label": "Role", "value": "Outsize cargo transport for Airbus parts", "source": 1 },
+    { "label": "Engines", "value": "Two Rolls-Royce Trent 700 turbofans", "source": 2 },
+    { "label": "Payload", "value": "Up to 51 tonnes", "source": 1 },
+    { "label": "Length", "value": "63.1 m", "source": 1 },
+    { "label": "Range", "value": "1,650 to 4,000 km", "source": 1 },
+    { "label": "Number built", "value": "Six, all in service", "source": 1 }
+  ],
+  "relatedGuides": ["biggest-planes-in-the-world", "how-air-traffic-control-works", "boeing-vs-airbus"],
+  "relatedAircraft": ["airbus-a330", "antonov-an-225-mriya", "airbus-a300"],
+  "sources": [
+    {
+      "publisher": "Airbus",
+      "title": "Beluga",
+      "url": "https://www.airbus.com/en/products-services/commercial-aircraft/freighter/beluga"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "First BelugaXL successfully completes maiden flight",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2018-07-first-belugaxl-successfully-completes-maiden-flight"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "QuickNews, August 2020",
+      "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/9d464d91744530aff1e996684296cec4_EN-QuickNews-August-2020.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

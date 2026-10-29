@@ -1,0 +1,97 @@
+{
+  "id": "boeing-b-17-flying-fortress",
+  "h1": "Boeing B-17 Flying Fortress: The Bomber Boeing Built With Its Own Money",
+  "description": "Boeing financed the B-17 prototype itself and flew it on July 28, 1935; 12,726 Flying Fortresses followed. Specs, facts, where to see one and sources.",
+  "era": "golden-age",
+  "roleGroup": "military",
+  "intro": [
+    "The Boeing B-17 Flying Fortress was the four-engine heavy bomber that Boeing built on its own money. The prototype, the Model 299, went from the drawing board to flight test in under 12 months and first flew on July 28, 1935. A Seattle Times reporter, Richard Smith, saw its many gun positions and called it the Flying Fortress; Boeing liked the name so much that it trademarked it.",
+    "It was the first Boeing military airplane with an enclosed flight deck instead of an open cockpit, and it borrowed aerodynamic features from the giant XB-15 bomber, then still on the drawing board, and from the Model 247 airliner. Each B-17 carried a crew of ten: two pilots, a bombardier, a navigator, a radio operator and five gunners.",
+    "Boeing's Plant 2 built 6,981 B-17s, and Douglas and Lockheed's Vega division built another 5,745 under a nationwide program, for a total of 12,726. Most were scrapped when the war ended, and only a few survive today, at museums and air shows."
+  ],
+  "whyItMatters": [
+    "The B-17 is the airplane most people picture when they think of the daylight bombing campaign over Europe, but it began as a commercial gamble. Boeing financed the prototype entirely itself when a four-engine bomber was still a new idea, and the same company flew the B-29 Superfortress, the first bomber to put its crew in pressurized compartments, in September 1942, before going on to the [707](/aircraft/boeing-707) and the [747](/aircraft/boeing-747).",
+    "It also shows how quickly a design grows in wartime. The 1935 prototype carried five machine guns in clear blisters; the B-17E, the first mass-produced version, carried nine guns and a 4,000-pound bomb load, weighed several tons more and introduced the enormous tail that gave it stability for high-altitude bombing. Each later version was more heavily armed than the last.",
+    "Its reputation for bringing crews home rested on structure. Boeing's history quotes an 88-year-old veteran who returned to England with 179 flak holes and only two of four engines running, and who wrote decades later to thank the company for \"such a good airplane.\""
+  ],
+  "facts": [
+    "The Model 299 had a 103-foot 9-inch wingspan, a top speed of 287 mph, a ceiling of 35,600 feet and a maximum range of 3,750 miles, on four 1,200-horsepower Wright R-1820 radial engines.",
+    "The first B-17s to see combat flew with Britain's Royal Air Force in 1941, on high-altitude missions, before the United States entered the war.",
+    "The escort problem that the B-17 exposed over Europe was answered by the [P-51 Mustang](/aircraft/north-american-p-51-mustang): once fighters could stay with the bombers for the whole mission, losses dropped sharply.",
+    "B-29 production ended in 1946, but that design lived on as the B-50 and as a Soviet-built copy, the Tupolev Tu-4."
+  ],
+  "whereToSee": {
+    "text": "The RAF Museum London lists a Boeing B-17G Fortress on display in Hangar 5 at Hendon (as of October 2026).",
+    "source": 2
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "July 28, 1935 (Model 299 prototype)",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Four-engine heavy bomber",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Four 1,200 hp Wright R-1820-97 radials",
+      "source": 1
+    },
+    {
+      "label": "Top speed",
+      "value": "287 mph (cruising 150 mph)",
+      "source": 1
+    },
+    {
+      "label": "Range",
+      "value": "Up to 3,750 miles",
+      "source": 1
+    },
+    {
+      "label": "Crew",
+      "value": "10",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "12,726 (6,981 by Boeing, 5,745 by Douglas and Lockheed Vega)",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "Retired; most scrapped after 1945, a few survive at museums and air shows",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "why-do-planes-fly-so-high",
+    "how-do-planes-fly"
+  ],
+  "relatedAircraft": [
+    "north-american-p-51-mustang",
+    "boeing-314-clipper",
+    "supermarine-spitfire"
+  ],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "On display: RAF Museum London (page 5)",
+      "url": "https://www.rafmuseum.org.uk/london/things-to-see-and-do/on-display/page/5/"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Boeing B-29 Superfortress Enola Gay",
+      "url": "https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

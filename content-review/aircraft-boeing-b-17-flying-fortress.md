@@ -1,0 +1,10 @@
+## /aircraft/boeing-b-17-flying-fortress
+
+| Claim | Source | Status |
+|---|---|---|
+| Model 299 specs: span 103 ft 9 in, length 74 ft 9 in, gross weight 65,000 lb, top speed 287 mph, cruising 150 mph, range (max.) 3,750 miles, ceiling 35,600 ft, four 1,200-hp Wright R-1820-97 engines | Boeing, Select Products in Boeing History (B-17 technical specifications), https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf | ✅ |
+| Features from the XB-15 and Model 247; five .30-caliber guns in blisters on the prototype; first combat with the RAF in 1941; B-17E first mass-produced model with nine guns, 4,000-lb bomb load, several tons heavier, enormous tail; the veteran's letter (179 flak holes, two of four engines); Boeing trademarked the name | Boeing PDF, B-17 entry | ✅ |
+| 12,726 total | Boeing PDF: 6,981 + 5,745 | ✅ Calculated, as in the app |
+| B-29 first flight September 21, 1942; first bomber with pressurized crew compartments; production ended 1946; B-50 and Tu-4 | NASM, Boeing B-29 Superfortress, https://airandspace.si.edu/collection-objects/boeing-b-29-superfortress-enola-gay/nasm_A19500100000; Boeing PDF, B-29 entry | ✅ App lesson `heavy-bombers` |
+| B-17G on display in Hangar 5, RAF Museum London | RAF Museum London "On display" listing, page 5, https://www.rafmuseum.org.uk/london/things-to-see-and-do/on-display/page/5/ (fetched October 29, 2026: "Boeing B17G Fortress · Museum: London · Location: Hangar 5") | ⚠️ The museum's visitor listing says on display, but a search snippet of its collections database (collections.rafmuseum.org.uk/collection/object/object-2082/, which returns 401 to fetches) reportedly says "In Storage", and the aircraft's own page now redirects to a generic collection page. Kept with "as of October 2026"; drop the whereToSee block if the museum confirms it is in storage. |
+| Everything else (self-financed prototype, under 12 months, first flight July 28, 1935, Richard Smith's nickname, enclosed flight deck, crew of ten, 6,981 + 5,745 built, few survive) | App lesson `heavy-bombers` and its aircraft card | ✅ In the app |

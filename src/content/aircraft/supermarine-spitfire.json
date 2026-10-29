@@ -1,0 +1,123 @@
+{
+  "id": "supermarine-spitfire",
+  "h1": "Supermarine Spitfire: Facts, Specs and the Elliptical Wing",
+  "description": "The Supermarine Spitfire first flew on March 5, 1936, and more than 20,000 were built. Its Merlin engine, elliptical wing, specs and where to see one.",
+  "era": "golden-age",
+  "roleGroup": "military",
+  "intro": [
+    "The Supermarine Spitfire is the most famous British fighter of World War II, and one of the most recognizable airplanes ever built, thanks to the elliptical wing that Reginald Mitchell's team gave it. The prototype, K5054, first flew on March 5, 1936, with Vickers chief test pilot Joseph \"Mutt\" Summers at the controls.",
+    "The wing's shape was not about looks. The RAF Museum explains that the ellipse let the wing be as thin as possible, which cut drag, and the design drew on Mitchell's Supermarine racing seaplanes, winners of the Schneider Trophy. An S.6B had reached 407 mph in 1931; the Air Ministry asked for a modern all-metal fighter only 18 days after that win.",
+    "Production was slow to start, because the Spitfire's stressed-skin construction demanded skills that were rare in the industry, but it grew into one of the largest aircraft programs in British history. More than 20,000 were built, 11,939 of them at the Castle Bromwich factory in Birmingham, and the design kept being improved from its first flight to the end of the war."
+  ],
+  "whyItMatters": [
+    "The Spitfire fought the Battle of Britain alongside the Hawker Hurricane from July 10 to October 31, 1940. The Hurricane was the mainstay of Fighter Command and outnumbered it, but the RAF Museum rates the Spitfire Mk I as the only British fighter able to meet the Messerschmitt Bf 109E on equal terms. Both fighters shared the same Rolls-Royce Merlin engine.",
+    "That engine later transformed another airplane. Fitted with a two-stage supercharged Merlin, the [P-51 Mustang](/aircraft/north-american-p-51-mustang) gained about 50 mph and the range to escort bombers deep into Europe. The Spitfire itself became the main RAF fighter from 1941 and stayed with fighter squadrons until the early 1950s.",
+    "Its first flight also left a famous line. Summers is quoted as saying \"Don't touch anything\" when he landed. It is often taken as praise, but the museum's reading is more prosaic: he wanted to report what he had noticed before anyone changed the airplane. A new propeller soon raised the prototype's top speed to 348 mph."
+  ],
+  "facts": [
+    "The Air Ministry ordered 310 Spitfires on June 3, 1936, three months after the first flight. The first squadron, No. 19, received its aircraft on August 4, 1938.",
+    "When war broke out in September 1939, the RAF had 306 Spitfires in service, 71 in reserve and 2,000 on order. By July 1940 it had nineteen Spitfire Mk I squadrons.",
+    "The armament was doubled during development, from four to eight Browning machine guns.",
+    "The world's oldest surviving Spitfire, Mk I K9942, was built at Woolston, Southampton, in 1939 and holds an Engineering Heritage Award from the Institution of Mechanical Engineers.",
+    "Only 1,566 of the 20,000-plus Spitfires were Mk Is; the type was improved continuously through the war, including constant-speed propellers and Merlins running on 100-octane fuel."
+  ],
+  "whereToSee": {
+    "text": "The RAF Museum London displays Spitfire Mk I X4590 in Hangars 3 and 4 at Hendon, and the RAF Museum Midlands at Cosford shows K9942, the oldest Spitfire in existence, in its War in the Air hangar. In London's Science Museum, Mk I P9444 hangs in the Flight gallery.",
+    "source": 2
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "March 5, 1936 (prototype K5054)",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Single-seat fighter",
+      "source": 2
+    },
+    {
+      "label": "Engine",
+      "value": "One Rolls-Royce Merlin piston engine",
+      "source": 1
+    },
+    {
+      "label": "Top speed",
+      "value": "348 mph (557 km/h), prototype with its improved propeller",
+      "source": 1
+    },
+    {
+      "label": "Armament",
+      "value": "Eight Browning machine guns",
+      "source": 1
+    },
+    {
+      "label": "Entered service",
+      "value": "August 4, 1938, with No. 19 Squadron",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "More than 20,000 (1,566 of them Mk Is)",
+      "source": 4
+    },
+    {
+      "label": "Status",
+      "value": "Retired; left RAF fighter squadrons in the early 1950s",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "how-do-planes-fly",
+    "fastest-planes-ever"
+  ],
+  "relatedAircraft": [
+    "north-american-p-51-mustang",
+    "messerschmitt-me-262",
+    "vought-f4u-corsair"
+  ],
+  "sources": [
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "The first flight of the Spitfire",
+      "url": "https://www.rafmuseum.org.uk/blog/the-first-flight-of-the-spitfire/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Supermarine Spitfire I",
+      "url": "https://www.rafmuseum.org.uk/research/collections/supermarine-spitfire-i/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "RAF Museum Spitfire receives Engineering Heritage Award",
+      "url": "https://www.rafmuseum.org.uk/midlands/whats-going-on/news/raf-museum-spitfire-receives-engineering-heritage/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Spitfire takes off on tour of the Midlands",
+      "url": "https://www.rafmuseum.org.uk/news/spitfire-takes-off-on-tour-of-the-midlands/"
+    },
+    {
+      "publisher": "Science Museum Group",
+      "title": "Vickers-Supermarine Mk I Spitfire, c 1940, with separate Merlin engine",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co525469/vickers-supermarine-mk-i-spitfire-c-1940-with-separate-merlin-engine"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "History of aviation timeline: 1940",
+      "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1940-2/"
+    },
+    {
+      "publisher": "Royal Air Force Museum",
+      "title": "Battle of Britain squadron and personal biographies",
+      "url": "https://www.rafmuseum.org.uk/research/archive-exhibitions/battle-of-britain-class-locomotive-plates/squadron-personal-biographies/"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "North American P-51D Mustang",
+      "url": "https://airandspace.si.edu/collection-objects/north-american-p-51d-30-na-mustang/nasm_A19600300000"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

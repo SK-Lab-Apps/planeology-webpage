@@ -1,0 +1,105 @@
+{
+  "id": "boom-xb-1",
+  "h1": "Boom XB-1: The Demonstrator That Broke the Sound Barrier Over Mojave",
+  "description": "Boom's XB-1 first flew on March 22, 2024, and went supersonic on January 28, 2025, at Mach 1.122. Specs, flight history, Overture's status and sources.",
+  "era": "modern",
+  "roleGroup": "research",
+  "intro": [
+    "The Boom XB-1 is a supersonic demonstrator, built by Boom Supersonic to test technology for Overture, the supersonic airliner the company plans to build. It first flew on March 22, 2024, a 12-minute hop to 7,120 feet at Mach 0.4. On January 28, 2025, near Mojave, California, it reached Mach 1.122, about 750 mph, at 35,290 feet. Boom says that made it the first independently developed jet to break the sound barrier, and the first human-piloted civil jet to fly supersonic since Concorde's retirement.",
+    "XB-1 is built almost entirely of carbon-fiber composites, with digital stability augmentation and supersonic intakes feeding conventional jet engines. Its long nose and nose-high attitude at takeoff and landing would hide the runway from the pilot. Instead of a drooping nose like [Concorde](/aircraft/concorde)'s, Boom gave XB-1 an augmented reality vision system that shows the way ahead.",
+    "Its flying career was short. Eleven subsonic flights widened its speed and altitude range a little at a time before the twelfth went supersonic. On February 10, 2025, its 13th and last flight reached Mach 1.18, its fastest, and Boom then retired it to the company's headquarters in Denver."
+  ],
+  "whyItMatters": [
+    "XB-1 also tested a quieter idea. Boom says no sonic boom reached the ground on any of the six times it went supersonic. At the right speed and altitude, the boom bends back upward in the atmosphere before it arrives, an effect called Mach cutoff that Boom markets as Boomless Cruise.",
+    "That matters because sonic booms are a big reason airliners don't fly faster than sound over land. As of October 2026, the FAA has proposed replacing its 1973 ban on civil supersonic flight over the US with a limit on boom strength at the ground, but has issued no final rule. [Why Concorde was retired](/learn/why-was-concorde-retired) tells the longer story.",
+    "Overture is still in development. As of October 2026, Boom describes it as a 60-to-80-seat airliner that would cruise at Mach 1.7 and fly 4,250 nautical miles, with 130 orders and pre-orders and no first-flight date announced. Its engine, Symphony, is Boom's own design. On October 22, 2026, Boom unveiled the first complete prototype core for it, which will also power a Boom gas turbine for data centers, and said the first firing was expected before Thanksgiving."
+  ],
+  "facts": [
+    "XB-1's 13 flights ran from March 22, 2024, to February 10, 2025, and two of them were supersonic.",
+    "As Boom points out, XB-1 went supersonic in the same airspace where Chuck Yeager first broke the sound barrier, in the [Bell X-1](/aircraft/bell-x-1) in 1947.",
+    "Boom's seat count for Overture has shifted: its January 2025 announcement said 64 to 80 passengers, while its Overture page now says 60 to 80.",
+    "Boom says it completed its Overture factory in Greensboro, North Carolina, in 2024, sized to build up to 66 airliners a year."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "March 22, 2024",
+      "source": 2
+    },
+    {
+      "label": "Role",
+      "value": "Supersonic technology demonstrator",
+      "source": 1
+    },
+    {
+      "label": "Structure",
+      "value": "Almost entirely carbon-fiber composites",
+      "source": 1
+    },
+    {
+      "label": "First supersonic flight",
+      "value": "January 28, 2025: Mach 1.122 (750 mph) at 35,290 ft",
+      "source": 1
+    },
+    {
+      "label": "Top speed",
+      "value": "Mach 1.18, on February 10, 2025",
+      "source": 2
+    },
+    {
+      "label": "Flights",
+      "value": "13, two of them supersonic",
+      "source": 2
+    },
+    {
+      "label": "Status",
+      "value": "Retired in 2025 to Boom's Denver headquarters",
+      "source": 3
+    }
+  ],
+  "relatedGuides": [
+    "why-was-concorde-retired",
+    "what-is-mach-1",
+    "fastest-planes-ever"
+  ],
+  "relatedAircraft": [
+    "concorde",
+    "bell-x-1",
+    "north-american-x-15"
+  ],
+  "sources": [
+    {
+      "publisher": "Boom Supersonic",
+      "title": "Boom Achieves Supersonic Flight",
+      "url": "https://boomsupersonic.com/news/boom-achieves-supersonic-flight"
+    },
+    {
+      "publisher": "Boom Supersonic",
+      "title": "XB-1",
+      "url": "https://boomsupersonic.com/xb-1"
+    },
+    {
+      "publisher": "Boom Supersonic",
+      "title": "Boom Year in Review 2025",
+      "url": "https://boomsupersonic.com/news/boom-year-in-review-2025"
+    },
+    {
+      "publisher": "Boom Supersonic",
+      "title": "Overture",
+      "url": "https://boomsupersonic.com/overture"
+    },
+    {
+      "publisher": "Boom Supersonic",
+      "title": "Boom Supersonic Completes First Turbine Core, Unveils 2GW Superpower Superfactory, Launches World's Most Advanced Digital Foundry",
+      "url": "https://boomsupersonic.com/press-release/superpower-superfactory"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Enabling Supersonic Overland Flight (notice of proposed rulemaking)",
+      "url": "https://www.faa.gov/newsroom/ARM-260115-001_Supersonic_NPRM_06-10-26.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

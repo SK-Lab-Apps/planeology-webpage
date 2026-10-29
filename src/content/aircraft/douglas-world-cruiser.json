@@ -1,0 +1,69 @@
+{
+  "id": "douglas-world-cruiser",
+  "h1": "Douglas World Cruiser: First Around the World, in 175 Days",
+  "description": "In 1924 four Douglas World Cruisers left Seattle; two came home 175 days later, completing the first flight around the world. Specs, facts and sources.",
+  "era": "golden-age",
+  "roleGroup": "research",
+  "intro": [
+    "The Douglas World Cruiser was built for one job: to carry the US Army Air Service around the world. Ordered in 1923, it was a modified Douglas DT-2 torpedo bomber with its fuel capacity raised from 115 to 644 gallons, a bigger rudder, its two cockpits moved closer together and an undercarriage that swapped between wheels and floats.",
+    "The prototype was built in 45 days for $23,721 and delivered to the Army in November 1923. Four production aircraft followed, named in Seattle for the points of the compass: Seattle, Chicago, Boston and New Orleans. Each was a two-seat biplane with a 50-foot wingspan, powered by a single water-cooled Liberty V-12 of about 400 to 420 horsepower, depending on which Smithsonian or Boeing account you read.",
+    "On April 6, 1924, the four left Sand Point on Lake Washington, Seattle, heading west on floats. They had no radio and no navigation aid more advanced than a new earth inductor compass, and each could carry only 300 pounds of supplies. Spare engines, floats and parts had been stashed at sites around the world in advance."
+  ],
+  "whyItMatters": [
+    "It was the first flight around the world, and it showed what [a compass, a clock and arithmetic](/learn/why-flying-east-is-faster) could do before radio navigation existed. The crews flew six legs through 28 countries, crossing the Pacific first; the Smithsonian counts the hop from Alaska to the Komandorski Islands on May 15 as the first flight across the Pacific Ocean.",
+    "Not everyone made it. The Seattle, the flight commander's airplane, crashed in fog on an Alaskan mountainside on April 30; its two-man crew walked for ten days to reach Dutch Harbor. The Boston was forced down in the North Atlantic on August 3, on the way to Iceland; the crew was rescued but the airplane was lost. The prototype, renamed Boston II, joined the survivors in Newfoundland so that its crew could finish the trip.",
+    "The Chicago and the New Orleans landed back in Seattle on September 28, 1924, after 175 days, 371 hours and 11 minutes in the air and about 27,550 miles; Smithsonian accounts give 27,550 or 27,553. The average speed worked out to about 70 mph. Asked whether he would do it again, the Chicago's pilot, Lowell Smith, said: not in a million years, unless ordered to. Douglas took a motto from the flight, First Around the World, and went on to build the [DC-3](/aircraft/douglas-dc-3)."
+  ],
+  "facts": [
+    "Five World Cruisers were built: a prototype and the four that set out, of which the Chicago and the New Orleans completed the circuit.",
+    "The crews navigated with an earth inductor compass and no radio, swapping floats for wheels at Calcutta and back again for the Atlantic.",
+    "The Smithsonian's Chicago weighs 1,991 kg (4,380 lb) on wheels and 2,355 kg (5,180 lb) on pontoons, and its Liberty V-12 is listed at 423 hp.",
+    "Boeing employees in Seattle swapped the airplanes' wheels for floats before the departure, which is why the type appears in Boeing's own company history.",
+    "Of the five, only the Chicago and the New Orleans survive; the New Orleans belongs to the Los Angeles County Museum of Natural History."
+  ],
+  "whereToSee": {
+    "text": "The Chicago has belonged to the Smithsonian since 1925, when it made its final flight from Dayton to Washington, and the museum shows it in the Pioneers of Flight gallery of the National Air and Space Museum in Washington, DC, which reopened as the Barron Hilton Pioneers of Flight gallery on July 28, 2025.",
+    "source": 4
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "November 1923", "source": 2 },
+    { "label": "Role", "value": "Long-range biplane built for the round-the-world flight", "source": 2 },
+    { "label": "Engine", "value": "One Liberty V-12, about 400 to 423 hp (sources differ)", "source": 3 },
+    { "label": "Speed", "value": "103 mph", "source": 2 },
+    { "label": "Range", "value": "2,200 miles", "source": 2 },
+    { "label": "Crew", "value": "Two, pilot and flight mechanic", "source": 2 },
+    { "label": "Number built", "value": "Five: a prototype plus four", "source": 3 },
+    { "label": "Wingspan", "value": "15.4 m (50 ft 6 in)", "source": 3 }
+  ],
+  "relatedGuides": ["why-flying-east-is-faster", "wright-brothers-first-flight", "how-to-learn-about-aviation"],
+  "relatedAircraft": ["spirit-of-st-louis", "douglas-dc-3", "boeing-314-clipper"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "The Story of the First Flight Around the World",
+      "url": "https://airandspace.si.edu/stories/editorial/story-first-flight-around-world"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Douglas World Cruiser Chicago",
+      "url": "https://airandspace.si.edu/collection-objects/douglas-world-cruiser-chicago/nasm_A19250008000"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "First Flight Around the World: An Adventure for a New Generation",
+      "url": "https://airandspace.si.edu/stories/editorial/first-flight-around-world-adventure-new-generation"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "National Air and Space Museum Opens Five New Galleries July 28",
+      "url": "https://airandspace.si.edu/newsroom/press-releases/national-air-and-space-museum-opens-five-new-galleries-july-28"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

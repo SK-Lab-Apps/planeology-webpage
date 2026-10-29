@@ -1,0 +1,79 @@
+{
+  "id": "spirit-of-st-louis",
+  "h1": "Ryan NYP Spirit of St. Louis: Thirty-Three Hours Alone Over the Atlantic",
+  "description": "Lindbergh flew the Spirit of St. Louis nonstop from New York to Paris on May 20–21, 1927, alone, in 33 hours 30 minutes. Specs, facts and sources.",
+  "era": "golden-age",
+  "roleGroup": "research",
+  "intro": [
+    "The Spirit of St. Louis is a single-engine monoplane that Ryan Airlines of San Diego built for one job: carrying Charles Lindbergh nonstop from New York to Paris. With backing from several St. Louis men, he ordered it in February 1927 to compete for the $25,000 prize that Raymond Orteig had offered in 1919 for that flight.",
+    "Designer Donald A. Hall started from Ryan's standard M-2, adding 10 feet to the wingspan and 2 feet to the fuselage, and fitted a 223-horsepower Wright J-5C Whirlwind radial engine. For safety in a crash, the fuel tanks went ahead of the cockpit. That left Lindbergh with no view straight ahead, so he used a periscope on the left side or turned the airplane to look out of a side window.",
+    "Finished late in April 1927, it set a transcontinental record first: San Diego to New York on May 10–12, in 21 hours 40 minutes, with one stop, at St. Louis. On the morning of May 20, after days of waiting for good weather, Lindbergh took off alone. He landed at Le Bourget Field, near Paris, 33 hours 30 minutes and 3,610 miles (5,810 km) later, to a crowd of 100,000."
+  ],
+  "whyItMatters": [
+    "John Alcock and Arthur Whitten Brown had flown the Atlantic nonstop in 1919, two men in a Vickers Vimy designed as a bomber, from Newfoundland to Ireland. Lindbergh's was the first solo nonstop crossing, and it ran from city to city, as the Orteig prize required. The Smithsonian says no aviation event stirred the whole world as much again until the Apollo 11 moon landing in 1969.",
+    "The airplane kept working after Paris. It came home aboard the USS Memphis on June 11, 1927, and toured the United States from July 20 to October 23. On December 13 it flew nonstop from Washington to Mexico City, then on through Central America, Colombia, Venezuela and Puerto Rico, later flying nonstop from Havana to St. Louis. The two tubes under its fuselage are flare dispensers fitted for those Latin American and Caribbean flights.",
+    "On April 30, 1928, it made its last flight, from St. Louis to Washington, DC, where Lindbergh presented it to the Smithsonian. It now shares a gallery with the Lockheed Vega in which Amelia Earhart flew the Atlantic solo in 1932, five years to the day after Lindbergh took off. Only 24 years separate the [Wright Flyer](/aircraft/wright-flyer-1903)'s 12 seconds from Lindbergh's 33 hours, and the [Wright brothers guide](/learn/wright-brothers-first-flight) is where that story begins."
+  ],
+  "facts": [
+    "The Smithsonian lists the Spirit as 9 ft 10 in high, 27 ft 8 in long and 46 ft across the wings, weighing 5,135 lb (2,329 kg) at takeoff.",
+    "Hall moved the cockpit back and the engine forward so that the fuel tank could sit at the airplane's center of gravity.",
+    "Before the Paris flight, Lindbergh had flown the airmail between St. Louis and Chicago.",
+    "It was painted silver, with the registration N-X-211 and all other lettering in black.",
+    "Flags on both sides of the cowling record the Latin American tour: one was painted for each country Lindbergh visited, starting with Mexico."
+  ],
+  "whereToSee": {
+    "text": "The Spirit of St. Louis hangs above the entrance to the Barron Hilton Pioneers of Flight gallery (Gallery 208) at the Smithsonian's National Air and Space Museum in Washington, DC. The museum moved it there from the sunnier Boeing Milestones of Flight Hall to protect its fabric, and the renovated gallery opened on July 28, 2025.",
+    "source": 4
+  },
+  "quickFacts": [
+    { "label": "Completed", "value": "Late April 1927, San Diego", "source": 1 },
+    { "label": "Role", "value": "Long-distance monoplane built for the New York–Paris flight", "source": 1 },
+    { "label": "Engine", "value": "One 223-hp Wright J-5C Whirlwind radial", "source": 1 },
+    { "label": "Crew", "value": "One", "source": 1 },
+    { "label": "Wingspan", "value": "46 ft (14.0 m)", "source": 1 },
+    { "label": "Takeoff weight", "value": "5,135 lb (2,329 kg)", "source": 1 },
+    { "label": "The flight", "value": "May 20–21, 1927; 33 hours 30 minutes; 3,610 miles", "source": 1 },
+    { "label": "Final flight", "value": "April 30, 1928, St. Louis to Washington, DC", "source": 1 }
+  ],
+  "relatedGuides": ["wright-brothers-first-flight",  "why-flying-east-is-faster",  "how-to-learn-about-aviation"],
+  "relatedAircraft": ["douglas-world-cruiser",  "wright-flyer-1903",  "bleriot-xi"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Ryan NYP Spirit of St. Louis",
+      "url": "https://airandspace.si.edu/collection-objects/ryan-nyp-spirit-st-louis/nasm_A19280021000"
+    },
+    {
+      "publisher": "Science Museum Group",
+      "title": "Alcock and Brown's Vickers Vimy biplane",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co499537/alcock-and-browns-vickers-vimy-biplane"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Amelia Earhart's Lockheed Vega 5B",
+      "url": "https://airandspace.si.edu/collection-objects/lockheed-vega-5b-amelia-earhart/nasm_A19670093000"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Barron Hilton Pioneers of Flight",
+      "url": "https://airandspace.si.edu/exhibitions/barron-hilton-pioneers-flight-gallery"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Pioneers Gallery (Air & Space Quarterly, Summer 2023)",
+      "url": "https://airandspace.si.edu/air-and-space-quarterly/summer-2023/pioneers-gallery"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Press Kit: 2025 Gallery Openings",
+      "url": "https://airandspace.si.edu/newsroom/press-kit/2025-gallery-openings"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "National Air and Space Museum Opens Five New Galleries July 28",
+      "url": "https://airandspace.si.edu/newsroom/press-releases/national-air-and-space-museum-opens-five-new-galleries-july-28"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

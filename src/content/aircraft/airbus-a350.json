@@ -1,0 +1,96 @@
+{
+  "id": "airbus-a350",
+  "h1": "Airbus A350: The Composite Widebody Built on Decades of Safety Lessons",
+  "description": "The Airbus A350 first flew on June 14, 2013, and entered service in January 2015. Its airframe is 53% composites. Specs, notable facts and sources.",
+  "era": "modern",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Airbus A350 is a long-range widebody with two engines, launched in 2006 as an all-new design. The first A350-900 flew on June 14, 2013, and Qatar Airways flew the type's first passenger service on January 15, 2015. The stretched A350-1000 first flew on November 24, 2016, and joined Qatar Airways in February 2018.",
+    "Its airframe is what sets it apart. More than 70 percent of it is advanced material, including 53 percent composites, 14 percent titanium and modern aluminum alloys, a mix Airbus says saves weight and maintenance. Together with new engines and aerodynamics, Airbus says, that brings a 25 percent saving in fuel burn and CO2 over previous-generation rivals.",
+    "An A350-900 is 66.8 meters (219 feet) long and an A350-1000 is 73.8 meters (242 feet), on a shared 64.75-meter (212-foot) wingspan. Airbus quotes 300 to 350 seats in three classes for the -900 and 350 to 410 for the -1000, with up to 480 in the densest layout. A freighter version, the A350F, is designed to carry up to 111 tonnes."
+  ],
+  "whyItMatters": [
+    "Every modern airliner, the A350 included, is built under rules shaped by decades of accident investigations. Its cabin has smoke detectors in the lavatories, fire-resistant seat cushions and floor lighting that leads to the exits. A new design must also show, in full-size fatigue tests, that widespread cracking won't appear. [How safe flying is](/learn/how-safe-is-flying) tells the longer story of how those lessons were learned.",
+    "The A350 also shows how far long-haul comfort has come. Its composite fuselage lets the cabin be pressurized to the equivalent of 6,000 feet, where an aluminum airliner is held at about 8,000; [why planes fly so high](/learn/why-do-planes-fly-so-high) explains what cabin altitude means. HEPA filters clean the air, which is fully renewed about every two to three minutes. Airbus says the cabin is 5 decibels quieter than competing aircraft, and up to 9 decibels quieter toward the front.",
+    "Airlines have bought it in large numbers: as of October 2026, Airbus listed more than 1,500 orders and 700 deliveries. Its closest rivals are Boeing's [787 Dreamliner](/aircraft/boeing-787-dreamliner) and [777](/aircraft/boeing-777). [Boeing vs Airbus](/learn/boeing-vs-airbus) shows the quickest way to pick out an A350: the black band painted around its cockpit windows."
+  ],
+  "facts": [
+    "Its Rolls-Royce Trent XWB engines are rated at 84,000 pounds of takeoff thrust on the A350-900 and 97,000 on the A350-1000.",
+    "Europe's aviation safety agency approved the A350-900's design on September 30, 2014, and the FAA followed on November 12. Qatar Airways took the first delivery on December 22, 2014.",
+    "The A350-900ULR, which entered service with Singapore Airlines on October 11, 2018, can fly 9,700 nautical miles nonstop. In January 2024, Airbus called it the longest-range airliner in service.",
+    "The A350-900 and A350-1000 share 95 percent of their part numbers, even though the -1000 is about 7 meters longer.",
+    "Airbus says the A350's cabin is 221 inches (5.6 meters) wide, 6 inches wider than the cabin of the [787](/aircraft/boeing-787-dreamliner)."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "June 14, 2013 (A350-900)",
+      "source": 2
+    },
+    {
+      "label": "Entered service",
+      "value": "January 15, 2015, with Qatar Airways",
+      "source": 2
+    },
+    {
+      "label": "Role",
+      "value": "Widebody airliner",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Two Rolls-Royce Trent XWB turbofans",
+      "source": 2
+    },
+    {
+      "label": "Cruise speed",
+      "value": "Mach 0.85",
+      "source": 1
+    },
+    {
+      "label": "Range",
+      "value": "8,300 nmi (A350-900), 8,700 nmi (A350-1000), Airbus figures of January 2024",
+      "source": 2
+    },
+    {
+      "label": "Passengers",
+      "value": "300 to 350 (A350-900), 350 to 410 (A350-1000), typical three-class",
+      "source": 2
+    },
+    {
+      "label": "Status",
+      "value": "In production; 1,500+ orders and 700+ deliveries, as of October 2026",
+      "source": 3
+    }
+  ],
+  "relatedGuides": [
+    "how-safe-is-flying",
+    "why-do-planes-fly-so-high",
+    "boeing-vs-airbus"
+  ],
+  "relatedAircraft": [
+    "boeing-787-dreamliner",
+    "airbus-a330",
+    "boeing-777"
+  ],
+  "sources": [
+    {
+      "publisher": "Airbus",
+      "title": "A350-1000",
+      "url": "https://aircraft.airbus.com/en/aircraft/a350/a350-1000"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "A350 Family Facts and Figures, January 2024",
+      "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2024-01/Airbus-A350-Family-Facts-and-Figures%20January-2024.pdf"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "Airbus A350 Family: the future of long-haul travel",
+      "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

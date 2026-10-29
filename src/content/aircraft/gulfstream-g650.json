@@ -1,0 +1,106 @@
+{
+  "id": "gulfstream-g650",
+  "h1": "Gulfstream G650: The Business Jet That Flies Close to the Speed of Sound",
+  "description": "The Gulfstream G650 first flew on November 25, 2009, and can fly at up to Mach 0.925. Specs, its round-the-world record, notable facts and sources.",
+  "era": "modern",
+  "roleGroup": "light-aircraft",
+  "intro": [
+    "The Gulfstream G650 is a large-cabin business jet built to cross oceans nonstop. Gulfstream announced it on March 13, 2008, and it first flew on November 25, 2009. FAA approval followed on September 7, 2012, and the jet entered service that December. Its maximum operating speed is Mach 0.925, close to the speed of sound.",
+    "At a more economical Mach 0.85, a G650 can fly 7,000 nautical miles (12,964 km). The extended-range G650ER, delivered from November 2014, stretches that to 7,500 nautical miles (13,890 km). Even at Mach 0.90, the two can cover 6,000 and 6,400 nautical miles. Two turbofans power both.",
+    "Inside, the cabin can be divided into as many as four living areas, lit by 16 panoramic windows. Gulfstream says it gets 100 percent fresh air and the lowest cabin altitude in the industry, and in 2014 it called the G650's cabin the largest of any business jet. The G650 also won the Collier Trophy."
+  ],
+  "whyItMatters": [
+    "General aviation is all the civil flying that isn't done by airlines or other air carriers, from small propeller planes to long-range business jets. The G650 sits at its far end. On one westbound trip around the world, a G650 set 22 city-pair speed records and finished in 41 hours and 7 minutes. Gulfstream calls it the fastest circumnavigation by a large-cabin aircraft that isn't supersonic.",
+    "It sold steadily. Gulfstream delivered the 100th G650 in November 2014, the 200th in October 2016 and the 300th in early 2018. In its annual report for 2024, General Dynamics, Gulfstream's parent company, said more than 580 G650s and G650ERs were in service in 55 countries. It also said the last G650 would be completed and delivered in 2025, as the longer-range G800 replaced it.",
+    "It sits at the opposite end of general aviation from the [Cessna 172](/aircraft/cessna-172-skyhawk) and the [Beechcraft Bonanza](/aircraft/beechcraft-bonanza). [What is Mach 1?](/learn/what-is-mach-1) explains what changes as an airplane nears the speed of sound, and [the fastest planes ever](/learn/fastest-planes-ever) puts the G650's speed in context."
+  ],
+  "facts": [
+    "Owners of earlier G650s could have them upgraded to the G650ER's longer range.",
+    "In late 2017 a G650ER set five city-pair records in six days, including New York to Paris and Tokyo to New York.",
+    "By 2018 the G650 and G650ER together held 70 city-pair speed records.",
+    "By the time the 100th G650 was delivered, the fleet had flown more than 33,500 hours, and the type was approved in 12 countries.",
+    "Its successor, the G800, first flew in June 2022. With a range of 8,000 nautical miles at Mach 0.85, it is Gulfstream's longest-range aircraft."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "November 25, 2009",
+      "source": 2
+    },
+    {
+      "label": "Entered service",
+      "value": "December 2012",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Ultra-long-range business jet",
+      "source": 1
+    },
+    {
+      "label": "Maximum speed",
+      "value": "Mach 0.925 (maximum operating speed)",
+      "source": 1
+    },
+    {
+      "label": "Range",
+      "value": "7,000 nmi (12,964 km) at Mach 0.85",
+      "source": 1
+    },
+    {
+      "label": "Record",
+      "value": "Westbound around the world in 41 hours 7 minutes",
+      "source": 1
+    },
+    {
+      "label": "In service",
+      "value": "More than 580 G650s and G650ERs in 55 countries (early 2025)",
+      "source": 5
+    },
+    {
+      "label": "Status",
+      "value": "Replaced by the G800; last delivery planned for 2025",
+      "source": 5
+    }
+  ],
+  "relatedGuides": [
+    "what-is-mach-1",
+    "fastest-planes-ever",
+    "why-do-planes-fly-so-high"
+  ],
+  "relatedAircraft": [
+    "cessna-172-skyhawk",
+    "beechcraft-bonanza",
+    "extra-300"
+  ],
+  "sources": [
+    {
+      "publisher": "General Dynamics",
+      "title": "Gulfstream delivers 300th G650",
+      "url": "https://www.gd.com/Articles/2018/04/10/gulfstream-delivers-300th-g650"
+    },
+    {
+      "publisher": "General Dynamics",
+      "title": "Gulfstream Manufactures 100th G650",
+      "url": "https://www.gd.com/Articles/2014/11/19/gulfstream-manufactures-100th-g650"
+    },
+    {
+      "publisher": "General Dynamics",
+      "title": "Gulfstream Delivers 200th Gulfstream G650",
+      "url": "https://www.gd.com/Articles/2016/10/31/gulfstream-delivers-200th-gulfstream-g650"
+    },
+    {
+      "publisher": "General Dynamics",
+      "title": "All-New Gulfstream G800 Makes First Flight",
+      "url": "https://www.gd.com/Articles/2022/06/28/gulfstream-g800-makes-first-flight"
+    },
+    {
+      "publisher": "General Dynamics",
+      "title": "2024 Annual Report",
+      "url": "https://www.gd.com/-/media/gd-corporate/pdf/gd_2024_ar_final.ashx"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

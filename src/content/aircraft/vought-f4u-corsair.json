@@ -1,0 +1,90 @@
+{
+  "id": "vought-f4u-corsair",
+  "h1": "Vought F4U Corsair: Why Its Wings Are Bent",
+  "description": "The Vought F4U Corsair first flew on May 29, 1940. Its inverted gull wing cleared a 13-foot propeller, and 12,582 were built. Specs, facts and sources.",
+  "era": "wwii",
+  "roleGroup": "military",
+  "intro": [
+    "The Vought F4U Corsair is the fighter with the bent wings. Each wing drops from the fuselage and then rises again, an inverted gull shape that gave its huge three-blade propeller, 13 feet 1 inch across, room above the ground and, as a bonus, reduced drag where the wing met the fuselage.",
+    "The propeller was big because the engine was. The US Navy asked for a new carrier fighter in February 1938 and chose Vought's design built around the Pratt & Whitney R-2800, the most powerful air-cooled engine available. Test pilot Lyman Bullard first flew the XF4U-1 prototype on May 29, 1940, with 1,850 horsepower turning what the Smithsonian calls the largest engine and propeller ever flown on a fighter at that time. It was a 400 mph airplane.",
+    "Vought, Goodyear and Brewster built 12,582 Corsairs, and the type stayed in production longer than any other US fighter that served in World War II: the last batch, 94 F4U-7s for the French Navy, was delivered in 1952."
+  ],
+  "whyItMatters": [
+    "Carrier aircraft have to be tough and compact, and the Corsair shows what that costs. Its outer wing panels folded for stowage below deck. But when the Navy asked for heavier armament, the guns displaced fuel tanks in the wings, so a 237-gallon tank went into the fuselage and the cockpit moved nearly three feet aft. The long nose then blocked the pilot's view at the most critical moment of a carrier landing.",
+    "That, combined with a sharp [stall](/learn/what-is-a-stall), strong torque at low speed and landing gear that bounced on touchdown, made the early Corsair very hard to land on a ship. The Navy sent its Corsairs to land-based Marine squadrons and filled its carriers with the Grumman F6F Hellcat, which was about 15 mph slower but easy to bring aboard. The Corsair was not cleared for carrier operations until late in 1944.",
+    "Carrier flying itself had started on November 14, 1910, when Eugene Ely took off from a wooden platform on the cruiser Birmingham; his landing on the Pennsylvania two months later used ropes weighted with sandbags, an early form of arresting gear. By the time the Corsair arrived, that idea had become the floating airfield, and the Corsair was one of the aircraft that had to be reworked to live on one."
+  ],
+  "facts": [
+    "The Corsair's wing spans 41 feet, and the airplane is 33 feet 5 inches long and 15 feet 1 inch tall; the Smithsonian's F4U-1D weighs 8,900 pounds.",
+    "Despite its speed, Vought covered the wing behind the main spar in fabric, a practice it also followed on its OS2U Kingfisher floatplane.",
+    "After the war, civilian pilots raced modified Corsairs, preferring the Goodyear-built F2G versions, and Corsairs won the Thompson Trophy twice.",
+    "By New Year's Eve 1942 the Navy owned 178 F4U-1s, and improvements to the airplane eventually qualified it for the carrier decks it had been designed for."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "May 29, 1940 (XF4U-1 prototype)",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Carrier-based fighter",
+      "source": 1
+    },
+    {
+      "label": "Engine",
+      "value": "One Pratt & Whitney R-2800 radial, 1,850 hp in the prototype",
+      "source": 1
+    },
+    {
+      "label": "Top speed",
+      "value": "About 400 mph",
+      "source": 1
+    },
+    {
+      "label": "Wingspan",
+      "value": "41 ft",
+      "source": 1
+    },
+    {
+      "label": "Cleared for carriers",
+      "value": "Late 1944",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "12,582 (Vought, Goodyear and Brewster)",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "Production ended in 1952 with 94 F4U-7s for France",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "how-do-planes-fly",
+    "what-is-a-stall",
+    "fastest-planes-ever"
+  ],
+  "relatedAircraft": [
+    "north-american-p-51-mustang",
+    "supermarine-spitfire",
+    "messerschmitt-me-262"
+  ],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Vought F4U-1D Corsair",
+      "url": "https://airandspace.si.edu/collection-objects/vought-f4u-1d-corsair/nasm_A19610124000"
+    },
+    {
+      "publisher": "Naval History and Heritage Command",
+      "title": "Eugene Ely Makes Naval Aviation's First Shipboard Launch",
+      "url": "https://www.history.navy.mil/content/history/museums/nnam/education/articles/history-up-close/eugene-ely-makes-naval-aviations-first-shipboard-launch.html"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

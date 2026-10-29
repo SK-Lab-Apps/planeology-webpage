@@ -1,0 +1,70 @@
+{
+  "id": "montgolfier-balloon",
+  "h1": "Montgolfier Balloon: The Paper Makers Who Lifted People Off the Earth",
+  "description": "A Montgolfier hot air balloon carried the first people into untethered flight on November 21, 1783. How it flew, who built it, key dates and sources.",
+  "era": "pioneers",
+  "roleGroup": "transport-special",
+  "intro": [
+    "The Montgolfier balloon was the first aircraft to carry people. Its inventors, Joseph-Michel and Jacques-Étienne Montgolfier, came from a French family that had made paper for generations. On June 4, 1783, they sent up an unmanned hot air balloon from the town square of Annonay.",
+    "The idea needs no engine. Heated air is less dense than the cooler air around it, so a big enough bag of it floats upward and lifts whatever hangs below. The Montgolfiers heated theirs with a fire beneath the balloon, and on the first free flight with people aboard, that fire burned straw.",
+    "Animals flew before people did. On September 19, 1783, a sheep, a duck and a rooster rode a Montgolfier balloon aloft from Versailles. Then, on November 21, Pilâtre de Rozier, a physics teacher, and the marquis d'Arlandes, a military officer, made the first free flight by human beings. Workmen at the Réveillon paper works in Paris had built their balloon for the brothers."
+  ],
+  "whyItMatters": [
+    "Before November 21, 1783, nobody had flown free. Smithsonian Libraries records an earlier ascent by Jacques-Étienne Montgolfier, on October 15, but his balloon was tethered. The November 21 balloon was not. It rose from the garden of the Château de la Muette, near the Bois de Boulogne, and the Libraries' account says Louis XVI and thousands of onlookers watched.",
+    "Ten days later came the rival. On December 1, 1783, the physicist Jacques Charles and Nicolas-Louis Robert (M.N. Robert in some Smithsonian accounts) made the first free flight in a hydrogen balloon, from the Tuileries gardens. Charles had the idea, and Robert and his brother Anne-Jean engineered the balloon. Hydrogen is lighter than air even when it is cold, so their balloon needed no fire.",
+    "A balloon can rise and sink, but it travels wherever the wind carries it. Gliders came next, and Otto Lilienthal's flights in the 1890s inspired the brothers who built the [Wright Flyer](/aircraft/wright-flyer-1903), a thread the [Wright brothers guide](/learn/wright-brothers-first-flight) follows. An airplane weighs more than the air it pushes aside, so it has to make its own lift, which [how planes fly](/learn/how-do-planes-fly) explains."
+  ],
+  "facts": [
+    "NASA's Centennial of Flight brochure gives the animal flight from Versailles on September 19, 1783, about eight minutes in the air and a distance of roughly two miles.",
+    "By NASA's account, de Rozier and d'Arlandes kept feeding their straw fire on November 21, climbed to about 330 feet and were back on the ground in under 30 minutes.",
+    "Charles's first hydrogen balloon flew with no one aboard on August 27, 1783. Where it came down, frightened country people are said to have taken it for a monster and gone at it with pitchforks.",
+    "Benjamin Franklin, then America's diplomat in Paris, was in the Tuileries crowd on December 1, which Smithsonian accounts put at around 400,000. He caught the city's balloon fever and bought a small hydrogen balloon for his grandson; let go in a bedroom, it floated up and rolled along the ceiling."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight (no one aboard)", "value": "June 4, 1783, Annonay, France", "source": 1 },
+    { "label": "First free flight with people", "value": "November 21, 1783", "source": 1 },
+    { "label": "Role", "value": "Hot air balloon", "source": 1 },
+    { "label": "Lift", "value": "Heated air, less dense than the cooler air around it", "source": 2 },
+    { "label": "Fuel", "value": "Burning straw (November 21 flight)", "source": 6 },
+    { "label": "Crew", "value": "Two: Pilâtre de Rozier and the marquis d'Arlandes", "source": 1 },
+    { "label": "Height and time aloft", "value": "About 330 ft; under 30 minutes (NASA's account)", "source": 6 },
+    { "label": "Inventors", "value": "Joseph-Michel (1740–1810) and Jacques-Étienne (1745–1799) Montgolfier", "source": 1 }
+  ],
+  "relatedGuides": ["wright-brothers-first-flight",  "how-do-planes-fly",  "why-do-planes-fly-so-high"],
+  "relatedAircraft": ["wright-flyer-1903",  "bleriot-xi",  "boeing-314-clipper"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Montgolfier Balloon",
+      "url": "https://airandspace.si.edu/collection-objects/montgolfier-balloon/nasm_A19750721000"
+    },
+    {
+      "publisher": "NASA Glenn Research Center",
+      "title": "Hot Air Balloon",
+      "url": "https://www.grc.nasa.gov/www/k-12/TRC/Aeronautics/Hot_Air_Balloon.html"
+    },
+    {
+      "publisher": "Smithsonian Libraries",
+      "title": "Age of the Aeronaut",
+      "url": "https://library.si.edu/exhibition/fantastic-worlds/age-of-the-aeronaut"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Lilienthal Glider",
+      "url": "https://airandspace.si.edu/collection-objects/lilienthal-glider/nasm_A19060001000"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Du Globe Aerostatique",
+      "url": "https://airandspace.si.edu/collection-objects/du-globe-aerostatique/nasm_A19680097000"
+    },
+    {
+      "publisher": "NASA",
+      "title": "Centennial of Flight commemorative brochure (NTRS 20040041360)",
+      "url": "https://ntrs.nasa.gov/api/citations/20040041360/downloads/20040041360.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "airbus-a380",
+  "h1": "Airbus A380: Facts, Specs and the Superjumbo's Story",
+  "description": "The Airbus A380 first flew on April 27, 2005, and the last of 251 was delivered in December 2021. Specs, notable facts, where to see one and sources.",
+  "era": "modern",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Airbus A380 is the largest passenger airliner ever built and the only one with two full-length passenger decks. It first flew on April 27, 2005, and Singapore Airlines put it into service on October 25, 2007. Airbus approved it for as many as 853 passengers in an all-economy layout, though airlines fitted far fewer seats and used the space for bars, lounges and, on a few, showers.",
+    "The scale is hard to picture from the terminal. The wings span 79.8 meters (about 262 feet), the fuselage is 73 meters (about 240 feet) long, and the tail stands 24 meters (about 79 feet) above the ramp. Four turbofans, either Rolls-Royce Trent 900s or Engine Alliance GP7000s, give it a range of about 8,000 nautical miles (14,800 km), enough for around 17 hours in the air.",
+    "Spotting one is easy: no other airliner has a complete second row of windows running the whole length of the fuselage. The cockpit sits between the two decks, so the pilots' windows appear low on the nose rather than up in a hump, the way they do on a [Boeing 747](/aircraft/boeing-747)."
+  ],
+  "whyItMatters": [
+    "Airbus designed the A380 for a world of crowded hub airports, where one very large airplane could move more people through each takeoff and landing slot. Its own figures show the scale of what followed. By Airbus's count the fleet has made more than 800,000 flights and carried more than 300 million passengers, and the A380 is the only airliner that offers more than 500 seats.",
+    "Airlines, though, mostly preferred smaller twin-engine jets such as the [Boeing 777](/aircraft/boeing-777) and the [Airbus A350](/aircraft/airbus-a350), which could fly long routes between smaller cities without needing to fill 500 seats. Only 14 customers bought the A380, and one of them, Emirates, took 123 of the 251 delivered, roughly half. In February 2019 Airbus announced that deliveries would end, and the final A380 went to Emirates on December 16, 2021.",
+    "The end of the production line was not the end of the airplane. As of October 2026, Airbus's A380 page still names ten airlines flying the type, Emirates is refitting the cabins of its whole fleet, and Airbus says it will support the A380 for decades to come. For passengers it remains the only airliner ever fitted with lounges, showers and private suites."
+  ],
+  "facts": [
+    "The wingspan, 79.8 meters, is greater than the length of the fuselage, 73 meters: the A380 is wider than it is long.",
+    "Airbus approved the cabin for up to 853 passengers, and the A380 is the only airliner that offers more than 500 seats.",
+    "Emirates took 123 of the 251 A380s delivered, about half the entire production run, and received the last one on December 16, 2021.",
+    "Airbus says the fleet has flown more than 800,000 flights and carried more than 300 million passengers, burning about 3.1 liters of fuel per 100 passenger-kilometers.",
+    "Five A380s were built for testing before the first delivery. The fourth, MSN4, made 1,130 test flights totaling 3,360 hours, from hot-weather trials at Al Ain to cold-weather trials at Iqaluit, before retiring to a museum in 2017."
+  ],
+  "whereToSee": {
+    "text": "The fourth A380 test aircraft, MSN4 (registered F-WWDD), was handed over to the Musée de l'Air et de l'Espace at Le Bourget, north of Paris, on February 14, 2017, after a final flight from Toulouse. It stands on the museum's outdoor tarmac among its airliners and prototypes.",
+    "source": 4
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "April 27, 2005", "source": 1 },
+    { "label": "Role", "value": "Double-deck widebody airliner", "source": 1 },
+    { "label": "Engines", "value": "Four turbofans: Rolls-Royce Trent 900 or Engine Alliance GP7000", "source": 1 },
+    { "label": "Wingspan", "value": "79.8 m (about 262 ft)", "source": 1 },
+    { "label": "Range", "value": "About 8,000 nautical miles (14,800 km)", "source": 1 },
+    { "label": "Passengers", "value": "Up to 853 (all-economy maximum)", "source": 1 },
+    { "label": "Number built", "value": "251, delivered to 14 customers", "source": 1 },
+    { "label": "Status", "value": "Production ended; final delivery December 16, 2021; still in service", "source": 3 }
+  ],
+  "relatedGuides": ["biggest-planes-in-the-world", "boeing-vs-airbus", "how-jet-engines-work"],
+  "relatedAircraft": ["boeing-747", "airbus-a350", "boeing-777"],
+  "sources": [
+    {
+      "publisher": "Airbus",
+      "title": "A380",
+      "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "Airbus and Emirates reach agreement on A380 fleet",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2019-02-airbus-and-emirates-reach-agreement-on-a380-fleet-sign-new-widebody"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "The A380, Emirates and the flying public",
+      "url": "https://www.airbus.com/en/newsroom/stories/2021-12-the-a380-emirates-and-flying-public-a-winning-combination"
+    },
+    {
+      "publisher": "Musée de l'Air et de l'Espace",
+      "title": "Airbus A380 MSN4 F-WWDD",
+      "url": "https://www.museeairespace.fr/aller-plus-haut/collections/airbus-a380-msn4-f-wwdd/"
+    },
+    {
+      "publisher": "Musée de l'Air et de l'Espace",
+      "title": "Arrivée en vol d'un Airbus A380 d'essais",
+      "url": "https://www.museeairespace.fr/actualites/arrivee-en-vol-dun-airbus-a380-dessais/"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

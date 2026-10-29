@@ -1,0 +1,10 @@
+## /aircraft/lockheed-martin-f-22-raptor
+
+| Claim | Source | Status |
+|---|---|---|
+| Raptor 4001 first flew on September 7, 1997 (Marietta, Georgia; chief test pilot Paul Metz; 58 minutes); YF-22 and YF-23 flew in 1990; the Lockheed-Boeing-General Dynamics team won the ATF contest in 1991; the 1981 requirement to replace the F-15 "in service for just seven years"; nearly 44,000 wind-tunnel hours; 3,496 flights and 7,616 test hours in development; declared operational in 2005 | Lockheed Martin, F-22 Raptor History, https://www.lockheedmartin.com/en-us/news/features/history/f-22.html | ✅ |
+| Single-seat, twin-engine; "soar 10 miles high"; supercruise above Mach 1.5 without afterburner, described as "unprecedented"; last of 195 delivered May 2, 2012 after 15 years; 2006 Collier Trophy | Lockheed Martin, F-22 Raptor History | ✅ |
+| Pratt & Whitney F119 engines, maintainable with six common hardware-store tools; a significant portion of maintenance preserves low-observable coatings, including when the aircraft is opened for routine maintenance; flown exclusively by the US Air Force; more than 500,000 flight hours; FASTeR III sustainment contract 2028–2037 with modernization (sensors, connectivity) | Lockheed Martin, F-22 Raptor (product page), https://www.lockheedmartin.com/en-us/products/f-22.html (read October 29, 2026) | ✅ Status dated "as of October 2026" |
+| Fifth-generation fighters carry weapons internally; sensor fusion gives the pilot one integrated picture | Lockheed Martin, 5th Gen Capabilities, https://www.lockheedmartin.com/f35/about/5th-gen-capabilities.html (app lesson `fighter-generations`) | ✅ |
+| Where to see one | — | Left null: no museum display is confirmed by an allowed source (nationalmuseum.af.mil is unreachable) |
+| Everything else (operational in 2005; supercruise above Mach 1.5; 195 built; "world's only operational fifth generation stealth fighter fleet" at the last delivery in 2012) | App lesson `fighter-generations` and its Lockheed Martin source | ✅ |

@@ -1,0 +1,69 @@
+{
+  "id": "boeing-787-dreamliner",
+  "h1": "Boeing 787 Dreamliner: The Carbon-Fiber Jet With the Lower Cabin",
+  "description": "The 787 Dreamliner first flew on December 15, 2009. Half its structure is composite, which lets its cabin sit at 6,000 feet. Specs, facts and sources.",
+  "era": "modern",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Boeing 787 Dreamliner is a midsize widebody built largely from carbon-fiber composites rather than aluminum. It first flew on December 15, 2009, from Paine Field in Everett, Washington, and entered service when the first one was delivered to All Nippon Airways on September 26, 2011.",
+    "Composites make up about half of its primary structure by weight, including the fuselage and wing. Because a carbon fuselage tolerates higher internal pressure and humidity, the cabin can be kept at the equivalent of 6,000 feet, 2,000 feet lower than conventional jets, with moister air and, by Boeing's account, the largest windows of any widebody flying today, dimmed electronically instead of with a shade.",
+    "Three versions share one wing: the 787-8, the longer 787-9, which first flew on September 17, 2013, and the 787-10, launched in June 2013 as the longest of the family. All use either GE Aerospace GEnx-1B or Rolls-Royce Trent 1000 engines, with serrated chevrons on the nacelles to cut noise."
+  ],
+  "whyItMatters": [
+    "Boeing designed the 787 as a long-range airplane in a midsize package, so airlines could fly nonstop between cities that could never fill a [747](/aircraft/boeing-747). Boeing counts more than 550 new nonstop routes opened by the type and says it burns about 20 percent less fuel than similarly sized airplanes, a saving that comes from the light structure, new engines and the shape of the wing.",
+    "It also changed what passengers notice. Boeing's case for the lower [cabin altitude](/learn/why-do-planes-fly-so-high) and higher humidity is comfort on long flights, and the dimmable windows let a crew darken a whole cabin without a single shade. The [round-windows guide](/learn/why-are-airplane-windows-round) explains why those big windows were only possible once the fuselage stopped being metal.",
+    "It took longer to arrive than Boeing planned, but it sold. The 787 earned the 2011 Collier Trophy, reached its 1,000th order in November 2013, faster than any previous widebody, and by October 2026 Boeing counted more than 1,300 deliveries, 2,450 orders from 90 customers and 1.3 billion passengers carried."
+  ],
+  "facts": [
+    "As much as 50 percent of the 787's primary structure, including the fuselage and wing, is made of composite materials.",
+    "In late 2011 a 787 flew 10,336 nautical miles (19,142 km) nonstop from Seattle to Dhaka, a distance record for its weight class, then continued east to finish a round-the-world trip in 42 hours 26 minutes.",
+    "Boeing lists ranges of up to 8,000 nautical miles for the 787-8, 8,300 for the 787-9 and 7,500 for the 787-10.",
+    "The 787 has been assembled at two sites: Everett, Washington, where the line opened in May 2007, and North Charleston, South Carolina, announced as a second final assembly site in October 2009.",
+    "On November 8, 2014, Boeing gave the third 787 ever built, flight-test airplane ZA003, to the Museum of Flight in Seattle."
+  ],
+  "whereToSee": {
+    "text": "ZA003, the third 787 built and a veteran of the flight-test program, stands in the Aviation Pavilion at the Museum of Flight in Seattle, a covered open-air gallery of 19 airplanes that also holds the first 727, 737 and 747.",
+    "source": 5
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "December 15, 2009", "source": 1 },
+    { "label": "Role", "value": "Midsize widebody airliner", "source": 1 },
+    { "label": "Engines", "value": "Two turbofans: GE Aerospace GEnx-1B or Rolls-Royce Trent 1000", "source": 3 },
+    { "label": "Range", "value": "Up to 8,000 nmi (787-8), 8,300 nmi (787-9), 7,500 nmi (787-10)", "source": 3 },
+    { "label": "Passengers", "value": "200 to 275 (787-8), 250 to 325 (787-9), 300 to 375 (787-10), two-class", "source": 3 },
+    { "label": "Wingspan", "value": "60.1 m (197 ft 3 in)", "source": 3 },
+    { "label": "Delivered", "value": "More than 1,300, as of October 2026", "source": 2 },
+    { "label": "Status", "value": "In production; 2,450+ orders from 90 customers, as of October 2026", "source": 3 }
+  ],
+  "relatedGuides": ["why-do-planes-fly-so-high", "why-are-airplane-windows-round", "boeing-vs-airbus"],
+  "relatedAircraft": ["airbus-a350", "boeing-777", "boeing-767"],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "787 Dreamliner By Design",
+      "url": "https://www.boeing.com/commercial/787/by-design"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "787 Dreamliner",
+      "url": "https://www.boeing.com/commercial/787"
+    },
+    {
+      "publisher": "The Museum of Flight",
+      "title": "Boeing 787 Dreamliner",
+      "url": "https://www.museumofflight.org/exhibits-and-events/exhibits/boeing-787-dreamliner"
+    },
+    {
+      "publisher": "The Museum of Flight",
+      "title": "Aviation Pavilion",
+      "url": "https://www.museumofflight.org/exhibits-and-events/museum-galleries/aviation-pavilion"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "lockheed-c130-hercules",
+  "h1": "Lockheed C-130 Hercules: The Longest Production Run of Any Military Aircraft",
+  "description": "The C-130 Hercules first flew on August 23, 1954, and is still being built. Its four turboprops, missions, production history, specs and sources.",
+  "era": "jet-age",
+  "roleGroup": "transport-special",
+  "intro": [
+    "The Lockheed C-130 Hercules is a four-engine turboprop transport built to carry troops and cargo into short, rough airfields. The prototype YC-130 first flew on August 23, 1954, from Lockheed's plant in Burbank, California, and the Hercules is still being built. Lockheed Martin says it has the longest continuous production run of any military aircraft in history.",
+    "It grew out of the Korean War. The US Air Force found it had no transport that could fly combat troops over medium distances into short, primitive airstrips. It asked for one in early 1951, and Lockheed won a contract for two prototypes that July. Production moved to Marietta, Georgia, where the first production C-130A flew on April 7, 1955.",
+    "Everything about its shape serves the cargo. The high wing leaves the floor of the pressurized hold at about the height of a truck bed. A ramp in the tail lets vehicles roll straight in and out. Today's model, the C-130J Super Hercules, first flew on April 5, 1996. Its stretched C-130J-30 version adds 15 feet of fuselage and room for two more pallets."
+  ],
+  "whyItMatters": [
+    "The Hercules is the classic case for the turboprop. Each engine is a jet core that turns a propeller through a gearbox. Turboprops work best between about 250 and 400 mph at 18,000 to 30,000 feet, and they cope well with the slow speeds of takeoff and landing. Lockheed Martin quotes 410 mph at 22,000 feet for the C-130J-30, just past the fast end of that band. The [jet engines guide](/learn/how-jet-engines-work) explains how the turbine and gearbox share the work.",
+    "The same airframe has taken on almost every job a large airplane can do. Lockheed Martin counts some 70 variants, starting with a ski-equipped version tested in 1957 to supply Distant Early Warning radar sites. Others have dropped bombs, caught satellites in midair, attacked ground targets with cannons and fought fires. Crews have flown Hercules to both poles.",
+    "In 2024, NOAA ordered two C-130Js to replace its [WP-3D Orion](/aircraft/lockheed-wp-3d-orion) hurricane hunters, with the new airplanes expected to join its fleet in 2030. The [CH-47 Chinook](/aircraft/boeing-ch-47-chinook) shows the other branch of the turbine family, a turboshaft driving rotors instead of propellers, which the [helicopter guide](/learn/how-do-helicopters-fly) explains."
+  ],
+  "facts": [
+    "The YC-130 needed only a short run on its first flight: 855 feet by one Lockheed Martin account and 800 feet by another.",
+    "Lockheed Martin says a Hercules is in the air somewhere in the world every minute of every day.",
+    "LC-130s fitted with skis and Teflon-coated runners land on snow and ice. They regularly carry supplies into Antarctica and onto the Greenland ice cap.",
+    "The first production model, the C-130A, had four Allison T56 turboprops of 3,750 horsepower each. It entered service in December 1956, and 231 were delivered.",
+    "By Lockheed Martin's count, more than 2,700 C-130s have been ordered or delivered, 70 countries operate them, and the C-130H alone reached 1,202 deliveries."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "August 23, 1954 (YC-130 prototype)", "source": 1 },
+    { "label": "Role", "value": "Tactical airlifter for troops, cargo, airdrops and special missions", "source": 2 },
+    { "label": "Engines", "value": "Four turboprops (Allison T56 on the C-130A)", "source": 2 },
+    { "label": "Speed", "value": "410 mph (356 knots) at 22,000 ft (C-130J-30)", "source": 3 },
+    { "label": "Range", "value": "2,417 miles (2,100 nmi) with maximum normal payload (C-130J-30)", "source": 3 },
+    { "label": "Load", "value": "128 combat troops, 92 paratroopers, 97 litters or 8 pallets (C-130J-30)", "source": 3 },
+    { "label": "Number built", "value": "More than 2,700 ordered or delivered", "source": 2 },
+    { "label": "Status", "value": "In production as the C-130J Super Hercules", "source": 2 }
+  ],
+  "relatedGuides": ["how-jet-engines-work", "how-do-helicopters-fly"],
+  "relatedAircraft": ["lockheed-wp-3d-orion", "boeing-ch-47-chinook", "antonov-an-225-mriya"],
+  "sources": [
+    {
+      "publisher": "Lockheed Martin",
+      "title": "Story of Innovation: C-130 Hercules",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/history/hercules.html"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "C-130 History",
+      "url": "https://www.lockheedmartin.com/en-us/products/c130/history.html"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "C-130J-30 Super Hercules",
+      "url": "https://www.lockheedmartin.com/en-us/products/c130/c-130j-30-super-hercules.html"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf"
+    },
+    {
+      "publisher": "NOAA",
+      "title": "NOAA awards contract for next-generation hurricane hunter aircraft",
+      "url": "https://www.noaa.gov/news-release/noaa-awards-contract-for-next-generation-hurricane-hunter-aircraft"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

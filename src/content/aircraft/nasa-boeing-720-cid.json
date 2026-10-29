@@ -1,0 +1,61 @@
+{
+  "id": "nasa-boeing-720-cid",
+  "h1": "NASA's Boeing 720 Crash-Test Jet: The Planned Crash of 1984",
+  "description": "On December 1, 1984, NASA and the FAA flew a remotely piloted Boeing 720 into a planned crash to make accidents more survivable. Facts and sources.",
+  "era": "jet-age",
+  "roleGroup": "research",
+  "intro": [
+    "On December 1, 1984, a four-engine Boeing 720 airliner with no one aboard flew itself, under radio control from a cockpit on the ground, into a prepared crash site on Rogers Dry Lakebed at Edwards Air Force Base, California. It was the Controlled Impact Demonstration, a joint NASA and FAA experiment designed to make airliner accidents more survivable, and NASA called it a once-in-a-lifetime research test.",
+    "The airplane was an ordinary Boeing 720, the short-to-medium-range version of the [Boeing 707](/aircraft/boeing-707) that Boeing built between 1959 and 1967, nine feet shorter than its parent. Boeing made 154 of them. This one, built in the early 1960s and nearing the end of its working life, was handed to NASA by the FAA and spent months being rebuilt into a remotely piloted vehicle, its existing autopilot modified to take commands from the ground.",
+    "The test had three goals: to show that an antimisting additive could keep spilled fuel from turning into a fireball, to measure crash loads on a real transport structure, and to test improved seats and restraints. Crash-test dummies filled the seats, and the airplane carried hundreds of sensors plus several experimental flight recorders."
+  ],
+  "whyItMatters": [
+    "Getting there took 14 flights with a safety crew aboard, during which the ground pilot made 10 remote takeoffs, 13 remote landings and 69 practice approaches to the impact point. On the day, the 720 took off at a weight of 200,500 pounds with its tanks full of treated kerosene and descended toward a row of triangular wing cutters set in the lakebed to rip open its fuel tanks, as a real crash into obstacles might.",
+    "The impact did not go as planned. The airplane struck harder and in a different attitude than intended, fuel poured from the right wing, and unexpectedly hot ignition sources set it alight: a setback for the antimisting fuel, which NASA said had been put through conditions far more severe than the survivable crash it was meant for. Yet 97% of the sensors on the structure, seats, dummies, galley and bins were still working at impact, and the flight data recorder experiments on board largely succeeded.",
+    "The sensor data, a wealth of it by NASA's account, went into research on seats, cabin structures and crash-protected recorders, and the recorder experiments were among the test's clearest successes. How those recorders are built to survive is explained in [why black boxes are orange](/learn/why-are-black-boxes-orange), and the wider story of how accidents and experiments made cabins safer is in [how safe flying is](/learn/how-safe-is-flying). The 720's short routes, meanwhile, passed to the [Boeing 727](/aircraft/boeing-727)."
+  ],
+  "facts": [
+    "The ground pilot flew the 720 through a modified version of its own 1960s autopilot, with commands sent up by radio link and telemetry coming back down.",
+    "Before the final flight, the crew-aboard test flights accumulated 16 hours and 22 minutes of remote control.",
+    "Boeing built 154 720s between 1959 and 1967; the type's short- and medium-range job was later taken over by the 727 and 737.",
+    "The antimisting additive, FM-9, is a long-chain polymer blended into ordinary Jet A fuel, and it had stopped ignition in simulated crashes before the full-scale test.",
+    "NASA described the test as far more severe than planned and not representative of the kind of survivable crash the fuel additive was meant to help."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "Test date", "value": "December 1, 1984, Rogers Dry Lakebed, Edwards Air Force Base", "source": 1 },
+    { "label": "Role", "value": "Crash-test research aircraft (Controlled Impact Demonstration)", "source": 2 },
+    { "label": "Aircraft", "value": "Boeing 720, a shortened 707 built from 1959 to 1967", "source": 3 },
+    { "label": "Engines", "value": "Four jet engines", "source": 2 },
+    { "label": "Crew", "value": "None aboard on the final flight; flown by remote control", "source": 2 },
+    { "label": "Takeoff weight for the test", "value": "200,500 lb", "source": 2 },
+    { "label": "Number built (720 type)", "value": "154", "source": 3 },
+    { "label": "Status", "value": "Destroyed in the test", "source": 1 }
+  ],
+  "relatedGuides": ["why-are-black-boxes-orange", "how-safe-is-flying"],
+  "relatedAircraft": ["boeing-707", "boeing-727", "north-american-x-15"],
+  "sources": [
+    {
+      "publisher": "NASA Technical Reports Server",
+      "title": "Full-Scale Transport Controlled Impact Demonstration",
+      "url": "https://ntrs.nasa.gov/citations/19860012462"
+    },
+    {
+      "publisher": "NASA Technical Reports Server",
+      "title": "Flight Test Experience and Controlled Impact of a Remotely Piloted Jet Transport Aircraft",
+      "url": "https://ntrs.nasa.gov/api/citations/19890006539/downloads/19890006539.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "NASA",
+      "title": "B-720",
+      "url": "https://www.nasa.gov/image-article/b-720/"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

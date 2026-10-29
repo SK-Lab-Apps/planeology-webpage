@@ -1,0 +1,56 @@
+{
+  "id": "lockheed-f104-starfighter",
+  "h1": "Lockheed F-104 Starfighter: The Missile With a Man in It",
+  "description": "The F-104 Starfighter was the first US interceptor able to sustain Mach 2, with a jet engine filling half its body. Records, specs and sources.",
+  "era": "jet-age",
+  "roleGroup": "military",
+  "intro": [
+    "The Lockheed F-104 Starfighter was a supersonic fighter so slender, with wings so small, that it was nicknamed \"the missile with a man in it.\" Lockheed's Clarence \"Kelly\" Johnson designed it as a light, inexpensive fighter. It became the first interceptor in US service able to fly at sustained speeds above Mach 2, twice the speed of sound.",
+    "Its wings were its most startling feature. They spanned just 21 feet 11 inches from tip to tip and sloped downward by 10 degrees. Their leading edges were so sharp that ground crews covered them to avoid injury.",
+    "Design work began in November 1952. Accounts of the first flight vary; the Smithsonian dates it to March 4, 1954, when Lockheed test pilot Tony LeVier flew the XF-104 prototype. The first F-104As reached the US Air Force on January 26, 1958."
+  ],
+  "whyItMatters": [
+    "The Starfighter was close to a turbojet with a cockpit. Its General Electric J79, rated at 14,800 pounds of thrust with afterburner, filled more than half the length of the fuselage. The fuel tanks and cockpit took most of the rest. With little room left, its electronics came in self-contained units that plugged in to suit each mission. The [jet engines guide](/learn/how-jet-engines-work) explains how an afterburner adds thrust.",
+    "That engine bought records. In May 1958, pilots from the 83rd Fighter-Interceptor Squadron, the first F-104A unit, set two world records: altitude, at more than 91,000 feet, and speed, at 1,404.19 mph. The F-104 also set seven climb-to-height records, and the program received the Collier Trophy on October 12, 1959. [What is Mach 1?](/learn/what-is-mach-1) explains those speeds, and [the fastest planes ever flown](/learn/fastest-planes-ever) puts them in company.",
+    "Most of its career was spent abroad. The US Air Force flew Starfighters in Air National Guard units until 1975, but most were flown by other countries, many of which built them under license. By 1980, when the last one was made, some 14 nations had used F-104s as interceptors, ground-attack aircraft and reconnaissance jets."
+  ],
+  "facts": [
+    "Its standard gun was the M61 Vulcan, a 20-mm cannon with rotating barrels and a very high rate of fire. It could also carry a Sidewinder missile on each wingtip.",
+    "The Smithsonian's F-104A, NASA 818, was the seventh F-104A built. NASA flew it 1,439 times in 19 years, with pilots including Neil Armstrong, and used it to test reaction controls later used on the [X-15](/aircraft/north-american-x-15).",
+    "NASA's flight research center at Edwards, California, flew 11 F-104s over 38 years as chase planes and test beds. They logged more than 18,000 flights before the last mission on January 31, 1994.",
+    "After an early Space Shuttle ferry flight through cloud lost hundreds of tiles, NASA flew test tiles through rain on an F-104. The results were bad enough that the orbiters were kept out of known rain from then on.",
+    "West Germany chose the Starfighter after joining NATO in May 1955. Lockheed backed it with a program called SURE, which sent engineers, pilots and service staff to solve problems as they came up."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "March 4, 1954 (XF-104), by the Smithsonian's account", "source": 1 },
+    { "label": "Role", "value": "Interceptor; later also ground attack and reconnaissance", "source": 2 },
+    { "label": "Engine", "value": "One General Electric J79 turbojet with afterburner, 14,800 lb thrust", "source": 1 },
+    { "label": "Top speed", "value": "1,037 mph (1,669 km/h), F-104A", "source": 1 },
+    { "label": "Wingspan", "value": "21 ft 11 in (6.7 m)", "source": 1 },
+    { "label": "Length", "value": "54 ft 9 in (16.6 m)", "source": 1 },
+    { "label": "Records", "value": "1,404.19 mph speed and 91,000+ ft altitude world records, May 1958", "source": 1 },
+    { "label": "Status", "value": "Production ended in 1980; some 14 countries flew it", "source": 2 }
+  ],
+  "relatedGuides": ["how-jet-engines-work", "what-is-mach-1", "fastest-planes-ever"],
+  "relatedAircraft": ["north-american-x-15", "lockheed-sr-71-blackbird", "messerschmitt-me-262"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Lockheed F-104A Starfighter",
+      "url": "https://airandspace.si.edu/collection-objects/lockheed-f-104a-starfighter/nasm_A19761017000"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "F-104 Starfighter",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
+    },
+    {
+      "publisher": "NASA",
+      "title": "F-104 Starfighter",
+      "url": "https://www.nasa.gov/reference/f-104-starfighter/"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

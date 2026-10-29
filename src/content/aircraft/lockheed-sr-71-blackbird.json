@@ -1,0 +1,54 @@
+{
+  "id": "lockheed-sr-71-blackbird",
+  "h1": "Lockheed SR-71 Blackbird: Facts, Specs and Records",
+  "description": "The Lockheed SR-71 Blackbird first flew on December 22, 1964, and cruised above Mach 3 at 85,000 feet. Specs, records, where to see one and sources.",
+  "era": "jet-age",
+  "roleGroup": "military",
+  "intro": [
+    "The Lockheed SR-71 Blackbird is the fastest jet aircraft ever to enter service: a two-seat reconnaissance airplane that cruised above Mach 3, more than 16 miles up, and flew its missions with what the Smithsonian calls complete impunity. Lockheed's secret Skunk Works division, led by Clarence \"Kelly\" Johnson, designed it, and the first SR-71 flew on December 22, 1964.",
+    "Flying three times the speed of sound heats an airplane's skin to around 600°F (316°C), hot enough to weaken ordinary aluminum, so the Blackbird's skin was made of titanium alloy. Two Pratt & Whitney J58 engines ran in afterburner for the whole climb and cruise, behind movable inlet spikes that slowed the supersonic air before it reached the compressors. The crew of two, a pilot and a reconnaissance systems officer, wore pressure suits like astronauts'.",
+    "It is 107 feet 5 inches long with a wingspan of 55 feet 7 inches, and the black paint that gave it its official name was formulated to absorb radar energy, shed heat and hide the airplane against the dark sky at altitude. Its shape was also tuned to reflect as little radar as possible, an early use of stealth ideas, though the result never fully met the goal."
+  ],
+  "whyItMatters": [
+    "The Blackbird was built because the subsonic U-2 spy plane had become vulnerable: one was shot down over the Soviet Union in 1960. Lockheed's answer was an airplane too fast and too high to catch. Its single-seat ancestor, the CIA's A-12, was designed to cruise at Mach 3.2, and the Air Force's larger SR-71 added a second crew member and more fuel. Including three pilot trainers, Lockheed built 32 SR-71s.",
+    "Speed had odd side effects. The skin expanded in the heat of cruise, and when the jet slowed and descended to meet a tanker, the panels over its fuel tanks cooled, shrank and wept fuel, leaving a vapor trail as the tanker topped it up. Counterintuitively, the Blackbird got its best fuel mileage above Mach 3, yet a typical mission still needed several aerial refuelings.",
+    "Reconnaissance satellites eventually took over much of its work, and the Air Force's SR-71 wing stood down in January 1990. Congress revived the program in 1995 before budget fights ended it for good, and NASA flew two SR-71As and an SR-71B for high-speed research until 1999. Lockheed Martin's history page calls the Blackbird the world's fastest and highest-flying crewed aircraft; the Smithsonian is more precise, calling it the fastest aircraft with air-breathing engines, since the rocket-powered [X-15](/aircraft/north-american-x-15) flew faster and higher. Where the SR-71 sits among them is laid out in [the fastest planes ever flown](/learn/fastest-planes-ever)."
+  ],
+  "facts": [
+    "On March 6, 1990, SR-71A 61-7972 flew from Los Angeles to Washington, DC, in 1 hour, 4 minutes and 20 seconds, averaging 2,124 mph, then taxied straight into the Smithsonian's custody. Lockheed Martin's own history rounds the trip to 67 minutes.",
+    "At Mach 3.3 and 85,000 feet the crew wore full pressure suits, to protect them if the cabin suddenly lost pressure.",
+    "Lockheed's first proposal for the mission ran on liquid hydrogen; it burned fuel too fast to be practical, so the design was reworked around conventional fuel.",
+    "The record-setting airplane spent 24 years in Air Force service and logged 2,801.1 flight hours, and its reconnaissance systems officer that day, Joseph Vida, had more Blackbird time than any other crew member.",
+    "The vertical tails are made of composite material rather than titanium, to shrink the airplane's radar echo."
+  ],
+  "whereToSee": {
+    "text": "SR-71A 61-7972, the airplane that set the Los Angeles to Washington record on its final flight, is displayed at the Smithsonian's Steven F. Udvar-Hazy Center in Chantilly, Virginia.",
+    "source": 1
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "December 22, 1964", "source": 1 },
+    { "label": "Role", "value": "Strategic reconnaissance", "source": 1 },
+    { "label": "Engines", "value": "Two Pratt & Whitney J58 afterburning turbojets", "source": 1 },
+    { "label": "Top speed", "value": "Mach 3.3", "source": 1 },
+    { "label": "Ceiling", "value": "About 85,000 ft (25,900 m)", "source": 1 },
+    { "label": "Crew", "value": "Two: pilot and reconnaissance systems officer", "source": 1 },
+    { "label": "Number built", "value": "32", "source": 1 },
+    { "label": "Status", "value": "Retired; Air Force operations ended in 1990 (briefly revived 1995), NASA flew it until 1999", "source": 1 }
+  ],
+  "relatedGuides": ["fastest-planes-ever", "what-is-mach-1", "how-does-stealth-work"],
+  "relatedAircraft": ["north-american-x-15", "lockheed-f104-starfighter", "concorde"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Lockheed SR-71 Blackbird",
+      "url": "https://airandspace.si.edu/collection-objects/lockheed-sr-71-blackbird/nasm_A19920072000"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "Fastest Plane in History: The Blackbird",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/history/blackbird.html"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

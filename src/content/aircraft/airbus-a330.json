@@ -1,0 +1,106 @@
+{
+  "id": "airbus-a330",
+  "h1": "Airbus A330: The Twinjet Cleared for Routes Four Hours From an Airport",
+  "description": "The twin-engine Airbus A330 first flew in 1992 and is still built today as the A330neo. Specs, its long ETOPS approval, notable facts and sources.",
+  "era": "widebody-era",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Airbus A330 is a twin-engine widebody that has stayed in production for more than three decades. The original A330-300 first flew in 1992 and entered service in January 1994, and a smaller, longer-range A330-200 followed. Today's version, the A330neo, has Rolls-Royce Trent 7000 engines, a wing of greater span with curved composite tips, and a new cabin. It entered service in 2018.",
+    "Its reach has grown with its weight. At entry into service, the A330-300 weighed up to 212 tonnes at takeoff and could fly about 4,000 nautical miles. The A330-200 raised that to 230 tonnes and 6,200 nautical miles, and Airbus says today's 251-tonne A330neo flies around 8,000 nautical miles with a full load of passengers.",
+    "Airbus lists the A330-800 at 8,100 nautical miles with 257 seats in three classes, and the larger A330-900 at 7,350 nautical miles with 287. Economy is typically eight across, in a 2-4-2 layout, and an all-economy cabin can hold up to 465. As of October 2026, Airbus counts more than 1,900 orders, 1,600 deliveries and 151 operators."
+  ],
+  "whyItMatters": [
+    "The A330 shows how twin-engine jets came to own the oceans. From 1953, US rules kept twins within 60 minutes' flying time of an airport. As engines proved more reliable, ETOPS (extended operations) approvals stretched that to 120 minutes in 1985 and 180 minutes in 1988, for jets and airlines meeting strict standards.",
+    "In October 2009, Europe's aviation safety agency cleared the A330 for ETOPS beyond 180 minutes. That lets its routes stray up to 1,700 nautical miles, a little over four hours, from a suitable airport. [How safe flying is](/learn/how-safe-is-flying) explains the layers of protection behind that trust.",
+    "Its other lesson is longevity. Rather than replace the A330, Airbus launched the re-engined A330neo in 2014, with wingtips inspired by the [A350](/aircraft/airbus-a350), and TAP Air Portugal put the first A330-900 into service in November 2018. Airbus claims a 25 percent cut in fuel burn and CO2 per seat over the previous generation. The airframe has also become a freighter, launched in 2007, and the A330 MRTT tanker, first delivered in June 2011."
+  ],
+  "facts": [
+    "Airbus delivered the 1,500th A330 family aircraft to Delta Air Lines on September 21, 2020.",
+    "Airbus says the A330 was the first of its programs to have an integrated final assembly facility.",
+    "The A330neo's Trent 7000 engine has a bypass ratio of 10 to 1, which Airbus says is the highest of any Rolls-Royce Trent; [how jet engines work](/learn/how-jet-engines-work) explains why that ratio matters.",
+    "Airbus says A330s fly more than 2,500 routes, from 30-minute hops to 17-hour ultra-long-haul flights.",
+    "By Airbus's count as of October 2026, A330s have flown more than 70 million hours, and more than 500 of the family's orders are for the A330neo."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "1992 (A330-300)",
+      "source": 4
+    },
+    {
+      "label": "Entered service",
+      "value": "January 1994 (A330-300); November 2018 (A330-900)",
+      "source": 4
+    },
+    {
+      "label": "Role",
+      "value": "Twin-engine widebody airliner",
+      "source": 2
+    },
+    {
+      "label": "Engines",
+      "value": "Two turbofans; Rolls-Royce Trent 7000 on the A330neo",
+      "source": 2
+    },
+    {
+      "label": "Range",
+      "value": "Up to 8,100 nmi (A330-800)",
+      "source": 2
+    },
+    {
+      "label": "Passengers",
+      "value": "257 (A330-800) or 287 (A330-900), typical three-class",
+      "source": 2
+    },
+    {
+      "label": "ETOPS",
+      "value": "Beyond 180 minutes, up to 1,700 nmi from a diversion airport (EASA, October 2009)",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "In production as the A330neo; 1,900+ orders and 1,600+ deliveries, as of October 2026",
+      "source": 2
+    }
+  ],
+  "relatedGuides": [
+    "how-safe-is-flying",
+    "how-jet-engines-work",
+    "boeing-vs-airbus"
+  ],
+  "relatedAircraft": [
+    "airbus-a350",
+    "boeing-767",
+    "airbus-belugaxl"
+  ],
+  "sources": [
+    {
+      "publisher": "Airbus",
+      "title": "FAST magazine, special edition, October 2015",
+      "url": "https://www.aircraft.airbus.com/sites/g/files/jlcbta126/files/2022-04/Airbus-FAST-special-edition-Oct2015.pdf"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "Airbus A330 Family: proven and versatile widebody",
+      "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a330-family"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "A330neo",
+      "url": "https://aircraft.airbus.com/en/aircraft/a330/a330neo"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "The A330 Family legacy continues with the 1,500th delivery",
+      "url": "https://www.airbus.com/en/newsroom/news/2020-10-the-a330-family-legacy-continues-with-the-1500th-delivery"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Advisory Circular 120-42B: Extended Operations (ETOPS)",
+      "url": "https://www.faa.gov/documentlibrary/media/advisory_circular/120-42b.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

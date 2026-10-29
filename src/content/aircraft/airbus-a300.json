@@ -1,0 +1,101 @@
+{
+  "id": "airbus-a300",
+  "h1": "Airbus A300: The Twin-Engine Widebody That Started Airbus",
+  "description": "The Airbus A300 first flew on October 28, 1972, as the first twin-engine widebody; 821 were built before production ended in 2007. Specs and sources.",
+  "era": "widebody-era",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Airbus A300 was the first Airbus, and the world's first twin-engine widebody airliner. France and Germany co-launched it at the 1969 Le Bourget air show, Airbus Industrie was formally set up on December 18, 1970, to build it, and the first aircraft flew from Toulouse on October 28, 1972.",
+    "That flight had been planned for the day before, but fog pushed it back 24 hours. Captain Max Fischl and first officer Bernard Ziegler, with three flight-test engineers aboard, flew for 1 hour 25 minutes and reached 185 knots at 14,000 feet before Fischl landed in gusty crosswinds at Blagnac. Airbus had skipped building a separate prototype, which was common practice at the time; this was aircraft number one.",
+    "Airbus built 821 aircraft of the A300 family in all its versions. The last, an A300-600 freighter, was delivered in July 2007, 35 years after the first flight."
+  ],
+  "whyItMatters": [
+    "Twin-engine widebodies are now the normal way to cross an ocean, and the A300 is where the idea began. Its fuselage was sized for eight seats across with two aisles, and for two standard LD3 cargo containers side by side below the floor. The stretched A300B2, developed for Air France, carried 251 passengers in a two-class layout, and the A300-600 of the 1980s seats up to 274 in a single class.",
+    "It also set the pattern for how Airbus would compete. Boeing already offered a family, from the [707](/aircraft/boeing-707) to the [747](/aircraft/boeing-747), and its 727 had been the first airliner to pass 1,000 sales; Airbus built outward from the A300 to the smaller A310 and then the [A320](/aircraft/airbus-a320) family, until the two companies met in every size. Our [Boeing vs Airbus](/learn/boeing-vs-airbus) guide covers that rivalry.",
+    "The engines tell their own story. Rolls-Royce was first to develop an engine for the project, but after Britain withdrew in April 1969 Airbus chose General Electric's proven CF6-50A, lowering the risk of a new airframe and a new engine arriving together. Later A300-600s could be ordered with GE CF6-80, Pratt & Whitney PW4000 or JT9D engines."
+  ],
+  "facts": [
+    "The authorities approved the A300 for service on March 11, 1974, less than 18 months after the first flight, and the A300B4 entered serial production the same year.",
+    "The A300-600 is 54.1 meters long with a 44.8-meter wingspan, and the A300B4-600 has a maximum takeoff weight of 165 tonnes.",
+    "The A300-600 freighter, in service from 1994, carries a typical 54.6 tonnes of cargo over 4,850 km, and it was the last version still in production when the line closed.",
+    "When Airbus marked the 50th anniversary of the first flight in 2022, more than 250 A300s and A310s were still in operation with 37 operators, three-quarters of them as freighters.",
+    "Final assembly, including the final ground checks, was no more than 4 percent of the total work of building an A300; the rest happened at the partner factories."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "October 28, 1972, from Toulouse",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Widebody airliner, the first with two engines",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Two General Electric CF6-50A turbofans on the first aircraft",
+      "source": 1
+    },
+    {
+      "label": "Passengers",
+      "value": "251 in a two-class layout (A300B2); up to 274 single-class (A300-600)",
+      "source": 1
+    },
+    {
+      "label": "Length and wingspan",
+      "value": "54.1 m and 44.8 m (A300-600)",
+      "source": 2
+    },
+    {
+      "label": "Max takeoff weight",
+      "value": "165 tonnes (A300B4-600)",
+      "source": 3
+    },
+    {
+      "label": "Number built",
+      "value": "821 (all versions)",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "Production ended with the last A300-600F in July 2007",
+      "source": 2
+    }
+  ],
+  "relatedGuides": [
+    "boeing-vs-airbus",
+    "how-safe-is-flying",
+    "how-jet-engines-work"
+  ],
+  "relatedAircraft": [
+    "boeing-767",
+    "airbus-a330",
+    "airbus-a320"
+  ],
+  "sources": [
+    {
+      "publisher": "Airbus",
+      "title": "50th anniversary of the A300's first flight",
+      "url": "https://www.airbus.com/en/newsroom/stories/2022-10-28-october-50th-anniversary-of-the-first-flight-of-the-airbus-a300"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "EADS Business, Legal and Corporate Responsibility 2007",
+      "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2021-07/business-legal-and-corporate-responsibility-2007_0.pdf"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "A300-600 Airplane Characteristics for Airport Planning",
+      "url": "https://www.aircraft.airbus.com/sites/g/files/jlcbta126/files/2023-02/Airbus-Commercial-Aircraft-AC-A300-600-Dec-2009.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

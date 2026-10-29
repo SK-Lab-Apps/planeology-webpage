@@ -1,0 +1,61 @@
+{
+  "id": "airbus-a321xlr",
+  "h1": "Airbus A321XLR: The Single-Aisle Jet That Crosses Oceans",
+  "description": "The Airbus A321XLR flies up to 4,700 nautical miles, an unprecedented range for a single-aisle jet, and entered service in 2024. Specs, facts and sources.",
+  "era": "modern",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Airbus A321XLR is the longest-legged member of the [A320 family](/aircraft/airbus-a320): a single-aisle airliner that can fly up to 4,700 nautical miles (8,700 km) and stay aloft for up to 11 hours. Airbus pitches it for routes such as New York to Rome and London to Vancouver, city pairs that once needed a widebody.",
+    "The XLR in the name stands for Xtra Long Range. The extra reach comes from a permanent Rear Centre Tank holding 12,900 liters of fuel, built into the rear fuselage, plus an optional additional tank and a higher maximum takeoff weight of 101 tonnes. That gives it 15 percent more range than the earlier A321LR.",
+    "Airbus launched it at the Paris Air Show on June 17, 2019. The first aircraft flew from Hamburg on June 15, 2022, on a test flight of about four hours and 35 minutes, and after a program with three test aircraft the type was approved by Europe's safety agency, EASA, on July 19, 2024. Iberia took the first delivery in Hamburg on October 30, 2024, and flew its first transatlantic service, Madrid to Boston, the following month."
+  ],
+  "whyItMatters": [
+    "For passengers, the XLR changes what a narrowbody can be. A 180-seat airplane with lie-flat business seats can now cross the Atlantic nonstop: Iberia's first aircraft seats 182 in two classes, and Airbus says the cabin altitude averages 6,000 feet, the same figure Boeing gives for the [787](/aircraft/boeing-787-dreamliner).",
+    "For airlines, it opens thin routes, pairs of cities with enough demand for a daily narrowbody but not for a widebody. Airbus claims 30 percent lower fuel burn per seat than previous-generation competitor aircraft, and had taken more than 500 orders by the time of the first delivery. If you want to decode the departure board it appears on, start with [airport codes](/learn/airport-codes-explained).",
+    "It also shows how a 1987 design keeps evolving. The A321XLR shares the A320 family's fly-by-wire controls, so crews who fly the shorter members can fly it too. Its closest relative in spirit is the [757](/aircraft/boeing-757), the narrowbody that crossed oceans a generation earlier, and the [Boeing vs Airbus guide](/learn/boeing-vs-airbus) explains how to tell the two families apart."
+  ],
+  "facts": [
+    "The A321XLR's range of up to 4,700 nautical miles is 15 percent more than the A321LR's, thanks to a permanent 12,900-liter Rear Centre Tank and a 101-tonne maximum takeoff weight.",
+    "The first A321XLR, MSN 11000, took off from Hamburg-Finkenwerder at 11:05 on June 15, 2022, for a flight of about four hours and 35 minutes.",
+    "EASA approved the type with CFM LEAP-1A engines on July 19, 2024, and with Pratt & Whitney GTF engines on February 20, 2025.",
+    "Iberia, the launch operator, received the first A321XLR on October 30, 2024, with 182 seats in two classes, including lie-flat business seats with direct aisle access.",
+    "Airbus had logged more than 500 orders for the A321XLR by the time of that first delivery."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "June 15, 2022, Hamburg", "source": 3 },
+    { "label": "Entered service", "value": "First delivery to Iberia, October 30, 2024", "source": 4 },
+    { "label": "Role", "value": "Long-range narrowbody airliner", "source": 1 },
+    { "label": "Engines", "value": "Two turbofans: CFM LEAP-1A or Pratt & Whitney GTF", "source": 2 },
+    { "label": "Range", "value": "Up to 4,700 nmi (8,700 km)", "source": 1 },
+    { "label": "Passengers", "value": "180 to 220 in two classes, up to 244 (A321neo family)", "source": 2 },
+    { "label": "Wingspan", "value": "35.80 m (117 ft 5 in)", "source": 2 },
+    { "label": "Orders", "value": "More than 500 at first delivery", "source": 4 }
+  ],
+  "relatedGuides": ["airport-codes-explained", "why-flying-east-is-faster", "boeing-vs-airbus"],
+  "relatedAircraft": ["airbus-a320", "boeing-757", "boeing-787-dreamliner"],
+  "sources": [
+    {
+      "publisher": "Airbus",
+      "title": "A321XLR",
+      "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family/a321xlr"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "A320 Family Facts and Figures, November 2025",
+      "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2025-11/Airbus-A320-Family-Facts-and-Figures-November-2025.pdf"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "Airbus A321XLR takes off for the first time",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2022-06-airbus-a321xlr-takes-off-for-the-first-time"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "Airbus delivers first A321XLR to Iberia",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2024-10-airbus-delivers-first-a321xlr-to-iberia"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

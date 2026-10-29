@@ -1,0 +1,93 @@
+{
+  "id": "boeing-707",
+  "h1": "Boeing 707: The Jet That Made the Jet Set",
+  "description": "The Boeing 707-120 first flew on December 20, 1957, with four turbojets and up to 181 seats; 856 were built. Specs, facts, where to see one and sources.",
+  "era": "jet-age",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Boeing 707 is the airliner that made jet travel ordinary. The 707-120 first flew on December 20, 1957, with four Pratt & Whitney JT3C turbojets under a swept wing, room for up to 181 passengers and a 100-foot cabin that Boeing called the largest in the air. Within about two years, air travel had overtaken rail and sea.",
+    "It grew out of a gamble. In 1952, Boeing's board committed $16 million of the company's own money to a jet prototype, the Model 367-80, a sum its histories describe as two-thirds, or nearly all, of its profit since World War II. The Dash 80 first flew on July 15, 1954, and a week later the Air Force ordered 29 KC-135 tankers based on it.",
+    "Boeing delivered 856 707s in all versions between 1957 and 1994, 725 of them for airlines between 1957 and 1978; the Smithsonian's count is 855. The shorter-range 720 variant added 154 more between 1959 and 1967."
+  ],
+  "whyItMatters": [
+    "The [Comet](/aircraft/de-havilland-comet) had flown first, but its accidents had grounded it and dented public confidence in jets. Boeing set out to win nervous flyers back: it flew reporters and airline customers in the Dash 80 and showed a film in which blades pierced a pressurized 707 fuselage, producing wisps of escaping air but no cracks and no failure. Jet travel became fashionable; companies asked to use 707 in product names, and one swimwear maker named its 1957 collection after the airplane.",
+    "Design decisions made for the 707 stuck. Airlines wanted its fuselage four inches wider than the KC-135's, and that cross-section became the standard for every narrowbody Boeing since, including the [737](/aircraft/boeing-737). Its left-side passenger doors at the front and rear became standard too. The 707's wing had more sweepback than its rival, the Douglas DC-8, so it flew about 20 mph faster.",
+    "It also launched the family idea. The 707-320 Intercontinental, the most-ordered version, was 8 feet longer with 12 feet more wingspan, and a 707-320B became the presidential VC-137C in 1962, a role 707s held until the [VC-25A](/aircraft/boeing-vc-25a) 747s took over in 1990. The [747](/aircraft/boeing-747) itself was Boeing's answer to the crowds the 707 had created."
+  ],
+  "facts": [
+    "The Dash 80 was built in secret and named Model 367-80 to pass as an improved version of the propeller-driven C-97 Stratofreighter.",
+    "In August 1955, Boeing test pilot Tex Johnston barrel-rolled the Dash 80 over Lake Washington in front of thousands of spectators at Seattle's Gold Cup festivities.",
+    "The 707-120 cruised at 600 mph with a range of 3,000 miles and a ceiling of 41,000 feet, at a gross weight of 248,000 pounds.",
+    "Boeing tailored 707s to customers, with special long-range models for Qantas and bigger engines for Braniff's high-altitude South American routes. The customizing was costly, but the 707 outsold the DC-8."
+  ],
+  "whereToSee": {
+    "text": "The Dash 80 prototype that led to the 707 has been on permanent display at the Smithsonian's Steven F. Udvar-Hazy Center, near Washington Dulles International Airport, since it flew there in August 2003.",
+    "source": 1
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "December 20, 1957 (707-120); Dash 80 prototype July 15, 1954",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Long-range jet airliner",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Four Pratt & Whitney JT3C-6 turbojets, 13,500 lb of thrust each",
+      "source": 1
+    },
+    {
+      "label": "Cruising speed",
+      "value": "600 mph",
+      "source": 1
+    },
+    {
+      "label": "Range",
+      "value": "3,000 miles (707-120)",
+      "source": 1
+    },
+    {
+      "label": "Passengers",
+      "value": "Up to 181 (707-120)",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "856 (Boeing's count; the Smithsonian says 855), 725 of them for airlines",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "Deliveries ended in 1994",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "how-jet-engines-work",
+    "why-are-airplane-windows-round",
+    "boeing-vs-airbus"
+  ],
+  "relatedAircraft": [
+    "de-havilland-comet",
+    "boeing-747",
+    "boeing-vc-25a"
+  ],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Boeing 367-80 Jet Transport",
+      "url": "https://airandspace.si.edu/collection-objects/boeing-367-80-jet-transport/nasm_A19730272000"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

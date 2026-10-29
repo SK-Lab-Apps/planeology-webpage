@@ -1,0 +1,56 @@
+{
+  "id": "beechcraft-bonanza",
+  "h1": "Beechcraft Bonanza: The Postwar Single Still in Production",
+  "description": "The Beechcraft Bonanza entered the market in 1947 and is still built, with more than 18,000 delivered. Its V-tail story, records, specs and sources.",
+  "era": "jet-age",
+  "roleGroup": "light-aircraft",
+  "intro": [
+    "The Beechcraft Bonanza is a sleek, all-metal single-engine airplane for private and business flying. Beech Aircraft introduced it in 1947, and Textron Aviation still builds it. Textron calls it the longest continuously produced aircraft in history.",
+    "The original Model 35 seated four and folded its landing gear away in flight, features meant for owners who wanted speed and polish. Its signature, though, was the tail: two surfaces set in a V, often called a butterfly tail, in place of the usual fin and horizontal stabilizer.",
+    "A conventional-tail model was offered too, and today's Bonanza G36 has a normal tail and six seats. It flies on a 300-horsepower Continental IO-550-B engine turning a three-blade propeller, with a Garmin G1000 NXi glass cockpit."
+  ],
+  "whyItMatters": [
+    "The Smithsonian calls the Bonanza a classic design of the years after World War II, and it became the basis for later Beech aircraft. The aviation world came to see it as the \"Cadillac\" of single-engine light planes. In April 1959, Fortune magazine published a survey of 100 prominent designers, design teachers and architects. It placed the Bonanza among the 100 finest designs of any mass-produced product.",
+    "Its V-tail was a deliberate choice. The layout was tried out in the last years of World War II, and it used fewer parts and weighed less. By the Smithsonian's account, it also gave the same control response as conventional tail surfaces 40 percent larger. The [flaps guide](/learn/what-do-flaps-and-slats-do) explains the jobs a tail's moving surfaces do.",
+    "Like most small airplanes, it flies behind a piston engine. Its propeller blades are small spinning wings that pull it forward, and [how planes fly](/learn/how-do-planes-fly) explains the forces at work. It belongs in the same story as the [Piper J-3 Cub](/aircraft/piper-j3-cub) and the [Cessna 172](/aircraft/cessna-172-skyhawk): three different answers to what a private airplane should be."
+  ],
+  "facts": [
+    "In March 1949, Bill Odom flew the fourth Bonanza built, the Waikiki Beech, nonstop from Honolulu to Teterboro, New Jersey. He covered 4,957 officially credited great-circle miles in 36 hours and 1 minute, averaging more than 19 miles per gallon.",
+    "Two months earlier, on January 12, 1949, Odom made the first light-plane flight from Hawaii to the continental United States. Storms over Nevada ended his hope of crossing the whole country and turned him back to Oakland after 22 hours and 6 minutes.",
+    "For those flights the Waikiki Beech carried extra fuel: 126 gallons in the cabin and a 62-gallon tank on each wingtip. Otherwise it was a standard Model 35.",
+    "Renamed Friendship Flame, the same airplane carried Congressman Peter F. Mack Jr. alone around the world from October 7, 1951, to January 27, 1952. He visited 45 cities in 31 countries and flew about 33,000 miles.",
+    "Olive Ann Beech founded Beech Aircraft with her husband Walter. In 1950 she became its president, the first woman to lead a major aircraft company, by Textron's account."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "Introduced", "value": "1947, with a V-tail", "source": 1 },
+    { "label": "Role", "value": "Single-engine light airplane for private and business flying", "source": 1 },
+    { "label": "Engine", "value": "One 300-hp Continental IO-550-B piston engine, three-blade propeller (G36)", "source": 2 },
+    { "label": "Cruise speed", "value": "Up to 176 knots (G36)", "source": 2 },
+    { "label": "Range", "value": "More than 920 nmi (G36)", "source": 2 },
+    { "label": "Seats", "value": "Six (G36)", "source": 2 },
+    { "label": "Delivered", "value": "More than 18,000 (as of 2021)", "source": 2 },
+    { "label": "Status", "value": "Still built by Textron Aviation", "source": 1 }
+  ],
+  "relatedGuides": ["how-do-planes-fly", "what-do-flaps-and-slats-do"],
+  "relatedAircraft": ["cessna-172-skyhawk", "piper-j3-cub", "dhc-2-beaver"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Beechcraft 35 Bonanza",
+      "url": "https://airandspace.si.edu/collection-objects/beechcraft-35-bonanza/nasm_A19500080000"
+    },
+    {
+      "publisher": "Textron Aviation",
+      "title": "Special-edition 75th anniversary Beechcraft Bonanza",
+      "url": "https://media.txtav.com/198184-textron-aviation-s-special-edition-75th-anniversary-beechcraft-bonanza-blends-modern-technology-with-retro-styling/"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

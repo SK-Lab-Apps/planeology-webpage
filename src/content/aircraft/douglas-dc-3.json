@@ -1,0 +1,104 @@
+{
+  "id": "douglas-dc-3",
+  "h1": "Douglas DC-3: The Airliner That Made Flying Pay",
+  "description": "The Douglas DC-3 first flew on December 17, 1935, seated 21 and made airlines profitable without subsidies. Specs, facts, where to see one and sources.",
+  "era": "golden-age",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Douglas DC-3 is the airliner that turned flying into a business. A twin-engine, all-metal monoplane with retractable landing gear, it first flew on December 17, 1935, as the Douglas Sleeper Transport, with 14 berths for overnight flights. The day version, the DC-3, seated 21.",
+    "American Airlines took the first deliveries in June 1936. Its president, C.R. Smith, called the DC-3 the first airplane that could make money just by carrying passengers, with no government subsidy, and by 1939 more than 90 percent of US airline passengers were flying on DC-2s and DC-3s.",
+    "The design proved so sound that its basic specification never changed. Boeing's history counts 455 DC-3s built for airlines and 10,174 military C-47s; the Smithsonian's tally is higher, at 803 commercial and 10,123 military, plus about 3,000 built under license in the Soviet Union and almost 500 in Japan, for a total of more than 13,000."
+  ],
+  "whyItMatters": [
+    "Before the DC-3, airliners were slow and small. Boeing's own 247 carried ten passengers at 160 mph, and United had tied up its production, so other airlines turned to Douglas. The DC-3 carried twice as many people, cruised at up to 190 mph and, according to the Smithsonian, was reliable and inexpensive to operate, which is what made it profitable.",
+    "It also carried the technology of the golden age into everyday service: two cowled Wright Cyclone radial engines, trailing-edge flaps, an automatic pilot and a strong multi-spar wing that gave it an excellent safety record for its day. If you have wondered what [flaps](/learn/what-do-flaps-and-slats-do) or an [autopilot](/learn/how-does-autopilot-work) looked like in 1936, this is where they went mainstream.",
+    "Then it went to war. As the C-47, the DC-3 hauled troops and cargo in every theater of World War II and flew the first missions of the Berlin Airlift in 1948. Boeing's history notes that hundreds were still earning their keep decades after the last one was delivered, and the Smithsonian says many are still flying."
+  ],
+  "facts": [
+    "Its first flight, on December 17, 1935, fell on the 32nd anniversary of the [Wright Flyer's](/aircraft/wright-flyer-1903) first flight at Kitty Hawk.",
+    "Sleeper service came first: American's DST flew nonstop between New York and Chicago from June 25, 1936, with seven upper and seven lower berths and a private forward cabin.",
+    "President Franklin D. Roosevelt presented Donald Douglas with the Collier Trophy in July 1936, citing the DC-3's speed, economy and quiet passenger comfort.",
+    "The airplane collected nicknames everywhere it went: Dakota in Britain, Skytrain officially in US service, and Gooney Bird to the crews who flew it.",
+    "KLM was the first European airline to operate the DC-3, in 1936; by 1938 it was flying with thirty foreign airlines."
+  ],
+  "whereToSee": {
+    "text": "The Smithsonian's National Air and Space Museum hangs an Eastern Air Lines DC-3 in its America by Air gallery in Washington, DC. It flew more than 56,700 hours before its last commercial flight, from San Salvador to Miami, on October 12, 1952.",
+    "source": 2
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "December 17, 1935 (as the Douglas Sleeper Transport)",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Twin-engine airliner",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Two 1,200 hp Wright Cyclone radials",
+      "source": 1
+    },
+    {
+      "label": "Cruising speed",
+      "value": "192 mph",
+      "source": 1
+    },
+    {
+      "label": "Range",
+      "value": "1,495 miles",
+      "source": 1
+    },
+    {
+      "label": "Passengers",
+      "value": "21 by day, or 14 in sleeper berths",
+      "source": 1
+    },
+    {
+      "label": "Number built",
+      "value": "455 for airlines plus 10,174 C-47s (Boeing); more than 13,000 of all versions worldwide (Smithsonian)",
+      "source": 2
+    },
+    {
+      "label": "Status",
+      "value": "Out of production; hundreds still flying decades after the last delivery",
+      "source": 1
+    }
+  ],
+  "relatedGuides": [
+    "how-do-planes-fly",
+    "what-do-flaps-and-slats-do",
+    "how-does-autopilot-work"
+  ],
+  "relatedAircraft": [
+    "boeing-314-clipper",
+    "lockheed-constellation",
+    "junkers-f13"
+  ],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Douglas DC-3",
+      "url": "https://airandspace.si.edu/collection-objects/douglas-dc-3/nasm_A19530075000"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "America by Air",
+      "url": "https://airandspace.si.edu/exhibitions/america-air"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "1903 Wright Flyer",
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

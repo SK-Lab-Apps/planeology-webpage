@@ -1,0 +1,45 @@
+{
+  "id": "lockheed-constellation",
+  "h1": "Lockheed Constellation: Three Fins, One Graceful Airliner",
+  "description": "The Lockheed Constellation first flew on January 9, 1943, with a triple tail and hydraulically boosted controls. Specs, records, history and sources.",
+  "era": "wwii",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Lockheed Constellation is the four-engine propeller airliner with the curved, dolphin-like fuselage and three vertical fins. Lockheed began design work in June 1938, and the prototype first flew on January 9, 1943, as a military transport, because the war had taken over all airliner production. Only 13 were built before the war ended.",
+    "Howard Hughes, who bought a majority stake in TWA in 1939, treated the Connie as a secret weapon and made Lockheed promise not to sell it to other transcontinental airlines until TWA had 35 of them. Its pressurized cabin carried 44 passengers above most of the weather, and at 350 mph it was faster than most World War II fighters.",
+    "Airline service began in February 1946. The Super Constellation of 1951 stretched the fuselage from 95 feet 2 inches to 113 feet 7 inches and raised tourist-class seating from 69 to 92, and 579 of them were built. The last commercial Constellation left the line in 1959."
+  ],
+  "whyItMatters": [
+    "The Constellation belongs to the story of how airplanes are steered. It introduced hydraulically boosted flight controls, which Lockheed Martin calls aviation's equivalent of power steering: the pilot's inputs to the ailerons, elevator and rudder are amplified by hydraulic pressure, so a large airliner's [control surfaces](/learn/what-do-flaps-and-slats-do) stay light in the hand. Boosted or fully powered controls became the norm on big airliners afterward.",
+    "Then there is that tail. Three short fins did the work of one tall one, and the Science Museum, which keeps a 1947 Model 749 at its collections center in Wiltshire, calls the streamlined fuselage and triple tail unit one of the most graceful designs ever to fly. The pressurized cabin also let it cruise above the weather, part of the reason [airliners fly so high](/learn/why-do-planes-fly-so-high).",
+    "It set records and carried presidents. In April 1944 a Constellation flew nonstop from Burbank to Washington, DC, in 6 hours, 57 minutes and 51 seconds, averaging 331 mph. The US military bought nearly 40 percent of all Constellations, and the single VC-121E was the first airplane to be called Air Force One with the president aboard. By the end of 1980 only four Super Constellations were still in airline service; jets such as the [Boeing 707](/aircraft/boeing-707) had taken over the long routes it pioneered, as it had once taken them from the [Douglas DC-3](/aircraft/douglas-dc-3) generation."
+  ],
+  "facts": [
+    "TWA's 1939 brief asked for an airliner that could cross the United States nonstop; the April 1944 record flight did it in under seven hours at an average of 331 mph.",
+    "According to the Science Museum, the various versions carried up to 65 passengers at 260 to 300 mph over distances of 2,000 to 3,000 miles.",
+    "The L-1049 Super Constellation flew on four 2,700-horsepower Wright engines; later versions had 3,250- and 3,400-horsepower engines.",
+    "The Smithsonian's Constellation is a C-121C military transport that carried refugees from Eastern Europe in the Hungarian airlift of 1956–57 and retired from the Pennsylvania Air National Guard in November 1977.",
+    "That C-121C spans 123 feet, is 116 feet 2 inches long and 24 feet 9 inches high, and weighs 72,815 pounds empty."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "January 9, 1943", "source": 4 },
+    { "label": "Role", "value": "Four-engine propeller airliner", "source": 2 },
+    { "label": "Engines", "value": "Four Wright piston engines, 2,700 hp each on the L-1049", "source": 4 },
+    { "label": "Top speed", "value": "350 mph", "source": 1 },
+    { "label": "Typical performance", "value": "260–300 mph over 2,000–3,000 miles", "source": 2 },
+    { "label": "Passengers", "value": "44 in the original pressurized cabin", "source": 1 },
+    { "label": "Super Constellations built", "value": "579", "source": 4 },
+    { "label": "Status", "value": "Production ended; last commercial Constellation built 1959", "source": 1 }
+  ],
+  "relatedGuides": ["what-do-flaps-and-slats-do", "why-do-planes-fly-so-high"],
+  "relatedAircraft": ["douglas-dc-3", "boeing-314-clipper", "boeing-707"],
+  "sources": [
+    { "publisher": "Lockheed Martin", "title": "How the Constellation Became the Star of the Skies", "url": "https://www.lockheedmartin.com/en-us/news/features/history/constellation.html" },
+    { "publisher": "Science Museum Group", "title": "Lockheed 749 Constellation airliner", "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8454094/lockheed-749-constellation-airliner-aircraft-aeroplanes" },
+    { "publisher": "Federal Aviation Administration", "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" },
+    { "publisher": "Smithsonian National Air and Space Museum", "title": "Lockheed 1049F-55-96 \"Constellation\"", "url": "https://airandspace.si.edu/collection-objects/lockheed-1049f-55-96-constellation/nasm_A19880371000" }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

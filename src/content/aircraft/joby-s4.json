@@ -1,0 +1,100 @@
+{
+  "id": "joby-s4",
+  "h1": "Joby S4: The Electric Air Taxi With Six Tilting Propellers",
+  "description": "The Joby S4 electric air taxi carries a pilot and four passengers on six tilting propellers at up to 200 mph. Specs, facts, 2026 status and sources.",
+  "era": "modern",
+  "roleGroup": "rotor-evtol",
+  "intro": [
+    "The Joby S4 is an electric air taxi: one pilot and four passengers in an aircraft that takes off and lands like a helicopter and cruises like an airplane. Its six electric propellers point upward for takeoff and landing, then tilt forward so the wing can carry it, at up to 200 mph. The FAA lists it as the Joby Aero Model JAS4-1, a powered-lift aircraft.",
+    "Electric motors let Joby spread the lifting work across six propellers instead of one big rotor. Four independent battery packs feed them, each motor has two sets of windings, and a triple-redundant flight computer links the pilot to the propellers. By Joby's account, that redundancy keeps the aircraft flying if a component fails. The switch between hovering and wing-borne flight happens at about 45 to 90 knots.",
+    "Quiet is the point. Joby shaped the propeller tips to cut noise during that switch, and it says the S4 makes about 45 decibels in cruise, measured from 500 meters (1,640 feet) away."
+  ],
+  "whyItMatters": [
+    "The FAA treats powered-lift aircraft as a wholly new kind of aircraft, for air taxi, cargo and other flights. Joby's route to one began with seven engineers in a workshop in the redwoods above Santa Cruz, California. A subscale demonstrator came first, then a full-scale one, then pre-production prototypes. One of them flew 154.6 miles on a single charge, in a year when it covered more than 5,300 miles.",
+    "Approval is the hard part. As of October 2026, Joby says it is in the fifth and final stage of FAA type approval, testing aircraft that conform to its final design for the FAA's Type Inspection Authorization. Meanwhile it flies under a US Department of Transportation pilot program for early air taxi operations. On September 10, 2026, it began a week of flights around Dallas-Fort Worth, including DFW International Airport, after demonstration flights earlier that year over the San Francisco Bay Area and New York City.",
+    "Whether air taxis become everyday transport is still an open question, but the S4 shows one answer: many small electric motors for lift, and a wing to do the work in cruise. [How helicopters fly](/learn/how-do-helicopters-fly) covers the rotor side of the idea, and [how planes fly](/learn/how-do-planes-fly) covers the wing. For the classic way to lift straight up, compare the twin-rotor [CH-47 Chinook](/aircraft/boeing-ch-47-chinook)."
+  ],
+  "facts": [
+    "The FAA published airworthiness criteria for the Joby Aero Model JAS4-1 in March 2024, describing a powered-lift aircraft for a pilot and four passengers with six tilting electric engines.",
+    "The airframe mixes carbon fiber, titanium and aluminum, and the four battery packs are isolated from one another so that a fault in one doesn't spread.",
+    "Later milestones include what Joby calls the first electric air taxi flight in New York City, and a hydrogen-electric version of the aircraft that flew 523 miles.",
+    "Joby builds its aircraft at a pilot production plant in Marina, California, with a second site in Dayton, Ohio. By October 2026 its fleet had passed 50,000 miles of flight testing.",
+    "Joby has bought the passenger business of Blade Air Mobility, gaining its terminals in New York and southern Europe."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    {
+      "label": "Designation",
+      "value": "Joby Aero Model JAS4-1 (FAA)",
+      "source": 2
+    },
+    {
+      "label": "Role",
+      "value": "Electric air taxi; powered-lift (eVTOL)",
+      "source": 2
+    },
+    {
+      "label": "Propulsion",
+      "value": "Six tilting electric propellers; four battery packs",
+      "source": 1
+    },
+    {
+      "label": "Top speed",
+      "value": "Up to 200 mph",
+      "source": 1
+    },
+    {
+      "label": "Seats",
+      "value": "One pilot and four passengers",
+      "source": 2
+    },
+    {
+      "label": "Noise",
+      "value": "About 45 dBA in cruise, measured from 500 m (1,640 ft)",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "In the fifth and final stage of FAA type approval, as of October 2026",
+      "source": 4
+    }
+  ],
+  "relatedGuides": [
+    "how-do-helicopters-fly",
+    "how-do-planes-fly"
+  ],
+  "relatedAircraft": [
+    "boeing-ch-47-chinook",
+    "boom-xb-1",
+    "gulfstream-g650"
+  ],
+  "sources": [
+    {
+      "publisher": "Joby Aviation",
+      "title": "Technology",
+      "url": "https://www.jobyaviation.com/technology"
+    },
+    {
+      "publisher": "Federal Register",
+      "title": "Airworthiness Criteria: Joby Aero Model JAS4-1 Powered-Lift",
+      "url": "https://public-inspection.federalregister.gov/2024-04690.pdf"
+    },
+    {
+      "publisher": "Joby Aviation",
+      "title": "About Joby",
+      "url": "https://www.jobyaviation.com/about/"
+    },
+    {
+      "publisher": "Joby Aviation",
+      "title": "Joby Launches eIPP Flights in Texas",
+      "url": "https://www.jobyaviation.com/news/joby-launches-eipp-flights-in-texas"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Air Taxis: Frequently Asked Questions",
+      "url": "https://www.faa.gov/air-taxis/faq"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

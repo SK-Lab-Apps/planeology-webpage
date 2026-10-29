@@ -1,0 +1,63 @@
+{
+  "id": "lockheed-f-117-nighthawk",
+  "h1": "Lockheed F-117 Nighthawk: Facts, Specs and the First Stealth Jet",
+  "description": "The Lockheed F-117 Nighthawk, the first operational stealth aircraft, first flew on June 18, 1981; 59 were built. Specs, facts, museum and sources.",
+  "era": "widebody-era",
+  "roleGroup": "military",
+  "intro": [
+    "The Lockheed F-117 Nighthawk was the world's first operational stealth aircraft: a single-seat attack jet built from flat, angled panels that scatter radar energy away from whoever sent it. The first one flew on June 18, 1981, deliveries began the next year, and the type reached initial operational capability in October 1983, yet the Air Force did not admit it existed until 1988.",
+    "Its faceted look is the stealth itself. Dozens of flat panels, set at angles, deflect radar waves away from their source instead of straight back, and a coating of radar-absorbing material soaks up more; the exact makeup of those materials is still classified. The shape cost it speed, and the Nighthawk was only ever high subsonic.",
+    "It is 65 feet 11 inches (20.09 m) long with a wingspan of 43 feet 4 inches (13.21 m), weighs up to 52,500 pounds at takeoff, and is powered by two General Electric F404 engines. Lockheed's Skunk Works built 59 production aircraft and five development prototypes, and the Air Force retired the fleet in April 2008, although a small number kept flying for test work."
+  ],
+  "whyItMatters": [
+    "The Nighthawk settled an argument. Through the 1960s and 1970s, radar-guided missiles and guns had grown deadlier, and many planners doubted that jamming and decoys could keep up. In 1975 the Skunk Works won a DARPA competition with a shape that reflected almost nothing, and the Have Blue demonstrator proved on December 1, 1977, that such a shape could fly. DARPA ordered the F-117 less than a year later, and the first one flew 31 months after the contract.",
+    "The real test came over Iraq in 1991. In Operation Desert Storm, F-117s flew 1,271 sorties, were the only aircraft cleared to strike targets inside Baghdad's city limits, and came home without a loss or any battle damage. Lockheed Martin says they flew about 2% of the campaign's combat sorties but covered 40% of the strategic targets. Every stealth aircraft since, the B-2, the [F-22 Raptor](/aircraft/lockheed-martin-f-22-raptor), the F-35 and the B-21, builds on what the Nighthawk proved; [how stealth works](/learn/how-does-stealth-work) explains the physics.",
+    "Stealth was never invisibility. In 1999, over Yugoslavia, one F-117 was shot down by a surface-to-air missile, and its pilot was rescued. The type's last combat came in Iraq in 2003, and its first had been in Panama in December 1989, so one airframe, serial 85-0818, flew in every one of the Nighthawk's four conflicts and earned the nickname The Overachiever."
+  ],
+  "facts": [
+    "The Air Force kept the F-117 secret through seven years of operational service: the program was acknowledged in 1988, and the airplane was first shown to the public at Nellis Air Force Base in April 1990.",
+    "Lockheed Martin credits the Nighthawk with the longest nonstop flight by a single-seat fighter, from Holloman Air Force Base in New Mexico to Kuwait, with aerial refueling.",
+    "The program won the 1989 Collier Trophy, America's top aviation award, in a year when the public's only glimpse of the airplane was a fuzzy photograph on a magazine cover.",
+    "Have Blue, the demonstrator that led to the F-117, stayed airborne for 13 minutes on its first flight at Area 51 on December 1, 1977. Both Have Blue prototypes later crashed, but not before proving the idea.",
+    "The Nighthawk's design was a departure for the Skunk Works, whose founder Kelly Johnson preferred sleek shapes like the [SR-71](/aircraft/lockheed-sr-71-blackbird)."
+  ],
+  "whereToSee": {
+    "text": "The Overachiever, F-117A 85-0818, is on display at the Smithsonian's Steven F. Udvar-Hazy Center in Chantilly, Virginia. Another Nighthawk, number 803, nicknamed Unexpected Guest, has been on public display at the Ronald Reagan Presidential Library in Simi Valley, California, since December 2019.",
+    "source": 4
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "June 18, 1981", "source": 4 },
+    { "label": "Role", "value": "Single-seat stealth attack aircraft", "source": 2 },
+    { "label": "Engines", "value": "Two General Electric F404 engines", "source": 2 },
+    { "label": "Speed", "value": "High subsonic", "source": 2 },
+    { "label": "Wingspan", "value": "43 ft 4 in (13.21 m)", "source": 2 },
+    { "label": "Number built", "value": "59 production aircraft plus 5 development prototypes", "source": 2 },
+    { "label": "Status", "value": "Retired by the US Air Force in April 2008", "source": 2 }
+  ],
+  "relatedGuides": ["how-does-stealth-work", "how-jet-engines-work", "what-is-mach-1"],
+  "relatedAircraft": ["lockheed-martin-f-22-raptor", "lockheed-sr-71-blackbird", "lockheed-f104-starfighter"],
+  "sources": [
+    {
+      "publisher": "Lockheed Martin",
+      "title": "F-117 Nighthawk",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-117.html"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "F-117 Nighthawk Fast Facts",
+      "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/documents/F-117/F117%20Fast%20Facts_FINAL.pdf"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "F-117 Nighthawk Joins the National Air and Space Museum Collection",
+      "url": "https://airandspace.si.edu/newsroom/press-releases/f-117-nighthawk-joins-national-air-and-space-museum-collection"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "\"No One Knew I Was in the Sky\": The Story of the F-117 Nighthawk",
+      "url": "https://airandspace.si.edu/stories/editorial/story-f-117-nighthawk"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

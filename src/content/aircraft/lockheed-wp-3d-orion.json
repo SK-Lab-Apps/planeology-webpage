@@ -1,0 +1,66 @@
+{
+  "id": "lockheed-wp-3d-orion",
+  "h1": "Lockheed WP-3D Orion: Kermit, Miss Piggy and the Flight Into the Eye",
+  "description": "NOAA's two Lockheed WP-3D Orions, Kermit and Miss Piggy, have flown into hurricanes since the mid-1970s. Specs, sensors, successors and sources.",
+  "era": "widebody-era",
+  "roleGroup": "transport-special",
+  "intro": [
+    "The Lockheed WP-3D Orion is a four-engine turboprop that NOAA flies straight into hurricanes. The agency owns two, bought new from Lockheed's production line in the mid-1970s: N42RF, nicknamed Kermit, and N43RF, Miss Piggy, which use the call signs NOAA42 and NOAA43 on the radio.",
+    "Underneath the weather gear they are P-3 Orions, the maritime patrol aircraft that Lockheed developed from its Model 188 Electra airliner. The P-3 entered US Navy service in 1962, built to hunt submarines by flying low and slow for hours on end, and Lockheed Martin counts more than 400 still in use with 21 operators in 17 countries.",
+    "NOAA's pair are flying laboratories. A radar under the belly scans a storm horizontally while a Doppler radar in the tail scans it vertically, microwave radiometers read the wind speed at the sea surface, and GPS dropwindsondes fall from a launch tube radioing back pressure, temperature, humidity and wind all the way down. Expendable probes dropped into the sea measure the ocean's temperature by depth."
+  ],
+  "whyItMatters": [
+    "Satellites can see a hurricane; only an airplane inside it can measure it directly. On missions of 8 to 10 hours the crews punch through the eyewall, the ring of the strongest wind, into the relative calm of the eye, and the data they send back goes into the hurricane forecasts. That is the opposite of what airline crews do with [turbulence](/learn/is-turbulence-dangerous), which is avoid it.",
+    "The Orions do not work alone. From a cruising altitude of 45,000 feet, NOAA's Gulfstream IV-SP jet has flown around nearly every Atlantic hurricane that threatened the United States since 1997, sampling the winds that steer a storm while the P-3s work the low levels. All of them fly from the NOAA Aircraft Operations Center in Lakeland, Florida.",
+    "After half a century they are being replaced. In September 2024 NOAA awarded Lockheed Martin a contract for two purpose-built C-130J Hercules, expected to join the fleet in 2030, carrying the same multi-mode radar as the P-3s plus automated dropsonde launchers and the ability to launch uncrewed aircraft into parts of a storm no crewed airplane should enter. Until then Kermit and Miss Piggy keep flying; the [C-130](/aircraft/lockheed-c130-hercules) page introduces their successor, and the [Constellation](/aircraft/lockheed-constellation) shows what Lockheed was building when the Electra's line began."
+  ],
+  "facts": [
+    "Each WP-3D has four Rolls-Royce T56 turboprops, flies at about 250 knots, and can stay airborne for 11.5 hours with a range of 3,800 nautical miles.",
+    "NOAA's hurricane missions typically last 8 to 10 hours, crossing the eyewall into the eye of the storm.",
+    "The P-3 Orion entered US Navy service in 1962 as a submarine hunter; Lockheed Martin lists a top speed of 405 mph and a range of 5,570 miles for the type.",
+    "NOAA bought both aircraft new from the Lockheed production line in the mid-1970s, and they have operated ever since.",
+    "Two NOAA-specific C-130J Hercules, ordered from Lockheed Martin in 2024, are expected to replace the Orions in 2030."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "In NOAA service since", "value": "The mid-1970s, bought new from Lockheed", "source": 1 },
+    { "label": "Role", "value": "Hurricane hunter and research aircraft", "source": 1 },
+    { "label": "Engines", "value": "Four Rolls-Royce T56-14 turboprops", "source": 1 },
+    { "label": "Speed", "value": "250 knots", "source": 1 },
+    { "label": "Range", "value": "3,800 nautical miles", "source": 1 },
+    { "label": "Endurance", "value": "11.5 hours", "source": 1 },
+    { "label": "Ceiling", "value": "27,000 ft", "source": 1 },
+    { "label": "Fleet", "value": "Two (N42RF Kermit, N43RF Miss Piggy); two C-130J replacements expected in 2030", "source": 3 }
+  ],
+  "relatedGuides": ["is-turbulence-dangerous", "why-flying-east-is-faster", "what-are-contrails"],
+  "relatedAircraft": ["lockheed-c130-hercules", "lockheed-constellation", "boeing-ch-47-chinook"],
+  "sources": [
+    {
+      "publisher": "NOAA Office of Marine and Aviation Operations",
+      "title": "Lockheed WP-3D Orion",
+      "url": "https://www.omao.noaa.gov/aircraft-operations/aircraft/lockheed-wp-3d-orion"
+    },
+    {
+      "publisher": "NOAA Office of Marine and Aviation Operations",
+      "title": "NOAA Hurricane Hunters",
+      "url": "https://www.omao.noaa.gov/aircraft-operations/noaa-hurricane-hunters"
+    },
+    {
+      "publisher": "NOAA",
+      "title": "NOAA awards contract for next-generation hurricane hunter aircraft",
+      "url": "https://www.noaa.gov/news-release/noaa-awards-contract-for-next-generation-hurricane-hunter-aircraft"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "P-3 Orion: The All-Terrain Hunter",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/history/p-3-orion.html"
+    },
+    {
+      "publisher": "Lockheed Martin",
+      "title": "P-3 Orion: Maritime Patrol Aircraft",
+      "url": "https://www.lockheedmartin.com/en-us/products/p-3.html"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

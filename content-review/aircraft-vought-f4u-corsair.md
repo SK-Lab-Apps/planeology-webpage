@@ -1,0 +1,8 @@
+## /aircraft/vought-f4u-corsair
+
+| Claim | Source | Status |
+|---|---|---|
+| 13 ft 1 in three-blade Hamilton Standard propeller; R-2800 1,850 hp; Navy request February 1, 1938; Vought's design won in June; test pilot Lyman A. Bullard Jr.; largest engine and propeller on a fighter at the time; "400 mph airplane"; gull wing also reduced drag at the wing-fuselage joint; fabric-covered wing behind the main spar (as on the OS2U Kingfisher); 237-gal fuselage tank, cockpit moved nearly three feet aft, blocked view on landing; sharp stall, torque, bouncing gear; Corsairs to Marine squadrons, Hellcat about 15 mph slower; 178 F4U-1s by New Year's Eve 1942; Thompson Trophy twice, Goodyear F2G racers; 94 F4U-7s for France in 1952 ended production; Vought, Goodyear and Brewster; dimensions 15 ft 1 in × 33 ft 5 in × 41 ft, 8,900 lb | NASM, Vought F4U-1D Corsair, https://airandspace.si.edu/collection-objects/vought-f4u-1d-corsair/nasm_A19610124000 | ✅ |
+| Ely's takeoff from the Birmingham, November 14, 1910; landing on the Pennsylvania two months later with sandbag-weighted ropes | NHHC, Eugene Ely Makes Naval Aviation's First Shipboard Launch, https://www.history.navy.mil/content/history/museums/nnam/education/articles/history-up-close/eugene-ely-makes-naval-aviations-first-shipboard-launch.html | ✅ App lesson `carrier-aviation` |
+| Where to see one | — | Left null: the NASM page does not state a display location |
+| Everything else (first flight May 29, 1940, bent wings for propeller clearance, folding outer panels, cleared for carriers late in 1944, longest-produced US WWII fighter, 12,582 built) | App lesson `carrier-aviation` and its aircraft card | ✅ In the app |

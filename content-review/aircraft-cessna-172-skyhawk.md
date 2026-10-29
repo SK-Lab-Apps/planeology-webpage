@@ -1,0 +1,11 @@
+## /aircraft/cessna-172-skyhawk
+
+| Claim | Source | Status |
+|---|---|---|
+| First test flight in 1955; on sale to the public a year later (1956); more than 1,400 sold in the first year at $9,000 to $12,000; more than 45,000 sold, "more than any aircraft ever produced" | NASM, "New Exhibitions at the National Air and Space Museum", Air & Space Quarterly issue 19 (June 14, 2026), https://airandspace.si.edu/air-and-space-quarterly/issue-19/air-and-space-2026-gallery-highlights | ✅ |
+| The museum's Skyhawk N172SH was built by Textron Aviation as an educational exhibit; S = Smithsonian, H = How Things Fly; it sits just inside the west entrance of the Textron How Things Fly gallery, and visitors can sit in the cockpit and move the controls | Same NASM article | ✅ |
+| The new How Things Fly gallery opened in 2026 (the article, written June 14, 2026, gave July 1, 2026 as the opening date) | Same NASM article; NASM exhibition page, https://airandspace.si.edu/exhibitions/how-things-fly ("A newly transformed How Things Fly exhibition opened in 2026") | ✅ The page says "reopened in its new form in 2026" rather than naming the day |
+| Lycoming IO-360-L2A, 180 hp, horizontally opposed, air-cooled, four-cylinder, fuel-injected; max cruise 124 ktas (230 km/h); max range 640 nm (1,185 km); service ceiling 14,000 ft; 4 occupants; useful load 878 lb; wingspan 36 ft 1 in (11.00 m); length 27 ft 2 in; "most popular single-engine aircraft ever built"; in production | Textron Aviation, Cessna Skyhawk, https://cessna.txtav.com/en/piston/cessna-skyhawk (read October 2026) | ✅ |
+| Textron's 70th-anniversary release dated June 24, 2025, calls it "the most popular aircraft in aviation history" and "the world's most popular trainer aircraft" | Textron Aviation, https://media.txtav.com/251490-cessna-172-skyhawk-marks-70-years-of-excellence-and-continues-to-lead-the-industry-as-the-most-popular-aircraft-in-the-world/ | ✅ Given as the maker's claims |
+| Horizontally opposed engines are the most popular piston engines on small airplanes; tricycle gear gives a better view ahead on the ground | PHAK p.162, p.193 (also verified for app lessons `pistons-propellers` and `landing-gear`) | ✅ |
+| Everything else (four-seat, high-wing, 70 years in 2025) | The app's Hangar card for `cessna-172-skyhawk` (Textron sources above) and app lesson `four-forces` | ✅ |

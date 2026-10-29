@@ -1,0 +1,48 @@
+{
+  "id": "pitts-special",
+  "h1": "Pitts Special: The Tiny Biplane That Ruled Aerobatics",
+  "description": "Curtis Pitts built the first Pitts Special in 1945; his tiny biplanes dominated aerobatics in the 1960s and 1970s. Specs, where to see one and sources.",
+  "era": "wwii",
+  "roleGroup": "light-aircraft",
+  "intro": [
+    "The Pitts Special is a tiny aerobatic biplane. Curtis Pitts built the first one, the S-1, in 1945, designing it to be small, light and quick to change attitude, and building it around a small horizontally opposed engine instead of a heavy radial. The line that followed dominated unlimited aerobatic competition through the 1960s and 1970s.",
+    "The oldest survivor is the second Pitts built, the S-1C *Little Stinker* of 1946, now in the Smithsonian. It spans just 16 feet 10 inches (4.9 meters), is 14 feet 6 inches long, weighs 568 pounds empty and flies behind an 85-horsepower Continental. Its fuselage is a steel-tube frame covered in fabric.",
+    "Betty Skelton bought *Little Stinker* in August 1948 for $3,000, without having flown it, and won the Feminine International Aerobatic Championship in it in 1949 and again in 1950. She sold it in 1951, bought it back in 1967, and she and her husband gave it to the National Air and Space Museum in 1985."
+  ],
+  "whyItMatters": [
+    "Aerobatics is applied stall theory. A spin, the maneuver every air show crowd waits for, is an aggravated stall in which the airplane rotates as it descends. A wing stalls when it meets the air beyond its critical angle of attack, roughly 16 to 20 degrees, and that can happen at any speed and with the nose pointing anywhere. Understanding [why planes stall](/learn/what-is-a-stall) explains most of what a Pitts does on purpose.",
+    "The biplane layout is a deliberate choice. Two short wings pack a lot of lifting area into a very small span, which is how Pitts made an airplane that was light, agile and quick to change attitude. Both wings work the same way as any other: they [turn the air downward](/learn/how-do-planes-fly), whichever way up the airplane happens to be.",
+    "Pitts sold construction drawings for the S-1C in the early 1960s, which made it a favorite of homebuilders, and in 1966 Bob Herendeen became US National Aerobatic Champion in one. The design is still alive: Aviat Aircraft was taking orders for a new two-seat Pitts with a 260-horsepower Lycoming in 2026. Monoplanes such as the [Extra 300](/aircraft/extra-300) later took over the top of the sport, but the little biplane is where modern aerobatics grew up."
+  ],
+  "facts": [
+    "*Little Stinker* is both the oldest surviving Pitts-designed aircraft and the smallest Pitts Special in existence.",
+    "Betty Skelton paid $3,000 for it in August 1948 and won the women's international aerobatic title in it in 1949 and 1950.",
+    "A volunteer crew at the Smithsonian's Garber Facility spent six years restoring the airplane, finishing in 2001, and it was hung in the entrance of the Udvar-Hazy Center when the building opened in 2003.",
+    "Americans won the world aerobatic championship in 1972 flying a later Pitts model.",
+    "Aviat Aircraft's 2026 order sheet for a new Pitts lists a 260-horsepower Lycoming, a full two-place canopy and a full inverted fuel and oil system."
+  ],
+  "whereToSee": {
+    "text": "*Little Stinker* hangs from the ceiling just inside the entrance of the National Air and Space Museum's Steven F. Udvar-Hazy Center in Chantilly, Virginia, where the museum says it is on permanent display.",
+    "source": 4
+  },
+  "quickFacts": [
+    { "label": "First built", "value": "1945 (the S-1)", "source": 1 },
+    { "label": "Role", "value": "Aerobatic biplane", "source": 1 },
+    { "label": "Engine (Little Stinker)", "value": "One 85-hp Continental C85", "source": 1 },
+    { "label": "Wingspan", "value": "16 ft 10 in (4.9 m)", "source": 1 },
+    { "label": "Length", "value": "14 ft 6 in (4.4 m)", "source": 1 },
+    { "label": "Weight", "value": "568 lb empty, 800 lb gross", "source": 1 },
+    { "label": "Status", "value": "Still built to order by Aviat Aircraft (as of October 2026)", "source": 5 }
+  ],
+  "relatedGuides": ["what-is-a-stall", "how-do-planes-fly"],
+  "relatedAircraft": ["extra-300", "piper-j3-cub", "cessna-172-skyhawk"],
+  "sources": [
+    { "publisher": "Smithsonian National Air and Space Museum", "title": "Pitts S-1C Special", "url": "https://airandspace.si.edu/collection-objects/pitts-special-s-1c/nasm_A19850806000" },
+    { "publisher": "Federal Aviation Administration", "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)", "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf" },
+    { "publisher": "NASA Glenn Research Center", "title": "Effects of Inclination on Lift", "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/incline/" },
+    { "publisher": "Smithsonian National Air and Space Museum", "title": "Aerobatic Champions", "url": "https://airandspace.si.edu/exhibitions/aerobatic-champions" },
+    { "publisher": "Aviat Aircraft", "title": "Pitts Order Form 2026", "url": "https://www.aviataircraft.com/pitts/" }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

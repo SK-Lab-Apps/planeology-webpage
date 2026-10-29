@@ -1,0 +1,74 @@
+{
+  "id": "concorde",
+  "h1": "Concorde: Facts, Specs and Why Supersonic Travel Ended",
+  "description": "Concorde first flew on March 2, 1969, carried passengers at Mach 2 from 1976 and retired in 2003. Specs, facts, where to see one and sources.",
+  "era": "jet-age",
+  "roleGroup": "airliner",
+  "intro": [
+    "Concorde was the first supersonic airliner to enter service and, for 27 years, the only way to cross the Atlantic at twice the speed of sound. Britain and France agreed to build it together in 1962, and the French-assembled prototype 001 first flew from Toulouse on March 2, 1969. The British prototype 002 followed on April 9, and on October 1, 1969, a Concorde flew faster than sound for the first time.",
+    "It is a slim, delta-winged machine 61.66 meters (202 feet) long with a wingspan of only 25.56 meters (84 feet). Four Rolls-Royce/SNECMA Olympus 593 turbojets, each rated at 38,050 pounds of thrust, pushed it to a top speed of 2,179 km/h (1,350 mph). It cruised at Mach 2 between 55,000 and 60,000 feet, high enough for passengers to see the curve of the Earth, and carried up to 100 of them in four-across rows.",
+    "Speed came with strange physics. At cruise the air outside was colder than -56°C, yet friction heated the aluminum skin to more than 120°C, the inside of the windows grew warm to the touch, and the whole airframe stretched about 8 inches (20 cm), shrinking back as it cooled after landing."
+  ],
+  "whyItMatters": [
+    "Concorde proved that scheduled supersonic travel was possible, and it also showed why it was so hard to sustain. Only 20 were built: four prototype and pre-production aircraft and 16 production airplanes, all of which ended up with Air France and British Airways after every other airline dropped its options. Each seat burned about a ton of fuel per crossing, a round trip averaged more than $12,000, and the airplanes often flew half full.",
+    "The sonic boom kept it off most overland routes, and the United States had canceled its own supersonic airliner in 1971 over noise and emissions. Then, on July 25, 2000, Air France Flight 4590 crashed shortly after takeoff from Paris Charles de Gaulle; the crash killed the 109 people on board and four people on the ground. France's investigator, the BEA, found that a tire had run over a strip of metal that had fallen from another aircraft, and that debris from the burst tire ruptured a fuel tank and started a major fire. The fleet was grounded, the tanks were lined with Kevlar, new tires were fitted, and Concorde returned to service in November 2001.",
+    "The return was short. The modifications added weight and cut passenger capacity, demand did not recover, and the manufacturer decided to stop supporting the fleet. Air France flew its last Concorde service on May 23, 2003, and British Airways retired its airplanes that October. The idea has not died: Boom's [XB-1](/aircraft/boom-xb-1) demonstrator went supersonic in January 2025, in what the company calls the first civil supersonic flight since Concorde retired. The full story is in [why Concorde was retired](/learn/why-was-concorde-retired)."
+  ],
+  "facts": [
+    "A London to New York crossing took about three hours, roughly half the time of a subsonic jet; the average Concorde Atlantic flight was under four hours.",
+    "Only 20 Concordes were built, and just two airlines, Air France and British Airways, ever flew them in service.",
+    "Air France's Fox Alpha, F-BVFA, opened the airline's Concorde routes to Rio de Janeiro, Washington and New York and logged 17,824 flying hours before its final flight, straight into the Smithsonian's collection, on June 12, 2003.",
+    "The British prototype 002 made 438 flights, 196 of them supersonic, before retiring to Yeovilton on March 4, 1976, a few weeks after passenger service began.",
+    "Half of every Concorde was built in each country, and the name itself was chosen to signal cooperation between Britain and France."
+  ],
+  "whereToSee": {
+    "text": "Air France's F-BVFA, Fox Alpha, is displayed at the Smithsonian's Steven F. Udvar-Hazy Center in Chantilly, Virginia. In Britain, the prototype 002 (G-BSST), part of the Science Museum Group collection, is on show at the Fleet Air Arm Museum in Yeovilton, Somerset.",
+    "source": 1
+  },
+  "quickFacts": [
+    { "label": "First flight", "value": "March 2, 1969 (prototype 001, Toulouse)", "source": 1 },
+    { "label": "Role", "value": "Supersonic airliner", "source": 1 },
+    { "label": "Engines", "value": "Four Rolls-Royce/SNECMA Olympus 593 turbojets, 38,050 lb thrust each", "source": 1 },
+    { "label": "Speed", "value": "Mach 2 cruise; top speed 1,350 mph (2,179 km/h)", "source": 1 },
+    { "label": "Cruise altitude", "value": "55,000 to 60,000 ft", "source": 1 },
+    { "label": "Passengers", "value": "Up to 100", "source": 1 },
+    { "label": "Number built", "value": "20, of which 16 production aircraft", "source": 1 },
+    { "label": "Status", "value": "Retired: Air France in May 2003, British Airways in October 2003", "source": 2 }
+  ],
+  "relatedGuides": ["why-was-concorde-retired", "what-is-mach-1", "fastest-planes-ever"],
+  "relatedAircraft": ["boom-xb-1", "lockheed-sr-71-blackbird", "boeing-747"],
+  "sources": [
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Concorde, Fox Alpha, Air France",
+      "url": "https://airandspace.si.edu/collection-objects/concorde-fox-alpha-air-france/nasm_A20030139000"
+    },
+    {
+      "publisher": "Science Museum Group",
+      "title": "Concorde prototype aircraft",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co29806/concorde-prototype-aircraft"
+    },
+    {
+      "publisher": "BEA (Bureau d'Enquêtes et d'Analyses)",
+      "title": "Accident to the Concorde registered F-BTSC operated by Air France occured on 07/25/00 at Gonesse",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-concorde-registered-f-btsc-operated-by-air-france-occured-on-07-25-00-at-gonesse/"
+    },
+    {
+      "publisher": "BEA (Bureau d'Enquêtes et d'Analyses)",
+      "title": "Accident on 25 July 2000 at La Patte d'Oie in Gonesse (95) to the Concorde registered F-BTSC operated by Air France (final report)",
+      "url": "https://bea.aero/uploads/tx_elydbrapports/f-sc000725a.pdf"
+    },
+    {
+      "publisher": "BEA (Bureau d'Enquêtes et d'Analyses)",
+      "title": "Accident du Concorde : l'événement",
+      "url": "https://bea.aero/fileadmin/documents/histoire/Histoire-Concorde-VF.pdf"
+    },
+    {
+      "publisher": "Boom Supersonic",
+      "title": "Boom Achieves Supersonic Flight",
+      "url": "https://boomsupersonic.com/news/boom-achieves-supersonic-flight"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

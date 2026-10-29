@@ -1,0 +1,60 @@
+{
+  "id": "consolidated-ny-2-husky",
+  "h1": "Consolidated NY-2 Husky: The Biplane Behind the First Blind Flight",
+  "description": "On September 24, 1929, Jimmy Doolittle flew a Consolidated NY-2 Husky from takeoff to landing on instruments alone. The story, specs and sources.",
+  "era": "golden-age",
+  "roleGroup": "research",
+  "intro": [
+    "The Consolidated NY-2 Husky was a US Navy training biplane, but one of them made history as a flying laboratory. On September 24, 1929, on Long Island, New York, Army lieutenant Jimmy Doolittle took off in it, flew a set course and landed using only his instruments. Nobody had done that before.",
+    "To prove he could not see out, Doolittle flew under a hood that closed over his whole seat. A check pilot rode in the front cockpit in case of emergency. He kept his arms above his head for the entire 15-minute flight, so no one could claim he had helped.",
+    "The NY series grew out of a trainer designed for the Army, and the NY-1 of 1926 was the first Consolidated airplane the Navy used. NYs were large biplanes that could be set up to fly from land or from water. Through the late 1920s and early 1930s they were the main primary trainers for Navy and Marine Corps pilots, and the last one left Navy service in 1939."
+  ],
+  "whyItMatters": [
+    "Doolittle believed flying would never be truly dependable until pilots could control an airplane without relying on their own senses. By the late 1920s, airplanes carried basic instruments for altitude, direction and airspeed. None of them could guide a pilot from takeoff to landing with no view outside. His flight, made for the Daniel Guggenheim Fund for the Promotion of Aeronautics, set out to change that.",
+    "The NY-2 carried three newly developed instruments: a directional gyro, today's heading indicator; an artificial horizon, today's attitude indicator; and a sensitive barometric altimeter. A radio range course lined up with the runway gave Doolittle his direction, and radio marker beacons told him his distance from it. The gyro instruments soon became standard, and they still sit at the heart of the classic six-instrument panel.",
+    "The [autopilot guide](/learn/how-does-autopilot-work) follows how gyroscopes went on to steer airplanes themselves. The [air traffic control guide](/learn/how-air-traffic-control-works) shows the system that now guides flights through cloud. Doolittle's flight belongs with those of the [Spirit of St. Louis](/aircraft/spirit-of-st-louis) and the [Douglas World Cruiser](/aircraft/douglas-world-cruiser) among the great aviation firsts of the 1920s."
+  ],
+  "facts": [
+    "The Bureau of Standards and the Aeronautics Branch of the Department of Commerce, the earliest predecessor of the FAA, cooperated on the research behind the flight.",
+    "Doolittle helped adapt the new instruments for the Husky and suggested improvements to them after flying with them.",
+    "Born in Alameda, California, in 1896, Doolittle earned a master's degree and then a doctorate in aeronautics at MIT. He is better known for leading the World War II raid on Tokyo on April 18, 1942.",
+    "On May 9, 1932, Capt. A. F. Hegenberger went a step further at Dayton, Ohio, making the first blind solo flight on instruments alone, with no check pilot aboard.",
+    "The Smithsonian's collection includes a 1/16-scale model of Doolittle's NY-2 in its silver finish, made in 1962 by Robert C. Mikesh."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "Famous flight", "value": "September 24, 1929, Long Island, New York", "source": 1 },
+    { "label": "Pilot", "value": "Lt. James H. Doolittle, US Army, with a check pilot in the front cockpit", "source": 1 },
+    { "label": "Flight time", "value": "About 15 minutes, takeoff to landing", "source": 1 },
+    { "label": "Instruments", "value": "Directional gyro, artificial horizon and sensitive barometric altimeter", "source": 1 },
+    { "label": "Radio guidance", "value": "A radio range course along the runway, plus marker beacons", "source": 1 },
+    { "label": "Type", "value": "Navy primary and gunnery trainer biplane, for land or water", "source": 2 },
+    { "label": "Navy service", "value": "NY-1 from 1926; the last NY left in 1939", "source": 2 }
+  ],
+  "relatedGuides": ["how-does-autopilot-work", "how-air-traffic-control-works"],
+  "relatedAircraft": ["spirit-of-st-louis", "douglas-world-cruiser", "douglas-dc-3"],
+  "sources": [
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Flying Blind: Doolittle's first instrument flight",
+      "url": "https://www.faa.gov/sites/faa.gov/files/about/history/pioneers/First_Instrument_Flight_Doolittle.pdf"
+    },
+    {
+      "publisher": "Naval History and Heritage Command",
+      "title": "Navy training aircraft history, by Roy Grossnick",
+      "url": "https://www.history.navy.mil/content/dam/nhhc/research/histories/naval-aviation/pdf/train-10.pdf"
+    },
+    {
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Model, Static, Consolidated NY-2, Guggenheim Blind Flying-Trials",
+      "url": "https://airandspace.si.edu/collection-objects/model-static-consolidated-ny-2-guggenheim-blind-flying-trials/nasm_A19620087000"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25C)",
+      "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "airbus-a320",
+  "h1": "Airbus A320: The Sidestick Airliner That Became a Family of Thousands",
+  "description": "The Airbus A320 first flew on February 22, 1987, as the first airliner with full digital fly-by-wire. Specs, family facts and sources.",
+  "era": "widebody-era",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Airbus A320 is the single-aisle airliner that much of the world boards without a second glance, and the one that changed how airliners are flown. It first flew on February 22, 1987, and the first delivery went to Air France on March 26, 1988.",
+    "It was the first civil aircraft with full digital fly-by-wire controls. Instead of cables and rods running from a control column to the wings and tail, electrical signals carry the pilot's commands to computers, which move the control surfaces. Its pilots fly with small sidesticks beside them rather than a yoke in front of them.",
+    "The design grew into a family: the shorter A319, first delivered in 1996, the stretched A321 (1994) and the small A318 (2003), then the re-engined neo generation, launched in December 2010 and first delivered to Lufthansa in January 2016. All of them share the same fly-by-wire flight controls and cabin systems, which lets one crew move easily between them."
+  ],
+  "whyItMatters": [
+    "Airbus calls the A320 the most successful aircraft family in commercial aviation history, and its own figures are large: 19,472 orders from more than 300 customers and 12,321 deliveries by the end of October 2025, with the order count past 20,100 by October 2026. Around 72 percent of the backlog is for the largest member, the A321neo, which includes the long-legged [A321XLR](/aircraft/airbus-a321xlr).",
+    "Its real legacy is in the cockpit. Fly-by-wire let Airbus give every family member the same handling and build protections into the flight envelope. The [autopilot guide](/learn/how-does-autopilot-work) explains what those computers do, and [Boeing vs Airbus](/learn/boeing-vs-airbus) shows how to tell an A320 from its great rival, the [737](/aircraft/boeing-737).",
+    "The neo generation kept it current. New CFM LEAP-1A or Pratt & Whitney GTF engines and Sharklet wingtips cut fuel burn and CO2 by about 20 percent against the previous generation, by Airbus's figures, and halved the noise footprint. The family is built on four final assembly lines, in Toulouse, Hamburg, Tianjin and Mobile, Alabama, with Airbus aiming for 75 aircraft a month in 2027."
+  ],
+  "facts": [
+    "The A320 was the first civil aircraft with full digital fly-by-wire, flown with sidesticks instead of control columns.",
+    "The first A320 was delivered to Air France on March 26, 1988, thirteen months after the first flight.",
+    "By the end of October 2025, Airbus counted 19,472 A320 Family orders and 12,321 deliveries.",
+    "An A320neo typically seats 150 to 180 passengers in two classes, 194 at most, and can fly about 3,450 nautical miles.",
+    "The family spans 120 to 244 seats from one basic design, from the A319neo to the A321neo."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "February 22, 1987", "source": 1 },
+    { "label": "Role", "value": "Narrowbody airliner", "source": 1 },
+    { "label": "Engines", "value": "Two turbofans; CFM LEAP-1A or Pratt & Whitney GTF on the neo", "source": 2 },
+    { "label": "Range", "value": "Up to 3,450 nmi (A320neo)", "source": 2 },
+    { "label": "Passengers", "value": "150 to 180 in two classes, up to 194 (A320neo)", "source": 2 },
+    { "label": "Wingspan", "value": "35.80 m (117 ft 5 in)", "source": 2 },
+    { "label": "Orders and deliveries", "value": "19,472 ordered, 12,321 delivered across the family, end of October 2025", "source": 2 },
+    { "label": "Status", "value": "In production on four final assembly lines", "source": 2 }
+  ],
+  "relatedGuides": ["how-does-autopilot-work", "boeing-vs-airbus", "how-jet-engines-work"],
+  "relatedAircraft": ["boeing-737", "airbus-a321xlr", "airbus-a300"],
+  "sources": [
+    {
+      "publisher": "Airbus",
+      "title": "A320 Family",
+      "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "A320 Family Facts and Figures, November 2025",
+      "url": "https://www.airbus.com/sites/g/files/jlcbta136/files/2025-11/Airbus-A320-Family-Facts-and-Figures-November-2025.pdf"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "A320neo",
+      "url": "https://aircraft.airbus.com/en/aircraft/a320-the-most-successful-aircraft-family-ever/a320neo"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

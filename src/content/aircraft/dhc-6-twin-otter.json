@@ -1,0 +1,62 @@
+{
+  "id": "dhc-6-twin-otter",
+  "h1": "de Havilland Canada DHC-6 Twin Otter: The Workhorse on Wheels, Skis and Floats",
+  "seoTitle": "DHC-6 Twin Otter Facts & Specs",
+  "description": "The DHC-6 Twin Otter first flew on May 20, 1965, built for Canada's far north. It flies on wheels, skis or floats. Specs, history and sources.",
+  "era": "jet-age",
+  "roleGroup": "light-aircraft",
+  "intro": [
+    "The de Havilland Canada DHC-6 Twin Otter is a twin-turboprop utility airplane built to reach places with no proper runway. It first flew on May 20, 1965, and was designed from the start for the harsh conditions of Canada's far north.",
+    "It seats up to 19 passengers in its standard layout, and its cabin can be quickly changed over for cargo, medical evacuation, VIP or special-mission work. A single pilot can fly it. Its engines are Pratt & Whitney PT6A turboprops. The newest version offers two models: the economical PT6A-27, or the PT6A-34 for the toughest missions.",
+    "What made it famous is where it can land. De Havilland Canada offers it on wheels, floats, amphibious floats, wheel-skis, skis or what it calls intermediate flotation gear. Whichever it wears, it needs only a short strip at either end of a trip."
+  ],
+  "whyItMatters": [
+    "Most airplanes are tied to runways. The Twin Otter was built for communities with a lake, a snowfield or a rough strip instead. Its interchangeable landing gear is what lets it serve them. On amphibious floats it can even move between paved runways and open water, which suits island and coastal routes.",
+    "That flexibility has kept it working for six decades. De Havilland Canada counts operators in more than 100 countries, flying passengers, freight, medical evacuations, VIPs and special missions such as search and rescue. Zimex Aviation of Switzerland, the launch customer for the newest version, said in 2025 that its business had rested on Twin Otters for 56 years.",
+    "It comes from the same company as the [DHC-2 Beaver](/aircraft/dhc-2-beaver), the single-engine bush plane of 1947. The Twin Otter takes the same idea further, with two turbine engines and room for 19 passengers. The [jet engines guide](/learn/how-jet-engines-work) explains how a turboprop turns a jet core into propeller thrust. The [flaps guide](/learn/what-do-flaps-and-slats-do) shows how a wing makes extra lift at low speed."
+  ],
+  "facts": [
+    "For the current Classic 300-G, De Havilland Canada quotes 1,200 feet (366 m) to take off and clear a 50-foot obstacle. Landing over the same obstacle takes 1,050 feet (320 m).",
+    "The Classic 300-G was unveiled at the Paris Air Show in June 2025. It has a Garmin G1000 NXi flight deck, a redesigned cabin and a basic weight 400 to 500 pounds lower than before.",
+    "The airplane shown in Paris was the 998th Twin Otter produced since the type was launched. The 1,000th was due to go to SATENA of Colombia in the second half of 2025.",
+    "Its new cabin seats are 15 percent lighter and have fold-flat backrests, part of a redesign meant to let operators carry more on every flight.",
+    "The Series 400 has a wingspan of 65 feet (19.81 m) and is 51 feet 9 inches (15.77 m) long, by De Havilland Canada's figures."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "First flight", "value": "May 20, 1965", "source": 1 },
+    { "label": "Role", "value": "Twin-turboprop utility airplane with short takeoff and landing", "source": 4 },
+    { "label": "Engines", "value": "Two PT6A turboprops: PT6A-27 standard or PT6A-34 (Classic 300-G)", "source": 2 },
+    { "label": "Cruise speed", "value": "Up to 182 knots true airspeed at 10,000 ft (Classic 300-G)", "source": 2 },
+    { "label": "Range", "value": "Up to 871 nmi (1,613 km) with no payload (Classic 300-G)", "source": 2 },
+    { "label": "Passengers", "value": "Up to 19, with a minimum crew of one pilot", "source": 4 },
+    { "label": "Number built", "value": "998 by June 2025, with the 1,000th due later that year", "source": 3 },
+    { "label": "Status", "value": "In production as the Twin Otter Classic 300-G (October 2026)", "source": 2 }
+  ],
+  "relatedGuides": ["how-jet-engines-work", "what-do-flaps-and-slats-do"],
+  "relatedAircraft": ["dhc-2-beaver", "lockheed-c130-hercules", "cessna-172-skyhawk"],
+  "sources": [
+    {
+      "publisher": "De Havilland Canada",
+      "title": "60th anniversary of the Twin Otter",
+      "url": "https://dehavilland.com/uncategorized/de-havilland-canada-celebrates-60th-anniversary-of-iconic-twin-otter-aircraft/"
+    },
+    {
+      "publisher": "De Havilland Canada",
+      "title": "Twin Otter Classic 300-G",
+      "url": "https://dehavilland.com/twin-otter-classic-300-g/"
+    },
+    {
+      "publisher": "De Havilland Canada",
+      "title": "De Havilland Canada Unveils Twin Otter Classic 300-G at the Paris Air Show",
+      "url": "https://dehavilland.com/aircraft-sales/de-havilland-canada-unveils-twin-otter-classic-300-g-at-the-paris-air-show/"
+    },
+    {
+      "publisher": "De Havilland Canada",
+      "title": "Twin Otter Series 400",
+      "url": "https://dehavilland.com/twin-otter/"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

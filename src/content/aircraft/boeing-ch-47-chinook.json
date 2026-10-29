@@ -1,0 +1,55 @@
+{
+  "id": "boeing-ch-47-chinook",
+  "h1": "Boeing CH-47 Chinook: Facts, Specs and Why It Has No Tail Rotor",
+  "description": "The Boeing CH-47 Chinook entered US Army service in August 1962 and is still flying, with two rotors and no tail rotor. Specs, facts and sources.",
+  "era": "jet-age",
+  "roleGroup": "rotor-evtol",
+  "intro": [
+    "The Boeing CH-47 Chinook is a heavy-lift helicopter with two big rotors, one at each end of the fuselage, and no tail rotor at all. The first of the line, the YHC-1B, was rolled out in 1961, and the first fully equipped Army Chinook, the CH-47A, entered service in August 1962. More than 60 years later, as of October 2026, Boeing still describes it as the heavy-lift helicopter of the US Army and 20 international operators.",
+    "The two rotors turn in opposite directions, so each cancels the twisting force, or torque, of the other. A conventional helicopter has to spend engine power on a tail rotor just to stop its body from spinning; a tandem design can put all of it into lift, which is one reason Chinooks carry so much. Two Honeywell T55 turboshaft engines of 4,777 shaft horsepower each drive both rotors.",
+    "Each rotor is 60 feet (18.3 m) across, and with the blades turning the aircraft is nearly 99 feet long. It cruises at 157 knots and tops out at 170 knots (302 km/h), quick for a helicopter, and it can work at altitudes up to 20,000 feet. A rear ramp lets vehicles and troops load straight in, with no tail rotor to keep clear of."
+  ],
+  "whyItMatters": [
+    "Chinooks first went to war in Vietnam in 1965, and the A, B and C models served there until 1975. Instead of replacing them afterward, the Army and Boeing rebuilt almost 500 early airframes into essentially new CH-47Ds in Philadelphia, a pattern of remanufacturing that has kept the type young ever since. The CH-47F brought a digital cockpit, and the special-operations MH-47G carries twice the fuel plus an in-flight refueling probe.",
+    "Boeing said in 2014 that modernization would keep the Chinook in the Army fleet through at least the 2030s, and its current Block II upgrade strengthens the structure, redesigns the fuel tanks and improves the drivetrain so the helicopter can lift more and fly farther. Twenty nations have operated the H-47, and a commercial version, the Model 234, has carried passengers, logs and oil-rig crews.",
+    "The tandem layout is the clearest way to see the torque problem that every helicopter must solve; [how helicopters fly](/learn/how-do-helicopters-fly) walks through it, from the spinning-wing rotor to the small tail rotor that most designs use instead. For a very different rotor machine, compare the electric, six-propeller [Joby S4](/aircraft/joby-s4), and for the fixed-wing workhorse the Chinook so often flies alongside, see the [C-130 Hercules](/aircraft/lockheed-c130-hercules)."
+  ],
+  "facts": [
+    "Boeing bought Vertol, the Philadelphia helicopter maker behind the Chinook, in 1960, when the company had three tandem-rotor designs in production.",
+    "Boeing's own figures differ by generation: its history lists a maximum gross weight of 50,000 pounds and a useful load of 24,000 pounds, while its current CH-47F page gives 54,000 and 27,700 pounds.",
+    "Almost 500 early Chinooks were rebuilt as CH-47Ds after Vietnam, and the D model was a central element of US Army operations in the 1991 Gulf War.",
+    "The MH-47G flown by Army special operations carries twice the fuel of a CH-47F and can refuel in flight.",
+    "The Chinook's ancestors were nicknamed flying bananas: the bent, two-rotor helicopters that Frank Piasecki's company began building in 1945."
+  ],
+  "whereToSee": null,
+  "quickFacts": [
+    { "label": "Entered service", "value": "August 1962 (CH-47A); the YHC-1B prototype was rolled out in 1961", "source": 1 },
+    { "label": "Role", "value": "Heavy-lift tandem-rotor helicopter", "source": 2 },
+    { "label": "Engines", "value": "Two Honeywell T55-GA-714A turboshafts, 4,777 shp each", "source": 2 },
+    { "label": "Rotors", "value": "Two, each 60 ft (18.3 m) in diameter", "source": 2 },
+    { "label": "Speed", "value": "170 knots (302 km/h) maximum; 157 knots cruise", "source": 2 },
+    { "label": "Service ceiling", "value": "20,000 ft (6,096 m)", "source": 2 },
+    { "label": "Status", "value": "In service and being modernized; US Army and 20 international operators as of October 2026", "source": 2 }
+  ],
+  "relatedGuides": ["how-do-helicopters-fly", "how-jet-engines-work"],
+  "relatedAircraft": ["joby-s4", "lockheed-c130-hercules", "lockheed-f104-starfighter"],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "CH-47 Chinook",
+      "url": "https://www.boeing.com/defense/ch-47-chinook"
+    },
+    {
+      "publisher": "Federal Aviation Administration",
+      "title": "Helicopter Flying Handbook: Introduction to the Helicopter",
+      "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch01.pdf"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}

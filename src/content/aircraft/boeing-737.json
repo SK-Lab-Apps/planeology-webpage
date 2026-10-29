@@ -1,0 +1,98 @@
+{
+  "id": "boeing-737",
+  "h1": "Boeing 737: From Baby Boeing to the Most-Built Jetliner",
+  "description": "The Boeing 737 first flew on April 9, 1967, and the 10,000th was built in March 2018, a record for a large jet. Specs, facts and where to see the first.",
+  "era": "jet-age",
+  "roleGroup": "airliner",
+  "intro": [
+    "The Boeing 737 is the short-haul twinjet that became the most-produced large commercial jet in history. Boeing was known for big, multi-engine jets in 1965, so the small 737 was quickly nicknamed the Baby Boeing. The first one flew on April 9, 1967, and Lufthansa took delivery of the first production 737-100 on December 27, 1967.",
+    "Early 737s were also called the square airplane, because they were about as long as they were wide: 93 feet 9 inches long on a 93-foot wingspan. The 737-100 and -200 carried up to 107 passengers on two 14,000-pound-thrust Pratt & Whitney JT8D turbofans, cruising at 580 mph over a range of 1,150 miles.",
+    "The 10,000th 737 rolled out of the Renton, Washington, factory in March 2018, which Guinness World Records recognized as the highest production of any large commercial jet. As of October 2026, the current 737 MAX family remains in production."
+  ],
+  "whyItMatters": [
+    "The 737 won on cabin and convenience. Its six-abreast seating took one more passenger per row than the rival Douglas DC-9's five, and mounting the engines under the wing freed cabin length, damped noise and vibration and put the engines at ground level for maintenance. Like the 727, it could operate self-sufficiently at small airports and on rough, unpaved fields, which brought orders from Africa, Asia, Australia and the Americas.",
+    "It also changed the flight deck. The 737's new technology made the flight engineer's position redundant, and its two-person flight deck became the standard among airlines. By 1987 it was the most-ordered airplane in commercial history; by 1993 customers had ordered 3,100, and Boeing was developing the Next-Generation -600, -700, -800 and -900.",
+    "Airbus answered with the [A320](/aircraft/airbus-a320), which first flew on February 22, 1987, with digital fly-by-wire controls, and the two families have competed ever since, through the 737 MAX and the A320neo. Our [Boeing vs Airbus](/learn/boeing-vs-airbus) guide explains how to tell them apart from a terminal window."
+  ],
+  "facts": [
+    "The first 737 was the last new airplane built at Boeing's Plant 2 in Seattle. The building was too low for its tail, so a crane attached the tail in the parking lot, and flight attendants from the 17 airlines that had ordered it christened the jet on January 17, 1967.",
+    "To save time, Boeing gave the 737 the same upper fuselage as the 707 and 727, so all three could share cargo pallets, a cross-section that dates back to the [707](/aircraft/boeing-707) of 1957.",
+    "Airplane number one never carried a paying passenger. In 1974 it joined NASA, spent about two decades at the Langley Research Center as a flying laboratory, and now stands at the Museum of Flight in Seattle, near where it first took off.",
+    "The last 737-200 was delivered on August 8, 1988; in January 1991, 2,887 737s were on order. The type is also the basis of the US Navy's P-8A Poseidon patrol aircraft."
+  ],
+  "whereToSee": {
+    "text": "The first 737, NASA's former flying laboratory, is on display at the Museum of Flight in Seattle, a few hundred feet from where it first flew in 1967, according to Boeing's history.",
+    "source": 1
+  },
+  "quickFacts": [
+    {
+      "label": "First flight",
+      "value": "April 9, 1967",
+      "source": 1
+    },
+    {
+      "label": "Role",
+      "value": "Short-haul narrowbody airliner",
+      "source": 1
+    },
+    {
+      "label": "Engines",
+      "value": "Two Pratt & Whitney JT8D-7 turbofans, 14,000 lb of thrust each (737-100/-200)",
+      "source": 1
+    },
+    {
+      "label": "Cruising speed",
+      "value": "580 mph (737-100/-200)",
+      "source": 1
+    },
+    {
+      "label": "Range",
+      "value": "1,150 miles (737-100/-200)",
+      "source": 1
+    },
+    {
+      "label": "Passengers",
+      "value": "Up to 107 (737-100/-200)",
+      "source": 1
+    },
+    {
+      "label": "Production milestone",
+      "value": "10,000th 737 assembled in March 2018, a Guinness World Record for a large commercial jet",
+      "source": 1
+    },
+    {
+      "label": "Status",
+      "value": "In production as the 737 MAX family (as of October 2026)",
+      "source": 2
+    }
+  ],
+  "relatedGuides": [
+    "boeing-vs-airbus",
+    "how-jet-engines-work",
+    "how-does-autopilot-work"
+  ],
+  "relatedAircraft": [
+    "airbus-a320",
+    "boeing-727",
+    "boeing-757"
+  ],
+  "sources": [
+    {
+      "publisher": "Boeing",
+      "title": "Select Products in Boeing History",
+      "url": "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/Boeing_Products.pdf"
+    },
+    {
+      "publisher": "Boeing",
+      "title": "Commercial airplanes",
+      "url": "https://www.boeing.com/commercial"
+    },
+    {
+      "publisher": "Airbus",
+      "title": "A320 Family",
+      "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family"
+    }
+  ],
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29"
+}
