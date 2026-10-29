@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "bun run gen:og && astro build && bun run check-dist",
-    "preview": "astro preview",
-    "typecheck": "astro check",
-    "lint": "eslint .",
+    "dev": "bunx --bun astro dev",
+    "build": "bun run gen:og && bunx --bun astro build && bun run check-dist",
+    "preview": "bunx --bun astro preview",
+    "typecheck": "bunx --bun astro check",
+    "lint": "bunx --bun eslint .",
     "check-content": "bun scripts/check-content.ts",
     "check-brand": "bun scripts/check-brand.ts",
     "check-dist": "bun scripts/check-dist.ts",
@@ -47,8 +47,5 @@
     "typescript": "5.9.3",
     "typescript-eslint": "8.46.1",
     "yaml": "2.8.1"
-  },
-  "engines": {
-    "node": ">=22.23.4"
   }
 }

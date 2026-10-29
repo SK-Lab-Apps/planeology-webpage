@@ -17,7 +17,9 @@ The app lives in `../Planeology` and is read-only from here. `CLAUDE.md` has the
 | Hosting | Vercel (`vercel.json`); the output is plain static files, so any static host works |
 | Package manager | bun, pinned to the public npm registry by `.npmrc` |
 
-No UI framework, no third-party requests at runtime: fonts, the Apple badge and QR codes are self-hosted or generated at build. Node ≥ 22.23.4 (`.nvmrc` says 24; with nvm, run `nvm use` first).
+No UI framework, no third-party requests at runtime: fonts, the Apple badge and QR codes are self-hosted or generated at build.
+
+**Runtime:** Astro 7 refuses to start on Node older than 22.23.4, so every script runs Astro, `astro check` and ESLint on Bun's own runtime (`bunx --bun …`). Bun is all you need; your system Node version doesn't matter and never has to change. Only `bun run lighthouse` uses Node, and any Node from 22.19 works.
 
 ## Commands
 
@@ -72,7 +74,7 @@ Review the diff in `src/data/app/` and `src/assets/`, then commit. If a lesson o
 
 ## Deploy
 
-1. **Vercel project.** Import the repo; framework preset Astro; build command `bun run build`; output `dist`; install command `bun install`. Node 24 (Vercel's default is fine). `vercel.json` sets clean URLs, the www → apex redirect, the AASA content type and long caching for hashed assets.
+1. **Vercel project.** Import the repo; framework preset Astro; build command `bun run build`; output `dist`; install command `bun install`. Vercel installs with Bun because of `bun.lock`, and the build runs Astro on Bun's runtime, so the project's Node version setting doesn't matter. `vercel.json` sets clean URLs, the www → apex redirect, the AASA content type and long caching for hashed assets.
 2. **Domains.** Add `planeology.app` and `www.planeology.app` in Vercel. Mark `planeology.app` as the production domain; the www entry redirects to it (the `vercel.json` redirect does the same at the edge).
 3. **DNS at Hostinger.** In the domain's DNS zone: an `A` record for `@` → `76.76.21.21`, and a `CNAME` for `www` → `cname.vercel-dns.com`. Vercel shows the exact values it wants on the domain page; use those if they differ. Remove any parking records on `@` and `www`. Propagation usually takes minutes, sometimes hours.
 4. **Verify.**

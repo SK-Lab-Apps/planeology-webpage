@@ -6,7 +6,7 @@ This repo is the marketing site for **Planeology: Learn Aviation** (iPhone), at 
 
 - Astro (static output), TypeScript strict, Tailwind CSS v4 (`@tailwindcss/vite`), `@astrojs/sitemap`, `@astrojs/mdx`, `astro:assets` + sharp.
 - **No UI framework.** Interactive pieces are small vanilla-TS `<script>` blocks inside Astro components. Every page must read fully with JavaScript off.
-- **bun** is the package manager; the repo `.npmrc` pins the public npm registry. `bun.lock` must never contain a private registry URL. Node ≥ 22.23.4 (`.nvmrc` says 24).
+- **bun** is the package manager and the runtime: every script runs Astro, `astro check` and ESLint with `bunx --bun`, because Astro 7 needs Node ≥ 22.23.4 and the owner's machine stays on Node 22.22. **Never change the system or global Node version** (no `nvm use`, `nvm alias`, or `.nvmrc`); run tools through Bun instead. The repo `.npmrc` pins the public npm registry, and `bun.lock` must never contain a private registry URL.
 - **Zero third-party requests at runtime.** Fonts, the Apple badge and QR codes are self-hosted or generated at build. No Google Fonts, embeds, analytics, pixels or CDNs. The privacy policy promises this (section 10) and `check-dist` enforces it.
 - One source of truth for domain, store URL, campaign tokens, publisher, email, governing law and legal dates: `src/config.ts`.
 - Counts shown on the site (lessons, questions, aircraft) come from `src/data/app/counts.json`, written by `bun run sync`. Never type them by hand.
