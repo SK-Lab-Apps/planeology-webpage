@@ -12,7 +12,7 @@ import { join, resolve, relative } from 'node:path';
 
 const REPO = resolve(import.meta.dir, '..');
 const DIST = join(REPO, 'dist');
-const DOMAIN = 'https://planeology.app';
+const DOMAIN = 'https://www.planeology.app';
 const problems: string[] = [];
 const fail = (where: string, msg: string) => problems.push(`${where}: ${msg}`);
 

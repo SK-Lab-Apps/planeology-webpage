@@ -6,8 +6,11 @@
  * Items marked TODO(you) are listed in the README's pre-launch checklist.
  */
 
-/** The production origin. The apex is canonical; www redirects to it (vercel.json). */
-export const DOMAIN = 'https://planeology.app';
+/**
+ * The production origin. www is canonical: Vercel's domain settings redirect the
+ * apex to it, so this repo must never redirect www (or link canonically) to the apex.
+ */
+export const DOMAIN = 'https://www.planeology.app';
 
 export const SITE_NAME = 'Planeology';
 export const STORE_NAME = 'Planeology: Learn Aviation';

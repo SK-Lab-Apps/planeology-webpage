@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 
-const DOMAIN = 'https://planeology.app';
+const DOMAIN = 'https://www.planeology.app';
 
 // Pages that carry <meta name="robots" content="noindex"> stay out of the sitemap.
 const NOINDEX = new Set([`${DOMAIN}/daily`, `${DOMAIN}/404`]);

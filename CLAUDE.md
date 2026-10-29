@@ -1,6 +1,6 @@
 # Planeology website — rules for every session
 
-This repo is the marketing site for **Planeology: Learn Aviation** (iPhone), at https://planeology.app. The app itself lives at `../Planeology` and is **read-only** from here: never edit anything outside this repo.
+This repo is the marketing site for **Planeology: Learn Aviation** (iPhone), at https://www.planeology.app. The app itself lives at `../Planeology` and is **read-only** from here: never edit anything outside this repo.
 
 ## Stack
 
@@ -34,7 +34,7 @@ This repo is the marketing site for **Planeology: Learn Aviation** (iPhone), at 
 - Internal linking: each guide links ≥ 3 guides and ≥ 2 aircraft pages; every aircraft page links a guide; hubs link everything.
 - Performance: mobile Lighthouse ≥ 95 in all categories on `/`, a guide and an aircraft page; LCP image preloaded; below-the-fold lazy; no layout shift; article pages < ~30 KB JS.
 - Accessibility: WCAG AA, skip link, visible focus rings, keyboard-operable quiz and converter, descriptive alt text, reduced-motion path.
-- `/privacy` must answer 200 with no redirect (the app ships that URL). `/.well-known/apple-app-site-association` is served with `Content-Type: application/json`.
+- www is canonical. Vercel's domain settings redirect the apex to www; this repo must never redirect www to the apex (in `vercel.json` or anywhere else), or the site loops. `https://www.planeology.app/privacy` must answer 200 with no redirect. `/.well-known/apple-app-site-association` is served with `Content-Type: application/json`.
 
 ## Checks to run before finishing any change
 

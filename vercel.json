@@ -2,14 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.planeology.app" }],
-      "destination": "https://planeology.app/:path*",
-      "permanent": true
-    }
-  ],
   "rewrites": [{ "source": "/sitemap.xml", "destination": "/sitemap-index.xml" }],
   "headers": [
     {

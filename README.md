@@ -1,6 +1,6 @@
 # Planeology website
 
-The marketing site for **Planeology: Learn Aviation**, an iPhone app for aviation enthusiasts, at https://planeology.app. Guides that rank for what curious people ask about planes, an aircraft Hangar, a glossary, the phonetic alphabet, a quiz, and the legal and support pages the app links to.
+The marketing site for **Planeology: Learn Aviation**, an iPhone app for aviation enthusiasts, at https://www.planeology.app. Guides that rank for what curious people ask about planes, an aircraft Hangar, a glossary, the phonetic alphabet, a quiz, and the legal and support pages the app links to.
 
 The app lives in `../Planeology` and is read-only from here. `CLAUDE.md` has the rules every change must follow; `CONTENT_REVIEW.md` is the fact log for site-only facts.
 
@@ -74,17 +74,17 @@ Review the diff in `src/data/app/` and `src/assets/`, then commit. If a lesson o
 
 ## Deploy
 
-1. **Vercel project.** Import the repo; framework preset Astro; build command `bun run build`; output `dist`; install command `bun install`. Vercel installs with Bun because of `bun.lock`, and the build runs Astro on Bun's runtime, so the project's Node version setting doesn't matter. `vercel.json` sets clean URLs, the www → apex redirect, the AASA content type and long caching for hashed assets.
-2. **Domains.** Add `planeology.app` and `www.planeology.app` in Vercel. Mark `planeology.app` as the production domain; the www entry redirects to it (the `vercel.json` redirect does the same at the edge).
+1. **Vercel project.** Import the repo; framework preset Astro; build command `bun run build`; output `dist`; install command `bun install`. Vercel installs with Bun because of `bun.lock`, and the build runs Astro on Bun's runtime, so the project's Node version setting doesn't matter. `vercel.json` sets clean URLs, the AASA content type and long caching for hashed assets. It contains no host redirects: www/apex redirects belong to Vercel's domain settings only.
+2. **Domains.** In Vercel: `www.planeology.app` serves Production, and `planeology.app` 308-redirects to `www.planeology.app`. www is canonical, and every canonical tag, Open Graph URL and sitemap entry uses it (`DOMAIN` in `src/config.ts`). Never add a www→apex redirect to `vercel.json`: combined with the domain setting it loops forever.
 3. **DNS at Hostinger.** In the domain's DNS zone: an `A` record for `@` → `76.76.21.21`, and a `CNAME` for `www` → `cname.vercel-dns.com`. Vercel shows the exact values it wants on the domain page; use those if they differ. Remove any parking records on `@` and `www`. Propagation usually takes minutes, sometimes hours.
 4. **Verify.**
    ```sh
-   curl -I https://planeology.app/privacy                                   # 200, no Location header
-   curl -I https://planeology.app/.well-known/apple-app-site-association    # 200, Content-Type: application/json, no redirect
-   curl -I https://www.planeology.app/                                      # 308 → https://planeology.app/
-   curl -s https://planeology.app/robots.txt
+   curl -I https://www.planeology.app/privacy                                 # 200, no Location header
+   curl -I https://www.planeology.app/.well-known/apple-app-site-association  # 200, Content-Type: application/json, no redirect
+   curl -I https://planeology.app/support                                     # 308 → https://www.planeology.app/support
+   curl -s https://www.planeology.app/robots.txt
    ```
-5. **Search Console and Bing Webmaster Tools.** Add `planeology.app` as a Domain property in Google Search Console and verify with the DNS `TXT` record it gives you (add it at Hostinger); submit `https://planeology.app/sitemap-index.xml`. Do the same in Bing Webmaster Tools (it can import the Search Console property), and submit the sitemap there too.
+5. **Search Console and Bing Webmaster Tools.** Add `planeology.app` as a Domain property in Google Search Console and verify with the DNS `TXT` record it gives you (add it at Hostinger); submit `https://www.planeology.app/sitemap-index.xml`. Do the same in Bing Webmaster Tools (it can import the Search Console property), and submit the sitemap there too.
 6. **App Store campaign links.** In App Store Connect open Analytics → Campaigns and create a campaign; the generated link contains your provider token (`pt=`). Put that token in `APP_STORE_PROVIDER_TOKEN` in `src/config.ts`. Every store link then carries `pt`, a placement `ct` (`home-hero`, `guide-<slug>`, `aircraft-<id>`, …) and `mt=8`.
 
 ## Pre-launch checklist
@@ -98,7 +98,7 @@ Search the repo for `TODO(you)` to find each item in context.
 - [ ] ⬜ **Deploy and DNS**: Deploy steps 1–4.
 - [ ] ⬜ **Search Console and Bing**: Deploy step 5.
 - [ ] ⬜ **Google Play.** `GOOGLE_PLAY_URL` stays `null` until a Play listing exists; the Play badge is hidden and the site never promises Android. When there is a Play app with a signing certificate, add `public/.well-known/assetlinks.json` with its SHA-256 fingerprint so Android App Links open `/daily` in the app, and set the URL in `src/config.ts`.
-- [ ] ⬜ **App Store Connect fields.** Support URL `https://planeology.app/support`, privacy policy URL `https://planeology.app/privacy`, marketing URL `https://planeology.app`. The app's `constants/identity.json` still carries the placeholder domain; set `webDomain` to `planeology.app` there so the app's own privacy link and share links match.
+- [ ] ⬜ **App Store Connect fields.** Support URL `https://www.planeology.app/support`, privacy policy URL `https://www.planeology.app/privacy`, marketing URL `https://www.planeology.app`. The app's `constants/identity.json` still carries the placeholder domain; set `webDomain` to `planeology.app` there so the app's own privacy link and share links match.
 - [ ] ⬜ **Time-sensitive facts.** Guides that say "as of October 2026" (supersonic projects, eVTOL status, the An-225, fighter programs) should be re-checked every few months; `CONTENT_REVIEW.md` lists each one with its source.
 - [ ] ⬜ **Content follow-ups** (rows marked ⚠️ in `CONTENT_REVIEW.md`; each says what was done):
   - **ICAO pages blocked automated access.** The accident statistics on `/learn/how-safe-is-flying` and the alphabet history on `/phonetic-alphabet` were read through search-engine copies of icao.int pages. Open those two ICAO sources in a browser once and confirm the figures.
