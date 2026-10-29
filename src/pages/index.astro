@@ -50,7 +50,7 @@ const tryQs = HOME_TRY_IDS.map((id) => ({ ...getQuestion(id), group: getGroup(ge
 const letters = ['A', 'B', 'C', 'D'];
 const steps = [
   { n: '01', title: 'Read four short cards', body: 'Each lesson is four cards, a few sentences each, with the app\'s own illustrations. One idea per card, nothing left unexplained.', shot: 'lesson' as const, alt: 'The lesson screen: an illustration of two jets with lift arrows, the card title Speed and Thin Air, and a Did you know? panel' },
-  { n: '02', title: 'Pass a five-question quiz', body: 'Every answer comes with a why. Score 80 percent and the lesson is cleared; miss, and it\'s a go-around with the explanations in hand.', shot: 'quiz' as const, alt: 'The quiz screen: a turbojet question with the right answer marked in green and a Why panel explaining it' },
+  { n: '02', title: 'Pass a five-question quiz', body: `Every answer comes with a why. Score ${counts.passPercent} percent and the lesson is cleared; miss, and it's a go-around with the explanations in hand.`, shot: 'quiz' as const, alt: 'The quiz screen: a turbojet question with the right answer marked in green and a Why panel explaining it' },
   { n: '03', title: 'Park an aircraft in your Hangar', body: `Each lesson you pass parks its aircraft, from the Piper Cub to the SR-71, with a fact card and its sources. ${counts.aircraft} to collect.`, shot: 'hangar' as const, alt: 'The Hangar screen: a two-column grid of aircraft cards with bay numbers and tier pills' },
 ];
 const groupGuides = (groupId: string) => guides.filter((g) => g.data.groupId === groupId);
@@ -116,7 +116,7 @@ const groupGuides = (groupId: string) => guides.filter((g) => g.data.groupId ===
       <h2 id="how-title" class="font-display text-[2.2rem] sm:text-[2.8rem] leading-none m-0 mb-10 max-w-[20ch]">Short cards, a quiz with a why, and a Hangar that fills up</h2>
       <ol class="list-none m-0 p-0 grid gap-10 md:grid-cols-3">
         {steps.map((s) => (
-          <li class="grid gap-4 justify-items-center text-center rise">
+          <li class="grid grid-cols-1 gap-4 justify-items-center text-center rise">
             <PhoneFrame src={screenshot(s.shot)} alt={s.alt} width={240} />
             <div>
               <p class="label text-primary mb-1">Beat {s.n}</p>

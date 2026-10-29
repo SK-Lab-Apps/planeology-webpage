@@ -17,7 +17,8 @@
     "gen:og": "bun scripts/gen-og.ts",
     "gen:icons": "bun scripts/gen-icons.ts",
     "screenshots": "bun scripts/screenshots.ts",
-    "lighthouse": "bun scripts/lighthouse.ts"
+    "lighthouse": "bun scripts/lighthouse.ts",
+    "check-overflow": "bun scripts/check-overflow.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "8.1.2",

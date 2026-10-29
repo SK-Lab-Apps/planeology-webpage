@@ -12,6 +12,7 @@ import RelatedGuides from '@/components/RelatedGuides.astro';
 import RelatedAircraft from '@/components/RelatedAircraft.astro';
 import Sources from '@/components/Sources.astro';
 import StickyBar from '@/components/StickyBar.astro';
+import MdxTable from '@/components/MdxTable.astro';
 import { DOMAIN, ROUTES, guidePath, type Campaign } from '@/config';
 import { getGroup } from '@/lib/app-data';
 import { article, breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
@@ -90,7 +91,7 @@ const jsonld = [
       </div>
 
       <div class="article mt-8">
-        <Content />
+        <Content components={{ table: MdxTable }} />
       </div>
 
       <BoardingPass

@@ -11,6 +11,7 @@ import BoardingPass from '@/components/BoardingPass.astro';
 import FlapText from '@/components/FlapText.astro';
 import Sources from '@/components/Sources.astro';
 import { ROUTES } from '@/config';
+import { counts } from '@/lib/app-data';
 import { breadcrumbList, graph, organization, type Seo } from '@/lib/seo';
 
 // ICAO spelling alphabet with the FAA AIM's pronunciation guide (capitals mark the stressed syllable).
@@ -54,7 +55,7 @@ const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
     </div>
   </HeroBand>
 
-  <div class="wrap wrap-narrow py-10 grid gap-12">
+  <div class="wrap wrap-narrow py-10 grid grid-cols-1 gap-12">
     <section aria-labelledby="converter" class="card card-raised p-5 sm:p-6">
       <p class="label text-primary mb-1">Spell it out</p>
       <h2 id="converter" class="font-display text-[1.9rem] font-bold m-0 mb-3">Type anything, read it like a pilot</h2>
@@ -122,7 +123,7 @@ const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
       <p>On every radio call that spells something: a private airplane identifies itself by its registration ("Bonanza Six Five Five Golf"), parallel runways are "two seven left" and "two seven right", taxiways carry single letters, and airline flights add "heavy" when they are big jets with strong wakes. If you listen to air traffic control online, the alphabet is the first thing that starts to make sense. Our guide to <a href={`${ROUTES.learn}/how-air-traffic-control-works`}>how air traffic control works</a> explains who is talking to whom, and the <a href={ROUTES.glossary}>glossary</a> covers the rest of the vocabulary.</p>
     </section>
 
-    <BoardingPass ct="phonetic" title="Alfa to Zulu is one lesson. There are 54 more." body="Planeology's cockpit lessons cover call signs, the phonetic alphabet, the six classic instruments and glass cockpits, each a few minutes long with a quiz at the end." />
+    <BoardingPass ct="phonetic" title={`Alfa to Zulu is one lesson. There are ${counts.lessons - 1} more.`} body="Planeology's cockpit lessons cover call signs, the phonetic alphabet, the six classic instruments and glass cockpits, each a few minutes long with a quiz at the end." />
 
     <Sources sources={sources} />
   </div>

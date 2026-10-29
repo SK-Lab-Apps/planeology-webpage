@@ -1,0 +1,9 @@
+---
+/**
+ * MdxTable — markdown tables in guides render inside their own scroll container,
+ * so a wide table scrolls on a phone instead of pushing the page sideways.
+ */
+---
+<div class="table-wrap" tabindex="0" role="region" aria-label="Table, scrolls sideways on small screens">
+  <table {...Astro.props}><slot /></table>
+</div>

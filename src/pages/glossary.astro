@@ -71,7 +71,7 @@ const jsonld = [
     </div>
   </nav>
 
-  <div class="wrap wrap-narrow py-8 grid gap-10">
+  <div class="wrap wrap-narrow py-8 grid grid-cols-1 gap-10">
     {[...byLetter.entries()].map(([L, list]) => (
       <section id={L} aria-labelledby={`h-${L}`} class="scroll-mt-20">
         <h2 id={`h-${L}`} class="font-display text-[3rem] leading-none text-primary m-0 mb-4 flex items-baseline gap-3">
@@ -103,7 +103,7 @@ const jsonld = [
         </dl>
       </section>
     ))}
-    <BoardingPass ct="glossary" title="Every term here has a lesson behind it." body={`Planeology explains the vocabulary where it comes up, in ${counts.lessons} short lessons with a quiz after each, so the words stick because you know what they do.`} />
+    <BoardingPass ct="glossary" title="Learn the words where they matter." body={`Planeology explains the vocabulary where it comes up, in ${counts.lessons} short lessons with a quiz after each, so the words stick because you know what they do.`} />
   </div>
 </Base>
 

@@ -39,7 +39,7 @@ const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
     </div>
   </HeroBand>
 
-  <div class="wrap py-10 grid gap-12">
+  <div class="wrap py-10 grid grid-cols-1 gap-12">
     {byGroup.map(({ group, guides: gs }) => (
       <section aria-labelledby={`g-${group.id}`}>
         <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-4">
@@ -54,6 +54,6 @@ const jsonld = [graph([organization(), breadcrumbList(crumbs)])];
         </div>
       </section>
     ))}
-    <BoardingPass ct="guide-hub" title="Every guide here started as a five-minute lesson." body={`Planeology has ${counts.lessons} of them, with a quiz after each and an aircraft to park in your Hangar when you pass.`} />
+    <BoardingPass ct="guide-hub" title="Learn it in five-minute lessons, then prove it in a quiz." body={`Planeology teaches aviation in ${counts.lessons} short lessons, with a quiz after each and an aircraft to park in your Hangar when you pass.`} />
   </div>
 </Base>

@@ -80,14 +80,19 @@ function textPaths(key: FontKey, lines: string[], x: number, y: number, size: nu
 /** The night band at the bottom: route line, eyebrow and title. */
 function titleBand(title: string, eyebrow: string) {
   const bandH = 200;
-  const titleSize = 64;
-  const lines = wrap(fonts.display, title, titleSize, W - 120).slice(0, 2);
+  // One line at 64 px; titles that need two lines step down so they clear the band's edge.
+  let titleSize = 64;
+  let lines = wrap(fonts.display, title, titleSize, W - 120);
+  if (lines.length > 1) {
+    titleSize = 54;
+    lines = wrap(fonts.display, title, titleSize, W - 120).slice(0, 2);
+  }
   const svg = `<svg width="${W}" height="${bandH}" xmlns="http://www.w3.org/2000/svg">
     <rect width="${W}" height="${bandH}" fill="${NAVY}"/>
     <path d="M 0 2 C 300 -20, 800 60, 1200 2" fill="none" stroke="${MAGENTA}" stroke-width="4" stroke-dasharray="12 14" stroke-linecap="round"/>
     <circle cx="1120" cy="12" r="7" fill="${SIGNAL}"/>
     ${textPaths('mono', [eyebrow.toUpperCase()], 60, 34, 20, '#FFC72C', 1, 3)}
-    ${textPaths('display', lines, 60, lines.length > 1 ? 62 : 80, titleSize, '#FFFFFF', 1.02)}
+    ${textPaths('display', lines, 60, lines.length > 1 ? 66 : 80, titleSize, '#FFFFFF', 1.04)}
   </svg>`;
   return { svg: Buffer.from(svg), bandH };
 }
@@ -141,6 +146,7 @@ const only = process.argv[2];
 if (!only || only === 'default') await defaultCard(join(REPO, 'public', 'og.png'), `${counts.lessons} LESSONS · ${counts.questions} QUESTIONS · ${counts.aircraft} AIRCRAFT · IPHONE`);
 
 const aircraft = JSON.parse(await readFile(join(REPO, 'src', 'data', 'app', 'aircraft.json'), 'utf8')) as { id: string; name: string; role: string }[];
+const groups = JSON.parse(await readFile(join(REPO, 'src', 'data', 'app', 'groups.json'), 'utf8')) as { id: string; title: string }[];
 let n = 0;
 if (!only || only === 'aircraft') {
   for (const a of aircraft) {
@@ -158,7 +164,8 @@ if (!only || only === 'guides') {
       const fm = await readFile(join(guidesDir, file), 'utf8');
       const title = fm.match(/^title:\s*["']?(.+?)["']?\s*$/m)?.[1] ?? slug;
       const lead = fm.match(/^lead:\s*["']?([\w-]+)["']?\s*$/m)?.[1];
-      const cat = fm.match(/^category:\s*["']?(.+?)["']?\s*$/m)?.[1] ?? 'Guide';
+      const groupId = fm.match(/^groupId:\s*["']?([\w-]+)["']?\s*$/m)?.[1];
+      const cat = groups.find((g) => g.id === groupId)?.title ?? 'Aviation';
       if (!lead) continue;
       const art = join(REPO, 'src', 'assets', 'lessons', `${lead}.webp`);
       if (!existsSync(art)) continue;
