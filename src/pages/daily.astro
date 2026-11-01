@@ -1,7 +1,8 @@
 ---
 /**
  * /daily — the landing page for shared Daily Departure results. The app shares
- * https://www.planeology.app/daily?n=<puzzleNo>&s=<score>&ref=<name>. With the app
+ * https://www.planeology.app/daily?n=<puzzleNo>&d=<YYYY-MM-DD>&s=<score>&ref=<name>
+ * (`d` since November 2026; older links carry only `n`, and show it). With the app
  * installed, iOS opens it directly (Universal Link), so this page only reaches
  * people without the app. noindex; the parameters are read client-side,
  * validated, and rendered as text only.
@@ -44,7 +45,7 @@ const seo: Seo = {
             <span id="pass-line">Someone landed a {NOUNS.daily} score. Can you beat it?</span>
           </p>
           <dl class="pass-grid">
-            <div><dt>Flight</dt><dd><FlapText text="PL 301" size="sm" tone="white" /></dd></div>
+            <div><dt id="pass-flight-label">Date</dt><dd><FlapText text="-- ---" size="sm" tone="white" /></dd></div>
             <div><dt>Score</dt><dd id="pass-score"><span class="font-display text-[2.4rem] font-bold leading-none">?</span><span class="text-ink-muted">/{counts.dailyQuestions}</span></dd></div>
             <div><dt>Class</dt><dd class="font-mono text-sm">Enthusiast</dd></div>
           </dl>
@@ -78,10 +79,17 @@ const seo: Seo = {
   import counts from '@/data/app/counts.json';
   const params = new URLSearchParams(window.location.search);
   const nRaw = params.get('n');
+  const dRaw = params.get('d');
   const sRaw = params.get('s');
   const refRaw = params.get('ref');
 
   const n = nRaw && /^\d{1,7}$/.test(nRaw) && Number(nRaw) > 0 ? Number(nRaw) : null;
+  // The puzzle's date, shown in place of its number: "1 Nov" in text, "01 NOV" on the flaps.
+  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const dm = dRaw ? /^\d{4}-(\d{2})-(\d{2})$/.exec(dRaw) : null;
+  const month = dm ? MONTHS[Number(dm[1]) - 1] : undefined;
+  const dayOfMonth = dm ? Number(dm[2]) : 0;
+  const day = month && dayOfMonth >= 1 && dayOfMonth <= 31 && dm ? { text: `${dayOfMonth} ${month}`, flap: `${dm[2]} ${month.toUpperCase()}` } : null;
   const total = counts.dailyQuestions;
   let s = sRaw && /^\d{1,2}$/.test(sRaw) ? Number(sRaw) : null;
   if (s !== null) s = Math.max(0, Math.min(total, s));
@@ -91,11 +99,14 @@ const seo: Seo = {
   const score = document.getElementById('pass-score');
   const heading = document.getElementById('daily-heading');
   const flight = document.querySelector<HTMLElement>('.pass-grid [role="img"]');
+  const flightLabel = document.getElementById('pass-flight-label');
 
-  if (line && n !== null && s !== null) {
+  if (line && (day || n !== null) && s !== null) {
     const who = ref || 'Someone';
     // Text only: textContent, never HTML.
-    line.textContent = `${who} landed ${s}/${total} on Daily Departure #${n}. Can you beat it?`;
+    line.textContent = day
+      ? `${who} landed ${s}/${total} on the ${day.text} Daily Departure. Can you beat it?`
+      : `${who} landed ${s}/${total} on Daily Departure #${n}. Can you beat it?`;
     if (heading) heading.textContent = `${who} scored ${s}/${total}. Can you beat it?`;
     if (score) {
       score.textContent = '';
@@ -109,7 +120,8 @@ const seo: Seo = {
     }
     document.querySelectorAll<HTMLElement>('#seatmap .seat').forEach((seat, i) => seat.classList.toggle('is-hit', i < s));
     if (flight) {
-      const code = `PL ${String(n).padStart(3, '0')}`;
+      const code = day ? day.flap : `PL ${String(n).padStart(3, '0')}`;
+      if (!day && flightLabel) flightLabel.textContent = 'Flight';
       flight.setAttribute('aria-label', code);
       const tiles = flight.querySelectorAll<HTMLElement>('.flap');
       const chars = Array.from(code.replace(' ', ''));
