@@ -91,7 +91,7 @@ Review the diff in `src/data/app/` and `src/assets/`, then commit. If a lesson o
 
 Search the repo for `TODO(you)` to find each item in context.
 
-- [ ] ⬜ **Contact mailbox.** `CONTACT_EMAIL` in `src/config.ts` is `support@planeology.app`. Create the mailbox (or set up forwarding) and confirm someone reads it; it appears on `/privacy`, `/terms` and `/support`, and App Store Connect's support URL points at `/support`.
+- [x] ✅ **Contact mailbox.** `CONTACT_EMAIL` in `src/config.ts` is `sklabs1905@gmail.com` (set on 2026-11-01). It appears on `/privacy`, `/terms` and `/support`, and App Store Connect's support URL points at `/support`. Use the same address in App Store Connect's contact fields.
 - [ ] ⬜ **Governing law.** `GOVERNING_LAW` in `src/config.ts` is `null`, so `/terms` uses a jurisdiction-neutral clause. Set the jurisdiction (for example `'the State of Delaware, United States'`).
 - [ ] ⬜ **Legal review.** `/privacy` was ported from the app's drafted policy, checked against the app's code on 2026-10-28; `/terms` was written from the app's actual behaviour and the App Store rules. Neither is lawyer-reviewed. Have counsel review both, then bump `LEGAL_UPDATED`.
 - [ ] ⬜ **App Store provider token** (`APP_STORE_PROVIDER_TOKEN`): see Deploy step 6. Until the app is approved, the plain link `https://apps.apple.com/app/id6826630278` goes nowhere useful; it goes live with the app.

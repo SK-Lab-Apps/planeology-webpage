@@ -19,8 +19,8 @@ export const TAGLINE = 'Learn aviation, one short lesson at a time';
 /** Who publishes the app and this site. */
 export const PUBLISHER = 'Kshitiz Sachan';
 
-/** TODO(you): confirm this mailbox exists and is read before launch. */
-export const CONTACT_EMAIL = 'support@planeology.app';
+/** The support mailbox shown on /privacy, /terms, /support and in the FAQ. */
+export const CONTACT_EMAIL = 'sklabs1905@gmail.com';
 
 /**
  * TODO(you): the jurisdiction whose laws govern the Terms, for example
