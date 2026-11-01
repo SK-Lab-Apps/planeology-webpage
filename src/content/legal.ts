@@ -1,7 +1,7 @@
 /**
  * legal.ts — the Terms of Use as data, driven by the constants in src/config.ts.
- * The privacy policy is ported faithfully in src/pages/privacy.astro (its wording
- * was checked against the app's code on 2026-10-28, so it is not rewritten).
+ * The privacy policy lives in src/pages/privacy.astro. Both were checked against
+ * the app's code and its services on 2026-11-01.
  */
 import {
   APPLE_MANAGE_SUBSCRIPTIONS_URL,
@@ -50,8 +50,9 @@ export const terms = {
       id: 'boarding-pass',
       heading: `The ${NOUNS.pass}: subscriptions and the lifetime purchase`,
       blocks: [
-        { p: `The app's lessons are unlocked with a ${NOUNS.pass}: a monthly or yearly subscription, or a one-time lifetime purchase. The price of each plan is shown in the app before you buy. Payment is charged to your Apple Account when you confirm the purchase, and Apple, not us, handles the transaction.` },
-        { p: `Subscriptions renew automatically unless they are canceled at least 24 hours before the end of the current period. You can manage or cancel a subscription at any time in your Apple Account settings; canceling stops the next renewal and you keep access until the paid period ends. Apple's instructions for managing subscriptions are at ${APPLE_MANAGE_SUBSCRIPTIONS_URL}. The lifetime purchase is not a subscription and never renews.` },
+        { p: `You need a ${NOUNS.pass} to use the app. It opens every lesson, quiz and aircraft fact card, and comes as a monthly or yearly subscription or a one-time lifetime purchase. The price of each plan is shown in the app before you buy. Payment is charged to your Apple Account when you confirm the purchase, and Apple, not us, handles the transaction.` },
+        { p: `The yearly plan includes a free trial for new subscribers, and the app shows its length before you subscribe. During the trial, the first third of the lesson groups are open; the rest unlock when the trial ends and your yearly subscription begins. Unless you cancel at least 24 hours before the trial ends, your Apple Account is charged for the first year when it ends. If you allow notifications, the app reminds you the day before. Whether you can get a trial is decided by Apple.` },
+        { p: `Subscriptions renew automatically unless they are canceled at least 24 hours before the end of the current period. You can manage or cancel a subscription at any time in your Apple Account settings; canceling stops the next renewal and you keep access until the paid period ends. Apple's instructions for managing subscriptions are at ${APPLE_MANAGE_SUBSCRIPTIONS_URL}. When a subscription ends, the app asks for a ${NOUNS.pass} again, and your progress stays on your device. The lifetime purchase is not a subscription and never renews.` },
         { p: `Refunds are decided and issued by Apple under the App Store's rules, and requests go to Apple (${APPLE_REFUND_URL}). We cannot process payments or refunds ourselves. Purchases can be restored on any iPhone signed in to the same Apple Account.` },
         { p: `We may change plans and prices for the future. A change never affects a period you have already paid for, and you will always see the current price before any new purchase.` },
       ],
@@ -93,7 +94,7 @@ export const terms = {
       id: 'third-parties',
       heading: 'Third-party services',
       blocks: [
-        { p: `The app relies on a small number of service providers to work: Apple for payments, and the providers of purchase management, analytics, crash reporting, our server and the support chat, which the Privacy Policy names. Each is bound by its own terms and privacy policy. The app and this site also link to outside sources such as NASA, the FAA and museums; we do not control those pages and are not responsible for their content.` },
+        { p: `The app relies on a small number of service providers to work: Apple for payments, and the providers of purchase management, analytics, our server, push notifications and the support chat, which the Privacy Policy names. Each is bound by its own terms and privacy policy. The app and this site also link to outside sources such as NASA, the FAA and museums; we do not control those pages and are not responsible for their content.` },
       ],
     },
     {

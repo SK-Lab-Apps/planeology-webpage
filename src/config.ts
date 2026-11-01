@@ -30,7 +30,7 @@ export const CONTACT_EMAIL = 'sklabs1905@gmail.com';
 export const GOVERNING_LAW: string | null = null;
 
 /** The "Last updated" date shown on /privacy and /terms (ISO date). */
-export const LEGAL_UPDATED = '2026-10-29';
+export const LEGAL_UPDATED = '2026-11-01';
 
 /** Apple identity, used for Universal Links (public/.well-known) and the Smart App Banner. */
 export const APPLE_TEAM_ID = 'Y2V3U7CSV9';
