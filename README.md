@@ -85,7 +85,7 @@ Review the diff in `src/data/app/` and `src/assets/`, then commit. If a lesson o
    curl -s https://www.planeology.app/robots.txt
    ```
 5. **Search Console and Bing Webmaster Tools.** Add `planeology.app` as a Domain property in Google Search Console and verify with the DNS `TXT` record it gives you (add it at Hostinger); submit `https://www.planeology.app/sitemap-index.xml`. Do the same in Bing Webmaster Tools (it can import the Search Console property), and submit the sitemap there too.
-6. **App Store campaign links.** In App Store Connect open Analytics → Campaigns and create a campaign; the generated link contains your provider token (`pt=`). Put that token in `APP_STORE_PROVIDER_TOKEN` in `src/config.ts`. Every store link then carries `pt`, a placement `ct` (`home-hero`, `guide-<slug>`, `aircraft-<id>`, …) and `mt=8`.
+6. **App Store campaign links.** In App Store Connect open Analytics → Campaigns and create a campaign; the generated link contains your provider token (`pt=`). The token (`128974429`) is set in `APP_STORE_PROVIDER_TOKEN` in `src/config.ts`. Every store link carries `pt`, `mt=8` and one of two `ct` values (see `campaignToken`): `website-blogs` on guide and aircraft pages (including their nav and footer links), `landing-page` everywhere else.
 
 ## Pre-launch checklist
 
@@ -94,7 +94,7 @@ Search the repo for `TODO(you)` to find each item in context.
 - [x] ✅ **Contact mailbox.** `CONTACT_EMAIL` in `src/config.ts` is `sklabs1905@gmail.com` (set on 2026-11-01). It appears on `/privacy`, `/terms` and `/support`, and App Store Connect's support URL points at `/support`. Use the same address in App Store Connect's contact fields.
 - [ ] ⬜ **Governing law.** `GOVERNING_LAW` in `src/config.ts` is `null`, so `/terms` uses a jurisdiction-neutral clause. Set the jurisdiction (for example `'the State of Delaware, United States'`).
 - [ ] ⬜ **Legal review.** `/privacy` and `/terms` were checked against the app's code and its services on 2026-11-01 (`/terms` now covers the yearly plan's free trial). Neither is lawyer-reviewed. Have counsel review both, then bump `LEGAL_UPDATED`.
-- [ ] ⬜ **App Store provider token** (`APP_STORE_PROVIDER_TOKEN`): see Deploy step 6. Until the app is approved, the plain link `https://apps.apple.com/app/id6826630278` goes nowhere useful; it goes live with the app.
+- [x] ✅ **App Store provider token** (`APP_STORE_PROVIDER_TOKEN`): set to `128974429` on 2026-11-25; see Deploy step 6. Until the app is approved, the plain link `https://apps.apple.com/app/id6826630278` goes nowhere useful; it goes live with the app.
 - [ ] ⬜ **Deploy and DNS**: Deploy steps 1–4.
 - [ ] ⬜ **Search Console and Bing**: Deploy step 5.
 - [ ] ⬜ **Google Play.** `GOOGLE_PLAY_URL` stays `null` until a Play listing exists; the Play badge is hidden and the site never promises Android. When there is a Play app with a signing certificate, add `public/.well-known/assetlinks.json` with its SHA-256 fingerprint so Android App Links open `/daily` in the app, and set the URL in `src/config.ts`.

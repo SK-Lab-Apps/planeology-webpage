@@ -1,5 +1,5 @@
 ---
-import { ROUTES, storeLink } from '@/config';
+import { ROUTES, storeLink, type Campaign } from '@/config';
 import Logo from '@/components/Logo.astro';
 
 interface Props {
@@ -36,7 +36,7 @@ const links = [
       </ul>
     </nav>
     <div class="flex items-center gap-3">
-      <a href={storeLink('home-hero')} class="btn btn-signal !min-h-10 !px-3.5 text-[0.9375rem]" rel="noopener">
+      <a href={storeLink((Astro.locals.campaign ?? 'home-hero') as Campaign)} class="btn btn-signal !min-h-10 !px-3.5 text-[0.9375rem]" rel="noopener">
         Get the app
       </a>
       <details class="md:hidden nav-menu">

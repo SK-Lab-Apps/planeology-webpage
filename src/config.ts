@@ -41,11 +41,10 @@ export const APP_STORE_ID = '6826630278';
 export const APP_STORE_URL = `https://apps.apple.com/app/id${APP_STORE_ID}`;
 
 /**
- * TODO(you): the App Store Connect provider token (Analytics → Campaigns →
- * your provider id). While null, every store link is the plain APP_STORE_URL.
- * Once set, links become campaign links carrying a `ct` per placement.
+ * The App Store Connect provider token (Analytics → Campaigns → your provider id).
+ * While null, every store link is the plain APP_STORE_URL.
  */
-export const APP_STORE_PROVIDER_TOKEN: string | null = null;
+export const APP_STORE_PROVIDER_TOKEN: string | null = '128974429';
 
 /**
  * TODO(you): the Google Play listing URL, once a Play app exists. While null the
@@ -65,10 +64,19 @@ export type Campaign =
   | 'daily-share'
   | 'support';
 
+/**
+ * The `ct` App Store Connect reports on. Placements are grouped into two
+ * campaigns: the guide and aircraft pages (the blog) report as `website-blogs`;
+ * the home page and every other placement report as `landing-page`.
+ */
+export function campaignToken(ct: Campaign): 'website-blogs' | 'landing-page' {
+  return ct.startsWith('guide-') || ct.startsWith('aircraft-') ? 'website-blogs' : 'landing-page';
+}
+
 /** Every store link on the site goes through this. */
 export function storeLink(ct: Campaign): string {
   if (!APP_STORE_PROVIDER_TOKEN) return APP_STORE_URL;
-  const campaign = ct.slice(0, 40);
+  const campaign = campaignToken(ct);
   return `https://apps.apple.com/app/apple-store/id${APP_STORE_ID}?pt=${encodeURIComponent(
     APP_STORE_PROVIDER_TOKEN,
   )}&ct=${encodeURIComponent(campaign)}&mt=8`;

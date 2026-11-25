@@ -1,5 +1,5 @@
 ---
-import { ROUTES, PUBLISHER, storeLink } from '@/config';
+import { ROUTES, PUBLISHER, storeLink, type Campaign } from '@/config';
 import Logo from '@/components/Logo.astro';
 const year = 2026;
 const cols = [
@@ -27,7 +27,7 @@ const cols = [
       <p class="text-on-night-soft max-w-sm text-[0.9375rem] leading-relaxed">
         Learn aviation in short lessons: how flight works, aviation history, airliners, military aviation and airports.
       </p>
-      <a href={storeLink('home-final')} rel="noopener" class="w-fit">
+      <a href={storeLink((Astro.locals.campaign ?? 'home-final') as Campaign)} rel="noopener" class="w-fit">
         <img src="/badges/download-on-the-app-store.svg" alt="Download on the App Store" width="120" height="40" loading="lazy" />
       </a>
     </div>
